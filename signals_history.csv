@@ -590,468 +590,468 @@
 2026-08-17,META,Downtrend / Reversal,579.99,DOWNTREND 🔴,-2.55,Hold and monitor (AI Parse Issue).,2026-08-24,-4.74,2026-09-14,12.55
 2026-08-17,AAL,Downtrend / Reversal,14.52,DOWNTREND 🔴,0.31,Hold and monitor (AI Parse Issue).,2026-08-24,-5.51,2026-09-14,-10.74
 2026-08-17,DKS,Downtrend / Reversal,196.34,DOWNTREND 🔴,-4.71,Hold and monitor (AI Parse Issue).,2026-08-24,-6.87,2026-09-14,-32.64
-2026-08-24,O,Core Foundation,62.92,DOWNTREND 🔴,-1.48,"[ACCUMULATE 🟢] Value play, dividend income attractive in sector rotation.",2026-08-31,-2.36,,
-2026-08-24,BNDW,Core Foundation,67.46,DOWNTREND 🔴,0.3,"[HOLD 🟡] Defensive bond exposure, but low returns.",2026-08-31,-0.24,,
-2026-08-24,BTC-USD,Core Foundation,79486.98,UPTREND 🟢,25.21,"[STRONG BUY 🚀] Strong momentum, safe-haven narrative aligns with risk aversion.",2026-08-31,-1.44,,
-2026-08-24,ZGLD.SW,Core Foundation,1094.0,UPTREND 🟢,13.06,"[STRONG BUY 🚀] Gold is a key safe-haven, strong momentum and volume.",2026-08-31,-3.25,,
-2026-08-24,SHEL,Core Foundation,93.25,UPTREND 🟢,2.27,"[HOLD 🟡] Energy value play, but weak volume and recent dip.",2026-08-31,-2.21,,
-2026-08-24,ALL,Core Foundation,259.78,UPTREND 🟢,-1.63,"[ACCUMULATE 🟢] Financials favored, good 1W return, potential value.",2026-08-31,-0.4,,
-2026-08-24,MU,Core Foundation,898.62,DOWNTREND 🔴,9.18,"[SELL 🔴] Semiconductor weakness, strong negative momentum, decreasing volume.",2026-08-31,4.74,,
-2026-08-24,KLAC,Core Foundation,177.05,DOWNTREND 🔴,-3.04,"[SELL 🔴] Semiconductor weakness, negative trend and volume.",2026-08-31,-1.48,,
-2026-08-24,ZSIL.SW,Core Foundation,158.86,UPTREND 🟢,19.86,"[STRONG BUY 🚀] Strong safe-haven asset, excellent momentum and volume.",2026-08-31,-3.89,,
-2026-08-24,BCHE.SW,Core Foundation,189.78,UPTREND 🟢,8.72,"[ACCUMULATE 🟢] Strong uptrend and volume, good for diversification.",2026-08-31,2.53,,
-2026-08-24,ENA-USD,Dynamic Uptrend,0.16,UPTREND 🟢,82.08,"[STRONG BUY 🚀] Explosive growth, strong volume, positive news.",2026-08-31,-5.17,,
-2026-08-24,CHYM,Dynamic Uptrend,33.38,UPTREND 🟢,45.19,"[TRIM 🟠] Strong returns, but insider selling is a red flag.",2026-08-31,-2.13,,
-2026-08-24,PLTR,Dynamic Uptrend,176.21,UPTREND 🟢,43.19,"[TRIM 🟠] Strong 4W return, but decreasing volume and recent weakness.",2026-08-31,5.7,,
-2026-08-24,MSTR,Dynamic Uptrend,124.9,UPTREND 🟢,33.9,"[STRONG BUY 🚀] Strong momentum, increasing volume, bullish Bitcoin sentiment.",2026-08-31,3.48,,
-2026-08-24,ETH-USD,Dynamic Uptrend,2513.2,UPTREND 🟢,33.5,[STRONG BUY 🚀] Strong momentum,2026-08-31,-1.9,,
+2026-08-24,O,Core Foundation,62.92,DOWNTREND 🔴,-1.48,"[ACCUMULATE 🟢] Value play, dividend income attractive in sector rotation.",2026-08-31,-2.36,2026-09-21,-9.46
+2026-08-24,BNDW,Core Foundation,67.46,DOWNTREND 🔴,0.3,"[HOLD 🟡] Defensive bond exposure, but low returns.",2026-08-31,-0.24,2026-09-21,-1.23
+2026-08-24,BTC-USD,Core Foundation,79486.98,UPTREND 🟢,25.21,"[STRONG BUY 🚀] Strong momentum, safe-haven narrative aligns with risk aversion.",2026-08-31,-1.44,2026-09-21,7.26
+2026-08-24,ZGLD.SW,Core Foundation,1094.0,UPTREND 🟢,13.06,"[STRONG BUY 🚀] Gold is a key safe-haven, strong momentum and volume.",2026-08-31,-3.25,2026-09-21,-3.2
+2026-08-24,SHEL,Core Foundation,93.25,UPTREND 🟢,2.27,"[HOLD 🟡] Energy value play, but weak volume and recent dip.",2026-08-31,-2.21,2026-09-21,0.91
+2026-08-24,ALL,Core Foundation,259.78,UPTREND 🟢,-1.63,"[ACCUMULATE 🟢] Financials favored, good 1W return, potential value.",2026-08-31,-0.4,2026-09-21,-4.1
+2026-08-24,MU,Core Foundation,898.62,DOWNTREND 🔴,9.18,"[SELL 🔴] Semiconductor weakness, strong negative momentum, decreasing volume.",2026-08-31,4.74,2026-09-21,15.92
+2026-08-24,KLAC,Core Foundation,177.05,DOWNTREND 🔴,-3.04,"[SELL 🔴] Semiconductor weakness, negative trend and volume.",2026-08-31,-1.48,2026-09-21,2.59
+2026-08-24,ZSIL.SW,Core Foundation,158.86,UPTREND 🟢,19.86,"[STRONG BUY 🚀] Strong safe-haven asset, excellent momentum and volume.",2026-08-31,-3.89,2026-09-21,-2.08
+2026-08-24,BCHE.SW,Core Foundation,189.78,UPTREND 🟢,8.72,"[ACCUMULATE 🟢] Strong uptrend and volume, good for diversification.",2026-08-31,2.53,2026-09-21,-11.99
+2026-08-24,ENA-USD,Dynamic Uptrend,0.16,UPTREND 🟢,82.08,"[STRONG BUY 🚀] Explosive growth, strong volume, positive news.",2026-08-31,-5.17,2026-09-21,39.1
+2026-08-24,CHYM,Dynamic Uptrend,33.38,UPTREND 🟢,45.19,"[TRIM 🟠] Strong returns, but insider selling is a red flag.",2026-08-31,-2.13,2026-09-21,-10.11
+2026-08-24,PLTR,Dynamic Uptrend,176.21,UPTREND 🟢,43.19,"[TRIM 🟠] Strong 4W return, but decreasing volume and recent weakness.",2026-08-31,5.7,2026-09-21,2.9
+2026-08-24,MSTR,Dynamic Uptrend,124.9,UPTREND 🟢,33.9,"[STRONG BUY 🚀] Strong momentum, increasing volume, bullish Bitcoin sentiment.",2026-08-31,3.48,2026-09-21,32.79
+2026-08-24,ETH-USD,Dynamic Uptrend,2513.2,UPTREND 🟢,33.5,[STRONG BUY 🚀] Strong momentum,2026-08-31,-1.9,2026-09-21,8.4
 2026-08-24,FLOKI-USD,Dynamic Uptrend,0.0,UPTREND 🟢,31.9,Hold and monitor (AI Parse Issue).,,,,
-2026-08-24,SOL-USD,Dynamic Uptrend,96.18,UPTREND 🟢,30.95,Hold and monitor (AI Parse Issue).,2026-08-31,7.19,,
-2026-08-24,DOGE-USD,Dynamic Uptrend,0.09,UPTREND 🟢,29.88,Hold and monitor (AI Parse Issue).,2026-08-31,-8.04,,
-2026-08-24,FET-USD,Dynamic Uptrend,0.17,UPTREND 🟢,23.41,Hold and monitor (AI Parse Issue).,2026-08-31,-11.46,,
-2026-08-24,SMCI,Dynamic Uptrend,34.68,UPTREND 🟢,22.11,Hold and monitor (AI Parse Issue).,2026-08-31,8.28,,
-2026-08-24,SPCE,Dynamic Uptrend,3.08,UPTREND 🟢,20.59,Hold and monitor (AI Parse Issue).,2026-08-31,-5.36,,
-2026-08-24,LTC-USD,Dynamic Uptrend,52.63,UPTREND 🟢,17.92,Hold and monitor (AI Parse Issue).,2026-08-31,-8.06,,
-2026-08-24,CRWV,Dynamic Uptrend,84.32,UPTREND 🟢,17.49,Hold and monitor (AI Parse Issue).,2026-08-31,-0.78,,
-2026-08-24,ICP-USD,Dynamic Uptrend,2.43,UPTREND 🟢,17.13,Hold and monitor (AI Parse Issue).,2026-08-31,-1.73,,
-2026-08-24,IONQ,Dynamic Uptrend,42.49,UPTREND 🟢,16.61,Hold and monitor (AI Parse Issue).,2026-08-31,-6.32,,
-2026-08-24,SMSN.IL,Dynamic Uptrend,4854.0,UPTREND 🟢,15.9,Hold and monitor (AI Parse Issue).,2026-08-31,-3.13,,
-2026-08-24,AMGN,Dynamic Uptrend,441.14,UPTREND 🟢,15.2,Hold and monitor (AI Parse Issue).,2026-08-31,-2.36,,
-2026-08-24,ACN,Dynamic Uptrend,187.05,UPTREND 🟢,12.74,Hold and monitor (AI Parse Issue).,2026-08-31,1.49,,
-2026-08-24,RGTI,Dynamic Uptrend,16.84,UPTREND 🟢,12.68,Hold and monitor (AI Parse Issue).,2026-08-31,-7.13,,
-2026-08-24,SBIO.AS,Dynamic Uptrend,65.29,UPTREND 🟢,12.24,Hold and monitor (AI Parse Issue).,2026-08-31,-2.94,,
-2026-08-24,NFLX,Dynamic Uptrend,79.98,UPTREND 🟢,11.53,Hold and monitor (AI Parse Issue).,2026-08-31,1.96,,
-2026-08-24,TKA.DE,Dynamic Uptrend,13.37,UPTREND 🟢,10.91,Hold and monitor (AI Parse Issue).,2026-08-31,6.96,,
-2026-08-24,PBE,Dynamic Uptrend,96.86,UPTREND 🟢,8.1,Hold and monitor (AI Parse Issue).,2026-08-31,-1.01,,
-2026-08-24,BLK,Dynamic Uptrend,1169.2,UPTREND 🟢,7.23,Hold and monitor (AI Parse Issue).,2026-08-31,-1.34,,
-2026-08-24,AFX.DE,Dynamic Uptrend,32.48,UPTREND 🟢,6.49,Hold and monitor (AI Parse Issue).,2026-08-31,-1.11,,
-2026-08-24,PANW,Dynamic Uptrend,352.03,UPTREND 🟢,6.09,Hold and monitor (AI Parse Issue).,2026-08-31,6.63,,
-2026-08-24,MSFT,Dynamic Uptrend,487.33,UPTREND 🟢,5.06,Hold and monitor (AI Parse Issue).,2026-08-31,4.81,,
-2026-08-24,CVX,Dynamic Uptrend,202.85,UPTREND 🟢,3.96,Hold and monitor (AI Parse Issue).,2026-08-31,1.03,,
-2026-08-24,SREN.SW,Dynamic Uptrend,139.3,UPTREND 🟢,3.3,Hold and monitor (AI Parse Issue).,2026-08-31,1.11,,
-2026-08-24,VOO,Dynamic Uptrend,701.24,UPTREND 🟢,2.13,Hold and monitor (AI Parse Issue).,2026-08-31,0.41,,
-2026-08-24,MSE.PA,Dynamic Uptrend,73.54,UPTREND 🟢,1.63,Hold and monitor (AI Parse Issue).,2026-08-31,-0.54,,
-2026-08-24,RHM.DE,Dynamic Uptrend,1155.4,UPTREND 🟢,1.35,Hold and monitor (AI Parse Issue).,2026-08-31,-3.17,,
-2026-08-24,XDGU.SW,Dynamic Uptrend,12.77,UPTREND 🟢,0.96,Hold and monitor (AI Parse Issue).,2026-08-31,-21.41,,
-2026-08-24,CHDVD.SW,Dynamic Uptrend,192.4,UPTREND 🟢,-0.2,Hold and monitor (AI Parse Issue).,2026-08-31,-1.01,,
-2026-08-24,PSPN.SW,Dynamic Uptrend,145.5,UPTREND 🟢,-0.34,Hold and monitor (AI Parse Issue).,2026-08-31,-0.07,,
-2026-08-24,AXNA.F,Dynamic Uptrend,11.73,UPTREND 🟢,-3.77,Hold and monitor (AI Parse Issue).,2026-08-31,2.09,,
-2026-08-24,BRK-A,Downtrend / Reversal,753220.62,DOWNTREND 🔴,-1.75,Hold and monitor (AI Parse Issue).,2026-08-31,0.37,,
-2026-08-24,GOOG,Downtrend / Reversal,345.35,DOWNTREND 🔴,-3.17,Hold and monitor (AI Parse Issue).,2026-08-31,-2.97,,
-2026-08-24,META,Downtrend / Reversal,552.31,DOWNTREND 🔴,-0.79,Hold and monitor (AI Parse Issue).,2026-08-31,3.56,,
-2026-08-24,CHKP,Downtrend / Reversal,130.94,DOWNTREND 🔴,3.0,Hold and monitor (AI Parse Issue).,2026-08-31,5.82,,
-2026-08-24,NVO,Downtrend / Reversal,46.79,DOWNTREND 🔴,0.66,Hold and monitor (AI Parse Issue).,2026-08-31,-2.85,,
-2026-08-24,VST,Downtrend / Reversal,136.3,DOWNTREND 🔴,-8.02,Hold and monitor (AI Parse Issue).,2026-08-31,0.35,,
-2026-08-24,VDEA.L,Downtrend / Reversal,63.5,DOWNTREND 🔴,0.76,Hold and monitor (AI Parse Issue).,2026-08-31,0.54,,
-2026-08-24,ACLN.SW,Downtrend / Reversal,75.2,DOWNTREND 🔴,3.23,Hold and monitor (AI Parse Issue).,2026-08-31,-3.26,,
-2026-08-24,XSPS.MI,Downtrend / Reversal,4.75,DOWNTREND 🔴,-4.42,Hold and monitor (AI Parse Issue).,2026-08-31,0.8,,
-2026-08-24,IWME.AS,Downtrend / Reversal,8.07,DOWNTREND 🔴,1.39,Hold and monitor (AI Parse Issue).,2026-08-31,-0.87,,
-2026-08-24,VDEA.MI,Downtrend / Reversal,54.45,DOWNTREND 🔴,-0.53,Hold and monitor (AI Parse Issue).,2026-08-31,0.77,,
-2026-08-24,SQN.SW,Downtrend / Reversal,39.8,DOWNTREND 🔴,-4.97,Hold and monitor (AI Parse Issue).,2026-08-31,5.33,,
-2026-08-24,ABBN.SW,Downtrend / Reversal,80.2,DOWNTREND 🔴,0.86,Hold and monitor (AI Parse Issue).,2026-08-31,-1.75,,
-2026-08-24,UBSG.SW,Downtrend / Reversal,42.5,DOWNTREND 🔴,-0.12,Hold and monitor (AI Parse Issue).,2026-08-31,4.16,,
-2026-08-24,IFX.DE,Downtrend / Reversal,55.97,DOWNTREND 🔴,-9.24,Hold and monitor (AI Parse Issue).,2026-08-31,-0.04,,
-2026-08-24,VAGX.SW,Downtrend / Reversal,20.52,DOWNTREND 🔴,-0.05,Hold and monitor (AI Parse Issue).,2026-08-31,0.05,,
-2026-08-24,SPSN.SW,Downtrend / Reversal,128.9,DOWNTREND 🔴,-2.2,Hold and monitor (AI Parse Issue).,2026-08-31,-2.72,,
-2026-08-24,LMT,Downtrend / Reversal,562.55,DOWNTREND 🔴,-3.46,Hold and monitor (AI Parse Issue).,2026-08-31,-0.65,,
-2026-08-24,DKS,Downtrend / Reversal,182.66,DOWNTREND 🔴,-6.76,Hold and monitor (AI Parse Issue).,2026-08-31,-25.71,,
-2026-08-24,HON,Downtrend / Reversal,214.3,DOWNTREND 🔴,-11.56,Hold and monitor (AI Parse Issue).,2026-08-31,-0.54,,
-2026-08-24,AAL,Downtrend / Reversal,13.71,DOWNTREND 🔴,-10.18,Hold and monitor (AI Parse Issue).,2026-08-31,-2.01,,
-2026-08-24,ONON,Downtrend / Reversal,29.48,DOWNTREND 🔴,-18.65,Hold and monitor (AI Parse Issue).,2026-08-31,-2.75,,
-2026-08-24,AVGO,Downtrend / Reversal,361.64,DOWNTREND 🔴,-7.1,Hold and monitor (AI Parse Issue).,2026-08-31,1.8,,
-2026-08-24,BA,Downtrend / Reversal,209.02,DOWNTREND 🔴,-3.29,Hold and monitor (AI Parse Issue).,2026-08-31,-0.95,,
-2026-08-24,NVDA,Downtrend / Reversal,209.15,DOWNTREND 🔴,4.18,Hold and monitor (AI Parse Issue).,2026-08-31,5.32,,
-2026-08-24,NXPI,Downtrend / Reversal,219.2,DOWNTREND 🔴,-4.35,Hold and monitor (AI Parse Issue).,2026-08-31,2.41,,
-2026-08-24,TSM,Downtrend / Reversal,406.26,DOWNTREND 🔴,0.5,Hold and monitor (AI Parse Issue).,2026-08-31,3.08,,
-2026-08-24,TXN,Downtrend / Reversal,256.34,DOWNTREND 🔴,-7.04,Hold and monitor (AI Parse Issue).,2026-08-31,1.72,,
-2026-08-24,AMAT,Downtrend / Reversal,476.23,DOWNTREND 🔴,-6.09,Hold and monitor (AI Parse Issue).,2026-08-31,-4.24,,
-2026-08-24,INTC,Downtrend / Reversal,86.14,DOWNTREND 🔴,-4.5,Hold and monitor (AI Parse Issue).,2026-08-31,4.33,,
-2026-08-24,AMSC,Downtrend / Reversal,28.45,DOWNTREND 🔴,-3.12,Hold and monitor (AI Parse Issue).,2026-08-31,-0.46,,
-2026-08-24,O,Core Foundation,62.9,DOWNTREND 🔴,-1.52,"[HOLD 🟡] Stable dividend income, but technicals are weak in risk-off environment.",2026-08-31,-2.33,,
-2026-08-24,BNDW,Core Foundation,67.48,DOWNTREND 🔴,0.33,"[HOLD 🟡] Bonds offer yield and safety, but current downtrend is concerning.",2026-08-31,-0.27,,
-2026-08-24,BTC-USD,Core Foundation,79591.97,UPTREND 🟢,25.38,"[STRONG BUY 🚀] Strong uptrend, increasing volume, acting as uncorrelated safe-haven.",2026-08-31,-1.57,,
-2026-08-24,ZGLD.SW,Core Foundation,1094.0,UPTREND 🟢,13.06,"[ACCUMULATE 🟢] Classic safe-haven, strong 4-week return, increasing volume.",2026-08-31,-3.25,,
-2026-08-24,SHEL,Core Foundation,93.2,UPTREND 🟢,2.21,"[HOLD 🟡] Weakening uptrend, decreasing volume, oil price drop impacts sentiment.",2026-08-31,-2.16,,
-2026-08-24,ALL,Core Foundation,259.6,UPTREND 🟢,-1.7,"[HOLD 🟡] Defensive sector, but mixed returns and stable volume.",2026-08-31,-0.33,,
-2026-08-24,MU,Core Foundation,897.09,DOWNTREND 🔴,9.0,"[SELL 🔴] Tech leading declines, strong negative 1W return, decreasing volume.",2026-08-31,4.92,,
-2026-08-24,KLAC,Core Foundation,177.19,DOWNTREND 🔴,-2.97,"[SELL 🔴] Tech leading declines, negative returns, decreasing volume.",2026-08-31,-1.56,,
-2026-08-24,ZSIL.SW,Core Foundation,158.86,UPTREND 🟢,19.86,"[ACCUMULATE 🟢] Precious metal, strong 4-week return, increasing volume.",2026-08-31,-3.89,,
-2026-08-24,BCHE.SW,Core Foundation,189.78,UPTREND 🟢,8.72,"[ACCUMULATE 🟢] Uptrending commodity/metal, increasing volume, good momentum.",2026-08-31,2.53,,
-2026-08-24,ENA-USD,Dynamic Uptrend,0.16,UPTREND 🟢,80.33,"[TRIM 🟠] Massive 4W return, but token unlock event poses risk.",2026-08-31,-5.17,,
-2026-08-24,CHYM,Dynamic Uptrend,33.34,UPTREND 🟢,45.02,"[TRIM 🟠] Strong 4W return, but insider liquidation is a red flag.",2026-08-31,-2.01,,
-2026-08-24,PLTR,Dynamic Uptrend,176.45,UPTREND 🟢,43.39,"[TRIM 🟠] Strong 4W return, but decreasing volume suggests weakening momentum.",2026-08-31,5.56,,
-2026-08-24,MSTR,Dynamic Uptrend,125.68,UPTREND 🟢,34.73,"[STRONG BUY 🚀] Strong uptrend, increasing volume, positive news, Bitcoin proxy.",2026-08-31,2.84,,
-2026-08-24,ETH-USD,Dynamic Uptrend,2517.98,UPTREND 🟢,33.76,"[STRONG BUY 🚀] Strong uptrend, increasing volume, acting as uncorrelated safe-haven.",2026-08-31,-2.09,,
+2026-08-24,SOL-USD,Dynamic Uptrend,96.18,UPTREND 🟢,30.95,Hold and monitor (AI Parse Issue).,2026-08-31,7.19,2026-09-21,22.65
+2026-08-24,DOGE-USD,Dynamic Uptrend,0.09,UPTREND 🟢,29.88,Hold and monitor (AI Parse Issue).,2026-08-31,-8.04,2026-09-21,3.36
+2026-08-24,FET-USD,Dynamic Uptrend,0.17,UPTREND 🟢,23.41,Hold and monitor (AI Parse Issue).,2026-08-31,-11.46,2026-09-21,19.96
+2026-08-24,SMCI,Dynamic Uptrend,34.68,UPTREND 🟢,22.11,Hold and monitor (AI Parse Issue).,2026-08-31,8.28,2026-09-21,17.88
+2026-08-24,SPCE,Dynamic Uptrend,3.08,UPTREND 🟢,20.59,Hold and monitor (AI Parse Issue).,2026-08-31,-5.36,2026-09-21,1.3
+2026-08-24,LTC-USD,Dynamic Uptrend,52.63,UPTREND 🟢,17.92,Hold and monitor (AI Parse Issue).,2026-08-31,-8.06,2026-09-21,17.74
+2026-08-24,CRWV,Dynamic Uptrend,84.32,UPTREND 🟢,17.49,Hold and monitor (AI Parse Issue).,2026-08-31,-0.78,2026-09-21,-1.2
+2026-08-24,ICP-USD,Dynamic Uptrend,2.43,UPTREND 🟢,17.13,Hold and monitor (AI Parse Issue).,2026-08-31,-1.73,2026-09-21,21.15
+2026-08-24,IONQ,Dynamic Uptrend,42.49,UPTREND 🟢,16.61,Hold and monitor (AI Parse Issue).,2026-08-31,-6.32,2026-09-21,-4.98
+2026-08-24,SMSN.IL,Dynamic Uptrend,4854.0,UPTREND 🟢,15.9,Hold and monitor (AI Parse Issue).,2026-08-31,-3.13,2026-09-21,3.42
+2026-08-24,AMGN,Dynamic Uptrend,441.14,UPTREND 🟢,15.2,Hold and monitor (AI Parse Issue).,2026-08-31,-2.36,2026-09-21,-11.28
+2026-08-24,ACN,Dynamic Uptrend,187.05,UPTREND 🟢,12.74,Hold and monitor (AI Parse Issue).,2026-08-31,1.49,2026-09-21,0.51
+2026-08-24,RGTI,Dynamic Uptrend,16.84,UPTREND 🟢,12.68,Hold and monitor (AI Parse Issue).,2026-08-31,-7.13,2026-09-21,-3.0
+2026-08-24,SBIO.AS,Dynamic Uptrend,65.29,UPTREND 🟢,12.24,Hold and monitor (AI Parse Issue).,2026-08-31,-2.94,2026-09-21,-2.28
+2026-08-24,NFLX,Dynamic Uptrend,79.98,UPTREND 🟢,11.53,Hold and monitor (AI Parse Issue).,2026-08-31,1.96,2026-09-21,-8.9
+2026-08-24,TKA.DE,Dynamic Uptrend,13.37,UPTREND 🟢,10.91,Hold and monitor (AI Parse Issue).,2026-08-31,6.96,2026-09-21,11.74
+2026-08-24,PBE,Dynamic Uptrend,96.86,UPTREND 🟢,8.1,Hold and monitor (AI Parse Issue).,2026-08-31,-1.01,2026-09-21,-1.5
+2026-08-24,BLK,Dynamic Uptrend,1169.2,UPTREND 🟢,7.23,Hold and monitor (AI Parse Issue).,2026-08-31,-1.34,2026-09-21,-8.28
+2026-08-24,AFX.DE,Dynamic Uptrend,32.48,UPTREND 🟢,6.49,Hold and monitor (AI Parse Issue).,2026-08-31,-1.11,2026-09-21,-10.53
+2026-08-24,PANW,Dynamic Uptrend,352.03,UPTREND 🟢,6.09,Hold and monitor (AI Parse Issue).,2026-08-31,6.63,2026-09-21,5.3
+2026-08-24,MSFT,Dynamic Uptrend,487.33,UPTREND 🟢,5.06,Hold and monitor (AI Parse Issue).,2026-08-31,4.81,2026-09-21,1.82
+2026-08-24,CVX,Dynamic Uptrend,202.85,UPTREND 🟢,3.96,Hold and monitor (AI Parse Issue).,2026-08-31,1.03,2026-09-21,1.61
+2026-08-24,SREN.SW,Dynamic Uptrend,139.3,UPTREND 🟢,3.3,Hold and monitor (AI Parse Issue).,2026-08-31,1.11,2026-09-21,0.0
+2026-08-24,VOO,Dynamic Uptrend,701.24,UPTREND 🟢,2.13,Hold and monitor (AI Parse Issue).,2026-08-31,0.41,2026-09-21,0.86
+2026-08-24,MSE.PA,Dynamic Uptrend,73.54,UPTREND 🟢,1.63,Hold and monitor (AI Parse Issue).,2026-08-31,-0.54,2026-09-21,-2.41
+2026-08-24,RHM.DE,Dynamic Uptrend,1155.4,UPTREND 🟢,1.35,Hold and monitor (AI Parse Issue).,2026-08-31,-3.17,2026-09-21,-12.45
+2026-08-24,XDGU.SW,Dynamic Uptrend,12.77,UPTREND 🟢,0.96,Hold and monitor (AI Parse Issue).,2026-08-31,-21.41,2026-09-21,-0.03
+2026-08-24,CHDVD.SW,Dynamic Uptrend,192.4,UPTREND 🟢,-0.2,Hold and monitor (AI Parse Issue).,2026-08-31,-1.01,2026-09-21,-2.17
+2026-08-24,PSPN.SW,Dynamic Uptrend,145.5,UPTREND 🟢,-0.34,Hold and monitor (AI Parse Issue).,2026-08-31,-0.07,2026-09-21,1.72
+2026-08-24,AXNA.F,Dynamic Uptrend,11.73,UPTREND 🟢,-3.77,Hold and monitor (AI Parse Issue).,2026-08-31,2.09,2026-09-21,-3.5
+2026-08-24,BRK-A,Downtrend / Reversal,753220.62,DOWNTREND 🔴,-1.75,Hold and monitor (AI Parse Issue).,2026-08-31,0.37,2026-09-21,0.95
+2026-08-24,GOOG,Downtrend / Reversal,345.35,DOWNTREND 🔴,-3.17,Hold and monitor (AI Parse Issue).,2026-08-31,-2.97,2026-09-21,1.14
+2026-08-24,META,Downtrend / Reversal,552.31,DOWNTREND 🔴,-0.79,Hold and monitor (AI Parse Issue).,2026-08-31,3.56,2026-09-21,29.4
+2026-08-24,CHKP,Downtrend / Reversal,130.94,DOWNTREND 🔴,3.0,Hold and monitor (AI Parse Issue).,2026-08-31,5.82,2026-09-21,2.3
+2026-08-24,NVO,Downtrend / Reversal,46.79,DOWNTREND 🔴,0.66,Hold and monitor (AI Parse Issue).,2026-08-31,-2.85,2026-09-21,-14.45
+2026-08-24,VST,Downtrend / Reversal,136.3,DOWNTREND 🔴,-8.02,Hold and monitor (AI Parse Issue).,2026-08-31,0.35,2026-09-21,2.38
+2026-08-24,VDEA.L,Downtrend / Reversal,63.5,DOWNTREND 🔴,0.76,Hold and monitor (AI Parse Issue).,2026-08-31,0.54,2026-09-21,-0.82
+2026-08-24,ACLN.SW,Downtrend / Reversal,75.2,DOWNTREND 🔴,3.23,Hold and monitor (AI Parse Issue).,2026-08-31,-3.26,2026-09-21,2.13
+2026-08-24,XSPS.MI,Downtrend / Reversal,4.75,DOWNTREND 🔴,-4.42,Hold and monitor (AI Parse Issue).,2026-08-31,0.8,2026-09-21,2.07
+2026-08-24,IWME.AS,Downtrend / Reversal,8.07,DOWNTREND 🔴,1.39,Hold and monitor (AI Parse Issue).,2026-08-31,-0.87,2026-09-21,1.0
+2026-08-24,VDEA.MI,Downtrend / Reversal,54.45,DOWNTREND 🔴,-0.53,Hold and monitor (AI Parse Issue).,2026-08-31,0.77,2026-09-21,0.7
+2026-08-24,SQN.SW,Downtrend / Reversal,39.8,DOWNTREND 🔴,-4.97,Hold and monitor (AI Parse Issue).,2026-08-31,5.33,2026-09-21,1.06
+2026-08-24,ABBN.SW,Downtrend / Reversal,80.2,DOWNTREND 🔴,0.86,Hold and monitor (AI Parse Issue).,2026-08-31,-1.75,2026-09-21,2.49
+2026-08-24,UBSG.SW,Downtrend / Reversal,42.5,DOWNTREND 🔴,-0.12,Hold and monitor (AI Parse Issue).,2026-08-31,4.16,2026-09-21,-1.2
+2026-08-24,IFX.DE,Downtrend / Reversal,55.97,DOWNTREND 🔴,-9.24,Hold and monitor (AI Parse Issue).,2026-08-31,-0.04,2026-09-21,3.32
+2026-08-24,VAGX.SW,Downtrend / Reversal,20.52,DOWNTREND 🔴,-0.05,Hold and monitor (AI Parse Issue).,2026-08-31,0.05,2026-09-21,-1.15
+2026-08-24,SPSN.SW,Downtrend / Reversal,128.9,DOWNTREND 🔴,-2.2,Hold and monitor (AI Parse Issue).,2026-08-31,-2.72,2026-09-21,-2.56
+2026-08-24,LMT,Downtrend / Reversal,562.55,DOWNTREND 🔴,-3.46,Hold and monitor (AI Parse Issue).,2026-08-31,-0.65,2026-09-21,-5.27
+2026-08-24,DKS,Downtrend / Reversal,182.66,DOWNTREND 🔴,-6.76,Hold and monitor (AI Parse Issue).,2026-08-31,-25.71,2026-09-21,-33.93
+2026-08-24,HON,Downtrend / Reversal,214.3,DOWNTREND 🔴,-11.56,Hold and monitor (AI Parse Issue).,2026-08-31,-0.54,2026-09-21,-3.76
+2026-08-24,AAL,Downtrend / Reversal,13.71,DOWNTREND 🔴,-10.18,Hold and monitor (AI Parse Issue).,2026-08-31,-2.01,2026-09-21,-4.12
+2026-08-24,ONON,Downtrend / Reversal,29.48,DOWNTREND 🔴,-18.65,Hold and monitor (AI Parse Issue).,2026-08-31,-2.75,2026-09-21,-7.73
+2026-08-24,AVGO,Downtrend / Reversal,361.64,DOWNTREND 🔴,-7.1,Hold and monitor (AI Parse Issue).,2026-08-31,1.8,2026-09-21,-1.32
+2026-08-24,BA,Downtrend / Reversal,209.02,DOWNTREND 🔴,-3.29,Hold and monitor (AI Parse Issue).,2026-08-31,-0.95,2026-09-21,-4.97
+2026-08-24,NVDA,Downtrend / Reversal,209.15,DOWNTREND 🔴,4.18,Hold and monitor (AI Parse Issue).,2026-08-31,5.32,2026-09-21,6.58
+2026-08-24,NXPI,Downtrend / Reversal,219.2,DOWNTREND 🔴,-4.35,Hold and monitor (AI Parse Issue).,2026-08-31,2.41,2026-09-21,3.77
+2026-08-24,TSM,Downtrend / Reversal,406.26,DOWNTREND 🔴,0.5,Hold and monitor (AI Parse Issue).,2026-08-31,3.08,2026-09-21,7.82
+2026-08-24,TXN,Downtrend / Reversal,256.34,DOWNTREND 🔴,-7.04,Hold and monitor (AI Parse Issue).,2026-08-31,1.72,2026-09-21,3.7
+2026-08-24,AMAT,Downtrend / Reversal,476.23,DOWNTREND 🔴,-6.09,Hold and monitor (AI Parse Issue).,2026-08-31,-4.24,2026-09-21,-4.47
+2026-08-24,INTC,Downtrend / Reversal,86.14,DOWNTREND 🔴,-4.5,Hold and monitor (AI Parse Issue).,2026-08-31,4.33,2026-09-21,37.44
+2026-08-24,AMSC,Downtrend / Reversal,28.45,DOWNTREND 🔴,-3.12,Hold and monitor (AI Parse Issue).,2026-08-31,-0.46,2026-09-21,6.73
+2026-08-24,O,Core Foundation,62.9,DOWNTREND 🔴,-1.52,"[HOLD 🟡] Stable dividend income, but technicals are weak in risk-off environment.",2026-08-31,-2.33,2026-09-21,-9.44
+2026-08-24,BNDW,Core Foundation,67.48,DOWNTREND 🔴,0.33,"[HOLD 🟡] Bonds offer yield and safety, but current downtrend is concerning.",2026-08-31,-0.27,2026-09-21,-1.26
+2026-08-24,BTC-USD,Core Foundation,79591.97,UPTREND 🟢,25.38,"[STRONG BUY 🚀] Strong uptrend, increasing volume, acting as uncorrelated safe-haven.",2026-08-31,-1.57,2026-09-21,7.11
+2026-08-24,ZGLD.SW,Core Foundation,1094.0,UPTREND 🟢,13.06,"[ACCUMULATE 🟢] Classic safe-haven, strong 4-week return, increasing volume.",2026-08-31,-3.25,2026-09-21,-3.2
+2026-08-24,SHEL,Core Foundation,93.2,UPTREND 🟢,2.21,"[HOLD 🟡] Weakening uptrend, decreasing volume, oil price drop impacts sentiment.",2026-08-31,-2.16,2026-09-21,0.96
+2026-08-24,ALL,Core Foundation,259.6,UPTREND 🟢,-1.7,"[HOLD 🟡] Defensive sector, but mixed returns and stable volume.",2026-08-31,-0.33,2026-09-21,-4.04
+2026-08-24,MU,Core Foundation,897.09,DOWNTREND 🔴,9.0,"[SELL 🔴] Tech leading declines, strong negative 1W return, decreasing volume.",2026-08-31,4.92,2026-09-21,16.11
+2026-08-24,KLAC,Core Foundation,177.19,DOWNTREND 🔴,-2.97,"[SELL 🔴] Tech leading declines, negative returns, decreasing volume.",2026-08-31,-1.56,2026-09-21,2.51
+2026-08-24,ZSIL.SW,Core Foundation,158.86,UPTREND 🟢,19.86,"[ACCUMULATE 🟢] Precious metal, strong 4-week return, increasing volume.",2026-08-31,-3.89,2026-09-21,-2.08
+2026-08-24,BCHE.SW,Core Foundation,189.78,UPTREND 🟢,8.72,"[ACCUMULATE 🟢] Uptrending commodity/metal, increasing volume, good momentum.",2026-08-31,2.53,2026-09-21,-11.99
+2026-08-24,ENA-USD,Dynamic Uptrend,0.16,UPTREND 🟢,80.33,"[TRIM 🟠] Massive 4W return, but token unlock event poses risk.",2026-08-31,-5.17,2026-09-21,39.1
+2026-08-24,CHYM,Dynamic Uptrend,33.34,UPTREND 🟢,45.02,"[TRIM 🟠] Strong 4W return, but insider liquidation is a red flag.",2026-08-31,-2.01,2026-09-21,-10.0
+2026-08-24,PLTR,Dynamic Uptrend,176.45,UPTREND 🟢,43.39,"[TRIM 🟠] Strong 4W return, but decreasing volume suggests weakening momentum.",2026-08-31,5.56,2026-09-21,2.76
+2026-08-24,MSTR,Dynamic Uptrend,125.68,UPTREND 🟢,34.73,"[STRONG BUY 🚀] Strong uptrend, increasing volume, positive news, Bitcoin proxy.",2026-08-31,2.84,2026-09-21,31.97
+2026-08-24,ETH-USD,Dynamic Uptrend,2517.98,UPTREND 🟢,33.76,"[STRONG BUY 🚀] Strong uptrend, increasing volume, acting as uncorrelated safe-haven.",2026-08-31,-2.09,2026-09-21,8.19
 2026-08-24,FLOKI-USD,Dynamic Uptrend,0.0,UPTREND 🟢,32.38,"[TRIM 🟠] Strong 4W return, but meme coin volatility and ""risky"" news.",,,,
-2026-08-24,SOL-USD,Dynamic Uptrend,96.38,UPTREND 🟢,31.22,"[ACCUMULATE 🟢] Strong uptrend, increasing volume, positive ecosystem news.",2026-08-31,6.97,,
-2026-08-24,DOGE-USD,Dynamic Uptrend,0.09,UPTREND 🟢,30.1,"[TRIM 🟠] Strong 4W return, but negative news and meme coin volatility.",2026-08-31,-8.04,,
-2026-08-24,FET-USD,Dynamic Uptrend,0.18,UPTREND 🟢,25.02,"[STRONG BUY 🚀] Strong uptrend, increasing volume, benefiting from AI token rally.",2026-08-31,-16.38,,
-2026-08-24,SMCI,Dynamic Uptrend,34.51,UPTREND 🟢,21.5,"[TRIM 🟠] Strong 4W return, but negative news and decreasing volume.",2026-08-31,8.81,,
-2026-08-24,SPCE,Dynamic Uptrend,3.08,UPTREND 🟢,20.78,"[TRIM 🟠] Strong 4W gains, but volume weakening and news indicates delays.",2026-08-31,-5.36,,
-2026-08-24,LTC-USD,Dynamic Uptrend,52.63,UPTREND 🟢,17.91,"[TRIM 🟠] Strong 4W gains, but negative long-term outlook despite strong volume.",2026-08-31,-8.06,,
-2026-08-24,CRWV,Dynamic Uptrend,84.39,UPTREND 🟢,17.58,"[TRIM 🟠] Strong 4W gains, but recent dip and tech sector weakness.",2026-08-31,-0.87,,
-2026-08-24,ICP-USD,Dynamic Uptrend,2.43,UPTREND 🟢,17.47,"[ACCUMULATE 🟢] Strong momentum, increasing volume, positive news; potential uncorrelated asset.",2026-08-31,-1.73,,
-2026-08-24,IONQ,Dynamic Uptrend,42.31,UPTREND 🟢,16.11,"[TRIM 🟠] Strong 4W gains, but volume weakening and significant warning in news.",2026-08-31,-5.92,,
-2026-08-24,SMSN.IL,Dynamic Uptrend,4854.0,UPTREND 🟢,15.9,"[TRIM 🟠] Strong 4W gains, but volume weakening and negative news.",2026-08-31,-3.13,,
-2026-08-24,AMGN,Dynamic Uptrend,440.72,UPTREND 🟢,15.09,"[HOLD 🟡] Strong 4W performance, stable volume, but extended after 52-week high.",2026-08-31,-2.27,,
-2026-08-24,ACN,Dynamic Uptrend,186.76,UPTREND 🟢,12.56,"[TRIM 🟠] Strong 4W gains, but volume weakening despite positive news.",2026-08-31,1.65,,
-2026-08-24,RGTI,Dynamic Uptrend,16.81,UPTREND 🟢,12.44,"[TRIM 🟠] Strong 4W gains, but volume weakening, warning, and insider selling.",2026-08-31,-6.96,,
-2026-08-24,SBIO.AS,Dynamic Uptrend,65.29,UPTREND 🟢,12.24,[ACCUMULATE 🟢] Strong 4W performance with increasing volume; defensive biotech sector.,2026-08-31,-2.94,,
-2026-08-24,NFLX,Dynamic Uptrend,80.04,UPTREND 🟢,11.62,"[TRIM 🟠] Strong 4W gains, but volume weakening and recent selloff concerns.",2026-08-31,1.89,,
-2026-08-24,TKA.DE,Dynamic Uptrend,13.37,UPTREND 🟢,10.91,"[HOLD 🟡] Moderate 4W gains, stable volume, but restructuring and operational concerns.",2026-08-31,6.96,,
-2026-08-24,PBE,Dynamic Uptrend,96.86,UPTREND 🟢,8.1,"[HOLD 🟡] Moderate 4W gains, but weakening volume and recent dip.",2026-08-31,-1.01,,
-2026-08-24,BLK,Dynamic Uptrend,1171.19,UPTREND 🟢,7.41,"[HOLD 🟡] Moderate 4W gains, but weakening volume despite positive news.",2026-08-31,-1.51,,
-2026-08-24,AFX.DE,Dynamic Uptrend,32.48,UPTREND 🟢,6.49,"[TRIM 🟠] Moderate 4W gains, but weakening volume and negative restructuring news.",2026-08-31,-1.11,,
-2026-08-24,PANW,Dynamic Uptrend,351.11,UPTREND 🟢,5.81,"[HOLD 🟡] Moderate 4W gains, stable volume, but recent dip in tech-sensitive sector.",2026-08-31,6.91,,
-2026-08-24,MSFT,Dynamic Uptrend,488.2,UPTREND 🟢,5.25,"[HOLD 🟡] Moderate 4W gains, but weakening volume in a risk-off tech environment.",2026-08-31,4.62,,
-2026-08-24,CVX,Dynamic Uptrend,202.57,UPTREND 🟢,3.81,"[HOLD 🟡] Modest 4W gains, stable volume, but oil price volatility and geopolitical shifts.",2026-08-31,1.17,,
-2026-08-24,SREN.SW,Dynamic Uptrend,139.3,UPTREND 🟢,3.3,"[HOLD 🟡] Modest 4W gains, but weakening volume despite positive sector news.",2026-08-31,1.11,,
-2026-08-24,VOO,Dynamic Uptrend,701.18,UPTREND 🟢,2.12,"[TRIM 🟠] Broad market ETF, increasing volume on negative 1W, risk-off sentiment.",2026-08-31,0.42,,
-2026-08-24,MSE.PA,Dynamic Uptrend,73.54,UPTREND 🟢,1.63,[HOLD 🟡] Uptrend but weak volume and flat 1W return in risk-off environment.,2026-08-31,-0.54,,
-2026-08-24,RHM.DE,Dynamic Uptrend,1155.4,UPTREND 🟢,1.35,"[HOLD 🟡] Defense stock in uptrend, but weak volume and flat 1W return.",2026-08-31,-3.17,,
-2026-08-24,XDGU.SW,Dynamic Uptrend,12.77,UPTREND 🟢,0.96,"[ACCUMULATE 🟢] Stable volume and uptrend, but flat 1W return in risk-off.",2026-08-31,-21.41,,
-2026-08-24,CHDVD.SW,Dynamic Uptrend,192.4,UPTREND 🟢,-0.2,"[ACCUMULATE 🟢] Increasing volume in uptrend, despite flat recent returns.",2026-08-31,-1.01,,
-2026-08-24,PSPN.SW,Dynamic Uptrend,145.5,UPTREND 🟢,-0.34,[HOLD 🟡] Mixed news and flat returns despite increasing volume; caution warranted.,2026-08-31,-0.07,,
-2026-08-24,GOOG,Dynamic Uptrend,346.58,UPTREND 🟢,-2.82,[TRIM 🟠] Tech stock with declining volume and negative 4W return in risk-off.,2026-08-31,-3.32,,
-2026-08-24,AXNA.F,Dynamic Uptrend,11.73,UPTREND 🟢,-3.77,"[TRIM 🟠] Weak volume, negative 4W return despite uptrend; risk-off environment.",2026-08-31,2.09,,
-2026-08-24,BRK-A,Downtrend / Reversal,753220.62,DOWNTREND 🔴,-1.75,"[HOLD 🟡] Downtrend with weak volume, but positive 1W return offers some support.",2026-08-31,0.37,,
-2026-08-24,META,Downtrend / Reversal,553.55,DOWNTREND 🔴,-0.57,[HOLD 🟡] Downtrending tech stock with stable volume; risk-off sentiment prevails.,2026-08-31,3.33,,
-2026-08-24,CHKP,Downtrend / Reversal,130.8,DOWNTREND 🔴,2.89,[HOLD 🟡] Downtrend with weak volume despite positive news; caution warranted.,2026-08-31,5.93,,
-2026-08-24,NVO,Downtrend / Reversal,46.75,DOWNTREND 🔴,0.57,[SELL 🔴] Downtrending with stable volume and increasing competition concerns.,2026-08-31,-2.77,,
-2026-08-24,VDEA.MI,Downtrend / Reversal,54.45,DOWNTREND 🔴,-0.53,[SELL 🔴] Downtrending with flat 1W return and negative 4W return.,2026-08-31,0.77,,
-2026-08-24,VDEA.L,Downtrend / Reversal,63.5,DOWNTREND 🔴,0.76,[SELL 🔴] Downtrending with weak volume and flat 1W return.,2026-08-31,0.54,,
-2026-08-24,IFX.DE,Downtrend / Reversal,55.97,DOWNTREND 🔴,-9.24,"[SELL 🔴] Strong negative 4W return in downtrend, despite partnership news.",2026-08-31,-0.04,,
-2026-08-24,XSPS.MI,Downtrend / Reversal,4.75,DOWNTREND 🔴,-4.42,[SELL 🔴] Increasing volume in downtrend with negative returns indicates strong selling.,2026-08-31,0.8,,
-2026-08-24,SPSN.SW,Downtrend / Reversal,128.9,DOWNTREND 🔴,-2.2,[SELL 🔴] Increasing volume in downtrend with negative returns and mixed news.,2026-08-31,-2.72,,
-2026-08-24,IWME.AS,Downtrend / Reversal,8.07,DOWNTREND 🔴,1.39,[SELL 🔴] Increasing volume in downtrend with flat 1W return.,2026-08-31,-0.87,,
-2026-08-24,ABBN.SW,Downtrend / Reversal,80.2,DOWNTREND 🔴,0.86,"[HOLD 🟡] Downtrend with weak volume, but positive news offers some support.",2026-08-31,-1.75,,
-2026-08-24,ACLN.SW,Downtrend / Reversal,75.2,DOWNTREND 🔴,3.23,"[HOLD 🟡] Downtrend with increasing volume and positive news, but flat 1W return.",2026-08-31,-3.26,,
-2026-08-24,UBSG.SW,Downtrend / Reversal,42.5,DOWNTREND 🔴,-0.12,[SELL 🔴] Downtrend with weak volume and flat 1W return; risk-off environment.,2026-08-31,4.16,,
-2026-08-24,SQN.SW,Downtrend / Reversal,39.8,DOWNTREND 🔴,-4.97,"[HOLD 🟡] Mixed news, increasing volume, but no positive 1W momentum.",2026-08-31,5.33,,
-2026-08-24,VAGX.SW,Downtrend / Reversal,20.52,DOWNTREND 🔴,-0.05,"[SELL 🔴] Weak volume, no news, and persistent downtrend.",2026-08-31,0.05,,
-2026-08-24,VST,Downtrend / Reversal,136.13,DOWNTREND 🔴,-8.13,[ACCUMULATE 🟢] Strong AI power narrative despite downtrend; potential reversal.,2026-08-31,0.48,,
-2026-08-24,LMT,Downtrend / Reversal,562.56,DOWNTREND 🔴,-3.46,"[HOLD 🟡] Defensive sector, stable volume, but no positive momentum yet.",2026-08-31,-0.65,,
-2026-08-24,DKS,Downtrend / Reversal,182.63,DOWNTREND 🔴,-6.78,[SELL 🔴] Increasing volume on downtrend with negative returns is bearish.,2026-08-31,-25.7,,
-2026-08-24,AAL,Downtrend / Reversal,13.72,DOWNTREND 🔴,-10.15,"[SELL 🔴] Risk-off sentiment, negative news, and persistent downtrend.",2026-08-31,-2.08,,
-2026-08-24,HON,Downtrend / Reversal,214.32,DOWNTREND 🔴,-11.56,"[HOLD 🟡] Positive AI news, but weak volume and persistent downtrend.",2026-08-31,-0.55,,
-2026-08-24,ONON,Downtrend / Reversal,29.48,DOWNTREND 🔴,-18.65,"[SELL 🔴] Significant decline, stable volume, and no positive catalysts.",2026-08-31,-2.75,,
-2026-08-24,AVGO,Downtrend / Reversal,361.77,DOWNTREND 🔴,-7.07,"[SELL 🔴] Tech decline, negative news, increasing volume on downtrend.",2026-08-31,1.76,,
-2026-08-24,BA,Downtrend / Reversal,209.32,DOWNTREND 🔴,-3.16,"[HOLD 🟡] Positive news, but stable volume and persistent downtrend.",2026-08-31,-1.09,,
-2026-08-24,NVDA,Downtrend / Reversal,209.27,DOWNTREND 🔴,4.24,"[SELL 🔴] Tech leading declines, weak volume, earnings uncertainty, risk-off sentiment.",2026-08-31,5.26,,
-2026-08-24,AMAT,Downtrend / Reversal,477.39,DOWNTREND 🔴,-5.86,"[HOLD 🟡] Mixed AI news, stable volume, but persistent downtrend.",2026-08-31,-4.48,,
-2026-08-24,NXPI,Downtrend / Reversal,218.2,DOWNTREND 🔴,-4.78,"[SELL 🔴] Negative news, weak volume, and persistent downtrend.",2026-08-31,2.88,,
-2026-08-24,TSM,Downtrend / Reversal,405.27,DOWNTREND 🔴,0.25,"[SELL 🔴] Tech decline, negative news, weak volume, and persistent downtrend.",2026-08-31,3.33,,
-2026-08-24,TXN,Downtrend / Reversal,255.57,DOWNTREND 🔴,-7.31,"[HOLD 🟡] Mixed news, weak volume, but potential long-term value.",2026-08-31,2.03,,
-2026-08-24,INTC,Downtrend / Reversal,86.19,DOWNTREND 🔴,-4.45,"[SELL 🔴] Tech decline, negative news, weak volume, and persistent downtrend.",2026-08-31,4.26,,
-2026-08-24,AMSC,Downtrend / Reversal,28.57,DOWNTREND 🔴,-2.72,"[SELL 🔴] Explicitly negative news, weak volume, and persistent downtrend.",2026-08-31,-0.88,,
-2026-08-24,O,Core Foundation,63.06,DOWNTREND 🔴,-1.27,"[HOLD 🟡] Downtrend persists, but positive 1W return and stable volume suggest holding for dividends.",2026-08-31,-2.58,,
-2026-08-24,BNDW,Core Foundation,67.5,DOWNTREND 🔴,0.37,"[HOLD 🟡] Downtrend, but positive short-term returns and stable volume support holding for yield.",2026-08-31,-0.3,,
-2026-08-24,BTC-USD,Core Foundation,79539.61,UPTREND 🟢,25.29,"[STRONG BUY 🚀] Strong uptrend, increasing volume, and institutional safe-haven narrative.",2026-08-31,-1.51,,
-2026-08-24,ZGLD.SW,Core Foundation,1094.0,UPTREND 🟢,13.06,"[ACCUMULATE 🟢] Strong uptrend, increasing volume, and gold is a crucial uncorrelated hedge.",2026-08-31,-3.25,,
-2026-08-24,SHEL,Core Foundation,92.8,UPTREND 🟢,1.78,"[HOLD 🟡] Uptrend but weak volume and negative 1W return, oil prices easing.",2026-08-31,-1.73,,
-2026-08-24,ALL,Core Foundation,259.57,UPTREND 🟢,-1.71,[HOLD 🟡] Uptrend but negative 4W return and mixed news warrant caution.,2026-08-31,-0.32,,
-2026-08-24,MU,Core Foundation,915.21,DOWNTREND 🔴,11.2,"[TRIM 🟠] Strong 4W return but decreasing volume and negative 1W return, tech headwinds.",2026-08-31,2.84,,
-2026-08-24,KLAC,Core Foundation,180.74,DOWNTREND 🔴,-1.03,"[SELL 🔴] Downtrend, negative returns, decreasing volume, and tech-led headwinds.",2026-08-31,-3.49,,
-2026-08-24,ZSIL.SW,Core Foundation,158.86,UPTREND 🟢,19.86,"[ACCUMULATE 🟢] Strong uptrend, increasing volume, and precious metal safe-haven appeal.",2026-08-31,-3.89,,
-2026-08-24,BCHE.SW,Core Foundation,189.78,UPTREND 🟢,8.72,"[ACCUMULATE 🟢] Solid uptrend, increasing volume, and positive 4W return.",2026-08-31,2.53,,
-2026-08-24,ENA-USD,Dynamic Uptrend,0.16,UPTREND 🟢,81.75,"[STRONG BUY 🚀] Explosive uptrend, strong volume, and bullish news with significant insider buying.",2026-08-31,-5.17,,
-2026-08-24,PLTR,Dynamic Uptrend,177.37,UPTREND 🟢,44.13,[TRIM 🟠] Strong 4W return but decreasing volume and negative 1W return.,2026-08-31,5.01,,
-2026-08-24,CHYM,Dynamic Uptrend,32.94,UPTREND 🟢,43.28,"[ACCUMULATE 🟢] Strong uptrend and 4W return, but insider selling and stable volume temper enthusiasm.",2026-08-31,-0.82,,
-2026-08-24,MSTR,Dynamic Uptrend,125.35,UPTREND 🟢,34.38,"[STRONG BUY 🚀] Strong uptrend, increasing volume, and significant Bitcoin exposure.",2026-08-31,3.11,,
-2026-08-24,ETH-USD,Dynamic Uptrend,2500.34,UPTREND 🟢,32.82,"[STRONG BUY 🚀] Strong uptrend, increasing volume, and crypto gaining safe-haven traction.",2026-08-31,-1.4,,
-2026-08-24,SOL-USD,Dynamic Uptrend,96.88,UPTREND 🟢,31.9,"[STRONG BUY 🚀] Strong uptrend, increasing volume, and positive ecosystem growth news.",2026-08-31,6.42,,
+2026-08-24,SOL-USD,Dynamic Uptrend,96.38,UPTREND 🟢,31.22,"[ACCUMULATE 🟢] Strong uptrend, increasing volume, positive ecosystem news.",2026-08-31,6.97,2026-09-21,22.39
+2026-08-24,DOGE-USD,Dynamic Uptrend,0.09,UPTREND 🟢,30.1,"[TRIM 🟠] Strong 4W return, but negative news and meme coin volatility.",2026-08-31,-8.04,2026-09-21,3.36
+2026-08-24,FET-USD,Dynamic Uptrend,0.18,UPTREND 🟢,25.02,"[STRONG BUY 🚀] Strong uptrend, increasing volume, benefiting from AI token rally.",2026-08-31,-16.38,2026-09-21,13.29
+2026-08-24,SMCI,Dynamic Uptrend,34.51,UPTREND 🟢,21.5,"[TRIM 🟠] Strong 4W return, but negative news and decreasing volume.",2026-08-31,8.81,2026-09-21,18.46
+2026-08-24,SPCE,Dynamic Uptrend,3.08,UPTREND 🟢,20.78,"[TRIM 🟠] Strong 4W gains, but volume weakening and news indicates delays.",2026-08-31,-5.36,2026-09-21,1.3
+2026-08-24,LTC-USD,Dynamic Uptrend,52.63,UPTREND 🟢,17.91,"[TRIM 🟠] Strong 4W gains, but negative long-term outlook despite strong volume.",2026-08-31,-8.06,2026-09-21,17.74
+2026-08-24,CRWV,Dynamic Uptrend,84.39,UPTREND 🟢,17.58,"[TRIM 🟠] Strong 4W gains, but recent dip and tech sector weakness.",2026-08-31,-0.87,2026-09-21,-1.28
+2026-08-24,ICP-USD,Dynamic Uptrend,2.43,UPTREND 🟢,17.47,"[ACCUMULATE 🟢] Strong momentum, increasing volume, positive news; potential uncorrelated asset.",2026-08-31,-1.73,2026-09-21,21.15
+2026-08-24,IONQ,Dynamic Uptrend,42.31,UPTREND 🟢,16.11,"[TRIM 🟠] Strong 4W gains, but volume weakening and significant warning in news.",2026-08-31,-5.92,2026-09-21,-4.57
+2026-08-24,SMSN.IL,Dynamic Uptrend,4854.0,UPTREND 🟢,15.9,"[TRIM 🟠] Strong 4W gains, but volume weakening and negative news.",2026-08-31,-3.13,2026-09-21,3.42
+2026-08-24,AMGN,Dynamic Uptrend,440.72,UPTREND 🟢,15.09,"[HOLD 🟡] Strong 4W performance, stable volume, but extended after 52-week high.",2026-08-31,-2.27,2026-09-21,-11.2
+2026-08-24,ACN,Dynamic Uptrend,186.76,UPTREND 🟢,12.56,"[TRIM 🟠] Strong 4W gains, but volume weakening despite positive news.",2026-08-31,1.65,2026-09-21,0.66
+2026-08-24,RGTI,Dynamic Uptrend,16.81,UPTREND 🟢,12.44,"[TRIM 🟠] Strong 4W gains, but volume weakening, warning, and insider selling.",2026-08-31,-6.96,2026-09-21,-2.83
+2026-08-24,SBIO.AS,Dynamic Uptrend,65.29,UPTREND 🟢,12.24,[ACCUMULATE 🟢] Strong 4W performance with increasing volume; defensive biotech sector.,2026-08-31,-2.94,2026-09-21,-2.28
+2026-08-24,NFLX,Dynamic Uptrend,80.04,UPTREND 🟢,11.62,"[TRIM 🟠] Strong 4W gains, but volume weakening and recent selloff concerns.",2026-08-31,1.89,2026-09-21,-8.97
+2026-08-24,TKA.DE,Dynamic Uptrend,13.37,UPTREND 🟢,10.91,"[HOLD 🟡] Moderate 4W gains, stable volume, but restructuring and operational concerns.",2026-08-31,6.96,2026-09-21,11.74
+2026-08-24,PBE,Dynamic Uptrend,96.86,UPTREND 🟢,8.1,"[HOLD 🟡] Moderate 4W gains, but weakening volume and recent dip.",2026-08-31,-1.01,2026-09-21,-1.5
+2026-08-24,BLK,Dynamic Uptrend,1171.19,UPTREND 🟢,7.41,"[HOLD 🟡] Moderate 4W gains, but weakening volume despite positive news.",2026-08-31,-1.51,2026-09-21,-8.44
+2026-08-24,AFX.DE,Dynamic Uptrend,32.48,UPTREND 🟢,6.49,"[TRIM 🟠] Moderate 4W gains, but weakening volume and negative restructuring news.",2026-08-31,-1.11,2026-09-21,-10.53
+2026-08-24,PANW,Dynamic Uptrend,351.11,UPTREND 🟢,5.81,"[HOLD 🟡] Moderate 4W gains, stable volume, but recent dip in tech-sensitive sector.",2026-08-31,6.91,2026-09-21,5.58
+2026-08-24,MSFT,Dynamic Uptrend,488.2,UPTREND 🟢,5.25,"[HOLD 🟡] Moderate 4W gains, but weakening volume in a risk-off tech environment.",2026-08-31,4.62,2026-09-21,1.63
+2026-08-24,CVX,Dynamic Uptrend,202.57,UPTREND 🟢,3.81,"[HOLD 🟡] Modest 4W gains, stable volume, but oil price volatility and geopolitical shifts.",2026-08-31,1.17,2026-09-21,1.75
+2026-08-24,SREN.SW,Dynamic Uptrend,139.3,UPTREND 🟢,3.3,"[HOLD 🟡] Modest 4W gains, but weakening volume despite positive sector news.",2026-08-31,1.11,2026-09-21,0.0
+2026-08-24,VOO,Dynamic Uptrend,701.18,UPTREND 🟢,2.12,"[TRIM 🟠] Broad market ETF, increasing volume on negative 1W, risk-off sentiment.",2026-08-31,0.42,2026-09-21,0.87
+2026-08-24,MSE.PA,Dynamic Uptrend,73.54,UPTREND 🟢,1.63,[HOLD 🟡] Uptrend but weak volume and flat 1W return in risk-off environment.,2026-08-31,-0.54,2026-09-21,-2.41
+2026-08-24,RHM.DE,Dynamic Uptrend,1155.4,UPTREND 🟢,1.35,"[HOLD 🟡] Defense stock in uptrend, but weak volume and flat 1W return.",2026-08-31,-3.17,2026-09-21,-12.45
+2026-08-24,XDGU.SW,Dynamic Uptrend,12.77,UPTREND 🟢,0.96,"[ACCUMULATE 🟢] Stable volume and uptrend, but flat 1W return in risk-off.",2026-08-31,-21.41,2026-09-21,-0.03
+2026-08-24,CHDVD.SW,Dynamic Uptrend,192.4,UPTREND 🟢,-0.2,"[ACCUMULATE 🟢] Increasing volume in uptrend, despite flat recent returns.",2026-08-31,-1.01,2026-09-21,-2.17
+2026-08-24,PSPN.SW,Dynamic Uptrend,145.5,UPTREND 🟢,-0.34,[HOLD 🟡] Mixed news and flat returns despite increasing volume; caution warranted.,2026-08-31,-0.07,2026-09-21,1.72
+2026-08-24,GOOG,Dynamic Uptrend,346.58,UPTREND 🟢,-2.82,[TRIM 🟠] Tech stock with declining volume and negative 4W return in risk-off.,2026-08-31,-3.32,2026-09-21,0.78
+2026-08-24,AXNA.F,Dynamic Uptrend,11.73,UPTREND 🟢,-3.77,"[TRIM 🟠] Weak volume, negative 4W return despite uptrend; risk-off environment.",2026-08-31,2.09,2026-09-21,-3.5
+2026-08-24,BRK-A,Downtrend / Reversal,753220.62,DOWNTREND 🔴,-1.75,"[HOLD 🟡] Downtrend with weak volume, but positive 1W return offers some support.",2026-08-31,0.37,2026-09-21,0.95
+2026-08-24,META,Downtrend / Reversal,553.55,DOWNTREND 🔴,-0.57,[HOLD 🟡] Downtrending tech stock with stable volume; risk-off sentiment prevails.,2026-08-31,3.33,2026-09-21,29.11
+2026-08-24,CHKP,Downtrend / Reversal,130.8,DOWNTREND 🔴,2.89,[HOLD 🟡] Downtrend with weak volume despite positive news; caution warranted.,2026-08-31,5.93,2026-09-21,2.41
+2026-08-24,NVO,Downtrend / Reversal,46.75,DOWNTREND 🔴,0.57,[SELL 🔴] Downtrending with stable volume and increasing competition concerns.,2026-08-31,-2.77,2026-09-21,-14.37
+2026-08-24,VDEA.MI,Downtrend / Reversal,54.45,DOWNTREND 🔴,-0.53,[SELL 🔴] Downtrending with flat 1W return and negative 4W return.,2026-08-31,0.77,2026-09-21,0.7
+2026-08-24,VDEA.L,Downtrend / Reversal,63.5,DOWNTREND 🔴,0.76,[SELL 🔴] Downtrending with weak volume and flat 1W return.,2026-08-31,0.54,2026-09-21,-0.82
+2026-08-24,IFX.DE,Downtrend / Reversal,55.97,DOWNTREND 🔴,-9.24,"[SELL 🔴] Strong negative 4W return in downtrend, despite partnership news.",2026-08-31,-0.04,2026-09-21,3.32
+2026-08-24,XSPS.MI,Downtrend / Reversal,4.75,DOWNTREND 🔴,-4.42,[SELL 🔴] Increasing volume in downtrend with negative returns indicates strong selling.,2026-08-31,0.8,2026-09-21,2.07
+2026-08-24,SPSN.SW,Downtrend / Reversal,128.9,DOWNTREND 🔴,-2.2,[SELL 🔴] Increasing volume in downtrend with negative returns and mixed news.,2026-08-31,-2.72,2026-09-21,-2.56
+2026-08-24,IWME.AS,Downtrend / Reversal,8.07,DOWNTREND 🔴,1.39,[SELL 🔴] Increasing volume in downtrend with flat 1W return.,2026-08-31,-0.87,2026-09-21,1.0
+2026-08-24,ABBN.SW,Downtrend / Reversal,80.2,DOWNTREND 🔴,0.86,"[HOLD 🟡] Downtrend with weak volume, but positive news offers some support.",2026-08-31,-1.75,2026-09-21,2.49
+2026-08-24,ACLN.SW,Downtrend / Reversal,75.2,DOWNTREND 🔴,3.23,"[HOLD 🟡] Downtrend with increasing volume and positive news, but flat 1W return.",2026-08-31,-3.26,2026-09-21,2.13
+2026-08-24,UBSG.SW,Downtrend / Reversal,42.5,DOWNTREND 🔴,-0.12,[SELL 🔴] Downtrend with weak volume and flat 1W return; risk-off environment.,2026-08-31,4.16,2026-09-21,-1.2
+2026-08-24,SQN.SW,Downtrend / Reversal,39.8,DOWNTREND 🔴,-4.97,"[HOLD 🟡] Mixed news, increasing volume, but no positive 1W momentum.",2026-08-31,5.33,2026-09-21,1.06
+2026-08-24,VAGX.SW,Downtrend / Reversal,20.52,DOWNTREND 🔴,-0.05,"[SELL 🔴] Weak volume, no news, and persistent downtrend.",2026-08-31,0.05,2026-09-21,-1.15
+2026-08-24,VST,Downtrend / Reversal,136.13,DOWNTREND 🔴,-8.13,[ACCUMULATE 🟢] Strong AI power narrative despite downtrend; potential reversal.,2026-08-31,0.48,2026-09-21,2.51
+2026-08-24,LMT,Downtrend / Reversal,562.56,DOWNTREND 🔴,-3.46,"[HOLD 🟡] Defensive sector, stable volume, but no positive momentum yet.",2026-08-31,-0.65,2026-09-21,-5.27
+2026-08-24,DKS,Downtrend / Reversal,182.63,DOWNTREND 🔴,-6.78,[SELL 🔴] Increasing volume on downtrend with negative returns is bearish.,2026-08-31,-25.7,2026-09-21,-33.92
+2026-08-24,AAL,Downtrend / Reversal,13.72,DOWNTREND 🔴,-10.15,"[SELL 🔴] Risk-off sentiment, negative news, and persistent downtrend.",2026-08-31,-2.08,2026-09-21,-4.19
+2026-08-24,HON,Downtrend / Reversal,214.32,DOWNTREND 🔴,-11.56,"[HOLD 🟡] Positive AI news, but weak volume and persistent downtrend.",2026-08-31,-0.55,2026-09-21,-3.77
+2026-08-24,ONON,Downtrend / Reversal,29.48,DOWNTREND 🔴,-18.65,"[SELL 🔴] Significant decline, stable volume, and no positive catalysts.",2026-08-31,-2.75,2026-09-21,-7.73
+2026-08-24,AVGO,Downtrend / Reversal,361.77,DOWNTREND 🔴,-7.07,"[SELL 🔴] Tech decline, negative news, increasing volume on downtrend.",2026-08-31,1.76,2026-09-21,-1.36
+2026-08-24,BA,Downtrend / Reversal,209.32,DOWNTREND 🔴,-3.16,"[HOLD 🟡] Positive news, but stable volume and persistent downtrend.",2026-08-31,-1.09,2026-09-21,-5.1
+2026-08-24,NVDA,Downtrend / Reversal,209.27,DOWNTREND 🔴,4.24,"[SELL 🔴] Tech leading declines, weak volume, earnings uncertainty, risk-off sentiment.",2026-08-31,5.26,2026-09-21,6.52
+2026-08-24,AMAT,Downtrend / Reversal,477.39,DOWNTREND 🔴,-5.86,"[HOLD 🟡] Mixed AI news, stable volume, but persistent downtrend.",2026-08-31,-4.48,2026-09-21,-4.7
+2026-08-24,NXPI,Downtrend / Reversal,218.2,DOWNTREND 🔴,-4.78,"[SELL 🔴] Negative news, weak volume, and persistent downtrend.",2026-08-31,2.88,2026-09-21,4.25
+2026-08-24,TSM,Downtrend / Reversal,405.27,DOWNTREND 🔴,0.25,"[SELL 🔴] Tech decline, negative news, weak volume, and persistent downtrend.",2026-08-31,3.33,2026-09-21,8.09
+2026-08-24,TXN,Downtrend / Reversal,255.57,DOWNTREND 🔴,-7.31,"[HOLD 🟡] Mixed news, weak volume, but potential long-term value.",2026-08-31,2.03,2026-09-21,4.01
+2026-08-24,INTC,Downtrend / Reversal,86.19,DOWNTREND 🔴,-4.45,"[SELL 🔴] Tech decline, negative news, weak volume, and persistent downtrend.",2026-08-31,4.26,2026-09-21,37.36
+2026-08-24,AMSC,Downtrend / Reversal,28.57,DOWNTREND 🔴,-2.72,"[SELL 🔴] Explicitly negative news, weak volume, and persistent downtrend.",2026-08-31,-0.88,2026-09-21,6.28
+2026-08-24,O,Core Foundation,63.06,DOWNTREND 🔴,-1.27,"[HOLD 🟡] Downtrend persists, but positive 1W return and stable volume suggest holding for dividends.",2026-08-31,-2.58,2026-09-21,-9.67
+2026-08-24,BNDW,Core Foundation,67.5,DOWNTREND 🔴,0.37,"[HOLD 🟡] Downtrend, but positive short-term returns and stable volume support holding for yield.",2026-08-31,-0.3,2026-09-21,-1.29
+2026-08-24,BTC-USD,Core Foundation,79539.61,UPTREND 🟢,25.29,"[STRONG BUY 🚀] Strong uptrend, increasing volume, and institutional safe-haven narrative.",2026-08-31,-1.51,2026-09-21,7.18
+2026-08-24,ZGLD.SW,Core Foundation,1094.0,UPTREND 🟢,13.06,"[ACCUMULATE 🟢] Strong uptrend, increasing volume, and gold is a crucial uncorrelated hedge.",2026-08-31,-3.25,2026-09-21,-3.2
+2026-08-24,SHEL,Core Foundation,92.8,UPTREND 🟢,1.78,"[HOLD 🟡] Uptrend but weak volume and negative 1W return, oil prices easing.",2026-08-31,-1.73,2026-09-21,1.4
+2026-08-24,ALL,Core Foundation,259.57,UPTREND 🟢,-1.71,[HOLD 🟡] Uptrend but negative 4W return and mixed news warrant caution.,2026-08-31,-0.32,2026-09-21,-4.02
+2026-08-24,MU,Core Foundation,915.21,DOWNTREND 🔴,11.2,"[TRIM 🟠] Strong 4W return but decreasing volume and negative 1W return, tech headwinds.",2026-08-31,2.84,2026-09-21,13.82
+2026-08-24,KLAC,Core Foundation,180.74,DOWNTREND 🔴,-1.03,"[SELL 🔴] Downtrend, negative returns, decreasing volume, and tech-led headwinds.",2026-08-31,-3.49,2026-09-21,0.5
+2026-08-24,ZSIL.SW,Core Foundation,158.86,UPTREND 🟢,19.86,"[ACCUMULATE 🟢] Strong uptrend, increasing volume, and precious metal safe-haven appeal.",2026-08-31,-3.89,2026-09-21,-2.08
+2026-08-24,BCHE.SW,Core Foundation,189.78,UPTREND 🟢,8.72,"[ACCUMULATE 🟢] Solid uptrend, increasing volume, and positive 4W return.",2026-08-31,2.53,2026-09-21,-11.99
+2026-08-24,ENA-USD,Dynamic Uptrend,0.16,UPTREND 🟢,81.75,"[STRONG BUY 🚀] Explosive uptrend, strong volume, and bullish news with significant insider buying.",2026-08-31,-5.17,2026-09-21,39.1
+2026-08-24,PLTR,Dynamic Uptrend,177.37,UPTREND 🟢,44.13,[TRIM 🟠] Strong 4W return but decreasing volume and negative 1W return.,2026-08-31,5.01,2026-09-21,2.23
+2026-08-24,CHYM,Dynamic Uptrend,32.94,UPTREND 🟢,43.28,"[ACCUMULATE 🟢] Strong uptrend and 4W return, but insider selling and stable volume temper enthusiasm.",2026-08-31,-0.82,2026-09-21,-8.91
+2026-08-24,MSTR,Dynamic Uptrend,125.35,UPTREND 🟢,34.38,"[STRONG BUY 🚀] Strong uptrend, increasing volume, and significant Bitcoin exposure.",2026-08-31,3.11,2026-09-21,32.31
+2026-08-24,ETH-USD,Dynamic Uptrend,2500.34,UPTREND 🟢,32.82,"[STRONG BUY 🚀] Strong uptrend, increasing volume, and crypto gaining safe-haven traction.",2026-08-31,-1.4,2026-09-21,8.95
+2026-08-24,SOL-USD,Dynamic Uptrend,96.88,UPTREND 🟢,31.9,"[STRONG BUY 🚀] Strong uptrend, increasing volume, and positive ecosystem growth news.",2026-08-31,6.42,2026-09-21,21.76
 2026-08-24,FLOKI-USD,Dynamic Uptrend,0.0,UPTREND 🟢,30.95,[TRIM 🟠] Strong 4W return but negative 1W and news warns of high risk.,,,,
-2026-08-24,DOGE-USD,Dynamic Uptrend,0.09,UPTREND 🟢,29.88,[TRIM 🟠] Strong 4W return but negative 1W and news questions buying due to drops.,2026-08-31,-8.04,,
-2026-08-24,FET-USD,Dynamic Uptrend,0.18,UPTREND 🟢,24.95,"[STRONG BUY 🚀] Strong uptrend, increasing volume, and positive AI token rally news.",2026-08-31,-16.38,,
-2026-08-24,SMCI,Dynamic Uptrend,35.47,UPTREND 🟢,24.89,"[TRIM 🟠] Strong 4W return but negative news, decreasing volume, and tech headwinds.",2026-08-31,5.86,,
-2026-08-24,CRWV,Dynamic Uptrend,85.98,UPTREND 🟢,19.8,"[ACCUMULATE 🟢] Strong AI cloud deal, stable volume, minor pullback after strong 4W gains.",2026-08-31,-2.7,,
-2026-08-24,SPCE,Dynamic Uptrend,3.04,UPTREND 🟢,19.22,"[TRIM 🟠] Strong 4W return, but decreasing volume and launch delays suggest profit-taking.",2026-08-31,-4.11,,
-2026-08-24,LTC-USD,Dynamic Uptrend,52.44,UPTREND 🟢,17.48,"[TRIM 🟠] Strong 4W return, but negative long-term outlook despite strong volume.",2026-08-31,-7.73,,
-2026-08-24,ICP-USD,Dynamic Uptrend,2.43,UPTREND 🟢,17.21,"[STRONG BUY 🚀] Strong momentum, increasing volume, and positive news flow.",2026-08-31,-1.73,,
-2026-08-24,SMSN.IL,Dynamic Uptrend,4854.0,UPTREND 🟢,15.9,"[TRIM 🟠] Strong 4W return, but decreasing volume and negative news.",2026-08-31,-3.13,,
-2026-08-24,IONQ,Dynamic Uptrend,42.14,UPTREND 🟢,15.64,"[TRIM 🟠] Strong 4W return, but decreasing volume and significant warning in news.",2026-08-31,-5.54,,
-2026-08-24,AMGN,Dynamic Uptrend,441.89,UPTREND 🟢,15.4,"[ACCUMULATE 🟢] Strong 4W return, stable volume, positive news reaching 52-week high.",2026-08-31,-2.53,,
-2026-08-24,ACN,Dynamic Uptrend,186.31,UPTREND 🟢,12.29,"[TRIM 🟠] Strong 4W return, but decreasing volume suggests profit-taking after strong run.",2026-08-31,1.89,,
-2026-08-24,SBIO.AS,Dynamic Uptrend,65.29,UPTREND 🟢,12.24,"[ACCUMULATE 🟢] Strong 4W return with increasing volume, indicating sustained interest.",2026-08-31,-2.94,,
-2026-08-24,RGTI,Dynamic Uptrend,16.72,UPTREND 🟢,11.81,"[TRIM 🟠] Strong 4W return, but decreasing volume and negative news (warning, insider selling).",2026-08-31,-6.46,,
-2026-08-24,NFLX,Dynamic Uptrend,80.05,UPTREND 🟢,11.63,"[TRIM 🟠] Strong 4W return, but decreasing volume suggests caution despite strategic moves.",2026-08-31,1.87,,
-2026-08-24,TKA.DE,Dynamic Uptrend,13.37,UPTREND 🟢,10.91,"[TRIM 🟠] Strong 4W return, but restructuring and operational challenges are concerning.",2026-08-31,6.96,,
-2026-08-24,PBE,Dynamic Uptrend,97.13,UPTREND 🟢,8.39,"[HOLD 🟡] Moderate 4W return, decreasing volume, and neutral news.",2026-08-31,-1.29,,
-2026-08-24,BLK,Dynamic Uptrend,1170.18,UPTREND 🟢,7.32,"[ACCUMULATE 🟢] Positive news on Bitcoin fund and institutional interest, aligning with global context.",2026-08-31,-1.42,,
-2026-08-24,AFX.DE,Dynamic Uptrend,32.48,UPTREND 🟢,6.49,"[HOLD 🟡] Moderate 4W return, decreasing volume, and negative news on job cuts.",2026-08-31,-1.11,,
-2026-08-24,PANW,Dynamic Uptrend,350.55,UPTREND 🟢,5.64,"[ACCUMULATE 🟢] Stable volume, decent returns, and strong cybersecurity sector outlook.",2026-08-31,7.08,,
-2026-08-24,MSFT,Dynamic Uptrend,488.96,UPTREND 🟢,5.41,"[ACCUMULATE 🟢] Tech giant with AI exposure, positive long-term outlook despite decreasing volume.",2026-08-31,4.46,,
-2026-08-24,NVDA,Dynamic Uptrend,210.45,UPTREND 🟢,4.83,"[HOLD 🟡] Tech headwinds, decreasing volume, and earnings uncertainty warrant caution.",2026-08-31,4.67,,
-2026-08-24,CVX,Dynamic Uptrend,202.1,UPTREND 🟢,3.57,"[HOLD 🟡] Stable volume, moderate returns, and easing oil prices due to de-escalation.",2026-08-31,1.41,,
-2026-08-24,SREN.SW,Dynamic Uptrend,139.3,UPTREND 🟢,3.3,"[HOLD 🟡] Decreasing volume, low returns, despite positive news on disaster losses.",2026-08-31,1.11,,
-2026-08-24,VOO,Dynamic Uptrend,703.05,UPTREND 🟢,2.39,[ACCUMULATE 🟢] Strong volume and positive 4W return in an uptrend.,2026-08-31,0.15,,
-2026-08-24,MSE.PA,Dynamic Uptrend,73.54,UPTREND 🟢,1.63,[HOLD 🟡] Uptrend with weak volume and valuation concerns after rally.,2026-08-31,-0.54,,
-2026-08-24,RHM.DE,Dynamic Uptrend,1155.4,UPTREND 🟢,1.35,[HOLD 🟡] Uptrend with weak volume; defense sector offers some geopolitical hedge.,2026-08-31,-3.17,,
-2026-08-24,XDGU.SW,Dynamic Uptrend,12.77,UPTREND 🟢,0.96,[HOLD 🟡] Stable uptrend with no significant catalysts or news.,2026-08-31,-21.41,,
-2026-08-24,CHDVD.SW,Dynamic Uptrend,192.4,UPTREND 🟢,-0.2,"[ACCUMULATE 🟢] Strong increasing volume in an uptrend, despite slight 4W dip.",2026-08-31,-1.01,,
-2026-08-24,PSPN.SW,Dynamic Uptrend,145.5,UPTREND 🟢,-0.34,"[HOLD 🟡] Strong volume in uptrend, but negative 4W return and mixed earnings news.",2026-08-31,-0.07,,
-2026-08-24,GOOG,Dynamic Uptrend,347.43,UPTREND 🟢,-2.59,"[HOLD 🟡] Positive 1W return, but weak volume and negative 4W amidst tech headwinds.",2026-08-31,-3.55,,
-2026-08-24,LMT,Dynamic Uptrend,566.78,UPTREND 🟢,-2.74,"[ACCUMULATE 🟢] Defense stock in uptrend, positive 1W return, geopolitical hedge.",2026-08-31,-1.39,,
-2026-08-24,AXNA.F,Dynamic Uptrend,11.73,UPTREND 🟢,-3.77,[HOLD 🟡] Weak volume and negative 4W return despite potential undervaluation news.,2026-08-31,2.09,,
-2026-08-24,BRK-A,Downtrend / Reversal,752890.62,DOWNTREND 🔴,-1.79,"[HOLD 🟡] Downtrend with positive 1W return, but weak volume. News is mixed.",2026-08-31,0.41,,
-2026-08-24,META,Downtrend / Reversal,555.66,DOWNTREND 🔴,-0.19,"[HOLD 🟡] Downtrend with positive 1W return, but stable volume and tech headwinds.",2026-08-31,2.93,,
-2026-08-24,VST,Downtrend / Reversal,136.58,DOWNTREND 🔴,-7.83,"[HOLD 🟡] Downtrend with positive 1W return, stable volume, but positive AI news.",2026-08-31,0.15,,
-2026-08-24,VDEA.MI,Downtrend / Reversal,54.45,DOWNTREND 🔴,-0.53,[SELL 🔴] Downtrend with no positive momentum or news.,2026-08-31,0.77,,
-2026-08-24,SQN.SW,Downtrend / Reversal,39.8,DOWNTREND 🔴,-4.97,[SELL 🔴] Downtrend with no positive 1W return despite increasing volume; mixed news.,2026-08-31,5.33,,
-2026-08-24,UBSG.SW,Downtrend / Reversal,42.5,DOWNTREND 🔴,-0.12,"[HOLD 🟡] Downtrend with weak volume, but positive news suggests potential for reversal.",2026-08-31,4.16,,
-2026-08-24,IWME.AS,Downtrend / Reversal,8.07,DOWNTREND 🔴,1.39,[SELL 🔴] Downtrend with no positive 1W return despite increasing volume.,2026-08-31,-0.87,,
-2026-08-24,XSPS.MI,Downtrend / Reversal,4.75,DOWNTREND 🔴,-4.42,[SELL 🔴] Downtrend with no positive 1W return despite increasing volume.,2026-08-31,0.8,,
-2026-08-24,IFX.DE,Downtrend / Reversal,55.97,DOWNTREND 🔴,-9.24,"[HOLD 🟡] Downtrend with stable volume, but positive news on AI partnership.",2026-08-31,-0.04,,
-2026-08-24,VDEA.L,Downtrend / Reversal,63.5,DOWNTREND 🔴,0.76,"[SELL 🔴] Downtrend with no positive momentum, weak volume, and no news.",2026-08-31,0.54,,
-2026-08-24,ABBN.SW,Downtrend / Reversal,80.2,DOWNTREND 🔴,0.86,"[HOLD 🟡] Downtrend with weak volume, but positive news on infrastructure projects.",2026-08-31,-1.75,,
-2026-08-24,ACLN.SW,Downtrend / Reversal,75.2,DOWNTREND 🔴,3.23,[ACCUMULATE 🟢] Strong volume and positive earnings suggest potential accumulation despite flat 1W return.,2026-08-31,-3.26,,
-2026-08-24,VAGX.SW,Downtrend / Reversal,20.52,DOWNTREND 🔴,-0.05,"[SELL 🔴] Weak volume, no news, and flat performance in a clear downtrend.",2026-08-31,0.05,,
-2026-08-24,SPSN.SW,Downtrend / Reversal,128.9,DOWNTREND 🔴,-2.2,[HOLD 🟡] Mixed news and flat 1W return despite strong volume; warrants caution.,2026-08-31,-2.72,,
-2026-08-24,NVO,Downtrend / Reversal,46.62,DOWNTREND 🔴,0.29,"[SELL 🔴] Negative 1W return, stable volume, and no direct positive news for NVO.",2026-08-31,-2.5,,
-2026-08-24,CHKP,Downtrend / Reversal,130.18,DOWNTREND 🔴,2.4,"[HOLD 🟡] Positive long-term AI outlook, but weak volume and negative 1W return.",2026-08-31,6.43,,
-2026-08-24,HON,Downtrend / Reversal,215.09,DOWNTREND 🔴,-11.24,[HOLD 🟡] Positive AI transformation news offsets weak volume and negative returns; hold for potential turnaround.,2026-08-31,-0.91,,
-2026-08-24,DKS,Downtrend / Reversal,181.12,DOWNTREND 🔴,-7.55,[SELL 🔴] Increasing volume with negative returns in a downtrend indicates strong selling pressure.,2026-08-31,-25.08,,
-2026-08-24,AAL,Downtrend / Reversal,13.66,DOWNTREND 🔴,-10.54,"[SELL 🔴] Stable volume, negative returns, and no specific positive news for AAL.",2026-08-31,-1.65,,
-2026-08-24,AVGO,Downtrend / Reversal,363.29,DOWNTREND 🔴,-6.68,[SELL 🔴] Strong volume with negative returns in a downtrend indicates continued selling pressure.,2026-08-31,1.34,,
-2026-08-24,TXN,Downtrend / Reversal,259.82,DOWNTREND 🔴,-5.77,"[HOLD 🟡] Positive analyst target increase, but weak volume and negative returns warrant a hold.",2026-08-31,0.36,,
-2026-08-24,AMAT,Downtrend / Reversal,483.77,DOWNTREND 🔴,-4.6,"[HOLD 🟡] Strong positioning for AI chip manufacturing boom, but stable volume and negative returns.",2026-08-31,-5.74,,
-2026-08-24,NXPI,Downtrend / Reversal,221.12,DOWNTREND 🔴,-3.51,"[SELL 🔴] Weak volume, negative returns, and potentially skeptical Wall Street sentiment.",2026-08-31,1.52,,
-2026-08-24,TSM,Downtrend / Reversal,410.55,DOWNTREND 🔴,1.56,[SELL 🔴] Negative news and weak volume in a downtrend; continued selling pressure.,2026-08-31,2.0,,
-2026-08-24,ONON,Downtrend / Reversal,29.39,DOWNTREND 🔴,-18.92,"[SELL 🔴] Significant underperformance, negative returns, and stable volume indicate continued weakness.",2026-08-31,-2.45,,
-2026-08-24,BA,Downtrend / Reversal,209.08,DOWNTREND 🔴,-3.27,"[HOLD 🟡] Positive defense and partnership news, but stable volume and negative returns.",2026-08-31,-0.98,,
-2026-08-24,INTC,Downtrend / Reversal,87.61,DOWNTREND 🔴,-2.87,"[SELL 🔴] Negative news, weak volume, and significant short-term losses in a downtrend.",2026-08-31,2.57,,
-2026-08-24,AMSC,Downtrend / Reversal,28.64,DOWNTREND 🔴,-2.49,"[SELL 🔴] Plummeting shares, negative news, weak volume, and significant short-term losses.",2026-08-31,-1.12,,
-2026-08-24,O,Core Foundation,63.17,DOWNTREND 🔴,-1.1,"[HOLD 🟡] Downtrend, but positive weekly return and analyst buy provide some support.",2026-08-31,-2.75,,
-2026-08-24,BNDW,Core Foundation,67.5,DOWNTREND 🔴,0.36,[SELL 🔴] Bonds face headwinds from rising rates; downtrend confirms negative sentiment.,2026-08-31,-0.3,,
-2026-08-24,BTC-USD,Core Foundation,79017.85,UPTREND 🟢,24.47,"[ACCUMULATE 🟢] Strong uptrend and volume, but high greed index warrants caution.",2026-08-31,-0.86,,
-2026-08-24,ZGLD.SW,Core Foundation,1094.0,UPTREND 🟢,13.06,[STRONG BUY 🚀] Geopolitical risks and safe-haven demand support strong uptrend and volume.,2026-08-31,-3.25,,
-2026-08-24,SHEL,Core Foundation,93.0,UPTREND 🟢,2.0,"[ACCUMULATE 🟢] Macro tailwinds for energy, strong PCR, but recent weak performance and volume.",2026-08-31,-1.95,,
-2026-08-24,ALL,Core Foundation,260.19,UPTREND 🟢,-1.47,"[TRIM 🟠] Strong trend and returns, but insider selling is a significant downgrade signal.",2026-08-31,-0.56,,
-2026-08-24,MU,Core Foundation,910.43,DOWNTREND 🔴,10.62,"[SELL 🔴] Strong downtrend, negative returns, weak volume, and insider selling.",2026-08-31,3.38,,
-2026-08-24,KLAC,Core Foundation,181.57,DOWNTREND 🔴,-0.57,"[SELL 🔴] Downtrend, bearish PCR, weak volume, and insider selling.",2026-08-31,-3.93,,
-2026-08-24,ZSIL.SW,Core Foundation,158.86,UPTREND 🟢,19.86,[STRONG BUY 🚀] Geopolitical risks and safe-haven demand support strong uptrend and volume.,2026-08-31,-3.89,,
-2026-08-24,BCHE.SW,Core Foundation,189.78,UPTREND 🟢,8.72,[STRONG BUY 🚀] Safe-haven demand and strong trend/volume in volatile macro environment.,2026-08-31,2.53,,
-2026-08-24,ENA-USD,Dynamic Uptrend,0.15,UPTREND 🟢,71.67,"[TRIM 🟠] Negative weekly return against trend, high greed index suggests caution.",2026-08-31,1.15,,
-2026-08-24,PLTR,Dynamic Uptrend,175.89,UPTREND 🟢,42.93,"[TRIM 🟠] Insider selling, weak recent performance, and decreasing volume despite uptrend.",2026-08-31,5.89,,
-2026-08-24,CHYM,Dynamic Uptrend,32.7,UPTREND 🟢,42.24,"[SELL 🔴] Very bearish PCR, insider selling, and negative weekly return despite trend.",2026-08-31,-0.09,,
-2026-08-24,SOL-USD,Dynamic Uptrend,97.21,UPTREND 🟢,32.35,"[ACCUMULATE 🟢] Strong uptrend and volume, but high greed index warrants caution.",2026-08-31,6.06,,
-2026-08-24,ETH-USD,Dynamic Uptrend,2486.32,UPTREND 🟢,32.07,"[ACCUMULATE 🟢] Strong uptrend and volume, but high greed index warrants caution.",2026-08-31,-0.84,,
-2026-08-24,MSTR,Dynamic Uptrend,122.63,UPTREND 🟢,31.46,"[TRIM 🟠] Strong performance, but insider selling is a significant downgrade signal.",2026-08-31,5.4,,
+2026-08-24,DOGE-USD,Dynamic Uptrend,0.09,UPTREND 🟢,29.88,[TRIM 🟠] Strong 4W return but negative 1W and news questions buying due to drops.,2026-08-31,-8.04,2026-09-21,3.36
+2026-08-24,FET-USD,Dynamic Uptrend,0.18,UPTREND 🟢,24.95,"[STRONG BUY 🚀] Strong uptrend, increasing volume, and positive AI token rally news.",2026-08-31,-16.38,2026-09-21,13.29
+2026-08-24,SMCI,Dynamic Uptrend,35.47,UPTREND 🟢,24.89,"[TRIM 🟠] Strong 4W return but negative news, decreasing volume, and tech headwinds.",2026-08-31,5.86,2026-09-21,15.25
+2026-08-24,CRWV,Dynamic Uptrend,85.98,UPTREND 🟢,19.8,"[ACCUMULATE 🟢] Strong AI cloud deal, stable volume, minor pullback after strong 4W gains.",2026-08-31,-2.7,2026-09-21,-3.11
+2026-08-24,SPCE,Dynamic Uptrend,3.04,UPTREND 🟢,19.22,"[TRIM 🟠] Strong 4W return, but decreasing volume and launch delays suggest profit-taking.",2026-08-31,-4.11,2026-09-21,2.63
+2026-08-24,LTC-USD,Dynamic Uptrend,52.44,UPTREND 🟢,17.48,"[TRIM 🟠] Strong 4W return, but negative long-term outlook despite strong volume.",2026-08-31,-7.73,2026-09-21,18.16
+2026-08-24,ICP-USD,Dynamic Uptrend,2.43,UPTREND 🟢,17.21,"[STRONG BUY 🚀] Strong momentum, increasing volume, and positive news flow.",2026-08-31,-1.73,2026-09-21,21.15
+2026-08-24,SMSN.IL,Dynamic Uptrend,4854.0,UPTREND 🟢,15.9,"[TRIM 🟠] Strong 4W return, but decreasing volume and negative news.",2026-08-31,-3.13,2026-09-21,3.42
+2026-08-24,IONQ,Dynamic Uptrend,42.14,UPTREND 🟢,15.64,"[TRIM 🟠] Strong 4W return, but decreasing volume and significant warning in news.",2026-08-31,-5.54,2026-09-21,-4.19
+2026-08-24,AMGN,Dynamic Uptrend,441.89,UPTREND 🟢,15.4,"[ACCUMULATE 🟢] Strong 4W return, stable volume, positive news reaching 52-week high.",2026-08-31,-2.53,2026-09-21,-11.43
+2026-08-24,ACN,Dynamic Uptrend,186.31,UPTREND 🟢,12.29,"[TRIM 🟠] Strong 4W return, but decreasing volume suggests profit-taking after strong run.",2026-08-31,1.89,2026-09-21,0.91
+2026-08-24,SBIO.AS,Dynamic Uptrend,65.29,UPTREND 🟢,12.24,"[ACCUMULATE 🟢] Strong 4W return with increasing volume, indicating sustained interest.",2026-08-31,-2.94,2026-09-21,-2.28
+2026-08-24,RGTI,Dynamic Uptrend,16.72,UPTREND 🟢,11.81,"[TRIM 🟠] Strong 4W return, but decreasing volume and negative news (warning, insider selling).",2026-08-31,-6.46,2026-09-21,-2.3
+2026-08-24,NFLX,Dynamic Uptrend,80.05,UPTREND 🟢,11.63,"[TRIM 🟠] Strong 4W return, but decreasing volume suggests caution despite strategic moves.",2026-08-31,1.87,2026-09-21,-8.98
+2026-08-24,TKA.DE,Dynamic Uptrend,13.37,UPTREND 🟢,10.91,"[TRIM 🟠] Strong 4W return, but restructuring and operational challenges are concerning.",2026-08-31,6.96,2026-09-21,11.74
+2026-08-24,PBE,Dynamic Uptrend,97.13,UPTREND 🟢,8.39,"[HOLD 🟡] Moderate 4W return, decreasing volume, and neutral news.",2026-08-31,-1.29,2026-09-21,-1.77
+2026-08-24,BLK,Dynamic Uptrend,1170.18,UPTREND 🟢,7.32,"[ACCUMULATE 🟢] Positive news on Bitcoin fund and institutional interest, aligning with global context.",2026-08-31,-1.42,2026-09-21,-8.36
+2026-08-24,AFX.DE,Dynamic Uptrend,32.48,UPTREND 🟢,6.49,"[HOLD 🟡] Moderate 4W return, decreasing volume, and negative news on job cuts.",2026-08-31,-1.11,2026-09-21,-10.53
+2026-08-24,PANW,Dynamic Uptrend,350.55,UPTREND 🟢,5.64,"[ACCUMULATE 🟢] Stable volume, decent returns, and strong cybersecurity sector outlook.",2026-08-31,7.08,2026-09-21,5.75
+2026-08-24,MSFT,Dynamic Uptrend,488.96,UPTREND 🟢,5.41,"[ACCUMULATE 🟢] Tech giant with AI exposure, positive long-term outlook despite decreasing volume.",2026-08-31,4.46,2026-09-21,1.48
+2026-08-24,NVDA,Dynamic Uptrend,210.45,UPTREND 🟢,4.83,"[HOLD 🟡] Tech headwinds, decreasing volume, and earnings uncertainty warrant caution.",2026-08-31,4.67,2026-09-21,5.92
+2026-08-24,CVX,Dynamic Uptrend,202.1,UPTREND 🟢,3.57,"[HOLD 🟡] Stable volume, moderate returns, and easing oil prices due to de-escalation.",2026-08-31,1.41,2026-09-21,1.98
+2026-08-24,SREN.SW,Dynamic Uptrend,139.3,UPTREND 🟢,3.3,"[HOLD 🟡] Decreasing volume, low returns, despite positive news on disaster losses.",2026-08-31,1.11,2026-09-21,0.0
+2026-08-24,VOO,Dynamic Uptrend,703.05,UPTREND 🟢,2.39,[ACCUMULATE 🟢] Strong volume and positive 4W return in an uptrend.,2026-08-31,0.15,2026-09-21,0.6
+2026-08-24,MSE.PA,Dynamic Uptrend,73.54,UPTREND 🟢,1.63,[HOLD 🟡] Uptrend with weak volume and valuation concerns after rally.,2026-08-31,-0.54,2026-09-21,-2.41
+2026-08-24,RHM.DE,Dynamic Uptrend,1155.4,UPTREND 🟢,1.35,[HOLD 🟡] Uptrend with weak volume; defense sector offers some geopolitical hedge.,2026-08-31,-3.17,2026-09-21,-12.45
+2026-08-24,XDGU.SW,Dynamic Uptrend,12.77,UPTREND 🟢,0.96,[HOLD 🟡] Stable uptrend with no significant catalysts or news.,2026-08-31,-21.41,2026-09-21,-0.03
+2026-08-24,CHDVD.SW,Dynamic Uptrend,192.4,UPTREND 🟢,-0.2,"[ACCUMULATE 🟢] Strong increasing volume in an uptrend, despite slight 4W dip.",2026-08-31,-1.01,2026-09-21,-2.17
+2026-08-24,PSPN.SW,Dynamic Uptrend,145.5,UPTREND 🟢,-0.34,"[HOLD 🟡] Strong volume in uptrend, but negative 4W return and mixed earnings news.",2026-08-31,-0.07,2026-09-21,1.72
+2026-08-24,GOOG,Dynamic Uptrend,347.43,UPTREND 🟢,-2.59,"[HOLD 🟡] Positive 1W return, but weak volume and negative 4W amidst tech headwinds.",2026-08-31,-3.55,2026-09-21,0.53
+2026-08-24,LMT,Dynamic Uptrend,566.78,UPTREND 🟢,-2.74,"[ACCUMULATE 🟢] Defense stock in uptrend, positive 1W return, geopolitical hedge.",2026-08-31,-1.39,2026-09-21,-5.98
+2026-08-24,AXNA.F,Dynamic Uptrend,11.73,UPTREND 🟢,-3.77,[HOLD 🟡] Weak volume and negative 4W return despite potential undervaluation news.,2026-08-31,2.09,2026-09-21,-3.5
+2026-08-24,BRK-A,Downtrend / Reversal,752890.62,DOWNTREND 🔴,-1.79,"[HOLD 🟡] Downtrend with positive 1W return, but weak volume. News is mixed.",2026-08-31,0.41,2026-09-21,1.0
+2026-08-24,META,Downtrend / Reversal,555.66,DOWNTREND 🔴,-0.19,"[HOLD 🟡] Downtrend with positive 1W return, but stable volume and tech headwinds.",2026-08-31,2.93,2026-09-21,28.62
+2026-08-24,VST,Downtrend / Reversal,136.58,DOWNTREND 🔴,-7.83,"[HOLD 🟡] Downtrend with positive 1W return, stable volume, but positive AI news.",2026-08-31,0.15,2026-09-21,2.17
+2026-08-24,VDEA.MI,Downtrend / Reversal,54.45,DOWNTREND 🔴,-0.53,[SELL 🔴] Downtrend with no positive momentum or news.,2026-08-31,0.77,2026-09-21,0.7
+2026-08-24,SQN.SW,Downtrend / Reversal,39.8,DOWNTREND 🔴,-4.97,[SELL 🔴] Downtrend with no positive 1W return despite increasing volume; mixed news.,2026-08-31,5.33,2026-09-21,1.06
+2026-08-24,UBSG.SW,Downtrend / Reversal,42.5,DOWNTREND 🔴,-0.12,"[HOLD 🟡] Downtrend with weak volume, but positive news suggests potential for reversal.",2026-08-31,4.16,2026-09-21,-1.2
+2026-08-24,IWME.AS,Downtrend / Reversal,8.07,DOWNTREND 🔴,1.39,[SELL 🔴] Downtrend with no positive 1W return despite increasing volume.,2026-08-31,-0.87,2026-09-21,1.0
+2026-08-24,XSPS.MI,Downtrend / Reversal,4.75,DOWNTREND 🔴,-4.42,[SELL 🔴] Downtrend with no positive 1W return despite increasing volume.,2026-08-31,0.8,2026-09-21,2.07
+2026-08-24,IFX.DE,Downtrend / Reversal,55.97,DOWNTREND 🔴,-9.24,"[HOLD 🟡] Downtrend with stable volume, but positive news on AI partnership.",2026-08-31,-0.04,2026-09-21,3.32
+2026-08-24,VDEA.L,Downtrend / Reversal,63.5,DOWNTREND 🔴,0.76,"[SELL 🔴] Downtrend with no positive momentum, weak volume, and no news.",2026-08-31,0.54,2026-09-21,-0.82
+2026-08-24,ABBN.SW,Downtrend / Reversal,80.2,DOWNTREND 🔴,0.86,"[HOLD 🟡] Downtrend with weak volume, but positive news on infrastructure projects.",2026-08-31,-1.75,2026-09-21,2.49
+2026-08-24,ACLN.SW,Downtrend / Reversal,75.2,DOWNTREND 🔴,3.23,[ACCUMULATE 🟢] Strong volume and positive earnings suggest potential accumulation despite flat 1W return.,2026-08-31,-3.26,2026-09-21,2.13
+2026-08-24,VAGX.SW,Downtrend / Reversal,20.52,DOWNTREND 🔴,-0.05,"[SELL 🔴] Weak volume, no news, and flat performance in a clear downtrend.",2026-08-31,0.05,2026-09-21,-1.15
+2026-08-24,SPSN.SW,Downtrend / Reversal,128.9,DOWNTREND 🔴,-2.2,[HOLD 🟡] Mixed news and flat 1W return despite strong volume; warrants caution.,2026-08-31,-2.72,2026-09-21,-2.56
+2026-08-24,NVO,Downtrend / Reversal,46.62,DOWNTREND 🔴,0.29,"[SELL 🔴] Negative 1W return, stable volume, and no direct positive news for NVO.",2026-08-31,-2.5,2026-09-21,-14.14
+2026-08-24,CHKP,Downtrend / Reversal,130.18,DOWNTREND 🔴,2.4,"[HOLD 🟡] Positive long-term AI outlook, but weak volume and negative 1W return.",2026-08-31,6.43,2026-09-21,2.9
+2026-08-24,HON,Downtrend / Reversal,215.09,DOWNTREND 🔴,-11.24,[HOLD 🟡] Positive AI transformation news offsets weak volume and negative returns; hold for potential turnaround.,2026-08-31,-0.91,2026-09-21,-4.11
+2026-08-24,DKS,Downtrend / Reversal,181.12,DOWNTREND 🔴,-7.55,[SELL 🔴] Increasing volume with negative returns in a downtrend indicates strong selling pressure.,2026-08-31,-25.08,2026-09-21,-33.36
+2026-08-24,AAL,Downtrend / Reversal,13.66,DOWNTREND 🔴,-10.54,"[SELL 🔴] Stable volume, negative returns, and no specific positive news for AAL.",2026-08-31,-1.65,2026-09-21,-3.77
+2026-08-24,AVGO,Downtrend / Reversal,363.29,DOWNTREND 🔴,-6.68,[SELL 🔴] Strong volume with negative returns in a downtrend indicates continued selling pressure.,2026-08-31,1.34,2026-09-21,-1.77
+2026-08-24,TXN,Downtrend / Reversal,259.82,DOWNTREND 🔴,-5.77,"[HOLD 🟡] Positive analyst target increase, but weak volume and negative returns warrant a hold.",2026-08-31,0.36,2026-09-21,2.31
+2026-08-24,AMAT,Downtrend / Reversal,483.77,DOWNTREND 🔴,-4.6,"[HOLD 🟡] Strong positioning for AI chip manufacturing boom, but stable volume and negative returns.",2026-08-31,-5.74,2026-09-21,-5.96
+2026-08-24,NXPI,Downtrend / Reversal,221.12,DOWNTREND 🔴,-3.51,"[SELL 🔴] Weak volume, negative returns, and potentially skeptical Wall Street sentiment.",2026-08-31,1.52,2026-09-21,2.87
+2026-08-24,TSM,Downtrend / Reversal,410.55,DOWNTREND 🔴,1.56,[SELL 🔴] Negative news and weak volume in a downtrend; continued selling pressure.,2026-08-31,2.0,2026-09-21,6.7
+2026-08-24,ONON,Downtrend / Reversal,29.39,DOWNTREND 🔴,-18.92,"[SELL 🔴] Significant underperformance, negative returns, and stable volume indicate continued weakness.",2026-08-31,-2.45,2026-09-21,-7.45
+2026-08-24,BA,Downtrend / Reversal,209.08,DOWNTREND 🔴,-3.27,"[HOLD 🟡] Positive defense and partnership news, but stable volume and negative returns.",2026-08-31,-0.98,2026-09-21,-4.99
+2026-08-24,INTC,Downtrend / Reversal,87.61,DOWNTREND 🔴,-2.87,"[SELL 🔴] Negative news, weak volume, and significant short-term losses in a downtrend.",2026-08-31,2.57,2026-09-21,35.13
+2026-08-24,AMSC,Downtrend / Reversal,28.64,DOWNTREND 🔴,-2.49,"[SELL 🔴] Plummeting shares, negative news, weak volume, and significant short-term losses.",2026-08-31,-1.12,2026-09-21,6.02
+2026-08-24,O,Core Foundation,63.17,DOWNTREND 🔴,-1.1,"[HOLD 🟡] Downtrend, but positive weekly return and analyst buy provide some support.",2026-08-31,-2.75,2026-09-21,-9.82
+2026-08-24,BNDW,Core Foundation,67.5,DOWNTREND 🔴,0.36,[SELL 🔴] Bonds face headwinds from rising rates; downtrend confirms negative sentiment.,2026-08-31,-0.3,2026-09-21,-1.29
+2026-08-24,BTC-USD,Core Foundation,79017.85,UPTREND 🟢,24.47,"[ACCUMULATE 🟢] Strong uptrend and volume, but high greed index warrants caution.",2026-08-31,-0.86,2026-09-21,7.89
+2026-08-24,ZGLD.SW,Core Foundation,1094.0,UPTREND 🟢,13.06,[STRONG BUY 🚀] Geopolitical risks and safe-haven demand support strong uptrend and volume.,2026-08-31,-3.25,2026-09-21,-3.2
+2026-08-24,SHEL,Core Foundation,93.0,UPTREND 🟢,2.0,"[ACCUMULATE 🟢] Macro tailwinds for energy, strong PCR, but recent weak performance and volume.",2026-08-31,-1.95,2026-09-21,1.18
+2026-08-24,ALL,Core Foundation,260.19,UPTREND 🟢,-1.47,"[TRIM 🟠] Strong trend and returns, but insider selling is a significant downgrade signal.",2026-08-31,-0.56,2026-09-21,-4.25
+2026-08-24,MU,Core Foundation,910.43,DOWNTREND 🔴,10.62,"[SELL 🔴] Strong downtrend, negative returns, weak volume, and insider selling.",2026-08-31,3.38,2026-09-21,14.41
+2026-08-24,KLAC,Core Foundation,181.57,DOWNTREND 🔴,-0.57,"[SELL 🔴] Downtrend, bearish PCR, weak volume, and insider selling.",2026-08-31,-3.93,2026-09-21,0.04
+2026-08-24,ZSIL.SW,Core Foundation,158.86,UPTREND 🟢,19.86,[STRONG BUY 🚀] Geopolitical risks and safe-haven demand support strong uptrend and volume.,2026-08-31,-3.89,2026-09-21,-2.08
+2026-08-24,BCHE.SW,Core Foundation,189.78,UPTREND 🟢,8.72,[STRONG BUY 🚀] Safe-haven demand and strong trend/volume in volatile macro environment.,2026-08-31,2.53,2026-09-21,-11.99
+2026-08-24,ENA-USD,Dynamic Uptrend,0.15,UPTREND 🟢,71.67,"[TRIM 🟠] Negative weekly return against trend, high greed index suggests caution.",2026-08-31,1.15,2026-09-21,48.37
+2026-08-24,PLTR,Dynamic Uptrend,175.89,UPTREND 🟢,42.93,"[TRIM 🟠] Insider selling, weak recent performance, and decreasing volume despite uptrend.",2026-08-31,5.89,2026-09-21,3.09
+2026-08-24,CHYM,Dynamic Uptrend,32.7,UPTREND 🟢,42.24,"[SELL 🔴] Very bearish PCR, insider selling, and negative weekly return despite trend.",2026-08-31,-0.09,2026-09-21,-8.24
+2026-08-24,SOL-USD,Dynamic Uptrend,97.21,UPTREND 🟢,32.35,"[ACCUMULATE 🟢] Strong uptrend and volume, but high greed index warrants caution.",2026-08-31,6.06,2026-09-21,21.35
+2026-08-24,ETH-USD,Dynamic Uptrend,2486.32,UPTREND 🟢,32.07,"[ACCUMULATE 🟢] Strong uptrend and volume, but high greed index warrants caution.",2026-08-31,-0.84,2026-09-21,9.57
+2026-08-24,MSTR,Dynamic Uptrend,122.63,UPTREND 🟢,31.46,"[TRIM 🟠] Strong performance, but insider selling is a significant downgrade signal.",2026-08-31,5.4,2026-09-21,35.25
 2026-08-24,FLOKI-USD,Dynamic Uptrend,0.0,UPTREND 🟢,29.05,"[TRIM 🟠] Negative weekly return against trend, high greed, and high-risk asset.",,,,
-2026-08-24,DOGE-USD,Dynamic Uptrend,0.09,UPTREND 🟢,27.07,"[TRIM 🟠] Negative weekly return against trend, high greed, and high-risk asset.",2026-08-31,-8.04,,
-2026-08-24,SMCI,Dynamic Uptrend,35.17,UPTREND 🟢,23.84,[HOLD 🟡] Strong negative weekly return and weak volume despite uptrend and bullish PCR.,2026-08-31,6.77,,
-2026-08-24,FET-USD,Dynamic Uptrend,0.17,UPTREND 🟢,22.62,"[ACCUMULATE 🟢] Strong uptrend, excellent returns, but high greed index warrants caution.",2026-08-31,-11.46,,
-2026-08-24,CRWV,Dynamic Uptrend,86.25,UPTREND 🟢,20.18,[TRIM 🟠] Insider selling and low PCR suggest caution despite analyst buy.,2026-08-31,-3.0,,
-2026-08-24,SPCE,Dynamic Uptrend,3.0,UPTREND 🟢,17.65,"[TRIM 🟠] Weak volume, negative return, and high PCR indicate underlying weakness.",2026-08-31,-2.83,,
-2026-08-24,ICP-USD,Dynamic Uptrend,2.42,UPTREND 🟢,16.98,[TRIM 🟠] Crypto Greed index suggests overbought; increasing volume could be exhaustion.,2026-08-31,-1.33,,
-2026-08-24,LTC-USD,Dynamic Uptrend,51.83,UPTREND 🟢,16.12,[TRIM 🟠] Crypto Greed index suggests overbought; increasing volume could be exhaustion.,2026-08-31,-6.64,,
-2026-08-24,AMGN,Dynamic Uptrend,443.84,UPTREND 🟢,15.91,[SELL 🔴] Strong insider selling and very low PCR signal significant overvaluation risk.,2026-08-31,-2.95,,
-2026-08-24,SMSN.IL,Dynamic Uptrend,4854.0,UPTREND 🟢,15.9,[HOLD 🟡] Weakening volume on flat return suggests waning momentum; macro caution.,2026-08-31,-3.13,,
-2026-08-24,ACN,Dynamic Uptrend,186.53,UPTREND 🟢,12.42,[HOLD 🟡] Positive return but weak volume and macro caution warrant a hold.,2026-08-31,1.77,,
-2026-08-24,SBIO.AS,Dynamic Uptrend,65.29,UPTREND 🟢,12.24,[ACCUMULATE 🟢] Strong volume on flat return suggests potential accumulation; monitor for breakout.,2026-08-31,-2.94,,
-2026-08-24,NFLX,Dynamic Uptrend,80.01,UPTREND 🟢,11.57,[SELL 🔴] Insider selling and very low PCR indicate significant overvaluation risk.,2026-08-31,1.92,,
-2026-08-24,TKA.DE,Dynamic Uptrend,13.37,UPTREND 🟢,10.91,"[HOLD 🟡] Stable performance, but no strong catalysts or AltData to justify accumulation.",2026-08-31,6.96,,
-2026-08-24,PBE,Dynamic Uptrend,97.3,UPTREND 🟢,8.58,[HOLD 🟡] Weakening volume and negative return in cautious macro environment.,2026-08-31,-1.46,,
-2026-08-24,BLK,Dynamic Uptrend,1172.61,UPTREND 🟢,7.54,[SELL 🔴] Strong insider selling and extremely high PCR signal significant underlying weakness.,2026-08-31,-1.63,,
-2026-08-24,AFX.DE,Dynamic Uptrend,32.48,UPTREND 🟢,6.49,[HOLD 🟡] Weakening volume on flat return suggests waning momentum; macro caution.,2026-08-31,-1.11,,
-2026-08-24,PANW,Dynamic Uptrend,350.9,UPTREND 🟢,5.75,[TRIM 🟠] Insider selling and negative return in a cautious tech environment.,2026-08-31,6.97,,
-2026-08-24,MSFT,Dynamic Uptrend,487.31,UPTREND 🟢,5.06,[TRIM 🟠] Insider selling and low PCR suggest caution despite positive return.,2026-08-31,4.81,,
-2026-08-24,CVX,Dynamic Uptrend,203.09,UPTREND 🟢,4.08,[SELL 🔴] Insider selling and very low PCR signal significant overvaluation risk.,2026-08-31,0.91,,
-2026-08-24,SREN.SW,Dynamic Uptrend,139.3,UPTREND 🟢,3.3,[HOLD 🟡] Weakening volume on flat return suggests waning momentum; macro caution.,2026-08-31,1.11,,
-2026-08-24,VOO,Dynamic Uptrend,701.83,UPTREND 🟢,2.21,"[ACCUMULATE 🟢] Broad market exposure with strong volume, but macro caution limits upside.",2026-08-31,0.32,,
-2026-08-24,MSE.PA,Dynamic Uptrend,73.54,UPTREND 🟢,1.63,[HOLD 🟡] Weakening volume on flat return suggests waning momentum; macro caution.,2026-08-31,-0.54,,
-2026-08-24,RHM.DE,Dynamic Uptrend,1155.4,UPTREND 🟢,1.35,[HOLD 🟡] Weakening volume on flat return suggests waning momentum; macro caution.,2026-08-31,-3.17,,
-2026-08-24,XDGU.SW,Dynamic Uptrend,12.77,UPTREND 🟢,0.96,"[ACCUMULATE 🟢] Uptrend, stable volume, no negative AltData. Cautious macro.",2026-08-31,-21.41,,
-2026-08-24,CHDVD.SW,Dynamic Uptrend,192.4,UPTREND 🟢,-0.2,[STRONG BUY 🚀] Strong volume confirms uptrend. No negative AltData.,2026-08-31,-1.01,,
-2026-08-24,PSPN.SW,Dynamic Uptrend,145.5,UPTREND 🟢,-0.34,[STRONG BUY 🚀] Strong volume confirms uptrend. No negative AltData.,2026-08-31,-0.07,,
-2026-08-24,BRK-A,Dynamic Uptrend,755631.0,UPTREND 🟢,-1.43,[TRIM 🟠] Insider selling and weak volume despite uptrend. Macro cautious.,2026-08-31,0.05,,
-2026-08-24,LMT,Dynamic Uptrend,564.14,UPTREND 🟢,-3.19,[TRIM 🟠] Insider selling outweighs geopolitical tailwinds and uptrend.,2026-08-31,-0.93,,
-2026-08-24,AXNA.F,Dynamic Uptrend,11.73,UPTREND 🟢,-3.77,"[HOLD 🟡] Uptrend but weak volume, no strong conviction either way.",2026-08-31,2.09,,
-2026-08-24,META,Downtrend / Reversal,559.02,DOWNTREND 🔴,0.41,"[SELL 🔴] Downtrend, insider selling, bearish PCR. Avoid tech.",2026-08-31,2.31,,
-2026-08-24,GOOG,Downtrend / Reversal,344.59,DOWNTREND 🔴,-3.38,"[SELL 🔴] Downtrend, insider selling, very bearish PCR. Avoid tech.",2026-08-31,-2.76,,
-2026-08-24,NVO,Downtrend / Reversal,46.92,DOWNTREND 🔴,0.93,"[SELL 🔴] Downtrend, bearish PCR. No reason to hold.",2026-08-31,-3.12,,
-2026-08-24,ACLN.SW,Downtrend / Reversal,75.2,DOWNTREND 🔴,3.23,[SELL 🔴] Strong volume confirms downtrend. Avoid.,2026-08-31,-3.26,,
-2026-08-24,VDEA.MI,Downtrend / Reversal,54.45,DOWNTREND 🔴,-0.53,"[SELL 🔴] Downtrend, no positive catalysts. Macro cautious.",2026-08-31,0.77,,
-2026-08-24,VDEA.L,Downtrend / Reversal,63.5,DOWNTREND 🔴,0.76,"[SELL 🔴] Downtrend, weak volume. No reason to hold.",2026-08-31,0.54,,
-2026-08-24,IFX.DE,Downtrend / Reversal,55.97,DOWNTREND 🔴,-9.24,"[SELL 🔴] Downtrend, no positive catalysts. Macro cautious.",2026-08-31,-0.04,,
-2026-08-24,XSPS.MI,Downtrend / Reversal,4.75,DOWNTREND 🔴,-4.42,[SELL 🔴] Strong volume confirms downtrend. Avoid.,2026-08-31,0.8,,
-2026-08-24,ABBN.SW,Downtrend / Reversal,80.2,DOWNTREND 🔴,0.86,"[SELL 🔴] Downtrend, weak volume. No reason to hold.",2026-08-31,-1.75,,
-2026-08-24,VAGX.SW,Downtrend / Reversal,20.52,DOWNTREND 🔴,-0.05,"[SELL 🔴] Downtrend, weak volume. No reason to hold.",2026-08-31,0.05,,
-2026-08-24,SPSN.SW,Downtrend / Reversal,128.9,DOWNTREND 🔴,-2.2,[SELL 🔴] Strong volume confirms downtrend. Avoid.,2026-08-31,-2.72,,
-2026-08-24,SQN.SW,Downtrend / Reversal,39.8,DOWNTREND 🔴,-4.97,[SELL 🔴] Strong volume confirms downtrend. Avoid.,2026-08-31,5.33,,
-2026-08-24,UBSG.SW,Downtrend / Reversal,42.5,DOWNTREND 🔴,-0.12,"[SELL 🔴] Downtrend, weak volume. No reason to hold.",2026-08-31,4.16,,
-2026-08-24,CHKP,Downtrend / Reversal,130.5,DOWNTREND 🔴,2.65,"[SELL 🔴] Downtrend, insider selling, bearish PCR. Avoid.",2026-08-31,6.17,,
-2026-08-24,VST,Downtrend / Reversal,135.66,DOWNTREND 🔴,-8.46,Hold and monitor (AI Issue).,2026-08-31,0.83,,
-2026-08-24,HON,Downtrend / Reversal,214.77,DOWNTREND 🔴,-11.37,Hold and monitor (AI Issue).,2026-08-31,-0.76,,
-2026-08-24,IWME.AS,Downtrend / Reversal,8.0,DOWNTREND 🔴,0.44,Hold and monitor (AI Issue).,2026-08-31,0.0,,
-2026-08-24,AAL,Downtrend / Reversal,13.63,DOWNTREND 🔴,-10.74,Hold and monitor (AI Issue).,2026-08-31,-1.43,,
-2026-08-24,NXPI,Downtrend / Reversal,222.44,DOWNTREND 🔴,-2.93,Hold and monitor (AI Issue).,2026-08-31,0.92,,
-2026-08-24,AMAT,Downtrend / Reversal,484.19,DOWNTREND 🔴,-4.52,Hold and monitor (AI Issue).,2026-08-31,-5.82,,
-2026-08-24,ONON,Downtrend / Reversal,29.51,DOWNTREND 🔴,-18.57,Hold and monitor (AI Issue).,2026-08-31,-2.85,,
-2026-08-24,BA,Downtrend / Reversal,210.46,DOWNTREND 🔴,-2.63,Hold and monitor (AI Issue).,2026-08-31,-1.63,,
-2026-08-24,TXN,Downtrend / Reversal,258.94,DOWNTREND 🔴,-6.09,Hold and monitor (AI Issue).,2026-08-31,0.7,,
-2026-08-24,TSM,Downtrend / Reversal,410.12,DOWNTREND 🔴,1.45,Hold and monitor (AI Issue).,2026-08-31,2.11,,
-2026-08-24,DKS,Downtrend / Reversal,179.33,DOWNTREND 🔴,-8.46,Hold and monitor (AI Issue).,2026-08-31,-24.34,,
-2026-08-24,AVGO,Downtrend / Reversal,358.76,DOWNTREND 🔴,-7.84,Hold and monitor (AI Issue).,2026-08-31,2.61,,
-2026-08-24,NVDA,Downtrend / Reversal,208.48,DOWNTREND 🔴,3.85,Hold and monitor (AI Issue).,2026-08-31,5.66,,
-2026-08-24,INTC,Downtrend / Reversal,87.26,DOWNTREND 🔴,-3.26,Hold and monitor (AI Issue).,2026-08-31,2.99,,
-2026-08-24,AMSC,Downtrend / Reversal,28.92,DOWNTREND 🔴,-1.53,Hold and monitor (AI Issue).,2026-08-31,-2.07,,
-2026-08-24,IONQ,Downtrend / Reversal,41.06,DOWNTREND 🔴,12.68,Hold and monitor (AI Issue).,2026-08-31,-3.06,,
-2026-08-24,RGTI,Downtrend / Reversal,16.37,DOWNTREND 🔴,9.5,Hold and monitor (AI Issue).,2026-08-31,-4.46,,
-2026-08-24,O,Core Foundation,63.17,DOWNTREND 🔴,-1.1,Hold and monitor (AI Issue).,2026-08-31,-2.75,,
-2026-08-24,BNDW,Core Foundation,67.5,DOWNTREND 🔴,0.36,Hold and monitor (AI Issue).,2026-08-31,-0.3,,
-2026-08-24,BTC-USD,Core Foundation,78765.91,UPTREND 🟢,24.08,Hold and monitor (AI Issue).,2026-08-31,-0.54,,
-2026-08-24,ZGLD.SW,Core Foundation,1094.0,UPTREND 🟢,13.06,Hold and monitor (AI Issue).,2026-08-31,-3.25,,
-2026-08-24,SHEL,Core Foundation,93.0,UPTREND 🟢,2.0,Hold and monitor (AI Issue).,2026-08-31,-1.95,,
-2026-08-24,ALL,Core Foundation,260.19,UPTREND 🟢,-1.47,Hold and monitor (AI Issue).,2026-08-31,-0.56,,
-2026-08-24,MU,Core Foundation,910.43,DOWNTREND 🔴,10.62,Hold and monitor (AI Issue).,2026-08-31,3.38,,
-2026-08-24,KLAC,Core Foundation,181.57,DOWNTREND 🔴,-0.57,Hold and monitor (AI Issue).,2026-08-31,-3.93,,
-2026-08-24,ZSIL.SW,Core Foundation,158.86,UPTREND 🟢,19.86,Hold and monitor (AI Issue).,2026-08-31,-3.89,,
-2026-08-24,BCHE.SW,Core Foundation,189.78,UPTREND 🟢,8.72,Hold and monitor (AI Issue).,2026-08-31,2.53,,
-2026-08-24,ENA-USD,Dynamic Uptrend,0.15,UPTREND 🟢,69.77,Hold and monitor (AI Issue).,2026-08-31,1.15,,
-2026-08-24,PLTR,Dynamic Uptrend,175.89,UPTREND 🟢,42.93,Hold and monitor (AI Issue).,2026-08-31,5.89,,
-2026-08-24,CHYM,Dynamic Uptrend,32.7,UPTREND 🟢,42.24,Hold and monitor (AI Issue).,2026-08-31,-0.09,,
-2026-08-24,SOL-USD,Dynamic Uptrend,98.03,UPTREND 🟢,33.47,Hold and monitor (AI Issue).,2026-08-31,5.17,,
-2026-08-24,ETH-USD,Dynamic Uptrend,2478.89,UPTREND 🟢,31.68,Hold and monitor (AI Issue).,2026-08-31,-0.54,,
-2026-08-24,MSTR,Dynamic Uptrend,122.63,UPTREND 🟢,31.46,Hold and monitor (AI Issue).,2026-08-31,5.4,,
+2026-08-24,DOGE-USD,Dynamic Uptrend,0.09,UPTREND 🟢,27.07,"[TRIM 🟠] Negative weekly return against trend, high greed, and high-risk asset.",2026-08-31,-8.04,2026-09-21,3.36
+2026-08-24,SMCI,Dynamic Uptrend,35.17,UPTREND 🟢,23.84,[HOLD 🟡] Strong negative weekly return and weak volume despite uptrend and bullish PCR.,2026-08-31,6.77,2026-09-21,16.24
+2026-08-24,FET-USD,Dynamic Uptrend,0.17,UPTREND 🟢,22.62,"[ACCUMULATE 🟢] Strong uptrend, excellent returns, but high greed index warrants caution.",2026-08-31,-11.46,2026-09-21,19.96
+2026-08-24,CRWV,Dynamic Uptrend,86.25,UPTREND 🟢,20.18,[TRIM 🟠] Insider selling and low PCR suggest caution despite analyst buy.,2026-08-31,-3.0,2026-09-21,-3.41
+2026-08-24,SPCE,Dynamic Uptrend,3.0,UPTREND 🟢,17.65,"[TRIM 🟠] Weak volume, negative return, and high PCR indicate underlying weakness.",2026-08-31,-2.83,2026-09-21,4.0
+2026-08-24,ICP-USD,Dynamic Uptrend,2.42,UPTREND 🟢,16.98,[TRIM 🟠] Crypto Greed index suggests overbought; increasing volume could be exhaustion.,2026-08-31,-1.33,2026-09-21,21.65
+2026-08-24,LTC-USD,Dynamic Uptrend,51.83,UPTREND 🟢,16.12,[TRIM 🟠] Crypto Greed index suggests overbought; increasing volume could be exhaustion.,2026-08-31,-6.64,2026-09-21,19.55
+2026-08-24,AMGN,Dynamic Uptrend,443.84,UPTREND 🟢,15.91,[SELL 🔴] Strong insider selling and very low PCR signal significant overvaluation risk.,2026-08-31,-2.95,2026-09-21,-11.82
+2026-08-24,SMSN.IL,Dynamic Uptrend,4854.0,UPTREND 🟢,15.9,[HOLD 🟡] Weakening volume on flat return suggests waning momentum; macro caution.,2026-08-31,-3.13,2026-09-21,3.42
+2026-08-24,ACN,Dynamic Uptrend,186.53,UPTREND 🟢,12.42,[HOLD 🟡] Positive return but weak volume and macro caution warrant a hold.,2026-08-31,1.77,2026-09-21,0.79
+2026-08-24,SBIO.AS,Dynamic Uptrend,65.29,UPTREND 🟢,12.24,[ACCUMULATE 🟢] Strong volume on flat return suggests potential accumulation; monitor for breakout.,2026-08-31,-2.94,2026-09-21,-2.28
+2026-08-24,NFLX,Dynamic Uptrend,80.01,UPTREND 🟢,11.57,[SELL 🔴] Insider selling and very low PCR indicate significant overvaluation risk.,2026-08-31,1.92,2026-09-21,-8.94
+2026-08-24,TKA.DE,Dynamic Uptrend,13.37,UPTREND 🟢,10.91,"[HOLD 🟡] Stable performance, but no strong catalysts or AltData to justify accumulation.",2026-08-31,6.96,2026-09-21,11.74
+2026-08-24,PBE,Dynamic Uptrend,97.3,UPTREND 🟢,8.58,[HOLD 🟡] Weakening volume and negative return in cautious macro environment.,2026-08-31,-1.46,2026-09-21,-1.94
+2026-08-24,BLK,Dynamic Uptrend,1172.61,UPTREND 🟢,7.54,[SELL 🔴] Strong insider selling and extremely high PCR signal significant underlying weakness.,2026-08-31,-1.63,2026-09-21,-8.55
+2026-08-24,AFX.DE,Dynamic Uptrend,32.48,UPTREND 🟢,6.49,[HOLD 🟡] Weakening volume on flat return suggests waning momentum; macro caution.,2026-08-31,-1.11,2026-09-21,-10.53
+2026-08-24,PANW,Dynamic Uptrend,350.9,UPTREND 🟢,5.75,[TRIM 🟠] Insider selling and negative return in a cautious tech environment.,2026-08-31,6.97,2026-09-21,5.64
+2026-08-24,MSFT,Dynamic Uptrend,487.31,UPTREND 🟢,5.06,[TRIM 🟠] Insider selling and low PCR suggest caution despite positive return.,2026-08-31,4.81,2026-09-21,1.82
+2026-08-24,CVX,Dynamic Uptrend,203.09,UPTREND 🟢,4.08,[SELL 🔴] Insider selling and very low PCR signal significant overvaluation risk.,2026-08-31,0.91,2026-09-21,1.49
+2026-08-24,SREN.SW,Dynamic Uptrend,139.3,UPTREND 🟢,3.3,[HOLD 🟡] Weakening volume on flat return suggests waning momentum; macro caution.,2026-08-31,1.11,2026-09-21,0.0
+2026-08-24,VOO,Dynamic Uptrend,701.83,UPTREND 🟢,2.21,"[ACCUMULATE 🟢] Broad market exposure with strong volume, but macro caution limits upside.",2026-08-31,0.32,2026-09-21,0.77
+2026-08-24,MSE.PA,Dynamic Uptrend,73.54,UPTREND 🟢,1.63,[HOLD 🟡] Weakening volume on flat return suggests waning momentum; macro caution.,2026-08-31,-0.54,2026-09-21,-2.41
+2026-08-24,RHM.DE,Dynamic Uptrend,1155.4,UPTREND 🟢,1.35,[HOLD 🟡] Weakening volume on flat return suggests waning momentum; macro caution.,2026-08-31,-3.17,2026-09-21,-12.45
+2026-08-24,XDGU.SW,Dynamic Uptrend,12.77,UPTREND 🟢,0.96,"[ACCUMULATE 🟢] Uptrend, stable volume, no negative AltData. Cautious macro.",2026-08-31,-21.41,2026-09-21,-0.03
+2026-08-24,CHDVD.SW,Dynamic Uptrend,192.4,UPTREND 🟢,-0.2,[STRONG BUY 🚀] Strong volume confirms uptrend. No negative AltData.,2026-08-31,-1.01,2026-09-21,-2.17
+2026-08-24,PSPN.SW,Dynamic Uptrend,145.5,UPTREND 🟢,-0.34,[STRONG BUY 🚀] Strong volume confirms uptrend. No negative AltData.,2026-08-31,-0.07,2026-09-21,1.72
+2026-08-24,BRK-A,Dynamic Uptrend,755631.0,UPTREND 🟢,-1.43,[TRIM 🟠] Insider selling and weak volume despite uptrend. Macro cautious.,2026-08-31,0.05,2026-09-21,0.63
+2026-08-24,LMT,Dynamic Uptrend,564.14,UPTREND 🟢,-3.19,[TRIM 🟠] Insider selling outweighs geopolitical tailwinds and uptrend.,2026-08-31,-0.93,2026-09-21,-5.54
+2026-08-24,AXNA.F,Dynamic Uptrend,11.73,UPTREND 🟢,-3.77,"[HOLD 🟡] Uptrend but weak volume, no strong conviction either way.",2026-08-31,2.09,2026-09-21,-3.5
+2026-08-24,META,Downtrend / Reversal,559.02,DOWNTREND 🔴,0.41,"[SELL 🔴] Downtrend, insider selling, bearish PCR. Avoid tech.",2026-08-31,2.31,2026-09-21,27.85
+2026-08-24,GOOG,Downtrend / Reversal,344.59,DOWNTREND 🔴,-3.38,"[SELL 🔴] Downtrend, insider selling, very bearish PCR. Avoid tech.",2026-08-31,-2.76,2026-09-21,1.36
+2026-08-24,NVO,Downtrend / Reversal,46.92,DOWNTREND 🔴,0.93,"[SELL 🔴] Downtrend, bearish PCR. No reason to hold.",2026-08-31,-3.12,2026-09-21,-14.68
+2026-08-24,ACLN.SW,Downtrend / Reversal,75.2,DOWNTREND 🔴,3.23,[SELL 🔴] Strong volume confirms downtrend. Avoid.,2026-08-31,-3.26,2026-09-21,2.13
+2026-08-24,VDEA.MI,Downtrend / Reversal,54.45,DOWNTREND 🔴,-0.53,"[SELL 🔴] Downtrend, no positive catalysts. Macro cautious.",2026-08-31,0.77,2026-09-21,0.7
+2026-08-24,VDEA.L,Downtrend / Reversal,63.5,DOWNTREND 🔴,0.76,"[SELL 🔴] Downtrend, weak volume. No reason to hold.",2026-08-31,0.54,2026-09-21,-0.82
+2026-08-24,IFX.DE,Downtrend / Reversal,55.97,DOWNTREND 🔴,-9.24,"[SELL 🔴] Downtrend, no positive catalysts. Macro cautious.",2026-08-31,-0.04,2026-09-21,3.32
+2026-08-24,XSPS.MI,Downtrend / Reversal,4.75,DOWNTREND 🔴,-4.42,[SELL 🔴] Strong volume confirms downtrend. Avoid.,2026-08-31,0.8,2026-09-21,2.07
+2026-08-24,ABBN.SW,Downtrend / Reversal,80.2,DOWNTREND 🔴,0.86,"[SELL 🔴] Downtrend, weak volume. No reason to hold.",2026-08-31,-1.75,2026-09-21,2.49
+2026-08-24,VAGX.SW,Downtrend / Reversal,20.52,DOWNTREND 🔴,-0.05,"[SELL 🔴] Downtrend, weak volume. No reason to hold.",2026-08-31,0.05,2026-09-21,-1.15
+2026-08-24,SPSN.SW,Downtrend / Reversal,128.9,DOWNTREND 🔴,-2.2,[SELL 🔴] Strong volume confirms downtrend. Avoid.,2026-08-31,-2.72,2026-09-21,-2.56
+2026-08-24,SQN.SW,Downtrend / Reversal,39.8,DOWNTREND 🔴,-4.97,[SELL 🔴] Strong volume confirms downtrend. Avoid.,2026-08-31,5.33,2026-09-21,1.06
+2026-08-24,UBSG.SW,Downtrend / Reversal,42.5,DOWNTREND 🔴,-0.12,"[SELL 🔴] Downtrend, weak volume. No reason to hold.",2026-08-31,4.16,2026-09-21,-1.2
+2026-08-24,CHKP,Downtrend / Reversal,130.5,DOWNTREND 🔴,2.65,"[SELL 🔴] Downtrend, insider selling, bearish PCR. Avoid.",2026-08-31,6.17,2026-09-21,2.64
+2026-08-24,VST,Downtrend / Reversal,135.66,DOWNTREND 🔴,-8.46,Hold and monitor (AI Issue).,2026-08-31,0.83,2026-09-21,2.87
+2026-08-24,HON,Downtrend / Reversal,214.77,DOWNTREND 🔴,-11.37,Hold and monitor (AI Issue).,2026-08-31,-0.76,2026-09-21,-3.97
+2026-08-24,IWME.AS,Downtrend / Reversal,8.0,DOWNTREND 🔴,0.44,Hold and monitor (AI Issue).,2026-08-31,0.0,2026-09-21,1.89
+2026-08-24,AAL,Downtrend / Reversal,13.63,DOWNTREND 🔴,-10.74,Hold and monitor (AI Issue).,2026-08-31,-1.43,2026-09-21,-3.56
+2026-08-24,NXPI,Downtrend / Reversal,222.44,DOWNTREND 🔴,-2.93,Hold and monitor (AI Issue).,2026-08-31,0.92,2026-09-21,2.26
+2026-08-24,AMAT,Downtrend / Reversal,484.19,DOWNTREND 🔴,-4.52,Hold and monitor (AI Issue).,2026-08-31,-5.82,2026-09-21,-6.04
+2026-08-24,ONON,Downtrend / Reversal,29.51,DOWNTREND 🔴,-18.57,Hold and monitor (AI Issue).,2026-08-31,-2.85,2026-09-21,-7.83
+2026-08-24,BA,Downtrend / Reversal,210.46,DOWNTREND 🔴,-2.63,Hold and monitor (AI Issue).,2026-08-31,-1.63,2026-09-21,-5.62
+2026-08-24,TXN,Downtrend / Reversal,258.94,DOWNTREND 🔴,-6.09,Hold and monitor (AI Issue).,2026-08-31,0.7,2026-09-21,2.66
+2026-08-24,TSM,Downtrend / Reversal,410.12,DOWNTREND 🔴,1.45,Hold and monitor (AI Issue).,2026-08-31,2.11,2026-09-21,6.81
+2026-08-24,DKS,Downtrend / Reversal,179.33,DOWNTREND 🔴,-8.46,Hold and monitor (AI Issue).,2026-08-31,-24.34,2026-09-21,-32.7
+2026-08-24,AVGO,Downtrend / Reversal,358.76,DOWNTREND 🔴,-7.84,Hold and monitor (AI Issue).,2026-08-31,2.61,2026-09-21,-0.53
+2026-08-24,NVDA,Downtrend / Reversal,208.48,DOWNTREND 🔴,3.85,Hold and monitor (AI Issue).,2026-08-31,5.66,2026-09-21,6.92
+2026-08-24,INTC,Downtrend / Reversal,87.26,DOWNTREND 🔴,-3.26,Hold and monitor (AI Issue).,2026-08-31,2.99,2026-09-21,35.67
+2026-08-24,AMSC,Downtrend / Reversal,28.92,DOWNTREND 🔴,-1.53,Hold and monitor (AI Issue).,2026-08-31,-2.07,2026-09-21,5.0
+2026-08-24,IONQ,Downtrend / Reversal,41.06,DOWNTREND 🔴,12.68,Hold and monitor (AI Issue).,2026-08-31,-3.06,2026-09-21,-1.67
+2026-08-24,RGTI,Downtrend / Reversal,16.37,DOWNTREND 🔴,9.5,Hold and monitor (AI Issue).,2026-08-31,-4.46,2026-09-21,-0.21
+2026-08-24,O,Core Foundation,63.17,DOWNTREND 🔴,-1.1,Hold and monitor (AI Issue).,2026-08-31,-2.75,2026-09-21,-9.82
+2026-08-24,BNDW,Core Foundation,67.5,DOWNTREND 🔴,0.36,Hold and monitor (AI Issue).,2026-08-31,-0.3,2026-09-21,-1.29
+2026-08-24,BTC-USD,Core Foundation,78765.91,UPTREND 🟢,24.08,Hold and monitor (AI Issue).,2026-08-31,-0.54,2026-09-21,8.24
+2026-08-24,ZGLD.SW,Core Foundation,1094.0,UPTREND 🟢,13.06,Hold and monitor (AI Issue).,2026-08-31,-3.25,2026-09-21,-3.2
+2026-08-24,SHEL,Core Foundation,93.0,UPTREND 🟢,2.0,Hold and monitor (AI Issue).,2026-08-31,-1.95,2026-09-21,1.18
+2026-08-24,ALL,Core Foundation,260.19,UPTREND 🟢,-1.47,Hold and monitor (AI Issue).,2026-08-31,-0.56,2026-09-21,-4.25
+2026-08-24,MU,Core Foundation,910.43,DOWNTREND 🔴,10.62,Hold and monitor (AI Issue).,2026-08-31,3.38,2026-09-21,14.41
+2026-08-24,KLAC,Core Foundation,181.57,DOWNTREND 🔴,-0.57,Hold and monitor (AI Issue).,2026-08-31,-3.93,2026-09-21,0.04
+2026-08-24,ZSIL.SW,Core Foundation,158.86,UPTREND 🟢,19.86,Hold and monitor (AI Issue).,2026-08-31,-3.89,2026-09-21,-2.08
+2026-08-24,BCHE.SW,Core Foundation,189.78,UPTREND 🟢,8.72,Hold and monitor (AI Issue).,2026-08-31,2.53,2026-09-21,-11.99
+2026-08-24,ENA-USD,Dynamic Uptrend,0.15,UPTREND 🟢,69.77,Hold and monitor (AI Issue).,2026-08-31,1.15,2026-09-21,48.37
+2026-08-24,PLTR,Dynamic Uptrend,175.89,UPTREND 🟢,42.93,Hold and monitor (AI Issue).,2026-08-31,5.89,2026-09-21,3.09
+2026-08-24,CHYM,Dynamic Uptrend,32.7,UPTREND 🟢,42.24,Hold and monitor (AI Issue).,2026-08-31,-0.09,2026-09-21,-8.24
+2026-08-24,SOL-USD,Dynamic Uptrend,98.03,UPTREND 🟢,33.47,Hold and monitor (AI Issue).,2026-08-31,5.17,2026-09-21,20.33
+2026-08-24,ETH-USD,Dynamic Uptrend,2478.89,UPTREND 🟢,31.68,Hold and monitor (AI Issue).,2026-08-31,-0.54,2026-09-21,9.9
+2026-08-24,MSTR,Dynamic Uptrend,122.63,UPTREND 🟢,31.46,Hold and monitor (AI Issue).,2026-08-31,5.4,2026-09-21,35.25
 2026-08-24,FLOKI-USD,Dynamic Uptrend,0.0,UPTREND 🟢,28.1,Hold and monitor (AI Issue).,,,,
-2026-08-24,DOGE-USD,Dynamic Uptrend,0.09,UPTREND 🟢,27.12,Hold and monitor (AI Issue).,2026-08-31,-8.04,,
-2026-08-24,SMCI,Dynamic Uptrend,35.17,UPTREND 🟢,23.84,Hold and monitor (AI Issue).,2026-08-31,6.77,,
-2026-08-24,FET-USD,Dynamic Uptrend,0.17,UPTREND 🟢,22.7,Hold and monitor (AI Issue).,2026-08-31,-11.46,,
-2026-08-24,CRWV,Dynamic Uptrend,86.25,UPTREND 🟢,20.18,Hold and monitor (AI Issue).,2026-08-31,-3.0,,
-2026-08-24,ICP-USD,Dynamic Uptrend,2.44,UPTREND 🟢,17.89,Hold and monitor (AI Issue).,2026-08-31,-2.14,,
-2026-08-24,SPCE,Dynamic Uptrend,3.0,UPTREND 🟢,17.65,Hold and monitor (AI Issue).,2026-08-31,-2.83,,
-2026-08-24,AMGN,Dynamic Uptrend,443.84,UPTREND 🟢,15.91,Hold and monitor (AI Issue).,2026-08-31,-2.95,,
-2026-08-24,SMSN.IL,Dynamic Uptrend,4854.0,UPTREND 🟢,15.9,Hold and monitor (AI Issue).,2026-08-31,-3.13,,
-2026-08-24,LTC-USD,Dynamic Uptrend,51.64,UPTREND 🟢,15.7,Hold and monitor (AI Issue).,2026-08-31,-6.3,,
-2026-08-24,ACN,Dynamic Uptrend,186.53,UPTREND 🟢,12.42,Hold and monitor (AI Issue).,2026-08-31,1.77,,
-2026-08-24,SBIO.AS,Dynamic Uptrend,65.29,UPTREND 🟢,12.24,Hold and monitor (AI Issue).,2026-08-31,-2.94,,
-2026-08-24,NFLX,Dynamic Uptrend,80.01,UPTREND 🟢,11.57,Hold and monitor (AI Issue).,2026-08-31,1.92,,
-2026-08-24,TKA.DE,Dynamic Uptrend,13.37,UPTREND 🟢,10.91,Hold and monitor (AI Issue).,2026-08-31,6.96,,
-2026-08-24,PBE,Dynamic Uptrend,97.3,UPTREND 🟢,8.58,Hold and monitor (AI Issue).,2026-08-31,-1.46,,
-2026-08-24,BLK,Dynamic Uptrend,1172.61,UPTREND 🟢,7.54,Hold and monitor (AI Issue).,2026-08-31,-1.63,,
-2026-08-24,AFX.DE,Dynamic Uptrend,32.48,UPTREND 🟢,6.49,Hold and monitor (AI Issue).,2026-08-31,-1.11,,
-2026-08-24,PANW,Dynamic Uptrend,350.9,UPTREND 🟢,5.75,Hold and monitor (AI Issue).,2026-08-31,6.97,,
-2026-08-24,MSFT,Dynamic Uptrend,487.31,UPTREND 🟢,5.06,Hold and monitor (AI Issue).,2026-08-31,4.81,,
-2026-08-24,CVX,Dynamic Uptrend,203.09,UPTREND 🟢,4.08,Hold and monitor (AI Issue).,2026-08-31,0.91,,
-2026-08-24,SREN.SW,Dynamic Uptrend,139.3,UPTREND 🟢,3.3,Hold and monitor (AI Issue).,2026-08-31,1.11,,
-2026-08-24,VOO,Dynamic Uptrend,701.83,UPTREND 🟢,2.21,Hold and monitor (AI Issue).,2026-08-31,0.32,,
-2026-08-24,MSE.PA,Dynamic Uptrend,73.54,UPTREND 🟢,1.63,Hold and monitor (AI Issue).,2026-08-31,-0.54,,
-2026-08-24,RHM.DE,Dynamic Uptrend,1155.4,UPTREND 🟢,1.35,Hold and monitor (AI Issue).,2026-08-31,-3.17,,
-2026-08-24,XDGU.SW,Dynamic Uptrend,12.77,UPTREND 🟢,0.96,Hold and monitor (AI Issue).,2026-08-31,-21.41,,
-2026-08-24,CHDVD.SW,Dynamic Uptrend,192.4,UPTREND 🟢,-0.2,Hold and monitor (AI Issue).,2026-08-31,-1.01,,
-2026-08-24,PSPN.SW,Dynamic Uptrend,145.5,UPTREND 🟢,-0.34,Hold and monitor (AI Issue).,2026-08-31,-0.07,,
-2026-08-24,BRK-A,Dynamic Uptrend,755631.0,UPTREND 🟢,-1.43,Hold and monitor (AI Issue).,2026-08-31,0.05,,
-2026-08-24,LMT,Dynamic Uptrend,564.14,UPTREND 🟢,-3.19,Hold and monitor (AI Issue).,2026-08-31,-0.93,,
-2026-08-24,AXNA.F,Dynamic Uptrend,11.73,UPTREND 🟢,-3.77,Hold and monitor (AI Issue).,2026-08-31,2.09,,
-2026-08-24,META,Downtrend / Reversal,559.02,DOWNTREND 🔴,0.41,Hold and monitor (AI Issue).,2026-08-31,2.31,,
-2026-08-24,GOOG,Downtrend / Reversal,344.59,DOWNTREND 🔴,-3.38,Hold and monitor (AI Issue).,2026-08-31,-2.76,,
-2026-08-24,NVO,Downtrend / Reversal,46.92,DOWNTREND 🔴,0.93,Hold and monitor (AI Issue).,2026-08-31,-3.12,,
-2026-08-24,ACLN.SW,Downtrend / Reversal,75.2,DOWNTREND 🔴,3.23,Hold and monitor (AI Issue).,2026-08-31,-3.26,,
-2026-08-24,VDEA.MI,Downtrend / Reversal,54.45,DOWNTREND 🔴,-0.53,Hold and monitor (AI Issue).,2026-08-31,0.77,,
-2026-08-24,VDEA.L,Downtrend / Reversal,63.5,DOWNTREND 🔴,0.76,Hold and monitor (AI Issue).,2026-08-31,0.54,,
-2026-08-24,IFX.DE,Downtrend / Reversal,55.97,DOWNTREND 🔴,-9.24,Hold and monitor (AI Issue).,2026-08-31,-0.04,,
-2026-08-24,XSPS.MI,Downtrend / Reversal,4.75,DOWNTREND 🔴,-4.42,Hold and monitor (AI Issue).,2026-08-31,0.8,,
-2026-08-24,ABBN.SW,Downtrend / Reversal,80.2,DOWNTREND 🔴,0.86,Hold and monitor (AI Issue).,2026-08-31,-1.75,,
-2026-08-24,VAGX.SW,Downtrend / Reversal,20.52,DOWNTREND 🔴,-0.05,Hold and monitor (AI Issue).,2026-08-31,0.05,,
-2026-08-24,SPSN.SW,Downtrend / Reversal,128.9,DOWNTREND 🔴,-2.2,Hold and monitor (AI Issue).,2026-08-31,-2.72,,
-2026-08-24,SQN.SW,Downtrend / Reversal,39.8,DOWNTREND 🔴,-4.97,Hold and monitor (AI Issue).,2026-08-31,5.33,,
-2026-08-24,UBSG.SW,Downtrend / Reversal,42.5,DOWNTREND 🔴,-0.12,Hold and monitor (AI Issue).,2026-08-31,4.16,,
-2026-08-24,CHKP,Downtrend / Reversal,130.5,DOWNTREND 🔴,2.65,Hold and monitor (AI Issue).,2026-08-31,6.17,,
-2026-08-24,VST,Downtrend / Reversal,135.66,DOWNTREND 🔴,-8.46,Hold and monitor (AI Issue).,2026-08-31,0.83,,
-2026-08-24,HON,Downtrend / Reversal,214.77,DOWNTREND 🔴,-11.37,Hold and monitor (AI Issue).,2026-08-31,-0.76,,
-2026-08-24,IWME.AS,Downtrend / Reversal,8.0,DOWNTREND 🔴,0.44,Hold and monitor (AI Issue).,2026-08-31,0.0,,
-2026-08-24,AAL,Downtrend / Reversal,13.63,DOWNTREND 🔴,-10.74,Hold and monitor (AI Issue).,2026-08-31,-1.43,,
-2026-08-24,NXPI,Downtrend / Reversal,222.44,DOWNTREND 🔴,-2.93,Hold and monitor (AI Issue).,2026-08-31,0.92,,
-2026-08-24,AMAT,Downtrend / Reversal,484.19,DOWNTREND 🔴,-4.52,Hold and monitor (AI Issue).,2026-08-31,-5.82,,
-2026-08-24,ONON,Downtrend / Reversal,29.51,DOWNTREND 🔴,-18.57,Hold and monitor (AI Issue).,2026-08-31,-2.85,,
-2026-08-24,BA,Downtrend / Reversal,210.46,DOWNTREND 🔴,-2.63,Hold and monitor (AI Issue).,2026-08-31,-1.63,,
-2026-08-24,TXN,Downtrend / Reversal,258.94,DOWNTREND 🔴,-6.09,Hold and monitor (AI Issue).,2026-08-31,0.7,,
-2026-08-24,TSM,Downtrend / Reversal,410.12,DOWNTREND 🔴,1.45,Hold and monitor (AI Issue).,2026-08-31,2.11,,
-2026-08-24,DKS,Downtrend / Reversal,179.33,DOWNTREND 🔴,-8.46,Hold and monitor (AI Issue).,2026-08-31,-24.34,,
-2026-08-24,AVGO,Downtrend / Reversal,358.76,DOWNTREND 🔴,-7.84,Hold and monitor (AI Issue).,2026-08-31,2.61,,
-2026-08-24,NVDA,Downtrend / Reversal,208.48,DOWNTREND 🔴,3.85,Hold and monitor (AI Issue).,2026-08-31,5.66,,
-2026-08-24,INTC,Downtrend / Reversal,87.26,DOWNTREND 🔴,-3.26,Hold and monitor (AI Issue).,2026-08-31,2.99,,
-2026-08-24,AMSC,Downtrend / Reversal,28.92,DOWNTREND 🔴,-1.53,Hold and monitor (AI Issue).,2026-08-31,-2.07,,
-2026-08-24,IONQ,Downtrend / Reversal,41.06,DOWNTREND 🔴,12.68,Hold and monitor (AI Issue).,2026-08-31,-3.06,,
-2026-08-24,RGTI,Downtrend / Reversal,16.37,DOWNTREND 🔴,9.5,Hold and monitor (AI Issue).,2026-08-31,-4.46,,
-2026-08-24,O,Core Foundation,63.17,DOWNTREND 🔴,-1.1,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-2.75,,
-2026-08-24,BNDW,Core Foundation,67.5,DOWNTREND 🔴,0.36,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-0.3,,
-2026-08-24,BTC-USD,Core Foundation,78711.83,UPTREND 🟢,23.99,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-0.47,,
-2026-08-24,ZGLD.SW,Core Foundation,1094.0,UPTREND 🟢,13.06,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-3.25,,
-2026-08-24,SHEL,Core Foundation,93.0,UPTREND 🟢,2.0,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-1.95,,
-2026-08-24,ALL,Core Foundation,260.19,UPTREND 🟢,-1.47,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-0.56,,
-2026-08-24,MU,Core Foundation,910.43,DOWNTREND 🔴,10.62,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,3.38,,
-2026-08-24,KLAC,Core Foundation,181.57,DOWNTREND 🔴,-0.57,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-3.93,,
-2026-08-24,ZSIL.SW,Core Foundation,158.86,UPTREND 🟢,19.86,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-3.89,,
-2026-08-24,BCHE.SW,Core Foundation,189.78,UPTREND 🟢,8.72,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,2.53,,
-2026-08-24,ENA-USD,Dynamic Uptrend,0.15,UPTREND 🟢,69.11,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,1.15,,
-2026-08-24,PLTR,Dynamic Uptrend,175.89,UPTREND 🟢,42.93,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,5.89,,
-2026-08-24,CHYM,Dynamic Uptrend,32.7,UPTREND 🟢,42.24,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-0.09,,
-2026-08-24,SOL-USD,Dynamic Uptrend,97.41,UPTREND 🟢,32.62,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,5.84,,
-2026-08-24,ETH-USD,Dynamic Uptrend,2475.04,UPTREND 🟢,31.47,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-0.39,,
-2026-08-24,MSTR,Dynamic Uptrend,122.63,UPTREND 🟢,31.46,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,5.4,,
+2026-08-24,DOGE-USD,Dynamic Uptrend,0.09,UPTREND 🟢,27.12,Hold and monitor (AI Issue).,2026-08-31,-8.04,2026-09-21,3.36
+2026-08-24,SMCI,Dynamic Uptrend,35.17,UPTREND 🟢,23.84,Hold and monitor (AI Issue).,2026-08-31,6.77,2026-09-21,16.24
+2026-08-24,FET-USD,Dynamic Uptrend,0.17,UPTREND 🟢,22.7,Hold and monitor (AI Issue).,2026-08-31,-11.46,2026-09-21,19.96
+2026-08-24,CRWV,Dynamic Uptrend,86.25,UPTREND 🟢,20.18,Hold and monitor (AI Issue).,2026-08-31,-3.0,2026-09-21,-3.41
+2026-08-24,ICP-USD,Dynamic Uptrend,2.44,UPTREND 🟢,17.89,Hold and monitor (AI Issue).,2026-08-31,-2.14,2026-09-21,20.66
+2026-08-24,SPCE,Dynamic Uptrend,3.0,UPTREND 🟢,17.65,Hold and monitor (AI Issue).,2026-08-31,-2.83,2026-09-21,4.0
+2026-08-24,AMGN,Dynamic Uptrend,443.84,UPTREND 🟢,15.91,Hold and monitor (AI Issue).,2026-08-31,-2.95,2026-09-21,-11.82
+2026-08-24,SMSN.IL,Dynamic Uptrend,4854.0,UPTREND 🟢,15.9,Hold and monitor (AI Issue).,2026-08-31,-3.13,2026-09-21,3.42
+2026-08-24,LTC-USD,Dynamic Uptrend,51.64,UPTREND 🟢,15.7,Hold and monitor (AI Issue).,2026-08-31,-6.3,2026-09-21,19.99
+2026-08-24,ACN,Dynamic Uptrend,186.53,UPTREND 🟢,12.42,Hold and monitor (AI Issue).,2026-08-31,1.77,2026-09-21,0.79
+2026-08-24,SBIO.AS,Dynamic Uptrend,65.29,UPTREND 🟢,12.24,Hold and monitor (AI Issue).,2026-08-31,-2.94,2026-09-21,-2.28
+2026-08-24,NFLX,Dynamic Uptrend,80.01,UPTREND 🟢,11.57,Hold and monitor (AI Issue).,2026-08-31,1.92,2026-09-21,-8.94
+2026-08-24,TKA.DE,Dynamic Uptrend,13.37,UPTREND 🟢,10.91,Hold and monitor (AI Issue).,2026-08-31,6.96,2026-09-21,11.74
+2026-08-24,PBE,Dynamic Uptrend,97.3,UPTREND 🟢,8.58,Hold and monitor (AI Issue).,2026-08-31,-1.46,2026-09-21,-1.94
+2026-08-24,BLK,Dynamic Uptrend,1172.61,UPTREND 🟢,7.54,Hold and monitor (AI Issue).,2026-08-31,-1.63,2026-09-21,-8.55
+2026-08-24,AFX.DE,Dynamic Uptrend,32.48,UPTREND 🟢,6.49,Hold and monitor (AI Issue).,2026-08-31,-1.11,2026-09-21,-10.53
+2026-08-24,PANW,Dynamic Uptrend,350.9,UPTREND 🟢,5.75,Hold and monitor (AI Issue).,2026-08-31,6.97,2026-09-21,5.64
+2026-08-24,MSFT,Dynamic Uptrend,487.31,UPTREND 🟢,5.06,Hold and monitor (AI Issue).,2026-08-31,4.81,2026-09-21,1.82
+2026-08-24,CVX,Dynamic Uptrend,203.09,UPTREND 🟢,4.08,Hold and monitor (AI Issue).,2026-08-31,0.91,2026-09-21,1.49
+2026-08-24,SREN.SW,Dynamic Uptrend,139.3,UPTREND 🟢,3.3,Hold and monitor (AI Issue).,2026-08-31,1.11,2026-09-21,0.0
+2026-08-24,VOO,Dynamic Uptrend,701.83,UPTREND 🟢,2.21,Hold and monitor (AI Issue).,2026-08-31,0.32,2026-09-21,0.77
+2026-08-24,MSE.PA,Dynamic Uptrend,73.54,UPTREND 🟢,1.63,Hold and monitor (AI Issue).,2026-08-31,-0.54,2026-09-21,-2.41
+2026-08-24,RHM.DE,Dynamic Uptrend,1155.4,UPTREND 🟢,1.35,Hold and monitor (AI Issue).,2026-08-31,-3.17,2026-09-21,-12.45
+2026-08-24,XDGU.SW,Dynamic Uptrend,12.77,UPTREND 🟢,0.96,Hold and monitor (AI Issue).,2026-08-31,-21.41,2026-09-21,-0.03
+2026-08-24,CHDVD.SW,Dynamic Uptrend,192.4,UPTREND 🟢,-0.2,Hold and monitor (AI Issue).,2026-08-31,-1.01,2026-09-21,-2.17
+2026-08-24,PSPN.SW,Dynamic Uptrend,145.5,UPTREND 🟢,-0.34,Hold and monitor (AI Issue).,2026-08-31,-0.07,2026-09-21,1.72
+2026-08-24,BRK-A,Dynamic Uptrend,755631.0,UPTREND 🟢,-1.43,Hold and monitor (AI Issue).,2026-08-31,0.05,2026-09-21,0.63
+2026-08-24,LMT,Dynamic Uptrend,564.14,UPTREND 🟢,-3.19,Hold and monitor (AI Issue).,2026-08-31,-0.93,2026-09-21,-5.54
+2026-08-24,AXNA.F,Dynamic Uptrend,11.73,UPTREND 🟢,-3.77,Hold and monitor (AI Issue).,2026-08-31,2.09,2026-09-21,-3.5
+2026-08-24,META,Downtrend / Reversal,559.02,DOWNTREND 🔴,0.41,Hold and monitor (AI Issue).,2026-08-31,2.31,2026-09-21,27.85
+2026-08-24,GOOG,Downtrend / Reversal,344.59,DOWNTREND 🔴,-3.38,Hold and monitor (AI Issue).,2026-08-31,-2.76,2026-09-21,1.36
+2026-08-24,NVO,Downtrend / Reversal,46.92,DOWNTREND 🔴,0.93,Hold and monitor (AI Issue).,2026-08-31,-3.12,2026-09-21,-14.68
+2026-08-24,ACLN.SW,Downtrend / Reversal,75.2,DOWNTREND 🔴,3.23,Hold and monitor (AI Issue).,2026-08-31,-3.26,2026-09-21,2.13
+2026-08-24,VDEA.MI,Downtrend / Reversal,54.45,DOWNTREND 🔴,-0.53,Hold and monitor (AI Issue).,2026-08-31,0.77,2026-09-21,0.7
+2026-08-24,VDEA.L,Downtrend / Reversal,63.5,DOWNTREND 🔴,0.76,Hold and monitor (AI Issue).,2026-08-31,0.54,2026-09-21,-0.82
+2026-08-24,IFX.DE,Downtrend / Reversal,55.97,DOWNTREND 🔴,-9.24,Hold and monitor (AI Issue).,2026-08-31,-0.04,2026-09-21,3.32
+2026-08-24,XSPS.MI,Downtrend / Reversal,4.75,DOWNTREND 🔴,-4.42,Hold and monitor (AI Issue).,2026-08-31,0.8,2026-09-21,2.07
+2026-08-24,ABBN.SW,Downtrend / Reversal,80.2,DOWNTREND 🔴,0.86,Hold and monitor (AI Issue).,2026-08-31,-1.75,2026-09-21,2.49
+2026-08-24,VAGX.SW,Downtrend / Reversal,20.52,DOWNTREND 🔴,-0.05,Hold and monitor (AI Issue).,2026-08-31,0.05,2026-09-21,-1.15
+2026-08-24,SPSN.SW,Downtrend / Reversal,128.9,DOWNTREND 🔴,-2.2,Hold and monitor (AI Issue).,2026-08-31,-2.72,2026-09-21,-2.56
+2026-08-24,SQN.SW,Downtrend / Reversal,39.8,DOWNTREND 🔴,-4.97,Hold and monitor (AI Issue).,2026-08-31,5.33,2026-09-21,1.06
+2026-08-24,UBSG.SW,Downtrend / Reversal,42.5,DOWNTREND 🔴,-0.12,Hold and monitor (AI Issue).,2026-08-31,4.16,2026-09-21,-1.2
+2026-08-24,CHKP,Downtrend / Reversal,130.5,DOWNTREND 🔴,2.65,Hold and monitor (AI Issue).,2026-08-31,6.17,2026-09-21,2.64
+2026-08-24,VST,Downtrend / Reversal,135.66,DOWNTREND 🔴,-8.46,Hold and monitor (AI Issue).,2026-08-31,0.83,2026-09-21,2.87
+2026-08-24,HON,Downtrend / Reversal,214.77,DOWNTREND 🔴,-11.37,Hold and monitor (AI Issue).,2026-08-31,-0.76,2026-09-21,-3.97
+2026-08-24,IWME.AS,Downtrend / Reversal,8.0,DOWNTREND 🔴,0.44,Hold and monitor (AI Issue).,2026-08-31,0.0,2026-09-21,1.89
+2026-08-24,AAL,Downtrend / Reversal,13.63,DOWNTREND 🔴,-10.74,Hold and monitor (AI Issue).,2026-08-31,-1.43,2026-09-21,-3.56
+2026-08-24,NXPI,Downtrend / Reversal,222.44,DOWNTREND 🔴,-2.93,Hold and monitor (AI Issue).,2026-08-31,0.92,2026-09-21,2.26
+2026-08-24,AMAT,Downtrend / Reversal,484.19,DOWNTREND 🔴,-4.52,Hold and monitor (AI Issue).,2026-08-31,-5.82,2026-09-21,-6.04
+2026-08-24,ONON,Downtrend / Reversal,29.51,DOWNTREND 🔴,-18.57,Hold and monitor (AI Issue).,2026-08-31,-2.85,2026-09-21,-7.83
+2026-08-24,BA,Downtrend / Reversal,210.46,DOWNTREND 🔴,-2.63,Hold and monitor (AI Issue).,2026-08-31,-1.63,2026-09-21,-5.62
+2026-08-24,TXN,Downtrend / Reversal,258.94,DOWNTREND 🔴,-6.09,Hold and monitor (AI Issue).,2026-08-31,0.7,2026-09-21,2.66
+2026-08-24,TSM,Downtrend / Reversal,410.12,DOWNTREND 🔴,1.45,Hold and monitor (AI Issue).,2026-08-31,2.11,2026-09-21,6.81
+2026-08-24,DKS,Downtrend / Reversal,179.33,DOWNTREND 🔴,-8.46,Hold and monitor (AI Issue).,2026-08-31,-24.34,2026-09-21,-32.7
+2026-08-24,AVGO,Downtrend / Reversal,358.76,DOWNTREND 🔴,-7.84,Hold and monitor (AI Issue).,2026-08-31,2.61,2026-09-21,-0.53
+2026-08-24,NVDA,Downtrend / Reversal,208.48,DOWNTREND 🔴,3.85,Hold and monitor (AI Issue).,2026-08-31,5.66,2026-09-21,6.92
+2026-08-24,INTC,Downtrend / Reversal,87.26,DOWNTREND 🔴,-3.26,Hold and monitor (AI Issue).,2026-08-31,2.99,2026-09-21,35.67
+2026-08-24,AMSC,Downtrend / Reversal,28.92,DOWNTREND 🔴,-1.53,Hold and monitor (AI Issue).,2026-08-31,-2.07,2026-09-21,5.0
+2026-08-24,IONQ,Downtrend / Reversal,41.06,DOWNTREND 🔴,12.68,Hold and monitor (AI Issue).,2026-08-31,-3.06,2026-09-21,-1.67
+2026-08-24,RGTI,Downtrend / Reversal,16.37,DOWNTREND 🔴,9.5,Hold and monitor (AI Issue).,2026-08-31,-4.46,2026-09-21,-0.21
+2026-08-24,O,Core Foundation,63.17,DOWNTREND 🔴,-1.1,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-2.75,2026-09-21,-9.82
+2026-08-24,BNDW,Core Foundation,67.5,DOWNTREND 🔴,0.36,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-0.3,2026-09-21,-1.29
+2026-08-24,BTC-USD,Core Foundation,78711.83,UPTREND 🟢,23.99,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-0.47,2026-09-21,8.31
+2026-08-24,ZGLD.SW,Core Foundation,1094.0,UPTREND 🟢,13.06,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-3.25,2026-09-21,-3.2
+2026-08-24,SHEL,Core Foundation,93.0,UPTREND 🟢,2.0,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-1.95,2026-09-21,1.18
+2026-08-24,ALL,Core Foundation,260.19,UPTREND 🟢,-1.47,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-0.56,2026-09-21,-4.25
+2026-08-24,MU,Core Foundation,910.43,DOWNTREND 🔴,10.62,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,3.38,2026-09-21,14.41
+2026-08-24,KLAC,Core Foundation,181.57,DOWNTREND 🔴,-0.57,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-3.93,2026-09-21,0.04
+2026-08-24,ZSIL.SW,Core Foundation,158.86,UPTREND 🟢,19.86,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-3.89,2026-09-21,-2.08
+2026-08-24,BCHE.SW,Core Foundation,189.78,UPTREND 🟢,8.72,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,2.53,2026-09-21,-11.99
+2026-08-24,ENA-USD,Dynamic Uptrend,0.15,UPTREND 🟢,69.11,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,1.15,2026-09-21,48.37
+2026-08-24,PLTR,Dynamic Uptrend,175.89,UPTREND 🟢,42.93,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,5.89,2026-09-21,3.09
+2026-08-24,CHYM,Dynamic Uptrend,32.7,UPTREND 🟢,42.24,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-0.09,2026-09-21,-8.24
+2026-08-24,SOL-USD,Dynamic Uptrend,97.41,UPTREND 🟢,32.62,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,5.84,2026-09-21,21.1
+2026-08-24,ETH-USD,Dynamic Uptrend,2475.04,UPTREND 🟢,31.47,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-0.39,2026-09-21,10.07
+2026-08-24,MSTR,Dynamic Uptrend,122.63,UPTREND 🟢,31.46,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,5.4,2026-09-21,35.25
 2026-08-24,FLOKI-USD,Dynamic Uptrend,0.0,UPTREND 🟢,27.14,Hold and monitor (Rate Limit/AI Issue).,,,,
-2026-08-24,DOGE-USD,Dynamic Uptrend,0.09,UPTREND 🟢,26.63,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-8.04,,
-2026-08-24,SMCI,Dynamic Uptrend,35.17,UPTREND 🟢,23.84,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,6.77,,
-2026-08-24,FET-USD,Dynamic Uptrend,0.17,UPTREND 🟢,21.6,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-11.46,,
-2026-08-24,CRWV,Dynamic Uptrend,86.25,UPTREND 🟢,20.18,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-3.0,,
-2026-08-24,ICP-USD,Dynamic Uptrend,2.44,UPTREND 🟢,17.88,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-2.14,,
-2026-08-24,SPCE,Dynamic Uptrend,3.0,UPTREND 🟢,17.65,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-2.83,,
-2026-08-24,AMGN,Dynamic Uptrend,443.84,UPTREND 🟢,15.91,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-2.95,,
-2026-08-24,SMSN.IL,Dynamic Uptrend,4854.0,UPTREND 🟢,15.9,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-3.13,,
-2026-08-24,LTC-USD,Dynamic Uptrend,51.43,UPTREND 🟢,15.23,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-5.92,,
-2026-08-24,ACN,Dynamic Uptrend,186.53,UPTREND 🟢,12.42,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,1.77,,
-2026-08-24,SBIO.AS,Dynamic Uptrend,65.29,UPTREND 🟢,12.24,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-2.94,,
-2026-08-24,NFLX,Dynamic Uptrend,80.01,UPTREND 🟢,11.57,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,1.92,,
-2026-08-24,TKA.DE,Dynamic Uptrend,13.37,UPTREND 🟢,10.91,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,6.96,,
-2026-08-24,PBE,Dynamic Uptrend,97.3,UPTREND 🟢,8.58,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-1.46,,
-2026-08-24,BLK,Dynamic Uptrend,1172.61,UPTREND 🟢,7.54,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-1.63,,
-2026-08-24,AFX.DE,Dynamic Uptrend,32.48,UPTREND 🟢,6.49,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-1.11,,
-2026-08-24,PANW,Dynamic Uptrend,350.9,UPTREND 🟢,5.75,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,6.97,,
-2026-08-24,MSFT,Dynamic Uptrend,487.31,UPTREND 🟢,5.06,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,4.81,,
-2026-08-24,CVX,Dynamic Uptrend,203.09,UPTREND 🟢,4.08,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,0.91,,
-2026-08-24,SREN.SW,Dynamic Uptrend,139.3,UPTREND 🟢,3.3,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,1.11,,
-2026-08-24,VOO,Dynamic Uptrend,701.83,UPTREND 🟢,2.21,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,0.32,,
-2026-08-24,MSE.PA,Dynamic Uptrend,73.54,UPTREND 🟢,1.63,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-0.54,,
-2026-08-24,RHM.DE,Dynamic Uptrend,1155.4,UPTREND 🟢,1.35,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-3.17,,
-2026-08-24,XDGU.SW,Dynamic Uptrend,12.77,UPTREND 🟢,0.96,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-21.41,,
-2026-08-24,CHDVD.SW,Dynamic Uptrend,192.4,UPTREND 🟢,-0.2,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-1.01,,
-2026-08-24,PSPN.SW,Dynamic Uptrend,145.5,UPTREND 🟢,-0.34,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-0.07,,
-2026-08-24,BRK-A,Dynamic Uptrend,755631.0,UPTREND 🟢,-1.43,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,0.05,,
-2026-08-24,LMT,Dynamic Uptrend,564.14,UPTREND 🟢,-3.19,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-0.93,,
-2026-08-24,AXNA.F,Dynamic Uptrend,11.73,UPTREND 🟢,-3.77,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,2.09,,
-2026-08-24,META,Downtrend / Reversal,559.02,DOWNTREND 🔴,0.41,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,2.31,,
-2026-08-24,GOOG,Downtrend / Reversal,344.59,DOWNTREND 🔴,-3.38,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-2.76,,
-2026-08-24,NVO,Downtrend / Reversal,46.92,DOWNTREND 🔴,0.93,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-3.12,,
-2026-08-24,ACLN.SW,Downtrend / Reversal,75.2,DOWNTREND 🔴,3.23,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-3.26,,
-2026-08-24,VDEA.MI,Downtrend / Reversal,54.45,DOWNTREND 🔴,-0.53,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,0.77,,
-2026-08-24,VDEA.L,Downtrend / Reversal,63.5,DOWNTREND 🔴,0.76,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,0.54,,
-2026-08-24,IFX.DE,Downtrend / Reversal,55.97,DOWNTREND 🔴,-9.24,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-0.04,,
-2026-08-24,XSPS.MI,Downtrend / Reversal,4.75,DOWNTREND 🔴,-4.42,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,0.8,,
-2026-08-24,ABBN.SW,Downtrend / Reversal,80.2,DOWNTREND 🔴,0.86,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-1.75,,
-2026-08-24,VAGX.SW,Downtrend / Reversal,20.52,DOWNTREND 🔴,-0.05,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,0.05,,
-2026-08-24,SPSN.SW,Downtrend / Reversal,128.9,DOWNTREND 🔴,-2.2,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-2.72,,
-2026-08-24,SQN.SW,Downtrend / Reversal,39.8,DOWNTREND 🔴,-4.97,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,5.33,,
-2026-08-24,UBSG.SW,Downtrend / Reversal,42.5,DOWNTREND 🔴,-0.12,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,4.16,,
-2026-08-24,CHKP,Downtrend / Reversal,130.5,DOWNTREND 🔴,2.65,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,6.17,,
-2026-08-24,VST,Downtrend / Reversal,135.66,DOWNTREND 🔴,-8.46,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,0.83,,
-2026-08-24,HON,Downtrend / Reversal,214.77,DOWNTREND 🔴,-11.37,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-0.76,,
-2026-08-24,IWME.AS,Downtrend / Reversal,8.0,DOWNTREND 🔴,0.43,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,0.0,,
-2026-08-24,AAL,Downtrend / Reversal,13.63,DOWNTREND 🔴,-10.74,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-1.43,,
-2026-08-24,NXPI,Downtrend / Reversal,222.44,DOWNTREND 🔴,-2.93,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,0.92,,
-2026-08-24,AMAT,Downtrend / Reversal,484.19,DOWNTREND 🔴,-4.52,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-5.82,,
-2026-08-24,ONON,Downtrend / Reversal,29.51,DOWNTREND 🔴,-18.57,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-2.85,,
-2026-08-24,BA,Downtrend / Reversal,210.46,DOWNTREND 🔴,-2.63,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-1.63,,
-2026-08-24,TXN,Downtrend / Reversal,258.94,DOWNTREND 🔴,-6.09,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,0.7,,
-2026-08-24,TSM,Downtrend / Reversal,410.12,DOWNTREND 🔴,1.45,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,2.11,,
-2026-08-24,DKS,Downtrend / Reversal,179.33,DOWNTREND 🔴,-8.46,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-24.34,,
-2026-08-24,AVGO,Downtrend / Reversal,358.76,DOWNTREND 🔴,-7.84,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,2.61,,
-2026-08-24,NVDA,Downtrend / Reversal,208.48,DOWNTREND 🔴,3.85,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,5.66,,
-2026-08-24,INTC,Downtrend / Reversal,87.26,DOWNTREND 🔴,-3.26,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,2.99,,
-2026-08-24,AMSC,Downtrend / Reversal,28.92,DOWNTREND 🔴,-1.53,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-2.07,,
-2026-08-24,IONQ,Downtrend / Reversal,41.06,DOWNTREND 🔴,12.68,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-3.06,,
-2026-08-24,RGTI,Downtrend / Reversal,16.37,DOWNTREND 🔴,9.5,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-4.46,,
+2026-08-24,DOGE-USD,Dynamic Uptrend,0.09,UPTREND 🟢,26.63,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-8.04,2026-09-21,3.36
+2026-08-24,SMCI,Dynamic Uptrend,35.17,UPTREND 🟢,23.84,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,6.77,2026-09-21,16.24
+2026-08-24,FET-USD,Dynamic Uptrend,0.17,UPTREND 🟢,21.6,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-11.46,2026-09-21,19.96
+2026-08-24,CRWV,Dynamic Uptrend,86.25,UPTREND 🟢,20.18,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-3.0,2026-09-21,-3.41
+2026-08-24,ICP-USD,Dynamic Uptrend,2.44,UPTREND 🟢,17.88,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-2.14,2026-09-21,20.66
+2026-08-24,SPCE,Dynamic Uptrend,3.0,UPTREND 🟢,17.65,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-2.83,2026-09-21,4.0
+2026-08-24,AMGN,Dynamic Uptrend,443.84,UPTREND 🟢,15.91,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-2.95,2026-09-21,-11.82
+2026-08-24,SMSN.IL,Dynamic Uptrend,4854.0,UPTREND 🟢,15.9,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-3.13,2026-09-21,3.42
+2026-08-24,LTC-USD,Dynamic Uptrend,51.43,UPTREND 🟢,15.23,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-5.92,2026-09-21,20.48
+2026-08-24,ACN,Dynamic Uptrend,186.53,UPTREND 🟢,12.42,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,1.77,2026-09-21,0.79
+2026-08-24,SBIO.AS,Dynamic Uptrend,65.29,UPTREND 🟢,12.24,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-2.94,2026-09-21,-2.28
+2026-08-24,NFLX,Dynamic Uptrend,80.01,UPTREND 🟢,11.57,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,1.92,2026-09-21,-8.94
+2026-08-24,TKA.DE,Dynamic Uptrend,13.37,UPTREND 🟢,10.91,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,6.96,2026-09-21,11.74
+2026-08-24,PBE,Dynamic Uptrend,97.3,UPTREND 🟢,8.58,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-1.46,2026-09-21,-1.94
+2026-08-24,BLK,Dynamic Uptrend,1172.61,UPTREND 🟢,7.54,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-1.63,2026-09-21,-8.55
+2026-08-24,AFX.DE,Dynamic Uptrend,32.48,UPTREND 🟢,6.49,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-1.11,2026-09-21,-10.53
+2026-08-24,PANW,Dynamic Uptrend,350.9,UPTREND 🟢,5.75,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,6.97,2026-09-21,5.64
+2026-08-24,MSFT,Dynamic Uptrend,487.31,UPTREND 🟢,5.06,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,4.81,2026-09-21,1.82
+2026-08-24,CVX,Dynamic Uptrend,203.09,UPTREND 🟢,4.08,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,0.91,2026-09-21,1.49
+2026-08-24,SREN.SW,Dynamic Uptrend,139.3,UPTREND 🟢,3.3,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,1.11,2026-09-21,0.0
+2026-08-24,VOO,Dynamic Uptrend,701.83,UPTREND 🟢,2.21,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,0.32,2026-09-21,0.77
+2026-08-24,MSE.PA,Dynamic Uptrend,73.54,UPTREND 🟢,1.63,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-0.54,2026-09-21,-2.41
+2026-08-24,RHM.DE,Dynamic Uptrend,1155.4,UPTREND 🟢,1.35,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-3.17,2026-09-21,-12.45
+2026-08-24,XDGU.SW,Dynamic Uptrend,12.77,UPTREND 🟢,0.96,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-21.41,2026-09-21,-0.03
+2026-08-24,CHDVD.SW,Dynamic Uptrend,192.4,UPTREND 🟢,-0.2,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-1.01,2026-09-21,-2.17
+2026-08-24,PSPN.SW,Dynamic Uptrend,145.5,UPTREND 🟢,-0.34,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-0.07,2026-09-21,1.72
+2026-08-24,BRK-A,Dynamic Uptrend,755631.0,UPTREND 🟢,-1.43,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,0.05,2026-09-21,0.63
+2026-08-24,LMT,Dynamic Uptrend,564.14,UPTREND 🟢,-3.19,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-0.93,2026-09-21,-5.54
+2026-08-24,AXNA.F,Dynamic Uptrend,11.73,UPTREND 🟢,-3.77,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,2.09,2026-09-21,-3.5
+2026-08-24,META,Downtrend / Reversal,559.02,DOWNTREND 🔴,0.41,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,2.31,2026-09-21,27.85
+2026-08-24,GOOG,Downtrend / Reversal,344.59,DOWNTREND 🔴,-3.38,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-2.76,2026-09-21,1.36
+2026-08-24,NVO,Downtrend / Reversal,46.92,DOWNTREND 🔴,0.93,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-3.12,2026-09-21,-14.68
+2026-08-24,ACLN.SW,Downtrend / Reversal,75.2,DOWNTREND 🔴,3.23,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-3.26,2026-09-21,2.13
+2026-08-24,VDEA.MI,Downtrend / Reversal,54.45,DOWNTREND 🔴,-0.53,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,0.77,2026-09-21,0.7
+2026-08-24,VDEA.L,Downtrend / Reversal,63.5,DOWNTREND 🔴,0.76,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,0.54,2026-09-21,-0.82
+2026-08-24,IFX.DE,Downtrend / Reversal,55.97,DOWNTREND 🔴,-9.24,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-0.04,2026-09-21,3.32
+2026-08-24,XSPS.MI,Downtrend / Reversal,4.75,DOWNTREND 🔴,-4.42,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,0.8,2026-09-21,2.07
+2026-08-24,ABBN.SW,Downtrend / Reversal,80.2,DOWNTREND 🔴,0.86,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-1.75,2026-09-21,2.49
+2026-08-24,VAGX.SW,Downtrend / Reversal,20.52,DOWNTREND 🔴,-0.05,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,0.05,2026-09-21,-1.15
+2026-08-24,SPSN.SW,Downtrend / Reversal,128.9,DOWNTREND 🔴,-2.2,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-2.72,2026-09-21,-2.56
+2026-08-24,SQN.SW,Downtrend / Reversal,39.8,DOWNTREND 🔴,-4.97,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,5.33,2026-09-21,1.06
+2026-08-24,UBSG.SW,Downtrend / Reversal,42.5,DOWNTREND 🔴,-0.12,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,4.16,2026-09-21,-1.2
+2026-08-24,CHKP,Downtrend / Reversal,130.5,DOWNTREND 🔴,2.65,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,6.17,2026-09-21,2.64
+2026-08-24,VST,Downtrend / Reversal,135.66,DOWNTREND 🔴,-8.46,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,0.83,2026-09-21,2.87
+2026-08-24,HON,Downtrend / Reversal,214.77,DOWNTREND 🔴,-11.37,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-0.76,2026-09-21,-3.97
+2026-08-24,IWME.AS,Downtrend / Reversal,8.0,DOWNTREND 🔴,0.43,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,0.0,2026-09-21,1.89
+2026-08-24,AAL,Downtrend / Reversal,13.63,DOWNTREND 🔴,-10.74,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-1.43,2026-09-21,-3.56
+2026-08-24,NXPI,Downtrend / Reversal,222.44,DOWNTREND 🔴,-2.93,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,0.92,2026-09-21,2.26
+2026-08-24,AMAT,Downtrend / Reversal,484.19,DOWNTREND 🔴,-4.52,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-5.82,2026-09-21,-6.04
+2026-08-24,ONON,Downtrend / Reversal,29.51,DOWNTREND 🔴,-18.57,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-2.85,2026-09-21,-7.83
+2026-08-24,BA,Downtrend / Reversal,210.46,DOWNTREND 🔴,-2.63,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-1.63,2026-09-21,-5.62
+2026-08-24,TXN,Downtrend / Reversal,258.94,DOWNTREND 🔴,-6.09,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,0.7,2026-09-21,2.66
+2026-08-24,TSM,Downtrend / Reversal,410.12,DOWNTREND 🔴,1.45,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,2.11,2026-09-21,6.81
+2026-08-24,DKS,Downtrend / Reversal,179.33,DOWNTREND 🔴,-8.46,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-24.34,2026-09-21,-32.7
+2026-08-24,AVGO,Downtrend / Reversal,358.76,DOWNTREND 🔴,-7.84,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,2.61,2026-09-21,-0.53
+2026-08-24,NVDA,Downtrend / Reversal,208.48,DOWNTREND 🔴,3.85,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,5.66,2026-09-21,6.92
+2026-08-24,INTC,Downtrend / Reversal,87.26,DOWNTREND 🔴,-3.26,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,2.99,2026-09-21,35.67
+2026-08-24,AMSC,Downtrend / Reversal,28.92,DOWNTREND 🔴,-1.53,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-2.07,2026-09-21,5.0
+2026-08-24,IONQ,Downtrend / Reversal,41.06,DOWNTREND 🔴,12.68,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-3.06,2026-09-21,-1.67
+2026-08-24,RGTI,Downtrend / Reversal,16.37,DOWNTREND 🔴,9.5,Hold and monitor (Rate Limit/AI Issue).,2026-08-31,-4.46,2026-09-21,-0.21
 2026-08-28,O,Core Foundation,61.98,DOWNTREND 🔴,-2.96,[TRIM 🟠] Downtrend despite analyst buy; avoid falling knife.,2026-09-04,-0.77,,
 2026-08-28,BNDW,Core Foundation,67.54,DOWNTREND 🔴,0.42,"[SELL 🔴] Downtrend, negative macro for bonds.",2026-09-04,-0.89,,
 2026-08-28,BTC-USD,Core Foundation,79436.31,UPTREND 🟢,25.13,"[ACCUMULATE 🟢] Strong uptrend, increasing volume, despite greed.",2026-09-04,1.58,,
@@ -1969,160 +1969,160 @@
 2026-09-11,NVO,Downtrend / Reversal,42.93,DOWNTREND 🔴,-5.25,"[ACCUMULATE 🟢] Very low PCR, analyst buy, potential reversal.",2026-09-18,0.61,,
 2026-09-11,AMGN,Downtrend / Reversal,379.39,DOWNTREND 🔴,-8.09,"[SELL 🔴] High PCR, insider selling, significant negative return.",2026-09-18,0.1,,
 2026-09-11,XDGU.SW,Downtrend / Reversal,9.98,DOWNTREND 🔴,-21.06,"[SELL 🔴] Strong downtrend, significant negative return, no positive catalysts.",2026-09-18,27.92,,
-2026-09-14,O,Core Foundation,59.51,DOWNTREND 🔴,-4.51,"[SELL 🔴] Downtrend, insider selling, not defensive.",,,,
-2026-09-14,BNDW,Core Foundation,66.3,DOWNTREND 🔴,-1.32,"[SELL 🔴] Downtrend, negative return, bonds face rising yields.",,,,
-2026-09-14,BTC-USD,Core Foundation,78374.15,UPTREND 🟢,0.8,"[TRIM 🟠] Macro headwinds for crypto, decreasing volume.",,,,
-2026-09-14,ZGLD.SW,Core Foundation,1055.4,UPTREND 🟢,-3.53,"[STRONG BUY 🚀] Strong inflation hedge, uptrend, increasing volume.",,,,
-2026-09-14,SHEL,Core Foundation,97.37,UPTREND 🟢,4.33,"[STRONG BUY 🚀] Benefits from surging oil, inflation hedge, uptrend.",,,,
-2026-09-14,TSM,Core Foundation,422.73,UPTREND 🟢,0.9,"[TRIM 🟠] Chip sector headwinds, negative return, high PCR.",,,,
-2026-09-14,ZSIL.SW,Core Foundation,150.0,UPTREND 🟢,-5.58,"[ACCUMULATE 🟢] Inflation hedge, uptrend, but decreasing volume.",,,,
-2026-09-14,BCHE.SW,Core Foundation,190.0,UPTREND 🟢,0.12,"[HOLD 🟡] Uptrend, but decreasing volume and unknown asset.",,,,
-2026-09-14,META,Dynamic Uptrend,654.36,UPTREND 🟢,19.0,"[TRIM 🟠] Tech sector headwinds, insider selling.",,,,
-2026-09-14,TKA.DE,Dynamic Uptrend,15.41,UPTREND 🟢,15.26,"[HOLD 🟡] Uptrend, but decreasing volume and cyclical industrial.",,,,
-2026-09-14,MSTR,Dynamic Uptrend,135.11,UPTREND 🟢,13.3,"[TRIM 🟠] Crypto proxy, insider selling, decreasing volume.",,,,
-2026-09-14,ICP-USD,Dynamic Uptrend,2.73,UPTREND 🟢,12.27,"[TRIM 🟠] Crypto headwinds, negative return, despite strong volume.",,,,
-2026-09-14,SPCX,Dynamic Uptrend,149.08,UPTREND 🟢,8.84,"[TRIM 🟠] Tech-heavy, insider selling, negative return.",,,,
-2026-09-14,INTC,Dynamic Uptrend,97.17,UPTREND 🟢,7.88,"[TRIM 🟠] Chip sector headwinds, significant negative return.",,,,
-2026-09-14,CHKP,Dynamic Uptrend,139.17,UPTREND 🟢,6.6,"[TRIM 🟠] Tech headwinds, insider selling, despite strong return.",,,,
-2026-09-14,SOL-USD,Dynamic Uptrend,101.49,UPTREND 🟢,6.34,"[HOLD 🟡] Crypto headwinds, weak volume, greed.",,,,
-2026-09-14,CVX,Dynamic Uptrend,215.81,UPTREND 🟢,5.13,[TRIM 🟠] Insider selling despite oil tailwinds.,,,,
-2026-09-14,UBSG.SW,Dynamic Uptrend,44.56,UPTREND 🟢,4.85,"[ACCUMULATE 🟢] Quality asset, stable trend, no negative signals.",,,,
-2026-09-14,BRK-A,Dynamic Uptrend,774136.0,UPTREND 🟢,4.12,[TRIM 🟠] Insider selling on quality asset.,,,,
-2026-09-14,MSFT,Dynamic Uptrend,500.29,UPTREND 🟢,3.53,"[TRIM 🟠] Tech headwinds, insider selling, weak volume.",,,,
-2026-09-14,CHYM,Dynamic Uptrend,33.9,UPTREND 🟢,3.43,"[SELL 🔴] High PCR, insider selling, strong downgrade.",,,,
-2026-09-14,LTC-USD,Dynamic Uptrend,53.77,UPTREND 🟢,2.81,"[HOLD 🟡] Crypto headwinds, minimal return.",,,,
-2026-09-14,PANW,Dynamic Uptrend,365.61,UPTREND 🟢,2.16,"[TRIM 🟠] Strong return, but tech headwinds and insider selling.",,,,
-2026-09-14,ACN,Dynamic Uptrend,188.77,UPTREND 🟢,1.89,"[HOLD 🟡] Equity headwinds, weak volume, neutral insider.",,,,
-2026-09-14,SMSN.IL,Dynamic Uptrend,4938.0,UPTREND 🟢,1.73,"[HOLD 🟡] Weak volume, zero return, general headwinds.",,,,
-2026-09-14,ETH-USD,Dynamic Uptrend,2504.78,UPTREND 🟢,1.66,"[HOLD 🟡] Crypto headwinds, stable but cautious.",,,,
-2026-09-14,FET-USD,Dynamic Uptrend,0.17,UPTREND 🟢,1.28,"[HOLD 🟡] Crypto headwinds, stable trend.",,,,
-2026-09-14,SMCI,Dynamic Uptrend,37.6,UPTREND 🟢,0.97,"[SELL 🔴] Negative return, insider selling, chip sector headwinds.",,,,
-2026-09-14,PSPN.SW,Dynamic Uptrend,146.7,UPTREND 🟢,0.82,"[HOLD 🟡] Weak volume, zero return, general headwinds.",,,,
-2026-09-14,NFLX,Dynamic Uptrend,79.94,UPTREND 🟢,0.45,"[TRIM 🟠] Tech headwinds, insider selling, weak volume.",,,,
-2026-09-14,XDGU.SW,Dynamic Uptrend,12.77,UPTREND 🟢,0.0,"[ACCUMULATE 🟢] Uptrending ETF, aligns with defensive quality.",,,,
-2026-09-14,SPCE,Dynamic Uptrend,2.97,UPTREND 🟢,-3.41,"[HOLD 🟡] Strong PCR, but speculative and weak volume against macro headwinds.",,,,
-2026-09-14,SBIO.AS,Dynamic Uptrend,62.34,UPTREND 🟢,-4.52,"[ACCUMULATE 🟢] Strong uptrending ETF with increasing volume, defensive sector.",,,,
-2026-09-14,PLTR,Dynamic Uptrend,167.35,UPTREND 🟢,-7.0,[TRIM 🟠] Insider selling and weak volume despite uptrend.,,,,
-2026-09-14,DOGE-USD,Dynamic Uptrend,0.08,UPTREND 🟢,-10.17,"[TRIM 🟠] Crypto faces headwinds, greed index high, despite uptrend.",,,,
+2026-09-14,O,Core Foundation,59.51,DOWNTREND 🔴,-4.51,"[SELL 🔴] Downtrend, insider selling, not defensive.",2026-09-21,-4.28,,
+2026-09-14,BNDW,Core Foundation,66.3,DOWNTREND 🔴,-1.32,"[SELL 🔴] Downtrend, negative return, bonds face rising yields.",2026-09-21,0.49,,
+2026-09-14,BTC-USD,Core Foundation,78374.15,UPTREND 🟢,0.8,"[TRIM 🟠] Macro headwinds for crypto, decreasing volume.",2026-09-21,8.78,,
+2026-09-14,ZGLD.SW,Core Foundation,1055.4,UPTREND 🟢,-3.53,"[STRONG BUY 🚀] Strong inflation hedge, uptrend, increasing volume.",2026-09-21,0.34,,
+2026-09-14,SHEL,Core Foundation,97.37,UPTREND 🟢,4.33,"[STRONG BUY 🚀] Benefits from surging oil, inflation hedge, uptrend.",2026-09-21,-3.36,,
+2026-09-14,TSM,Core Foundation,422.73,UPTREND 🟢,0.9,"[TRIM 🟠] Chip sector headwinds, negative return, high PCR.",2026-09-21,3.62,,
+2026-09-14,ZSIL.SW,Core Foundation,150.0,UPTREND 🟢,-5.58,"[ACCUMULATE 🟢] Inflation hedge, uptrend, but decreasing volume.",2026-09-21,3.71,,
+2026-09-14,BCHE.SW,Core Foundation,190.0,UPTREND 🟢,0.12,"[HOLD 🟡] Uptrend, but decreasing volume and unknown asset.",2026-09-21,-12.09,,
+2026-09-14,META,Dynamic Uptrend,654.36,UPTREND 🟢,19.0,"[TRIM 🟠] Tech sector headwinds, insider selling.",2026-09-21,9.22,,
+2026-09-14,TKA.DE,Dynamic Uptrend,15.41,UPTREND 🟢,15.26,"[HOLD 🟡] Uptrend, but decreasing volume and cyclical industrial.",2026-09-21,-3.05,,
+2026-09-14,MSTR,Dynamic Uptrend,135.11,UPTREND 🟢,13.3,"[TRIM 🟠] Crypto proxy, insider selling, decreasing volume.",2026-09-21,22.76,,
+2026-09-14,ICP-USD,Dynamic Uptrend,2.73,UPTREND 🟢,12.27,"[TRIM 🟠] Crypto headwinds, negative return, despite strong volume.",2026-09-21,7.84,,
+2026-09-14,SPCX,Dynamic Uptrend,149.08,UPTREND 🟢,8.84,"[TRIM 🟠] Tech-heavy, insider selling, negative return.",2026-09-21,4.32,,
+2026-09-14,INTC,Dynamic Uptrend,97.17,UPTREND 🟢,7.88,"[TRIM 🟠] Chip sector headwinds, significant negative return.",2026-09-21,21.84,,
+2026-09-14,CHKP,Dynamic Uptrend,139.17,UPTREND 🟢,6.6,"[TRIM 🟠] Tech headwinds, insider selling, despite strong return.",2026-09-21,-3.75,,
+2026-09-14,SOL-USD,Dynamic Uptrend,101.49,UPTREND 🟢,6.34,"[HOLD 🟡] Crypto headwinds, weak volume, greed.",2026-09-21,16.23,,
+2026-09-14,CVX,Dynamic Uptrend,215.81,UPTREND 🟢,5.13,[TRIM 🟠] Insider selling despite oil tailwinds.,2026-09-21,-4.49,,
+2026-09-14,UBSG.SW,Dynamic Uptrend,44.56,UPTREND 🟢,4.85,"[ACCUMULATE 🟢] Quality asset, stable trend, no negative signals.",2026-09-21,-5.77,,
+2026-09-14,BRK-A,Dynamic Uptrend,774136.0,UPTREND 🟢,4.12,[TRIM 🟠] Insider selling on quality asset.,2026-09-21,-1.77,,
+2026-09-14,MSFT,Dynamic Uptrend,500.29,UPTREND 🟢,3.53,"[TRIM 🟠] Tech headwinds, insider selling, weak volume.",2026-09-21,-0.82,,
+2026-09-14,CHYM,Dynamic Uptrend,33.9,UPTREND 🟢,3.43,"[SELL 🔴] High PCR, insider selling, strong downgrade.",2026-09-21,-11.49,,
+2026-09-14,LTC-USD,Dynamic Uptrend,53.77,UPTREND 🟢,2.81,"[HOLD 🟡] Crypto headwinds, minimal return.",2026-09-21,15.24,,
+2026-09-14,PANW,Dynamic Uptrend,365.61,UPTREND 🟢,2.16,"[TRIM 🟠] Strong return, but tech headwinds and insider selling.",2026-09-21,1.39,,
+2026-09-14,ACN,Dynamic Uptrend,188.77,UPTREND 🟢,1.89,"[HOLD 🟡] Equity headwinds, weak volume, neutral insider.",2026-09-21,-0.41,,
+2026-09-14,SMSN.IL,Dynamic Uptrend,4938.0,UPTREND 🟢,1.73,"[HOLD 🟡] Weak volume, zero return, general headwinds.",2026-09-21,1.66,,
+2026-09-14,ETH-USD,Dynamic Uptrend,2504.78,UPTREND 🟢,1.66,"[HOLD 🟡] Crypto headwinds, stable but cautious.",2026-09-21,8.76,,
+2026-09-14,FET-USD,Dynamic Uptrend,0.17,UPTREND 🟢,1.28,"[HOLD 🟡] Crypto headwinds, stable trend.",2026-09-21,19.96,,
+2026-09-14,SMCI,Dynamic Uptrend,37.6,UPTREND 🟢,0.97,"[SELL 🔴] Negative return, insider selling, chip sector headwinds.",2026-09-21,8.72,,
+2026-09-14,PSPN.SW,Dynamic Uptrend,146.7,UPTREND 🟢,0.82,"[HOLD 🟡] Weak volume, zero return, general headwinds.",2026-09-21,0.89,,
+2026-09-14,NFLX,Dynamic Uptrend,79.94,UPTREND 🟢,0.45,"[TRIM 🟠] Tech headwinds, insider selling, weak volume.",2026-09-21,-8.86,,
+2026-09-14,XDGU.SW,Dynamic Uptrend,12.77,UPTREND 🟢,0.0,"[ACCUMULATE 🟢] Uptrending ETF, aligns with defensive quality.",2026-09-21,-0.03,,
+2026-09-14,SPCE,Dynamic Uptrend,2.97,UPTREND 🟢,-3.41,"[HOLD 🟡] Strong PCR, but speculative and weak volume against macro headwinds.",2026-09-21,5.05,,
+2026-09-14,SBIO.AS,Dynamic Uptrend,62.34,UPTREND 🟢,-4.52,"[ACCUMULATE 🟢] Strong uptrending ETF with increasing volume, defensive sector.",2026-09-21,2.34,,
+2026-09-14,PLTR,Dynamic Uptrend,167.35,UPTREND 🟢,-7.0,[TRIM 🟠] Insider selling and weak volume despite uptrend.,2026-09-21,8.35,,
+2026-09-14,DOGE-USD,Dynamic Uptrend,0.08,UPTREND 🟢,-10.17,"[TRIM 🟠] Crypto faces headwinds, greed index high, despite uptrend.",2026-09-21,16.27,,
 2026-09-14,FLOKI-USD,Dynamic Uptrend,0.0,UPTREND 🟢,-11.71,"[TRIM 🟠] Crypto faces headwinds, weak volume, greed index high.",,,,
-2026-09-14,ENA-USD,Dynamic Uptrend,0.14,UPTREND 🟢,-13.53,"[TRIM 🟠] Crypto faces headwinds, weak volume, greed index high.",,,,
-2026-09-14,IONQ,Downtrend / Reversal,37.76,DOWNTREND 🔴,-15.83,"[SELL 🔴] Downtrend, insider selling, and tech headwinds.",,,,
-2026-09-14,GOOG,Downtrend / Reversal,340.19,DOWNTREND 🔴,-0.39,"[SELL 🔴] Downtrend, insider selling, and tech headwinds.",,,,
-2026-09-14,LMT,Downtrend / Reversal,531.41,DOWNTREND 🔴,-5.12,[TRIM 🟠] Downtrend and insider selling despite defensive sector.,,,,
-2026-09-14,RGTI,Downtrend / Reversal,15.43,DOWNTREND 🔴,-13.85,"[SELL 🔴] Downtrend, insider selling, and tech headwinds.",,,,
-2026-09-14,NVO,Downtrend / Reversal,43.15,DOWNTREND 🔴,-7.69,"[HOLD 🟡] Defensive sector, but downtrend and weak volume are concerns.",,,,
-2026-09-14,RHM.DE,Downtrend / Reversal,990.6,DOWNTREND 🔴,-14.26,"[HOLD 🟡] Downtrend, but defensive sector aligns with macro.",,,,
-2026-09-14,AXNA.F,Downtrend / Reversal,11.23,DOWNTREND 🔴,-4.31,"[SELL 🔴] Downtrend with weak volume, no positive catalysts.",,,,
-2026-09-14,AFX.DE,Downtrend / Reversal,30.3,DOWNTREND 🔴,-6.71,"[HOLD 🟡] Defensive sector, but downtrend and weak volume are concerns.",,,,
-2026-09-14,XSPS.MI,Downtrend / Reversal,4.8,DOWNTREND 🔴,1.03,"[SELL 🔴] Downtrend, weak volume, defensive macro.",,,,
-2026-09-14,IWME.AS,Downtrend / Reversal,8.07,DOWNTREND 🔴,-0.05,"[SELL 🔴] Downtrend, weak volume, defensive macro.",,,,
-2026-09-14,VDEA.MI,Downtrend / Reversal,54.34,DOWNTREND 🔴,-0.2,"[SELL 🔴] Strong selling volume in downtrend, defensive macro.",,,,
-2026-09-14,VDEA.L,Downtrend / Reversal,62.99,DOWNTREND 🔴,-0.8,"[SELL 🔴] Downtrend, weak volume, defensive macro.",,,,
-2026-09-14,MSE.PA,Downtrend / Reversal,72.03,DOWNTREND 🔴,-2.05,"[SELL 🔴] Downtrend, weak volume, defensive macro.",,,,
-2026-09-14,SREN.SW,Downtrend / Reversal,136.85,DOWNTREND 🔴,-1.76,"[SELL 🔴] Downtrend, stable volume, defensive macro.",,,,
-2026-09-14,ABBN.SW,Downtrend / Reversal,78.66,DOWNTREND 🔴,-1.92,"[SELL 🔴] Downtrend, weak volume, defensive macro.",,,,
-2026-09-14,SQN.SW,Downtrend / Reversal,40.48,DOWNTREND 🔴,1.71,"[SELL 🔴] Downtrend, weak volume, defensive macro.",,,,
-2026-09-14,CHDVD.SW,Downtrend / Reversal,185.12,DOWNTREND 🔴,-3.78,"[SELL 🔴] Strong selling volume in downtrend, defensive macro.",,,,
-2026-09-14,ACLN.SW,Downtrend / Reversal,74.65,DOWNTREND 🔴,-0.73,"[SELL 🔴] Downtrend, weak volume, defensive macro.",,,,
-2026-09-14,VAGX.SW,Downtrend / Reversal,20.27,DOWNTREND 🔴,-1.22,"[SELL 🔴] Downtrend, weak volume, defensive macro.",,,,
-2026-09-14,SPSN.SW,Downtrend / Reversal,125.9,DOWNTREND 🔴,-2.33,"[SELL 🔴] Downtrend, stable volume, defensive macro.",,,,
-2026-09-14,IFX.DE,Downtrend / Reversal,58.56,DOWNTREND 🔴,4.63,"[SELL 🔴] Downtrend, stable volume, defensive macro.",,,,
-2026-09-14,AMGN,Downtrend / Reversal,377.24,DOWNTREND 🔴,-14.13,"[SELL 🔴] Insider selling, strong volume, downtrend, defensive macro.",,,,
-2026-09-14,PBE,Downtrend / Reversal,92.76,DOWNTREND 🔴,-4.95,"[SELL 🔴] Downtrend, weak volume, negative return, defensive macro.",,,,
-2026-09-14,AAL,Downtrend / Reversal,12.98,DOWNTREND 🔴,-6.11,"[SELL 🔴] Insider selling, strong downtrend.",,,,
-2026-09-14,ONON,Downtrend / Reversal,27.3,DOWNTREND 🔴,-9.08,"[TRIM 🟠] Downtrend, neutral signals, defensive macro.",,,,
-2026-09-14,BLK,Downtrend / Reversal,1074.0,DOWNTREND 🔴,-6.66,"[SELL 🔴] Insider selling, strong downtrend.",,,,
-2026-09-14,VOO,Downtrend / Reversal,697.9,DOWNTREND 🔴,-0.83,"[TRIM 🟠] Broad market exposure, defensive macro.",,,,
-2026-09-14,BA,Downtrend / Reversal,209.04,DOWNTREND 🔴,-2.41,"[TRIM 🟠] Conflicting signals, defensive macro.",,,,
-2026-09-14,HON,Downtrend / Reversal,198.58,DOWNTREND 🔴,-8.02,"[SELL 🔴] Insider selling, high PCR, strong downtrend.",,,,
-2026-09-14,DKS,Downtrend / Reversal,132.47,DOWNTREND 🔴,-27.02,"[TRIM 🟠] Conflicting signals, defensive macro.",,,,
-2026-09-14,TXN,Downtrend / Reversal,261.98,DOWNTREND 🔴,-0.9,"[SELL 🔴] Insider selling, tech headwinds.",,,,
-2026-09-14,NVDA,Downtrend / Reversal,210.37,DOWNTREND 🔴,-1.92,"[SELL 🔴] Insider selling, tech headwinds.",,,,
-2026-09-14,VST,Downtrend / Reversal,142.8,DOWNTREND 🔴,4.84,"[SELL 🔴] Insider selling, strong downtrend.",,,,
-2026-09-14,NXPI,Downtrend / Reversal,227.63,DOWNTREND 🔴,0.92,"[SELL 🔴] Insider selling, tech headwinds.",,,,
-2026-09-14,AVGO,Downtrend / Reversal,346.08,DOWNTREND 🔴,-6.07,"[SELL 🔴] Insider selling, tech headwinds.",,,,
-2026-09-14,KLAC,Downtrend / Reversal,170.92,DOWNTREND 🔴,-7.1,"[SELL 🔴] Extreme PCR, insider selling, tech headwinds.",,,,
-2026-09-14,CRWV,Downtrend / Reversal,84.07,DOWNTREND 🔴,-4.3,"[SELL 🔴] Insider selling, strong downtrend.",,,,
-2026-09-14,MU,Downtrend / Reversal,919.4,DOWNTREND 🔴,-4.9,"[SELL 🔴] Insider selling, tech headwinds.",,,,
-2026-09-14,AMSC,Downtrend / Reversal,27.83,DOWNTREND 🔴,-7.26,"[SELL 🔴] Downtrend, high PCR, and insider selling.",,,,
-2026-09-14,AMAT,Downtrend / Reversal,428.76,DOWNTREND 🔴,-12.91,"[SELL 🔴] Downtrend, weak volume, and insider selling.",,,,
-2026-09-14,O,Core Foundation,59.47,DOWNTREND 🔴,-4.58,"[SELL 🔴] Downtrend, insider selling, cautious macro.",,,,
-2026-09-14,BNDW,Core Foundation,66.46,DOWNTREND 🔴,-1.08,"[SELL 🔴] Downtrend in bonds, macro headwinds for fixed income.",,,,
-2026-09-14,BTC-USD,Core Foundation,79234.31,UPTREND 🟢,1.9,"[ACCUMULATE 🟢] Strong trend, but weak volume and macro caution.",,,,
-2026-09-14,ZGLD.SW,Core Foundation,1055.4,UPTREND 🟢,-3.53,"[STRONG BUY 🚀] Strong defensive asset, increasing volume, macro favors.",,,,
-2026-09-14,SHEL,Core Foundation,96.29,UPTREND 🟢,3.17,"[ACCUMULATE 🟢] Benefits from rising oil prices, good altdata.",,,,
-2026-09-14,TSM,Core Foundation,422.86,UPTREND 🟢,0.93,[ACCUMULATE 🟢] Insider buying offsets chip sector headwinds.,,,,
-2026-09-14,ZSIL.SW,Core Foundation,150.0,UPTREND 🟢,-5.58,"[ACCUMULATE 🟢] Defensive asset, but weak volume. Macro favors.",,,,
-2026-09-14,BCHE.SW,Core Foundation,190.0,UPTREND 🟢,0.12,"[HOLD 🟡] Weak volume, bond headwinds, but still uptrend.",,,,
-2026-09-14,META,Dynamic Uptrend,665.95,UPTREND 🟢,21.1,"[TRIM 🟠] Strong trend, but critical insider selling detected.",,,,
-2026-09-14,TKA.DE,Dynamic Uptrend,15.41,UPTREND 🟢,15.26,"[HOLD 🟡] Uptrend, but weak volume and no strong catalysts.",,,,
-2026-09-14,ICP-USD,Dynamic Uptrend,2.79,UPTREND 🟢,14.64,"[ACCUMULATE 🟢] Strong trend and volume, but macro caution for crypto.",,,,
-2026-09-14,MSTR,Dynamic Uptrend,136.24,UPTREND 🟢,14.25,"[TRIM 🟠] Strong performance, but critical insider selling detected.",,,,
-2026-09-14,SPCX,Dynamic Uptrend,150.34,UPTREND 🟢,9.76,"[TRIM 🟠] Uptrend, but negative return and critical insider selling.",,,,
-2026-09-14,INTC,Dynamic Uptrend,98.57,UPTREND 🟢,9.43,"[TRIM 🟠] Chip sector headwinds, significant negative return today.",,,,
-2026-09-14,SOL-USD,Dynamic Uptrend,103.72,UPTREND 🟢,8.67,"[ACCUMULATE 🟢] Strong trend, but weak volume and macro caution.",,,,
-2026-09-14,CHKP,Dynamic Uptrend,139.01,UPTREND 🟢,6.48,"[TRIM 🟠] Insider selling, chip sector headwinds.",,,,
-2026-09-14,PANW,Dynamic Uptrend,376.55,UPTREND 🟢,5.22,"[TRIM 🟠] Insider selling, weak volume, growth sector.",,,,
-2026-09-14,UBSG.SW,Dynamic Uptrend,44.56,UPTREND 🟢,4.85,"[HOLD 🟡] Stable trend, no negative altdata, cautious macro.",,,,
-2026-09-14,MSFT,Dynamic Uptrend,506.54,UPTREND 🟢,4.82,"[TRIM 🟠] Insider selling, weak volume, growth sector.",,,,
-2026-09-14,ACN,Dynamic Uptrend,193.38,UPTREND 🟢,4.37,"[HOLD 🟡] Weak volume, but no insider selling, cautious macro.",,,,
-2026-09-14,CHYM,Dynamic Uptrend,34.04,UPTREND 🟢,3.86,[TRIM 🟠] Insider selling detected.,,,,
-2026-09-14,BRK-A,Dynamic Uptrend,772086.0,UPTREND 🟢,3.84,[TRIM 🟠] Insider selling detected.,,,,
-2026-09-14,LTC-USD,Dynamic Uptrend,54.26,UPTREND 🟢,3.75,"[HOLD 🟡] Crypto risk, ""Greed"" sentiment, regulatory uncertainty.",,,,
-2026-09-14,CVX,Dynamic Uptrend,212.82,UPTREND 🟢,3.68,"[SELL 🔴] High PCR, insider selling, negative return.",,,,
-2026-09-14,FET-USD,Dynamic Uptrend,0.17,UPTREND 🟢,3.18,"[HOLD 🟡] Crypto risk, regulatory uncertainty, no specific altdata.",,,,
-2026-09-14,ETH-USD,Dynamic Uptrend,2540.06,UPTREND 🟢,3.09,"[HOLD 🟡] Crypto risk, ""Greed"" sentiment, regulatory uncertainty.",,,,
-2026-09-14,SMSN.IL,Dynamic Uptrend,4938.0,UPTREND 🟢,1.73,"[HOLD 🟡] Weak volume, zero return, no specific altdata.",,,,
-2026-09-14,NFLX,Dynamic Uptrend,80.66,UPTREND 🟢,1.34,"[TRIM 🟠] Insider selling, weak volume, growth sector.",,,,
-2026-09-14,PSPN.SW,Dynamic Uptrend,146.7,UPTREND 🟢,0.82,"[HOLD 🟡] Weak volume, zero return, no specific altdata.",,,,
-2026-09-14,GOOG,Dynamic Uptrend,343.89,UPTREND 🟢,0.69,"[TRIM 🟠] Insider selling, growth sector headwinds.",,,,
-2026-09-14,SMCI,Dynamic Uptrend,37.49,UPTREND 🟢,0.66,Hold and monitor (Rate Limit/AI Issue).,,,,
-2026-09-14,XDGU.SW,Dynamic Uptrend,12.77,UPTREND 🟢,0.0,Hold and monitor (Rate Limit/AI Issue).,,,,
-2026-09-14,SPCE,Dynamic Uptrend,2.98,UPTREND 🟢,-3.08,Hold and monitor (Rate Limit/AI Issue).,,,,
-2026-09-14,PLTR,Dynamic Uptrend,172.96,UPTREND 🟢,-3.88,Hold and monitor (Rate Limit/AI Issue).,,,,
-2026-09-14,SBIO.AS,Dynamic Uptrend,62.34,UPTREND 🟢,-4.52,Hold and monitor (Rate Limit/AI Issue).,,,,
-2026-09-14,DOGE-USD,Dynamic Uptrend,0.09,UPTREND 🟢,-8.91,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-14,ENA-USD,Dynamic Uptrend,0.14,UPTREND 🟢,-13.53,"[TRIM 🟠] Crypto faces headwinds, weak volume, greed index high.",2026-09-21,58.97,,
+2026-09-14,IONQ,Downtrend / Reversal,37.76,DOWNTREND 🔴,-15.83,"[SELL 🔴] Downtrend, insider selling, and tech headwinds.",2026-09-21,6.93,,
+2026-09-14,GOOG,Downtrend / Reversal,340.19,DOWNTREND 🔴,-0.39,"[SELL 🔴] Downtrend, insider selling, and tech headwinds.",2026-09-21,2.67,,
+2026-09-14,LMT,Downtrend / Reversal,531.41,DOWNTREND 🔴,-5.12,[TRIM 🟠] Downtrend and insider selling despite defensive sector.,2026-09-21,0.28,,
+2026-09-14,RGTI,Downtrend / Reversal,15.43,DOWNTREND 🔴,-13.85,"[SELL 🔴] Downtrend, insider selling, and tech headwinds.",2026-09-21,5.87,,
+2026-09-14,NVO,Downtrend / Reversal,43.15,DOWNTREND 🔴,-7.69,"[HOLD 🟡] Defensive sector, but downtrend and weak volume are concerns.",2026-09-21,-7.23,,
+2026-09-14,RHM.DE,Downtrend / Reversal,990.6,DOWNTREND 🔴,-14.26,"[HOLD 🟡] Downtrend, but defensive sector aligns with macro.",2026-09-21,2.12,,
+2026-09-14,AXNA.F,Downtrend / Reversal,11.23,DOWNTREND 🔴,-4.31,"[SELL 🔴] Downtrend with weak volume, no positive catalysts.",2026-09-21,0.8,,
+2026-09-14,AFX.DE,Downtrend / Reversal,30.3,DOWNTREND 🔴,-6.71,"[HOLD 🟡] Defensive sector, but downtrend and weak volume are concerns.",2026-09-21,-4.09,,
+2026-09-14,XSPS.MI,Downtrend / Reversal,4.8,DOWNTREND 🔴,1.03,"[SELL 🔴] Downtrend, weak volume, defensive macro.",2026-09-21,1.01,,
+2026-09-14,IWME.AS,Downtrend / Reversal,8.07,DOWNTREND 🔴,-0.05,"[SELL 🔴] Downtrend, weak volume, defensive macro.",2026-09-21,1.0,,
+2026-09-14,VDEA.MI,Downtrend / Reversal,54.34,DOWNTREND 🔴,-0.2,"[SELL 🔴] Strong selling volume in downtrend, defensive macro.",2026-09-21,0.9,,
+2026-09-14,VDEA.L,Downtrend / Reversal,62.99,DOWNTREND 🔴,-0.8,"[SELL 🔴] Downtrend, weak volume, defensive macro.",2026-09-21,-0.02,,
+2026-09-14,MSE.PA,Downtrend / Reversal,72.03,DOWNTREND 🔴,-2.05,"[SELL 🔴] Downtrend, weak volume, defensive macro.",2026-09-21,-0.36,,
+2026-09-14,SREN.SW,Downtrend / Reversal,136.85,DOWNTREND 🔴,-1.76,"[SELL 🔴] Downtrend, stable volume, defensive macro.",2026-09-21,1.79,,
+2026-09-14,ABBN.SW,Downtrend / Reversal,78.66,DOWNTREND 🔴,-1.92,"[SELL 🔴] Downtrend, weak volume, defensive macro.",2026-09-21,4.5,,
+2026-09-14,SQN.SW,Downtrend / Reversal,40.48,DOWNTREND 🔴,1.71,"[SELL 🔴] Downtrend, weak volume, defensive macro.",2026-09-21,-0.64,,
+2026-09-14,CHDVD.SW,Downtrend / Reversal,185.12,DOWNTREND 🔴,-3.78,"[SELL 🔴] Strong selling volume in downtrend, defensive macro.",2026-09-21,1.67,,
+2026-09-14,ACLN.SW,Downtrend / Reversal,74.65,DOWNTREND 🔴,-0.73,"[SELL 🔴] Downtrend, weak volume, defensive macro.",2026-09-21,2.88,,
+2026-09-14,VAGX.SW,Downtrend / Reversal,20.27,DOWNTREND 🔴,-1.22,"[SELL 🔴] Downtrend, weak volume, defensive macro.",2026-09-21,0.06,,
+2026-09-14,SPSN.SW,Downtrend / Reversal,125.9,DOWNTREND 🔴,-2.33,"[SELL 🔴] Downtrend, stable volume, defensive macro.",2026-09-21,-0.24,,
+2026-09-14,IFX.DE,Downtrend / Reversal,58.56,DOWNTREND 🔴,4.63,"[SELL 🔴] Downtrend, stable volume, defensive macro.",2026-09-21,-1.25,,
+2026-09-14,AMGN,Downtrend / Reversal,377.24,DOWNTREND 🔴,-14.13,"[SELL 🔴] Insider selling, strong volume, downtrend, defensive macro.",2026-09-21,3.74,,
+2026-09-14,PBE,Downtrend / Reversal,92.76,DOWNTREND 🔴,-4.95,"[SELL 🔴] Downtrend, weak volume, negative return, defensive macro.",2026-09-21,2.86,,
+2026-09-14,AAL,Downtrend / Reversal,12.98,DOWNTREND 🔴,-6.11,"[SELL 🔴] Insider selling, strong downtrend.",2026-09-21,1.27,,
+2026-09-14,ONON,Downtrend / Reversal,27.3,DOWNTREND 🔴,-9.08,"[TRIM 🟠] Downtrend, neutral signals, defensive macro.",2026-09-21,-0.37,,
+2026-09-14,BLK,Downtrend / Reversal,1074.0,DOWNTREND 🔴,-6.66,"[SELL 🔴] Insider selling, strong downtrend.",2026-09-21,-0.15,,
+2026-09-14,VOO,Downtrend / Reversal,697.9,DOWNTREND 🔴,-0.83,"[TRIM 🟠] Broad market exposure, defensive macro.",2026-09-21,1.34,,
+2026-09-14,BA,Downtrend / Reversal,209.04,DOWNTREND 🔴,-2.41,"[TRIM 🟠] Conflicting signals, defensive macro.",2026-09-21,-4.98,,
+2026-09-14,HON,Downtrend / Reversal,198.58,DOWNTREND 🔴,-8.02,"[SELL 🔴] Insider selling, high PCR, strong downtrend.",2026-09-21,3.86,,
+2026-09-14,DKS,Downtrend / Reversal,132.47,DOWNTREND 🔴,-27.02,"[TRIM 🟠] Conflicting signals, defensive macro.",2026-09-21,-8.89,,
+2026-09-14,TXN,Downtrend / Reversal,261.98,DOWNTREND 🔴,-0.9,"[SELL 🔴] Insider selling, tech headwinds.",2026-09-21,1.47,,
+2026-09-14,NVDA,Downtrend / Reversal,210.37,DOWNTREND 🔴,-1.92,"[SELL 🔴] Insider selling, tech headwinds.",2026-09-21,5.96,,
+2026-09-14,VST,Downtrend / Reversal,142.8,DOWNTREND 🔴,4.84,"[SELL 🔴] Insider selling, strong downtrend.",2026-09-21,-2.28,,
+2026-09-14,NXPI,Downtrend / Reversal,227.63,DOWNTREND 🔴,0.92,"[SELL 🔴] Insider selling, tech headwinds.",2026-09-21,-0.07,,
+2026-09-14,AVGO,Downtrend / Reversal,346.08,DOWNTREND 🔴,-6.07,"[SELL 🔴] Insider selling, tech headwinds.",2026-09-21,3.11,,
+2026-09-14,KLAC,Downtrend / Reversal,170.92,DOWNTREND 🔴,-7.1,"[SELL 🔴] Extreme PCR, insider selling, tech headwinds.",2026-09-21,6.27,,
+2026-09-14,CRWV,Downtrend / Reversal,84.07,DOWNTREND 🔴,-4.3,"[SELL 🔴] Insider selling, strong downtrend.",2026-09-21,-0.9,,
+2026-09-14,MU,Downtrend / Reversal,919.4,DOWNTREND 🔴,-4.9,"[SELL 🔴] Insider selling, tech headwinds.",2026-09-21,13.3,,
+2026-09-14,AMSC,Downtrend / Reversal,27.83,DOWNTREND 🔴,-7.26,"[SELL 🔴] Downtrend, high PCR, and insider selling.",2026-09-21,9.11,,
+2026-09-14,AMAT,Downtrend / Reversal,428.76,DOWNTREND 🔴,-12.91,"[SELL 🔴] Downtrend, weak volume, and insider selling.",2026-09-21,6.11,,
+2026-09-14,O,Core Foundation,59.47,DOWNTREND 🔴,-4.58,"[SELL 🔴] Downtrend, insider selling, cautious macro.",2026-09-21,-4.21,,
+2026-09-14,BNDW,Core Foundation,66.46,DOWNTREND 🔴,-1.08,"[SELL 🔴] Downtrend in bonds, macro headwinds for fixed income.",2026-09-21,0.25,,
+2026-09-14,BTC-USD,Core Foundation,79234.31,UPTREND 🟢,1.9,"[ACCUMULATE 🟢] Strong trend, but weak volume and macro caution.",2026-09-21,7.6,,
+2026-09-14,ZGLD.SW,Core Foundation,1055.4,UPTREND 🟢,-3.53,"[STRONG BUY 🚀] Strong defensive asset, increasing volume, macro favors.",2026-09-21,0.34,,
+2026-09-14,SHEL,Core Foundation,96.29,UPTREND 🟢,3.17,"[ACCUMULATE 🟢] Benefits from rising oil prices, good altdata.",2026-09-21,-2.28,,
+2026-09-14,TSM,Core Foundation,422.86,UPTREND 🟢,0.93,[ACCUMULATE 🟢] Insider buying offsets chip sector headwinds.,2026-09-21,3.59,,
+2026-09-14,ZSIL.SW,Core Foundation,150.0,UPTREND 🟢,-5.58,"[ACCUMULATE 🟢] Defensive asset, but weak volume. Macro favors.",2026-09-21,3.71,,
+2026-09-14,BCHE.SW,Core Foundation,190.0,UPTREND 🟢,0.12,"[HOLD 🟡] Weak volume, bond headwinds, but still uptrend.",2026-09-21,-12.09,,
+2026-09-14,META,Dynamic Uptrend,665.95,UPTREND 🟢,21.1,"[TRIM 🟠] Strong trend, but critical insider selling detected.",2026-09-21,7.32,,
+2026-09-14,TKA.DE,Dynamic Uptrend,15.41,UPTREND 🟢,15.26,"[HOLD 🟡] Uptrend, but weak volume and no strong catalysts.",2026-09-21,-3.05,,
+2026-09-14,ICP-USD,Dynamic Uptrend,2.79,UPTREND 🟢,14.64,"[ACCUMULATE 🟢] Strong trend and volume, but macro caution for crypto.",2026-09-21,5.52,,
+2026-09-14,MSTR,Dynamic Uptrend,136.24,UPTREND 🟢,14.25,"[TRIM 🟠] Strong performance, but critical insider selling detected.",2026-09-21,21.74,,
+2026-09-14,SPCX,Dynamic Uptrend,150.34,UPTREND 🟢,9.76,"[TRIM 🟠] Uptrend, but negative return and critical insider selling.",2026-09-21,3.45,,
+2026-09-14,INTC,Dynamic Uptrend,98.57,UPTREND 🟢,9.43,"[TRIM 🟠] Chip sector headwinds, significant negative return today.",2026-09-21,20.11,,
+2026-09-14,SOL-USD,Dynamic Uptrend,103.72,UPTREND 🟢,8.67,"[ACCUMULATE 🟢] Strong trend, but weak volume and macro caution.",2026-09-21,13.73,,
+2026-09-14,CHKP,Dynamic Uptrend,139.01,UPTREND 🟢,6.48,"[TRIM 🟠] Insider selling, chip sector headwinds.",2026-09-21,-3.64,,
+2026-09-14,PANW,Dynamic Uptrend,376.55,UPTREND 🟢,5.22,"[TRIM 🟠] Insider selling, weak volume, growth sector.",2026-09-21,-1.56,,
+2026-09-14,UBSG.SW,Dynamic Uptrend,44.56,UPTREND 🟢,4.85,"[HOLD 🟡] Stable trend, no negative altdata, cautious macro.",2026-09-21,-5.77,,
+2026-09-14,MSFT,Dynamic Uptrend,506.54,UPTREND 🟢,4.82,"[TRIM 🟠] Insider selling, weak volume, growth sector.",2026-09-21,-2.05,,
+2026-09-14,ACN,Dynamic Uptrend,193.38,UPTREND 🟢,4.37,"[HOLD 🟡] Weak volume, but no insider selling, cautious macro.",2026-09-21,-2.78,,
+2026-09-14,CHYM,Dynamic Uptrend,34.04,UPTREND 🟢,3.86,[TRIM 🟠] Insider selling detected.,2026-09-21,-11.85,,
+2026-09-14,BRK-A,Dynamic Uptrend,772086.0,UPTREND 🟢,3.84,[TRIM 🟠] Insider selling detected.,2026-09-21,-1.51,,
+2026-09-14,LTC-USD,Dynamic Uptrend,54.26,UPTREND 🟢,3.75,"[HOLD 🟡] Crypto risk, ""Greed"" sentiment, regulatory uncertainty.",2026-09-21,14.2,,
+2026-09-14,CVX,Dynamic Uptrend,212.82,UPTREND 🟢,3.68,"[SELL 🔴] High PCR, insider selling, negative return.",2026-09-21,-3.15,,
+2026-09-14,FET-USD,Dynamic Uptrend,0.17,UPTREND 🟢,3.18,"[HOLD 🟡] Crypto risk, regulatory uncertainty, no specific altdata.",2026-09-21,19.96,,
+2026-09-14,ETH-USD,Dynamic Uptrend,2540.06,UPTREND 🟢,3.09,"[HOLD 🟡] Crypto risk, ""Greed"" sentiment, regulatory uncertainty.",2026-09-21,7.25,,
+2026-09-14,SMSN.IL,Dynamic Uptrend,4938.0,UPTREND 🟢,1.73,"[HOLD 🟡] Weak volume, zero return, no specific altdata.",2026-09-21,1.66,,
+2026-09-14,NFLX,Dynamic Uptrend,80.66,UPTREND 🟢,1.34,"[TRIM 🟠] Insider selling, weak volume, growth sector.",2026-09-21,-9.67,,
+2026-09-14,PSPN.SW,Dynamic Uptrend,146.7,UPTREND 🟢,0.82,"[HOLD 🟡] Weak volume, zero return, no specific altdata.",2026-09-21,0.89,,
+2026-09-14,GOOG,Dynamic Uptrend,343.89,UPTREND 🟢,0.69,"[TRIM 🟠] Insider selling, growth sector headwinds.",2026-09-21,1.57,,
+2026-09-14,SMCI,Dynamic Uptrend,37.49,UPTREND 🟢,0.66,Hold and monitor (Rate Limit/AI Issue).,2026-09-21,9.04,,
+2026-09-14,XDGU.SW,Dynamic Uptrend,12.77,UPTREND 🟢,0.0,Hold and monitor (Rate Limit/AI Issue).,2026-09-21,-0.03,,
+2026-09-14,SPCE,Dynamic Uptrend,2.98,UPTREND 🟢,-3.08,Hold and monitor (Rate Limit/AI Issue).,2026-09-21,4.7,,
+2026-09-14,PLTR,Dynamic Uptrend,172.96,UPTREND 🟢,-3.88,Hold and monitor (Rate Limit/AI Issue).,2026-09-21,4.83,,
+2026-09-14,SBIO.AS,Dynamic Uptrend,62.34,UPTREND 🟢,-4.52,Hold and monitor (Rate Limit/AI Issue).,2026-09-21,2.34,,
+2026-09-14,DOGE-USD,Dynamic Uptrend,0.09,UPTREND 🟢,-8.91,Hold and monitor (Rate Limit/AI Issue).,2026-09-21,3.36,,
 2026-09-14,FLOKI-USD,Dynamic Uptrend,0.0,UPTREND 🟢,-9.93,Hold and monitor (Rate Limit/AI Issue).,,,,
-2026-09-14,ENA-USD,Dynamic Uptrend,0.15,UPTREND 🟢,-10.02,Hold and monitor (Rate Limit/AI Issue).,,,,
-2026-09-14,IONQ,Downtrend / Reversal,37.8,DOWNTREND 🔴,-15.74,Hold and monitor (Rate Limit/AI Issue).,,,,
-2026-09-14,AAL,Downtrend / Reversal,13.2,DOWNTREND 🔴,-4.49,Hold and monitor (Rate Limit/AI Issue).,,,,
-2026-09-14,NVO,Downtrend / Reversal,43.52,DOWNTREND 🔴,-6.89,Hold and monitor (Rate Limit/AI Issue).,,,,
-2026-09-14,LMT,Downtrend / Reversal,529.08,DOWNTREND 🔴,-5.54,Hold and monitor (Rate Limit/AI Issue).,,,,
-2026-09-14,PBE,Downtrend / Reversal,93.58,DOWNTREND 🔴,-4.11,Hold and monitor (Rate Limit/AI Issue).,,,,
-2026-09-14,AMGN,Downtrend / Reversal,379.67,DOWNTREND 🔴,-13.58,Hold and monitor (Rate Limit/AI Issue).,,,,
-2026-09-14,RHM.DE,Downtrend / Reversal,990.6,DOWNTREND 🔴,-14.26,Hold and monitor (Rate Limit/AI Issue).,,,,
-2026-09-14,CHDVD.SW,Downtrend / Reversal,185.12,DOWNTREND 🔴,-3.78,"[SELL 🔴] Strong downtrend, increasing volume, bearish macro.",,,,
-2026-09-14,VDEA.L,Downtrend / Reversal,62.99,DOWNTREND 🔴,-0.8,"[SELL 🔴] Downtrend persists, macro headwinds.",,,,
-2026-09-14,MSE.PA,Downtrend / Reversal,72.03,DOWNTREND 🔴,-2.05,"[SELL 🔴] Downtrend persists, macro headwinds.",,,,
-2026-09-14,VDEA.MI,Downtrend / Reversal,54.34,DOWNTREND 🔴,-0.2,"[SELL 🔴] Strong downtrend, increasing volume, bearish macro.",,,,
-2026-09-14,AXNA.F,Downtrend / Reversal,11.23,DOWNTREND 🔴,-4.31,"[SELL 🔴] Downtrend persists, macro headwinds.",,,,
-2026-09-14,AFX.DE,Downtrend / Reversal,30.3,DOWNTREND 🔴,-6.71,"[SELL 🔴] Downtrend persists, macro headwinds.",,,,
-2026-09-14,SREN.SW,Downtrend / Reversal,136.85,DOWNTREND 🔴,-1.76,"[SELL 🔴] Downtrend persists, macro headwinds.",,,,
-2026-09-14,SQN.SW,Downtrend / Reversal,40.48,DOWNTREND 🔴,1.71,"[SELL 🔴] Downtrend persists, macro headwinds.",,,,
-2026-09-14,RGTI,Downtrend / Reversal,15.27,DOWNTREND 🔴,-14.74,"[SELL 🔴] Insider selling, strong downtrend, bearish macro.",,,,
-2026-09-14,XSPS.MI,Downtrend / Reversal,4.8,DOWNTREND 🔴,1.03,"[SELL 🔴] Downtrend persists, macro headwinds.",,,,
-2026-09-14,IWME.AS,Downtrend / Reversal,8.07,DOWNTREND 🔴,-0.05,"[SELL 🔴] Downtrend persists, macro headwinds.",,,,
-2026-09-14,SPSN.SW,Downtrend / Reversal,125.9,DOWNTREND 🔴,-2.33,"[SELL 🔴] Downtrend persists, macro headwinds.",,,,
-2026-09-14,VAGX.SW,Downtrend / Reversal,20.27,DOWNTREND 🔴,-1.22,"[SELL 🔴] Downtrend persists, macro headwinds.",,,,
-2026-09-14,IFX.DE,Downtrend / Reversal,58.56,DOWNTREND 🔴,4.63,"[SELL 🔴] Downtrend persists, macro headwinds.",,,,
-2026-09-14,ACLN.SW,Downtrend / Reversal,74.65,DOWNTREND 🔴,-0.73,"[SELL 🔴] Downtrend persists, macro headwinds.",,,,
-2026-09-14,ABBN.SW,Downtrend / Reversal,78.66,DOWNTREND 🔴,-1.92,"[HOLD 🟡] Downtrend, weak volume, no strong signals.",,,,
-2026-09-14,ONON,Downtrend / Reversal,27.39,DOWNTREND 🔴,-8.78,"[HOLD 🟡] Downtrend, but low PCR offers some support.",,,,
-2026-09-14,VOO,Downtrend / Reversal,700.82,DOWNTREND 🔴,-0.41,"[HOLD 🟡] Broad market ETF, reflects macro headwinds.",,,,
-2026-09-14,BA,Downtrend / Reversal,209.59,DOWNTREND 🔴,-2.15,"[ACCUMULATE 🟢] Insider buying despite downtrend, PCR neutral.",,,,
-2026-09-14,TXN,Downtrend / Reversal,265.42,DOWNTREND 🔴,0.4,"[SELL 🔴] Insider selling, downtrend, weak volume.",,,,
-2026-09-14,HON,Downtrend / Reversal,199.79,DOWNTREND 🔴,-7.46,"[SELL 🔴] High PCR, insider selling, downtrend.",,,,
-2026-09-14,BLK,Downtrend / Reversal,1060.37,DOWNTREND 🔴,-7.85,"[TRIM 🟠] Insider selling, downtrend, despite low PCR.",,,,
-2026-09-14,DKS,Downtrend / Reversal,131.46,DOWNTREND 🔴,-27.58,"[ACCUMULATE 🟢] Insider buying despite downtrend, PCR neutral.",,,,
-2026-09-14,NVDA,Downtrend / Reversal,212.29,DOWNTREND 🔴,-1.02,"[SELL 🔴] Insider selling, downtrend, chip sector headwinds.",,,,
-2026-09-14,NXPI,Downtrend / Reversal,226.83,DOWNTREND 🔴,0.56,"[TRIM 🟠] Insider selling, downtrend, chip sector headwinds.",,,,
-2026-09-14,AVGO,Downtrend / Reversal,346.45,DOWNTREND 🔴,-5.97,"[SELL 🔴] Insider selling, downtrend, chip sector headwinds.",,,,
-2026-09-14,VST,Downtrend / Reversal,141.89,DOWNTREND 🔴,4.17,"[SELL 🔴] Insider selling, downtrend, stable volume.",,,,
-2026-09-14,MU,Downtrend / Reversal,930.0,DOWNTREND 🔴,-3.8,"[SELL 🔴] Insider selling, downtrend, chip sector headwinds.",,,,
-2026-09-14,AMSC,Downtrend / Reversal,27.98,DOWNTREND 🔴,-6.76,"[SELL 🔴] High PCR, insider selling, downtrend.",,,,
-2026-09-14,KLAC,Downtrend / Reversal,170.68,DOWNTREND 🔴,-7.23,"[SELL 🔴] Extremely high PCR, insider selling, chip sector headwinds.",,,,
-2026-09-14,CRWV,Downtrend / Reversal,83.88,DOWNTREND 🔴,-4.52,"[SELL 🔴] Downtrend, insider selling, cautious macro.",,,,
-2026-09-14,AMAT,Downtrend / Reversal,428.79,DOWNTREND 🔴,-12.91,"[SELL 🔴] Chip sector headwinds, insider selling, downtrend.",,,,
+2026-09-14,ENA-USD,Dynamic Uptrend,0.15,UPTREND 🟢,-10.02,Hold and monitor (Rate Limit/AI Issue).,2026-09-21,48.37,,
+2026-09-14,IONQ,Downtrend / Reversal,37.8,DOWNTREND 🔴,-15.74,Hold and monitor (Rate Limit/AI Issue).,2026-09-21,6.81,,
+2026-09-14,AAL,Downtrend / Reversal,13.2,DOWNTREND 🔴,-4.49,Hold and monitor (Rate Limit/AI Issue).,2026-09-21,-0.42,,
+2026-09-14,NVO,Downtrend / Reversal,43.52,DOWNTREND 🔴,-6.89,Hold and monitor (Rate Limit/AI Issue).,2026-09-21,-8.02,,
+2026-09-14,LMT,Downtrend / Reversal,529.08,DOWNTREND 🔴,-5.54,Hold and monitor (Rate Limit/AI Issue).,2026-09-21,0.72,,
+2026-09-14,PBE,Downtrend / Reversal,93.58,DOWNTREND 🔴,-4.11,Hold and monitor (Rate Limit/AI Issue).,2026-09-21,1.96,,
+2026-09-14,AMGN,Downtrend / Reversal,379.67,DOWNTREND 🔴,-13.58,Hold and monitor (Rate Limit/AI Issue).,2026-09-21,3.08,,
+2026-09-14,RHM.DE,Downtrend / Reversal,990.6,DOWNTREND 🔴,-14.26,Hold and monitor (Rate Limit/AI Issue).,2026-09-21,2.12,,
+2026-09-14,CHDVD.SW,Downtrend / Reversal,185.12,DOWNTREND 🔴,-3.78,"[SELL 🔴] Strong downtrend, increasing volume, bearish macro.",2026-09-21,1.67,,
+2026-09-14,VDEA.L,Downtrend / Reversal,62.99,DOWNTREND 🔴,-0.8,"[SELL 🔴] Downtrend persists, macro headwinds.",2026-09-21,-0.02,,
+2026-09-14,MSE.PA,Downtrend / Reversal,72.03,DOWNTREND 🔴,-2.05,"[SELL 🔴] Downtrend persists, macro headwinds.",2026-09-21,-0.36,,
+2026-09-14,VDEA.MI,Downtrend / Reversal,54.34,DOWNTREND 🔴,-0.2,"[SELL 🔴] Strong downtrend, increasing volume, bearish macro.",2026-09-21,0.9,,
+2026-09-14,AXNA.F,Downtrend / Reversal,11.23,DOWNTREND 🔴,-4.31,"[SELL 🔴] Downtrend persists, macro headwinds.",2026-09-21,0.8,,
+2026-09-14,AFX.DE,Downtrend / Reversal,30.3,DOWNTREND 🔴,-6.71,"[SELL 🔴] Downtrend persists, macro headwinds.",2026-09-21,-4.09,,
+2026-09-14,SREN.SW,Downtrend / Reversal,136.85,DOWNTREND 🔴,-1.76,"[SELL 🔴] Downtrend persists, macro headwinds.",2026-09-21,1.79,,
+2026-09-14,SQN.SW,Downtrend / Reversal,40.48,DOWNTREND 🔴,1.71,"[SELL 🔴] Downtrend persists, macro headwinds.",2026-09-21,-0.64,,
+2026-09-14,RGTI,Downtrend / Reversal,15.27,DOWNTREND 🔴,-14.74,"[SELL 🔴] Insider selling, strong downtrend, bearish macro.",2026-09-21,6.97,,
+2026-09-14,XSPS.MI,Downtrend / Reversal,4.8,DOWNTREND 🔴,1.03,"[SELL 🔴] Downtrend persists, macro headwinds.",2026-09-21,1.01,,
+2026-09-14,IWME.AS,Downtrend / Reversal,8.07,DOWNTREND 🔴,-0.05,"[SELL 🔴] Downtrend persists, macro headwinds.",2026-09-21,1.0,,
+2026-09-14,SPSN.SW,Downtrend / Reversal,125.9,DOWNTREND 🔴,-2.33,"[SELL 🔴] Downtrend persists, macro headwinds.",2026-09-21,-0.24,,
+2026-09-14,VAGX.SW,Downtrend / Reversal,20.27,DOWNTREND 🔴,-1.22,"[SELL 🔴] Downtrend persists, macro headwinds.",2026-09-21,0.06,,
+2026-09-14,IFX.DE,Downtrend / Reversal,58.56,DOWNTREND 🔴,4.63,"[SELL 🔴] Downtrend persists, macro headwinds.",2026-09-21,-1.25,,
+2026-09-14,ACLN.SW,Downtrend / Reversal,74.65,DOWNTREND 🔴,-0.73,"[SELL 🔴] Downtrend persists, macro headwinds.",2026-09-21,2.88,,
+2026-09-14,ABBN.SW,Downtrend / Reversal,78.66,DOWNTREND 🔴,-1.92,"[HOLD 🟡] Downtrend, weak volume, no strong signals.",2026-09-21,4.5,,
+2026-09-14,ONON,Downtrend / Reversal,27.39,DOWNTREND 🔴,-8.78,"[HOLD 🟡] Downtrend, but low PCR offers some support.",2026-09-21,-0.69,,
+2026-09-14,VOO,Downtrend / Reversal,700.82,DOWNTREND 🔴,-0.41,"[HOLD 🟡] Broad market ETF, reflects macro headwinds.",2026-09-21,0.92,,
+2026-09-14,BA,Downtrend / Reversal,209.59,DOWNTREND 🔴,-2.15,"[ACCUMULATE 🟢] Insider buying despite downtrend, PCR neutral.",2026-09-21,-5.22,,
+2026-09-14,TXN,Downtrend / Reversal,265.42,DOWNTREND 🔴,0.4,"[SELL 🔴] Insider selling, downtrend, weak volume.",2026-09-21,0.15,,
+2026-09-14,HON,Downtrend / Reversal,199.79,DOWNTREND 🔴,-7.46,"[SELL 🔴] High PCR, insider selling, downtrend.",2026-09-21,3.23,,
+2026-09-14,BLK,Downtrend / Reversal,1060.37,DOWNTREND 🔴,-7.85,"[TRIM 🟠] Insider selling, downtrend, despite low PCR.",2026-09-21,1.13,,
+2026-09-14,DKS,Downtrend / Reversal,131.46,DOWNTREND 🔴,-27.58,"[ACCUMULATE 🟢] Insider buying despite downtrend, PCR neutral.",2026-09-21,-8.19,,
+2026-09-14,NVDA,Downtrend / Reversal,212.29,DOWNTREND 🔴,-1.02,"[SELL 🔴] Insider selling, downtrend, chip sector headwinds.",2026-09-21,5.0,,
+2026-09-14,NXPI,Downtrend / Reversal,226.83,DOWNTREND 🔴,0.56,"[TRIM 🟠] Insider selling, downtrend, chip sector headwinds.",2026-09-21,0.28,,
+2026-09-14,AVGO,Downtrend / Reversal,346.45,DOWNTREND 🔴,-5.97,"[SELL 🔴] Insider selling, downtrend, chip sector headwinds.",2026-09-21,3.0,,
+2026-09-14,VST,Downtrend / Reversal,141.89,DOWNTREND 🔴,4.17,"[SELL 🔴] Insider selling, downtrend, stable volume.",2026-09-21,-1.65,,
+2026-09-14,MU,Downtrend / Reversal,930.0,DOWNTREND 🔴,-3.8,"[SELL 🔴] Insider selling, downtrend, chip sector headwinds.",2026-09-21,12.01,,
+2026-09-14,AMSC,Downtrend / Reversal,27.98,DOWNTREND 🔴,-6.76,"[SELL 🔴] High PCR, insider selling, downtrend.",2026-09-21,8.52,,
+2026-09-14,KLAC,Downtrend / Reversal,170.68,DOWNTREND 🔴,-7.23,"[SELL 🔴] Extremely high PCR, insider selling, chip sector headwinds.",2026-09-21,6.42,,
+2026-09-14,CRWV,Downtrend / Reversal,83.88,DOWNTREND 🔴,-4.52,"[SELL 🔴] Downtrend, insider selling, cautious macro.",2026-09-21,-0.68,,
+2026-09-14,AMAT,Downtrend / Reversal,428.79,DOWNTREND 🔴,-12.91,"[SELL 🔴] Chip sector headwinds, insider selling, downtrend.",2026-09-21,6.1,,
 2026-09-18,O,Core Foundation,57.32,DOWNTREND 🔴,-8.03,"[SELL 🔴] Strong downtrend, high PCR, and insider selling.",,,,
 2026-09-18,BNDW,Core Foundation,66.69,DOWNTREND 🔴,-0.74,"[SELL 🔴] Downtrend, bond market pain, no positive catalysts.",,,,
 2026-09-18,BTC-USD,Core Foundation,77751.58,UPTREND 🟢,-0.0,"[HOLD 🟡] Uptrend, but weak volume and regulatory headwinds.",,,,
@@ -2354,3 +2354,80 @@
 2026-09-18,DKS,Downtrend / Reversal,123.36,DOWNTREND 🔴,-32.03,Hold and monitor (Rate Limit/AI Issue).,,,,
 2026-09-18,CRWV,Downtrend / Reversal,80.03,DOWNTREND 🔴,-8.9,Hold and monitor (Rate Limit/AI Issue).,,,,
 2026-09-18,XDGU.SW,Downtrend / Reversal,10.13,DOWNTREND 🔴,-20.66,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,O,Core Foundation,56.88,DOWNTREND 🔴,-7.83,"[SELL 🔴] Downtrend, increasing volume, and insider selling.",,,,
+2026-09-21,BNDW,Core Foundation,66.63,DOWNTREND 🔴,-0.85,"[TRIM 🟠] Downtrend, weak volume, Fed hike risk.",,,,
+2026-09-21,BTC-USD,Core Foundation,85427.43,UPTREND 🟢,9.99,"[STRONG BUY 🚀] Strong uptrend, macro tailwind, leading digital asset.",,,,
+2026-09-21,ZGLD.SW,Core Foundation,1061.0,UPTREND 🟢,-2.79,"[HOLD 🟡] Uptrend, weak volume, potential hedge.",,,,
+2026-09-21,SHEL,Core Foundation,94.23,UPTREND 🟢,3.65,"[ACCUMULATE 🟢] Uptrend, low PCR, but falling oil prices.",,,,
+2026-09-21,TSM,Core Foundation,438.29,UPTREND 🟢,5.26,"[STRONG BUY 🚀] Strong uptrend, increasing volume, insider buying.",,,,
+2026-09-21,ZSIL.SW,Core Foundation,155.72,UPTREND 🟢,-2.41,"[HOLD 🟡] Uptrend, weak volume, potential hedge.",,,,
+2026-09-21,BCHE.SW,Core Foundation,193.0,UPTREND 🟢,-0.11,"[ACCUMULATE 🟢] Uptrend, increasing strong volume.",,,,
+2026-09-21,ENA-USD,Dynamic Uptrend,0.22,UPTREND 🟢,51.49,"[ACCUMULATE 🟢] Strong uptrend, good return, favored digital asset.",,,,
+2026-09-21,FET-USD,Dynamic Uptrend,0.21,UPTREND 🟢,39.34,"[STRONG BUY 🚀] Very strong uptrend, excellent return, favored digital asset.",,,,
+2026-09-21,INTC,Dynamic Uptrend,118.43,UPTREND 🟢,32.37,"[STRONG BUY 🚀] Strong uptrend, excellent return, increasing volume, low PCR.",,,,
+2026-09-21,MSTR,Dynamic Uptrend,167.76,UPTREND 🟢,31.77,"[ACCUMULATE 🟢] Strong uptrend, but insider selling detected.",,,,
+2026-09-21,LTC-USD,Dynamic Uptrend,62.48,UPTREND 🟢,30.42,"[ACCUMULATE 🟢] Strong uptrend, good return, favored digital asset.",,,,
+2026-09-21,ICP-USD,Dynamic Uptrend,2.96,UPTREND 🟢,26.32,"[ACCUMULATE 🟢] Uptrend, decent return, favored digital asset.",,,,
+2026-09-21,META,Dynamic Uptrend,711.05,UPTREND 🟢,23.01,"[ACCUMULATE 🟢] Strong uptrend, but insider selling detected.",,,,
+2026-09-21,SOL-USD,Dynamic Uptrend,118.1,UPTREND 🟢,15.92,"[ACCUMULATE 🟢] Strong uptrend, high returns, stable volume, positive crypto sentiment.",,,,
+2026-09-21,FLOKI-USD,Dynamic Uptrend,0.0,UPTREND 🟢,14.83,"[ACCUMULATE 🟢] Strong uptrend, high returns, increasing volume. Meme coin risk.",,,,
+2026-09-21,DOGE-USD,Dynamic Uptrend,0.09,UPTREND 🟢,13.73,"[ACCUMULATE 🟢] Strong uptrend, high returns, stable volume, positive crypto sentiment.",,,,
+2026-09-21,ETH-USD,Dynamic Uptrend,2731.89,UPTREND 🟢,12.98,"[ACCUMULATE 🟢] Solid uptrend, stable volume, positive crypto sentiment. Core digital asset.",,,,
+2026-09-21,MU,Dynamic Uptrend,1048.17,UPTREND 🟢,12.36,"[TRIM 🟠] Uptrend, but insider selling detected. Downgrade.",,,,
+2026-09-21,SMCI,Dynamic Uptrend,41.1,UPTREND 🟢,10.85,"[TRIM 🟠] Uptrend, but insider selling detected. Downgrade.",,,,
+2026-09-21,SPCX,Dynamic Uptrend,156.21,UPTREND 🟢,10.4,"[TRIM 🟠] Uptrend, increasing volume, but insider selling detected. Downgrade.",,,,
+2026-09-21,AMSC,Dynamic Uptrend,30.53,UPTREND 🟢,7.18,"[TRIM 🟠] Uptrend, increasing volume, but insider selling detected. Downgrade.",,,,
+2026-09-21,SPCE,Dynamic Uptrend,3.11,UPTREND 🟢,5.78,"[ACCUMULATE 🟢] Strong uptrend, increasing volume, neutral insider sentiment.",,,,
+2026-09-21,XSPS.MI,Dynamic Uptrend,4.89,UPTREND 🟢,3.32,"[HOLD 🟡] Uptrend, zero return, weak volume, no altdata. Prudence.",,,,
+2026-09-21,NVDA,Dynamic Uptrend,224.34,UPTREND 🟢,3.24,"[TRIM 🟠] Uptrend, but insider selling detected. Downgrade.",,,,
+2026-09-21,TKA.DE,Dynamic Uptrend,15.19,UPTREND 🟢,3.09,"[HOLD 🟡] Uptrend, zero return, strong volume, no insider data.",,,,
+2026-09-21,CVX,Dynamic Uptrend,206.5,UPTREND 🟢,2.3,"[TRIM 🟠] Negative return, insider selling detected. Downgrade.",,,,
+2026-09-21,GOOG,Dynamic Uptrend,349.16,UPTREND 🟢,1.9,"[TRIM 🟠] Uptrend, strong volume, but insider selling detected. Downgrade.",,,,
+2026-09-21,PSPN.SW,Dynamic Uptrend,148.2,UPTREND 🟢,1.37,"[HOLD 🟡] Uptrend, zero return, strong volume, no insider data.",,,,
+2026-09-21,VOO,Dynamic Uptrend,707.21,UPTREND 🟢,-0.0,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,XDGU.SW,Dynamic Uptrend,12.77,UPTREND 🟢,0.0,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,VDEA.MI,Dynamic Uptrend,54.93,UPTREND 🟢,-0.05,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,PANW,Dynamic Uptrend,370.47,UPTREND 🟢,-0.3,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,PBE,Dynamic Uptrend,95.41,UPTREND 🟢,-0.94,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,ACN,Dynamic Uptrend,187.68,UPTREND 🟢,-1.02,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,SBIO.AS,Dynamic Uptrend,63.49,UPTREND 🟢,-1.37,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,PLTR,Dynamic Uptrend,181.29,UPTREND 🟢,-2.69,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,MSFT,Dynamic Uptrend,495.12,UPTREND 🟢,-3.58,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,CHKP,Dynamic Uptrend,132.93,UPTREND 🟢,-3.89,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,CRWV,Downtrend / Reversal,83.87,DOWNTREND 🔴,-0.43,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,RGTI,Downtrend / Reversal,16.25,DOWNTREND 🔴,4.2,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,AMAT,Downtrend / Reversal,455.69,DOWNTREND 🔴,-1.3,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,IONQ,Downtrend / Reversal,40.1,DOWNTREND 🔴,2.31,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,KLAC,Downtrend / Reversal,180.93,DOWNTREND 🔴,3.07,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,AAL,Downtrend / Reversal,13.15,DOWNTREND 🔴,-3.63,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,NFLX,Downtrend / Reversal,72.79,DOWNTREND 🔴,-10.93,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,AMGN,Downtrend / Reversal,389.96,DOWNTREND 🔴,-9.82,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,BA,Downtrend / Reversal,198.85,DOWNTREND 🔴,-5.23,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,RHM.DE,Downtrend / Reversal,1011.8,DOWNTREND 🔴,-12.37,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,MSE.PA,Downtrend / Reversal,71.0,DOWNTREND 🔴,-3.82,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,AXNA.F,Downtrend / Reversal,11.41,DOWNTREND 🔴,-3.71,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,AFX.DE,Downtrend / Reversal,29.46,DOWNTREND 🔴,-8.4,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,VAGX.SW,Downtrend / Reversal,20.23,DOWNTREND 🔴,-1.51,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,SMSN.IL,Downtrend / Reversal,4636.0,DOWNTREND 🔴,-2.56,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,SREN.SW,Downtrend / Reversal,138.75,DOWNTREND 🔴,-1.7,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,VDEA.L,Downtrend / Reversal,62.83,DOWNTREND 🔴,-1.47,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,ABBN.SW,Downtrend / Reversal,80.02,DOWNTREND 🔴,-0.1,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,SQN.SW,Downtrend / Reversal,38.64,DOWNTREND 🔴,-8.87,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,ACLN.SW,Downtrend / Reversal,73.35,DOWNTREND 🔴,-4.49,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,UBSG.SW,Downtrend / Reversal,41.55,DOWNTREND 🔴,-6.69,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,IFX.DE,Downtrend / Reversal,55.86,DOWNTREND 🔴,-2.14,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,CHDVD.SW,Downtrend / Reversal,186.82,DOWNTREND 🔴,-2.64,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,IWME.AS,Downtrend / Reversal,8.04,DOWNTREND 🔴,-0.35,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,SPSN.SW,Downtrend / Reversal,125.8,DOWNTREND 🔴,-0.94,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,ONON,Downtrend / Reversal,27.24,DOWNTREND 🔴,-5.6,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,BLK,Downtrend / Reversal,1068.48,DOWNTREND 🔴,-7.77,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,HON,Downtrend / Reversal,206.01,DOWNTREND 🔴,-5.25,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,LMT,Downtrend / Reversal,532.16,DOWNTREND 🔴,-5.04,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,AVGO,Downtrend / Reversal,356.56,DOWNTREND 🔴,-3.32,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,BRK-A,Downtrend / Reversal,761000.0,DOWNTREND 🔴,0.4,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,NXPI,Downtrend / Reversal,227.14,DOWNTREND 🔴,2.05,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,VST,Downtrend / Reversal,140.12,DOWNTREND 🔴,2.21,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,DKS,Downtrend / Reversal,120.57,DOWNTREND 🔴,-9.9,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,TXN,Downtrend / Reversal,265.34,DOWNTREND 🔴,2.59,Hold and monitor (Rate Limit/AI Issue).,,,,
+2026-09-21,CHYM,Downtrend / Reversal,30.08,DOWNTREND 🔴,-9.41,"[SELL 🔴] Insider selling, strong downtrend, increasing volatility.",,,,
+2026-09-21,NVO,Downtrend / Reversal,40.21,DOWNTREND 🔴,-11.84,"[SELL 🔴] High PCR, significant downtrend, negative return.",,,,
