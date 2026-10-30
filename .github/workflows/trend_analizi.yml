@@ -2,22 +2,24 @@ name: Gunluk Trend Analizi
 
 on:
   schedule:
-    # 1. AVRUPA AÇILIŞI + 15 DK (İsviçre 09:15)
-    # Kış saati (CET / UTC+1) için UTC 08:15 (Yaz saatinde 10:15'e denk gelir, istersen yazın 07:15 yapabilirsin)
-    - cron: '15 8 * * 1-5'
+    # 1. AVRUPA AÇILIŞI (İsviçre 09:15 hedefli)
+    # Kuyruğa takılmamak için 08:12 UTC (İsviçre 09:12) tetiklenir.
+    # Rapor tam 09:15 sularında Telegram'a düşer.
+    - cron: '12 8 * * 1-5'
     
-    # 2. ABD AÇILIŞI + 15 DK (İsviçre 15:45 - Sadece Pazartesi ve Cuma)
-    # Kış saati (CET / UTC+1) için UTC 14:45
-    - cron: '45 14 * * 1,5'
+    # 2. ABD AÇILIŞI (İsviçre 15:45 hedefli - Pazartesi ve Cuma)
+    # Kuyruğa takılmamak için 14:42 UTC (İsviçre 15:42) tetiklenir.
+    # Rapor tam 15:45 sularında Telegram'a düşer.
+    - cron: '42 14 * * 1,5'
 
-  workflow_dispatch: # İstediğin zaman butona basıp manuel çalıştırmak için
+  workflow_dispatch: # İstediğin zaman manuel çalıştırmak için
 
 permissions:
   contents: write
 
 jobs:
   build:
-    runs-on: ubuntu-latest # Windows yerine çok daha hızlı ve stabil olan Linux
+    runs-on: ubuntu-latest # Windows'a göre 5 kat daha hızlı başlar
 
     steps:
       - name: Kodlari Cek
@@ -28,7 +30,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Kutuphaneleri Doğrudan Yukle
+      - name: Kutuphaneleri Yukle
         run: |
           python -m pip install --upgrade pip
           pip install pandas numpy yfinance requests google-genai
