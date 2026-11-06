@@ -3355,160 +3355,160 @@
 2026-10-05,RGTI,Downtrend / Reversal,15.15,DOWNTREND 🔴,-0.79,"[SELL 🔴] Downtrend, insider selling detected.",2026-10-12,-12.41,2026-11-02,-26.83
 2026-10-05,AAL,Downtrend / Reversal,12.83,DOWNTREND 🔴,-1.38,"[SELL 🔴] Downtrend, insider selling, high PCR. Strong bearish signals.",2026-10-12,-0.94,2026-11-02,2.69
 2026-10-05,CRWV,Downtrend / Reversal,87.39,DOWNTREND 🔴,-1.8,"[SELL 🔴] Downtrend, weak volume, insider selling. Avoid.",2026-10-12,-8.8,2026-11-02,-40.29
-2026-10-09,O,Core Foundation,53.92,DOWNTREND 🔴,-8.93,"[SELL 🔴] Downtrend, strong volume, high PCR, and insider selling.",2026-10-16,3.02,,
-2026-10-09,BNDW,Core Foundation,65.9,DOWNTREND 🔴,-0.56,"[TRIM 🟠] Downtrend, no strong catalysts, reduce exposure.",2026-10-16,0.76,,
-2026-10-09,BTC-USD,Core Foundation,83076.9,UPTREND 🟢,8.12,"[ACCUMULATE 🟢] Strong uptrend, current dip offers accumulation opportunity.",2026-10-16,-1.14,,
-2026-10-09,ZGLD.SW,Core Foundation,1029.2,DOWNTREND 🔴,-2.48,"[TRIM 🟠] Downtrend, no strong catalysts, reduce exposure.",2026-10-16,-1.03,,
-2026-10-09,SHEL,Core Foundation,101.09,UPTREND 🟢,4.46,"[ACCUMULATE 🟢] Strong uptrend and volume, but high PCR suggests caution.",2026-10-16,2.43,,
-2026-10-09,TSM,Core Foundation,452.99,UPTREND 🟢,4.84,"[STRONG BUY 🚀] Strong uptrend, insider buying, current dip is an opportunity.",2026-10-16,-6.79,,
-2026-10-09,ZSIL.SW,Core Foundation,144.16,DOWNTREND 🔴,-3.89,"[TRIM 🟠] Downtrend, no strong catalysts, reduce exposure.",2026-10-16,-5.8,,
-2026-10-09,BCHE.SW,Core Foundation,151.6,DOWNTREND 🔴,-20.21,"[SELL 🔴] Strong downtrend, significant negative return, weak volume.",2026-10-16,16.77,,
-2026-10-09,ENA-USD,Dynamic Uptrend,0.22,UPTREND 🟢,61.02,"[ACCUMULATE 🟢] Strong uptrend, current dip offers accumulation opportunity.",2026-10-16,-6.57,,
-2026-10-09,FET-USD,Dynamic Uptrend,0.22,UPTREND 🟢,31.15,"[ACCUMULATE 🟢] Strong uptrend, current dip offers accumulation opportunity.",2026-10-16,-5.77,,
-2026-10-09,ONON,Dynamic Uptrend,34.87,UPTREND 🟢,27.22,"[HOLD 🟡] Strong uptrend, but insider selling warrants caution.",2026-10-16,0.92,,
-2026-10-09,PANW,Dynamic Uptrend,407.32,UPTREND 🟢,23.19,"[HOLD 🟡] Uptrend, but insider selling and weak volume are concerns.",2026-10-16,-9.1,,
-2026-10-09,PLTR,Dynamic Uptrend,202.79,UPTREND 🟢,21.26,"[HOLD 🟡] Strong uptrend, but insider selling and weak volume are concerns.",2026-10-16,-1.13,,
-2026-10-09,MSTR,Dynamic Uptrend,157.06,UPTREND 🟢,19.92,"[HOLD 🟡] Uptrend, but insider selling and weak volume are concerns.",2026-10-16,-3.67,,
-2026-10-09,LTC-USD,Dynamic Uptrend,63.56,UPTREND 🟢,18.28,"[ACCUMULATE 🟢] Strong uptrend, current dip offers accumulation opportunity.",2026-10-16,-3.62,,
-2026-10-09,ACN,Dynamic Uptrend,207.14,UPTREND 🟢,12.64,[TRIM 🟠] High PCR indicates caution despite positive trend and return.,2026-10-16,8.58,,
+2026-10-09,O,Core Foundation,53.92,DOWNTREND 🔴,-8.93,"[SELL 🔴] Downtrend, strong volume, high PCR, and insider selling.",2026-10-16,3.02,2026-11-06,8.29
+2026-10-09,BNDW,Core Foundation,65.9,DOWNTREND 🔴,-0.56,"[TRIM 🟠] Downtrend, no strong catalysts, reduce exposure.",2026-10-16,0.76,2026-11-06,1.76
+2026-10-09,BTC-USD,Core Foundation,83076.9,UPTREND 🟢,8.12,"[ACCUMULATE 🟢] Strong uptrend, current dip offers accumulation opportunity.",2026-10-16,-1.14,2026-11-06,-9.23
+2026-10-09,ZGLD.SW,Core Foundation,1029.2,DOWNTREND 🔴,-2.48,"[TRIM 🟠] Downtrend, no strong catalysts, reduce exposure.",2026-10-16,-1.03,2026-11-06,-4.78
+2026-10-09,SHEL,Core Foundation,101.09,UPTREND 🟢,4.46,"[ACCUMULATE 🟢] Strong uptrend and volume, but high PCR suggests caution.",2026-10-16,2.43,2026-11-06,-2.48
+2026-10-09,TSM,Core Foundation,452.99,UPTREND 🟢,4.84,"[STRONG BUY 🚀] Strong uptrend, insider buying, current dip is an opportunity.",2026-10-16,-6.79,2026-11-06,-16.39
+2026-10-09,ZSIL.SW,Core Foundation,144.16,DOWNTREND 🔴,-3.89,"[TRIM 🟠] Downtrend, no strong catalysts, reduce exposure.",2026-10-16,-5.8,2026-11-06,-16.56
+2026-10-09,BCHE.SW,Core Foundation,151.6,DOWNTREND 🔴,-20.21,"[SELL 🔴] Strong downtrend, significant negative return, weak volume.",2026-10-16,16.77,2026-11-06,-1.08
+2026-10-09,ENA-USD,Dynamic Uptrend,0.22,UPTREND 🟢,61.02,"[ACCUMULATE 🟢] Strong uptrend, current dip offers accumulation opportunity.",2026-10-16,-6.57,2026-11-06,-24.85
+2026-10-09,FET-USD,Dynamic Uptrend,0.22,UPTREND 🟢,31.15,"[ACCUMULATE 🟢] Strong uptrend, current dip offers accumulation opportunity.",2026-10-16,-5.77,2026-11-06,-32.6
+2026-10-09,ONON,Dynamic Uptrend,34.87,UPTREND 🟢,27.22,"[HOLD 🟡] Strong uptrend, but insider selling warrants caution.",2026-10-16,0.92,2026-11-06,5.33
+2026-10-09,PANW,Dynamic Uptrend,407.32,UPTREND 🟢,23.19,"[HOLD 🟡] Uptrend, but insider selling and weak volume are concerns.",2026-10-16,-9.1,2026-11-06,-20.45
+2026-10-09,PLTR,Dynamic Uptrend,202.79,UPTREND 🟢,21.26,"[HOLD 🟡] Strong uptrend, but insider selling and weak volume are concerns.",2026-10-16,-1.13,2026-11-06,-21.61
+2026-10-09,MSTR,Dynamic Uptrend,157.06,UPTREND 🟢,19.92,"[HOLD 🟡] Uptrend, but insider selling and weak volume are concerns.",2026-10-16,-3.67,2026-11-06,-18.43
+2026-10-09,LTC-USD,Dynamic Uptrend,63.56,UPTREND 🟢,18.28,"[ACCUMULATE 🟢] Strong uptrend, current dip offers accumulation opportunity.",2026-10-16,-3.62,2026-11-06,-17.0
+2026-10-09,ACN,Dynamic Uptrend,207.14,UPTREND 🟢,12.64,[TRIM 🟠] High PCR indicates caution despite positive trend and return.,2026-10-16,8.58,2026-11-06,24.71
 2026-10-09,FLOKI-USD,Dynamic Uptrend,0.0,UPTREND 🟢,12.54,[TRIM 🟠] Negative return with strong increasing volume suggests selling pressure.,,,,
-2026-10-09,AMAT,Dynamic Uptrend,509.68,UPTREND 🟢,11.65,[SELL 🔴] High PCR and insider selling are strong sell signals.,2026-10-16,-15.63,,
-2026-10-09,META,Dynamic Uptrend,721.64,UPTREND 🟢,11.45,[TRIM 🟠] Insider selling outweighs low PCR and slight negative return.,2026-10-16,2.09,,
-2026-10-09,SOL-USD,Dynamic Uptrend,110.39,UPTREND 🟢,11.23,[TRIM 🟠] Significant negative return despite uptrend and stable volume.,2026-10-16,-4.08,,
-2026-10-09,KLAC,Dynamic Uptrend,195.96,UPTREND 🟢,8.48,[SELL 🔴] Extremely high PCR and insider selling are strong sell signals.,2026-10-16,-10.97,,
-2026-10-09,SPCX,Dynamic Uptrend,164.03,UPTREND 🟢,8.48,[HOLD 🟡] Insider selling offsets good return and low PCR.,2026-10-16,-9.39,,
-2026-10-09,ICP-USD,Dynamic Uptrend,2.98,UPTREND 🟢,8.17,[SELL 🔴] Very significant negative return with strong increasing volume.,2026-10-16,2.91,,
-2026-10-09,MSFT,Dynamic Uptrend,531.27,UPTREND 🟢,7.19,[HOLD 🟡] Insider selling offsets good return and low PCR.,2026-10-16,1.54,,
-2026-10-09,AFX.DE,Dynamic Uptrend,32.42,UPTREND 🟢,7.0,"[ACCUMULATE 🟢] Good return and analyst buy, but volume is decreasing.",2026-10-16,2.04,,
-2026-10-09,AXNA.F,Dynamic Uptrend,11.99,UPTREND 🟢,6.82,"[STRONG BUY 🚀] Strong trend, excellent return, and increasing volume.",2026-10-16,3.5,,
-2026-10-09,VST,Dynamic Uptrend,157.68,UPTREND 🟢,6.45,"[ACCUMULATE 🟢] Excellent return and very low PCR, but insider selling detected.",2026-10-16,-2.23,,
-2026-10-09,TXN,Dynamic Uptrend,285.64,UPTREND 🟢,6.3,"[TRIM 🟠] Negative return, weak volume, and insider selling.",2026-10-16,-2.28,,
-2026-10-09,MU,Dynamic Uptrend,1033.46,UPTREND 🟢,5.97,"[TRIM 🟠] Negative return, strong volume, and insider selling.",2026-10-16,-9.89,,
-2026-10-09,NVDA,Dynamic Uptrend,230.99,UPTREND 🟢,5.82,[TRIM 🟠] Insider selling and slight negative return despite low PCR.,2026-10-16,-5.96,,
-2026-10-09,SREN.SW,Dynamic Uptrend,143.95,UPTREND 🟢,5.19,"[ACCUMULATE 🟢] Uptrend, positive return, analyst buy.",2026-10-16,3.79,,
-2026-10-09,AMSC,Dynamic Uptrend,30.83,UPTREND 🟢,4.4,[TRIM 🟠] Insider selling despite uptrend and analyst buy.,2026-10-16,-12.78,,
-2026-10-09,PBE,Dynamic Uptrend,96.69,UPTREND 🟢,4.09,"[ACCUMULATE 🟢] Solid uptrend, positive return, no negative flags.",2026-10-16,2.03,,
-2026-10-09,GOOG,Dynamic Uptrend,348.02,UPTREND 🟢,3.75,"[STRONG BUY 🚀] Strong uptrend, good return, stable volume, analyst buy.",2026-10-16,-0.89,,
-2026-10-09,CHKP,Dynamic Uptrend,135.99,UPTREND 🟢,3.3,[TRIM 🟠] Insider selling despite strong return and uptrend.,2026-10-16,1.55,,
-2026-10-09,INTC,Dynamic Uptrend,106.12,UPTREND 🟢,3.09,[SELL 🔴] Significant negative return despite reported uptrend.,2026-10-16,-10.13,,
-2026-10-09,SMCI,Dynamic Uptrend,41.19,UPTREND 🟢,2.72,[TRIM 🟠] Negative return and insider selling.,2026-10-16,-14.81,,
-2026-10-09,XSPS.MI,Dynamic Uptrend,4.92,UPTREND 🟢,2.56,"[HOLD 🟡] Slight negative return, but uptrend and stable volume.",2026-10-16,0.16,,
-2026-10-09,SBIO.AS,Dynamic Uptrend,63.77,UPTREND 🟢,2.29,"[HOLD 🟡] Negative return, weak volume, but still in uptrend.",2026-10-16,2.05,,
-2026-10-09,VOO,Dynamic Uptrend,713.63,UPTREND 🟢,1.84,"[ACCUMULATE 🟢] Broad market ETF, positive return, stable.",2026-10-16,-0.59,,
-2026-10-09,VDEA.MI,Dynamic Uptrend,55.25,UPTREND 🟢,1.67,"[STRONG BUY 🚀] Strong uptrend, positive return, increasing volume.",2026-10-16,0.02,,
-2026-10-09,BRK-A,Dynamic Uptrend,772179.25,UPTREND 🟢,0.81,[TRIM 🟠] Insider selling despite good return and uptrend.,2026-10-16,2.24,,
-2026-10-09,ETH-USD,Dynamic Uptrend,2493.16,UPTREND 🟢,0.65,[TRIM 🟠] Significant negative return despite uptrend.,2026-10-16,-0.99,,
-2026-10-09,IWME.AS,Dynamic Uptrend,8.12,UPTREND 🟢,0.59,"[HOLD 🟡] Flat return, stable volume, no strong signals.",2026-10-16,-1.65,,
-2026-10-09,IFX.DE,Dynamic Uptrend,58.89,UPTREND 🟢,0.56,[TRIM 🟠] Significant negative return despite analyst buy.,2026-10-16,-10.15,,
-2026-10-09,XDGU.SW,Dynamic Uptrend,12.77,UPTREND 🟢,0.0,"[ACCUMULATE 🟢] Solid uptrend, stable volume, no red flags.",2026-10-16,-0.03,,
-2026-10-09,CVX,Dynamic Uptrend,213.19,UPTREND 🟢,-0.41,"[HOLD 🟡] Uptrend, but insider selling is a significant concern.",2026-10-16,2.88,,
-2026-10-09,CHYM,Downtrend / Reversal,29.36,DOWNTREND 🔴,-11.03,"[SELL 🔴] Strong downtrend, high PCR, and insider selling.",2026-10-16,2.04,,
-2026-10-09,NFLX,Downtrend / Reversal,71.36,DOWNTREND 🔴,-7.81,"[SELL 🔴] Strong downtrend, increasing volume, and insider selling.",2026-10-16,1.75,,
-2026-10-09,NVO,Downtrend / Reversal,38.44,DOWNTREND 🔴,-10.76,"[TRIM 🟠] Downtrend, but low PCR suggests potential bounce.",2026-10-16,2.03,,
-2026-10-09,AVGO,Downtrend / Reversal,363.37,DOWNTREND 🔴,0.56,[SELL 🔴] Downtrend and insider selling.,2026-10-16,-5.24,,
-2026-10-09,AMGN,Downtrend / Reversal,411.44,DOWNTREND 🔴,9.03,[SELL 🔴] Downtrend and insider selling.,2026-10-16,5.49,,
-2026-10-09,BLK,Downtrend / Reversal,1075.61,DOWNTREND 🔴,-0.37,"[TRIM 🟠] Downtrend, but no insider selling.",2026-10-16,4.2,,
-2026-10-09,CHDVD.SW,Downtrend / Reversal,185.64,DOWNTREND 🔴,0.28,[SELL 🔴] Strong downtrend with increasing volume.,2026-10-16,4.73,,
-2026-10-09,PSPN.SW,Downtrend / Reversal,142.8,DOWNTREND 🔴,-2.66,"[TRIM 🟠] Downtrend, no strong negative signals.",2026-10-16,1.61,,
-2026-10-09,SPSN.SW,Downtrend / Reversal,120.0,DOWNTREND 🔴,-4.69,[SELL 🔴] Strong downtrend with increasing volume.,2026-10-16,1.92,,
-2026-10-09,LMT,Downtrend / Reversal,508.53,DOWNTREND 🔴,-2.99,[SELL 🔴] Downtrend and insider selling.,2026-10-16,4.74,,
-2026-10-09,VDEA.L,Downtrend / Reversal,61.85,DOWNTREND 🔴,-1.81,"[TRIM 🟠] Downtrend, but volume decreasing.",2026-10-16,0.68,,
-2026-10-09,UBSG.SW,Downtrend / Reversal,39.73,DOWNTREND 🔴,-10.84,"[TRIM 🟠] Downtrend, but volume decreasing.",2026-10-16,-0.33,,
-2026-10-09,VAGX.SW,Downtrend / Reversal,20.11,DOWNTREND 🔴,-0.8,[SELL 🔴] Strong downtrend with increasing volume.,2026-10-16,0.17,,
-2026-10-09,DKS,Downtrend / Reversal,135.1,DOWNTREND 🔴,0.06,[ACCUMULATE 🟢] Insider buying despite downtrend and high PCR.,2026-10-16,4.25,,
-2026-10-09,MSE.PA,Downtrend / Reversal,70.42,DOWNTREND 🔴,-2.24,"[HOLD 🟡] Downtrend, weak volume, no strong altdata signals.",2026-10-16,0.5,,
-2026-10-09,BA,Downtrend / Reversal,190.23,DOWNTREND 🔴,-9.61,[ACCUMULATE 🟢] Insider buying and low PCR despite strong downtrend volume.,2026-10-16,-0.79,,
-2026-10-09,RHM.DE,Downtrend / Reversal,936.0,DOWNTREND 🔴,-5.51,"[HOLD 🟡] Downtrend, stable volume, no strong altdata signals.",2026-10-16,15.98,,
-2026-10-09,TKA.DE,Downtrend / Reversal,13.66,DOWNTREND 🔴,-11.36,"[HOLD 🟡] Downtrend, stable volume, no strong altdata signals.",2026-10-16,3.84,,
-2026-10-09,AAL,Downtrend / Reversal,12.61,DOWNTREND 🔴,-3.04,[SELL 🔴] Insider selling and high PCR confirm downtrend.,2026-10-16,-2.62,,
-2026-10-09,HON,Downtrend / Reversal,207.14,DOWNTREND 🔴,2.36,[SELL 🔴] Insider selling and high PCR confirm downtrend.,2026-10-16,1.62,,
-2026-10-09,ABBN.SW,Downtrend / Reversal,78.94,DOWNTREND 🔴,0.36,"[HOLD 🟡] Downtrend, stable volume, no strong altdata signals.",2026-10-16,-3.45,,
-2026-10-09,SQN.SW,Downtrend / Reversal,34.7,DOWNTREND 🔴,-14.28,"[HOLD 🟡] Downtrend, stable volume, no strong altdata signals.",2026-10-16,1.5,,
-2026-10-09,SPCE,Downtrend / Reversal,2.88,DOWNTREND 🔴,-1.54,[ACCUMULATE 🟢] Very low PCR suggests potential reversal despite downtrend.,2026-10-16,-10.42,,
-2026-10-09,NXPI,Downtrend / Reversal,229.87,DOWNTREND 🔴,-2.42,[SELL 🔴] Insider selling and high PCR confirm downtrend.,2026-10-16,0.53,,
-2026-10-09,ACLN.SW,Downtrend / Reversal,70.65,DOWNTREND 🔴,-5.36,"[TRIM 🟠] Downtrend, weak volume, no strong altdata.",2026-10-16,-1.49,,
-2026-10-09,SMSN.IL,Downtrend / Reversal,4772.0,DOWNTREND 🔴,-3.36,[SELL 🔴] Strong volume confirms conviction in downtrend.,2026-10-16,-14.79,,
-2026-10-09,CRWV,Downtrend / Reversal,82.17,DOWNTREND 🔴,-7.66,[SELL 🔴] Insider selling confirms downtrend.,2026-10-16,-15.19,,
-2026-10-09,RGTI,Downtrend / Reversal,13.89,DOWNTREND 🔴,-9.07,[SELL 🔴] Insider selling confirms downtrend.,2026-10-16,-9.07,,
-2026-10-09,IONQ,Downtrend / Reversal,39.36,DOWNTREND 🔴,7.1,"[SELL 🔴] Downtrend, negative return, and critical insider selling.",2026-10-16,-12.73,,
-2026-10-09,DOGE-USD,Downtrend / Reversal,0.08,DOWNTREND 🔴,2.86,"[SELL 🔴] Strong downtrend, negative return, and cautious market sentiment.",2026-10-16,2.54,,
-2026-10-09,O,Core Foundation,54.24,DOWNTREND 🔴,-8.38,"[SELL 🔴] Downtrend, increasing volume, insider selling.",2026-10-16,2.42,,
-2026-10-09,BNDW,Core Foundation,65.97,DOWNTREND 🔴,-0.45,"[SELL 🔴] Clear downtrend, no positive catalysts.",2026-10-16,0.65,,
-2026-10-09,BTC-USD,Core Foundation,82370.51,UPTREND 🟢,7.2,"[HOLD 🟡] Uptrend, but recent pullback and greed sentiment.",2026-10-16,-0.29,,
-2026-10-09,ZGLD.SW,Core Foundation,1029.8,DOWNTREND 🔴,-2.43,"[SELL 🔴] Clear downtrend, no positive catalysts.",2026-10-16,-1.09,,
-2026-10-09,SHEL,Core Foundation,100.11,UPTREND 🟢,3.45,"[TRIM 🟠] Strong uptrend, but high PCR is a downgrade.",2026-10-16,3.44,,
-2026-10-09,TSM,Core Foundation,451.55,UPTREND 🟢,4.5,"[ACCUMULATE 🟢] Uptrend, insider buying, strong analyst rating.",2026-10-16,-6.49,,
-2026-10-09,ZSIL.SW,Core Foundation,144.12,DOWNTREND 🔴,-3.92,"[SELL 🔴] Clear downtrend, weak volume, no positive catalysts.",2026-10-16,-5.77,,
-2026-10-09,BCHE.SW,Core Foundation,151.6,DOWNTREND 🔴,-20.21,"[SELL 🔴] Strong downtrend, significant negative return, weak volume.",2026-10-16,16.77,,
-2026-10-09,ENA-USD,Dynamic Uptrend,0.21,UPTREND 🟢,55.54,"[HOLD 🟡] Uptrend, but significant pullback; greed sentiment.",2026-10-16,-2.12,,
-2026-10-09,FET-USD,Dynamic Uptrend,0.21,UPTREND 🟢,28.57,"[TRIM 🟠] Uptrend, but significant pullback with strong selling volume.",2026-10-16,-1.29,,
-2026-10-09,ONON,Dynamic Uptrend,34.94,UPTREND 🟢,27.49,"[TRIM 🟠] Strong performance, but insider selling is a downgrade.",2026-10-16,0.72,,
-2026-10-09,PANW,Dynamic Uptrend,417.81,UPTREND 🟢,26.36,"[TRIM 🟠] Uptrend, but insider selling and weak volume.",2026-10-16,-11.38,,
-2026-10-09,PLTR,Dynamic Uptrend,207.05,UPTREND 🟢,23.81,"[TRIM 🟠] Strong performance, but insider selling and weak volume.",2026-10-16,-3.16,,
-2026-10-09,LTC-USD,Dynamic Uptrend,63.37,UPTREND 🟢,17.92,"[HOLD 🟡] Uptrend, but significant pullback; greed sentiment.",2026-10-16,-3.34,,
-2026-10-09,MSTR,Dynamic Uptrend,154.07,UPTREND 🟢,17.64,"[TRIM 🟠] Uptrend, but insider selling and weak volume.",2026-10-16,-1.8,,
-2026-10-09,AXNA.F,Dynamic Uptrend,12.71,UPTREND 🟢,13.23,"[STRONG BUY 🚀] Strong return, increasing volume, clear uptrend.",2026-10-16,-2.36,,
-2026-10-09,ACN,Dynamic Uptrend,207.51,UPTREND 🟢,12.84,[HOLD 🟡] High PCR indicates potential overextension.,2026-10-16,8.39,,
+2026-10-09,AMAT,Dynamic Uptrend,509.68,UPTREND 🟢,11.65,[SELL 🔴] High PCR and insider selling are strong sell signals.,2026-10-16,-15.63,2026-11-06,-32.94
+2026-10-09,META,Dynamic Uptrend,721.64,UPTREND 🟢,11.45,[TRIM 🟠] Insider selling outweighs low PCR and slight negative return.,2026-10-16,2.09,2026-11-06,-14.99
+2026-10-09,SOL-USD,Dynamic Uptrend,110.39,UPTREND 🟢,11.23,[TRIM 🟠] Significant negative return despite uptrend and stable volume.,2026-10-16,-4.08,2026-11-06,-18.5
+2026-10-09,KLAC,Dynamic Uptrend,195.96,UPTREND 🟢,8.48,[SELL 🔴] Extremely high PCR and insider selling are strong sell signals.,2026-10-16,-10.97,2026-11-06,-29.25
+2026-10-09,SPCX,Dynamic Uptrend,164.03,UPTREND 🟢,8.48,[HOLD 🟡] Insider selling offsets good return and low PCR.,2026-10-16,-9.39,2026-11-06,-20.28
+2026-10-09,ICP-USD,Dynamic Uptrend,2.98,UPTREND 🟢,8.17,[SELL 🔴] Very significant negative return with strong increasing volume.,2026-10-16,2.91,2026-11-06,-17.92
+2026-10-09,MSFT,Dynamic Uptrend,531.27,UPTREND 🟢,7.19,[HOLD 🟡] Insider selling offsets good return and low PCR.,2026-10-16,1.54,2026-11-06,-0.09
+2026-10-09,AFX.DE,Dynamic Uptrend,32.42,UPTREND 🟢,7.0,"[ACCUMULATE 🟢] Good return and analyst buy, but volume is decreasing.",2026-10-16,2.04,2026-11-06,6.6
+2026-10-09,AXNA.F,Dynamic Uptrend,11.99,UPTREND 🟢,6.82,"[STRONG BUY 🚀] Strong trend, excellent return, and increasing volume.",2026-10-16,3.5,2026-11-06,-2.0
+2026-10-09,VST,Dynamic Uptrend,157.68,UPTREND 🟢,6.45,"[ACCUMULATE 🟢] Excellent return and very low PCR, but insider selling detected.",2026-10-16,-2.23,2026-11-06,-23.73
+2026-10-09,TXN,Dynamic Uptrend,285.64,UPTREND 🟢,6.3,"[TRIM 🟠] Negative return, weak volume, and insider selling.",2026-10-16,-2.28,2026-11-06,-1.75
+2026-10-09,MU,Dynamic Uptrend,1033.46,UPTREND 🟢,5.97,"[TRIM 🟠] Negative return, strong volume, and insider selling.",2026-10-16,-9.89,2026-11-06,-32.31
+2026-10-09,NVDA,Dynamic Uptrend,230.99,UPTREND 🟢,5.82,[TRIM 🟠] Insider selling and slight negative return despite low PCR.,2026-10-16,-5.96,2026-11-06,-16.51
+2026-10-09,SREN.SW,Dynamic Uptrend,143.95,UPTREND 🟢,5.19,"[ACCUMULATE 🟢] Uptrend, positive return, analyst buy.",2026-10-16,3.79,2026-11-06,5.63
+2026-10-09,AMSC,Dynamic Uptrend,30.83,UPTREND 🟢,4.4,[TRIM 🟠] Insider selling despite uptrend and analyst buy.,2026-10-16,-12.78,2026-11-06,-21.34
+2026-10-09,PBE,Dynamic Uptrend,96.69,UPTREND 🟢,4.09,"[ACCUMULATE 🟢] Solid uptrend, positive return, no negative flags.",2026-10-16,2.03,2026-11-06,2.6
+2026-10-09,GOOG,Dynamic Uptrend,348.02,UPTREND 🟢,3.75,"[STRONG BUY 🚀] Strong uptrend, good return, stable volume, analyst buy.",2026-10-16,-0.89,2026-11-06,-17.86
+2026-10-09,CHKP,Dynamic Uptrend,135.99,UPTREND 🟢,3.3,[TRIM 🟠] Insider selling despite strong return and uptrend.,2026-10-16,1.55,2026-11-06,8.29
+2026-10-09,INTC,Dynamic Uptrend,106.12,UPTREND 🟢,3.09,[SELL 🔴] Significant negative return despite reported uptrend.,2026-10-16,-10.13,2026-11-06,-47.94
+2026-10-09,SMCI,Dynamic Uptrend,41.19,UPTREND 🟢,2.72,[TRIM 🟠] Negative return and insider selling.,2026-10-16,-14.81,2026-11-06,-30.34
+2026-10-09,XSPS.MI,Dynamic Uptrend,4.92,UPTREND 🟢,2.56,"[HOLD 🟡] Slight negative return, but uptrend and stable volume.",2026-10-16,0.16,2026-11-06,6.77
+2026-10-09,SBIO.AS,Dynamic Uptrend,63.77,UPTREND 🟢,2.29,"[HOLD 🟡] Negative return, weak volume, but still in uptrend.",2026-10-16,2.05,2026-11-06,3.34
+2026-10-09,VOO,Dynamic Uptrend,713.63,UPTREND 🟢,1.84,"[ACCUMULATE 🟢] Broad market ETF, positive return, stable.",2026-10-16,-0.59,2026-11-06,-5.25
+2026-10-09,VDEA.MI,Dynamic Uptrend,55.25,UPTREND 🟢,1.67,"[STRONG BUY 🚀] Strong uptrend, positive return, increasing volume.",2026-10-16,0.02,2026-11-06,1.59
+2026-10-09,BRK-A,Dynamic Uptrend,772179.25,UPTREND 🟢,0.81,[TRIM 🟠] Insider selling despite good return and uptrend.,2026-10-16,2.24,2026-11-06,10.95
+2026-10-09,ETH-USD,Dynamic Uptrend,2493.16,UPTREND 🟢,0.65,[TRIM 🟠] Significant negative return despite uptrend.,2026-10-16,-0.99,2026-11-06,-10.77
+2026-10-09,IWME.AS,Dynamic Uptrend,8.12,UPTREND 🟢,0.59,"[HOLD 🟡] Flat return, stable volume, no strong signals.",2026-10-16,-1.65,2026-11-06,-9.45
+2026-10-09,IFX.DE,Dynamic Uptrend,58.89,UPTREND 🟢,0.56,[TRIM 🟠] Significant negative return despite analyst buy.,2026-10-16,-10.15,2026-11-06,-21.23
+2026-10-09,XDGU.SW,Dynamic Uptrend,12.77,UPTREND 🟢,0.0,"[ACCUMULATE 🟢] Solid uptrend, stable volume, no red flags.",2026-10-16,-0.03,2026-11-06,-0.03
+2026-10-09,CVX,Dynamic Uptrend,213.19,UPTREND 🟢,-0.41,"[HOLD 🟡] Uptrend, but insider selling is a significant concern.",2026-10-16,2.88,2026-11-06,-0.95
+2026-10-09,CHYM,Downtrend / Reversal,29.36,DOWNTREND 🔴,-11.03,"[SELL 🔴] Strong downtrend, high PCR, and insider selling.",2026-10-16,2.04,2026-11-06,1.26
+2026-10-09,NFLX,Downtrend / Reversal,71.36,DOWNTREND 🔴,-7.81,"[SELL 🔴] Strong downtrend, increasing volume, and insider selling.",2026-10-16,1.75,2026-11-06,-10.84
+2026-10-09,NVO,Downtrend / Reversal,38.44,DOWNTREND 🔴,-10.76,"[TRIM 🟠] Downtrend, but low PCR suggests potential bounce.",2026-10-16,2.03,2026-11-06,3.62
+2026-10-09,AVGO,Downtrend / Reversal,363.37,DOWNTREND 🔴,0.56,[SELL 🔴] Downtrend and insider selling.,2026-10-16,-5.24,2026-11-06,-16.11
+2026-10-09,AMGN,Downtrend / Reversal,411.44,DOWNTREND 🔴,9.03,[SELL 🔴] Downtrend and insider selling.,2026-10-16,5.49,2026-11-06,9.47
+2026-10-09,BLK,Downtrend / Reversal,1075.61,DOWNTREND 🔴,-0.37,"[TRIM 🟠] Downtrend, but no insider selling.",2026-10-16,4.2,2026-11-06,8.42
+2026-10-09,CHDVD.SW,Downtrend / Reversal,185.64,DOWNTREND 🔴,0.28,[SELL 🔴] Strong downtrend with increasing volume.,2026-10-16,4.73,2026-11-06,9.14
+2026-10-09,PSPN.SW,Downtrend / Reversal,142.8,DOWNTREND 🔴,-2.66,"[TRIM 🟠] Downtrend, no strong negative signals.",2026-10-16,1.61,2026-11-06,8.33
+2026-10-09,SPSN.SW,Downtrend / Reversal,120.0,DOWNTREND 🔴,-4.69,[SELL 🔴] Strong downtrend with increasing volume.,2026-10-16,1.92,2026-11-06,9.58
+2026-10-09,LMT,Downtrend / Reversal,508.53,DOWNTREND 🔴,-2.99,[SELL 🔴] Downtrend and insider selling.,2026-10-16,4.74,2026-11-06,11.83
+2026-10-09,VDEA.L,Downtrend / Reversal,61.85,DOWNTREND 🔴,-1.81,"[TRIM 🟠] Downtrend, but volume decreasing.",2026-10-16,0.68,2026-11-06,1.23
+2026-10-09,UBSG.SW,Downtrend / Reversal,39.73,DOWNTREND 🔴,-10.84,"[TRIM 🟠] Downtrend, but volume decreasing.",2026-10-16,-0.33,2026-11-06,-0.6
+2026-10-09,VAGX.SW,Downtrend / Reversal,20.11,DOWNTREND 🔴,-0.8,[SELL 🔴] Strong downtrend with increasing volume.,2026-10-16,0.17,2026-11-06,1.44
+2026-10-09,DKS,Downtrend / Reversal,135.1,DOWNTREND 🔴,0.06,[ACCUMULATE 🟢] Insider buying despite downtrend and high PCR.,2026-10-16,4.25,2026-11-06,2.7
+2026-10-09,MSE.PA,Downtrend / Reversal,70.42,DOWNTREND 🔴,-2.24,"[HOLD 🟡] Downtrend, weak volume, no strong altdata signals.",2026-10-16,0.5,2026-11-06,-0.7
+2026-10-09,BA,Downtrend / Reversal,190.23,DOWNTREND 🔴,-9.61,[ACCUMULATE 🟢] Insider buying and low PCR despite strong downtrend volume.,2026-10-16,-0.79,2026-11-06,-9.69
+2026-10-09,RHM.DE,Downtrend / Reversal,936.0,DOWNTREND 🔴,-5.51,"[HOLD 🟡] Downtrend, stable volume, no strong altdata signals.",2026-10-16,15.98,2026-11-06,-13.54
+2026-10-09,TKA.DE,Downtrend / Reversal,13.66,DOWNTREND 🔴,-11.36,"[HOLD 🟡] Downtrend, stable volume, no strong altdata signals.",2026-10-16,3.84,2026-11-06,-13.1
+2026-10-09,AAL,Downtrend / Reversal,12.61,DOWNTREND 🔴,-3.04,[SELL 🔴] Insider selling and high PCR confirm downtrend.,2026-10-16,-2.62,2026-11-06,3.41
+2026-10-09,HON,Downtrend / Reversal,207.14,DOWNTREND 🔴,2.36,[SELL 🔴] Insider selling and high PCR confirm downtrend.,2026-10-16,1.62,2026-11-06,2.77
+2026-10-09,ABBN.SW,Downtrend / Reversal,78.94,DOWNTREND 🔴,0.36,"[HOLD 🟡] Downtrend, stable volume, no strong altdata signals.",2026-10-16,-3.45,2026-11-06,-14.92
+2026-10-09,SQN.SW,Downtrend / Reversal,34.7,DOWNTREND 🔴,-14.28,"[HOLD 🟡] Downtrend, stable volume, no strong altdata signals.",2026-10-16,1.5,2026-11-06,-2.31
+2026-10-09,SPCE,Downtrend / Reversal,2.88,DOWNTREND 🔴,-1.54,[ACCUMULATE 🟢] Very low PCR suggests potential reversal despite downtrend.,2026-10-16,-10.42,2026-11-06,-16.84
+2026-10-09,NXPI,Downtrend / Reversal,229.87,DOWNTREND 🔴,-2.42,[SELL 🔴] Insider selling and high PCR confirm downtrend.,2026-10-16,0.53,2026-11-06,6.58
+2026-10-09,ACLN.SW,Downtrend / Reversal,70.65,DOWNTREND 🔴,-5.36,"[TRIM 🟠] Downtrend, weak volume, no strong altdata.",2026-10-16,-1.49,2026-11-06,-9.91
+2026-10-09,SMSN.IL,Downtrend / Reversal,4772.0,DOWNTREND 🔴,-3.36,[SELL 🔴] Strong volume confirms conviction in downtrend.,2026-10-16,-14.79,2026-11-06,-25.1
+2026-10-09,CRWV,Downtrend / Reversal,82.17,DOWNTREND 🔴,-7.66,[SELL 🔴] Insider selling confirms downtrend.,2026-10-16,-15.19,2026-11-06,-43.38
+2026-10-09,RGTI,Downtrend / Reversal,13.89,DOWNTREND 🔴,-9.07,[SELL 🔴] Insider selling confirms downtrend.,2026-10-16,-9.07,2026-11-06,-26.57
+2026-10-09,IONQ,Downtrend / Reversal,39.36,DOWNTREND 🔴,7.1,"[SELL 🔴] Downtrend, negative return, and critical insider selling.",2026-10-16,-12.73,2026-11-06,-28.48
+2026-10-09,DOGE-USD,Downtrend / Reversal,0.08,DOWNTREND 🔴,2.86,"[SELL 🔴] Strong downtrend, negative return, and cautious market sentiment.",2026-10-16,2.54,2026-11-06,-9.74
+2026-10-09,O,Core Foundation,54.24,DOWNTREND 🔴,-8.38,"[SELL 🔴] Downtrend, increasing volume, insider selling.",2026-10-16,2.42,2026-11-06,7.65
+2026-10-09,BNDW,Core Foundation,65.97,DOWNTREND 🔴,-0.45,"[SELL 🔴] Clear downtrend, no positive catalysts.",2026-10-16,0.65,2026-11-06,1.65
+2026-10-09,BTC-USD,Core Foundation,82370.51,UPTREND 🟢,7.2,"[HOLD 🟡] Uptrend, but recent pullback and greed sentiment.",2026-10-16,-0.29,2026-11-06,-8.45
+2026-10-09,ZGLD.SW,Core Foundation,1029.8,DOWNTREND 🔴,-2.43,"[SELL 🔴] Clear downtrend, no positive catalysts.",2026-10-16,-1.09,2026-11-06,-4.84
+2026-10-09,SHEL,Core Foundation,100.11,UPTREND 🟢,3.45,"[TRIM 🟠] Strong uptrend, but high PCR is a downgrade.",2026-10-16,3.44,2026-11-06,-1.53
+2026-10-09,TSM,Core Foundation,451.55,UPTREND 🟢,4.5,"[ACCUMULATE 🟢] Uptrend, insider buying, strong analyst rating.",2026-10-16,-6.49,2026-11-06,-16.13
+2026-10-09,ZSIL.SW,Core Foundation,144.12,DOWNTREND 🔴,-3.92,"[SELL 🔴] Clear downtrend, weak volume, no positive catalysts.",2026-10-16,-5.77,2026-11-06,-16.54
+2026-10-09,BCHE.SW,Core Foundation,151.6,DOWNTREND 🔴,-20.21,"[SELL 🔴] Strong downtrend, significant negative return, weak volume.",2026-10-16,16.77,2026-11-06,-1.08
+2026-10-09,ENA-USD,Dynamic Uptrend,0.21,UPTREND 🟢,55.54,"[HOLD 🟡] Uptrend, but significant pullback; greed sentiment.",2026-10-16,-2.12,2026-11-06,-21.27
+2026-10-09,FET-USD,Dynamic Uptrend,0.21,UPTREND 🟢,28.57,"[TRIM 🟠] Uptrend, but significant pullback with strong selling volume.",2026-10-16,-1.29,2026-11-06,-29.39
+2026-10-09,ONON,Dynamic Uptrend,34.94,UPTREND 🟢,27.49,"[TRIM 🟠] Strong performance, but insider selling is a downgrade.",2026-10-16,0.72,2026-11-06,5.12
+2026-10-09,PANW,Dynamic Uptrend,417.81,UPTREND 🟢,26.36,"[TRIM 🟠] Uptrend, but insider selling and weak volume.",2026-10-16,-11.38,2026-11-06,-22.44
+2026-10-09,PLTR,Dynamic Uptrend,207.05,UPTREND 🟢,23.81,"[TRIM 🟠] Strong performance, but insider selling and weak volume.",2026-10-16,-3.16,2026-11-06,-23.22
+2026-10-09,LTC-USD,Dynamic Uptrend,63.37,UPTREND 🟢,17.92,"[HOLD 🟡] Uptrend, but significant pullback; greed sentiment.",2026-10-16,-3.34,2026-11-06,-16.75
+2026-10-09,MSTR,Dynamic Uptrend,154.07,UPTREND 🟢,17.64,"[TRIM 🟠] Uptrend, but insider selling and weak volume.",2026-10-16,-1.8,2026-11-06,-16.85
+2026-10-09,AXNA.F,Dynamic Uptrend,12.71,UPTREND 🟢,13.23,"[STRONG BUY 🚀] Strong return, increasing volume, clear uptrend.",2026-10-16,-2.36,2026-11-06,-7.55
+2026-10-09,ACN,Dynamic Uptrend,207.51,UPTREND 🟢,12.84,[HOLD 🟡] High PCR indicates potential overextension.,2026-10-16,8.39,2026-11-06,24.49
 2026-10-09,FLOKI-USD,Dynamic Uptrend,0.0,UPTREND 🟢,11.5,"[TRIM 🟠] Negative return despite uptrend, strong volume, crypto greed.",,,,
-2026-10-09,AMAT,Dynamic Uptrend,507.59,UPTREND 🟢,11.19,[TRIM 🟠] Insider selling and negative return despite uptrend.,2026-10-16,-15.28,,
-2026-10-09,META,Dynamic Uptrend,718.96,UPTREND 🟢,11.03,[TRIM 🟠] Insider selling despite low PCR and slight negative return.,2026-10-16,2.47,,
-2026-10-09,AMGN,Dynamic Uptrend,416.54,UPTREND 🟢,10.39,[HOLD 🟡] Insider selling offsets positive return and uptrend.,2026-10-16,4.2,,
-2026-10-09,SOL-USD,Dynamic Uptrend,109.37,UPTREND 🟢,10.2,"[SELL 🔴] Significant negative return, crypto greed, despite uptrend.",2026-10-16,-3.18,,
-2026-10-09,ICP-USD,Dynamic Uptrend,3.01,UPTREND 🟢,9.05,"[SELL 🔴] Very negative return, strong volume, crypto greed.",2026-10-16,1.89,,
-2026-10-09,VST,Dynamic Uptrend,161.34,UPTREND 🟢,8.91,"[ACCUMULATE 🟢] Strong return and volume, but insider selling detected.",2026-10-16,-4.44,,
-2026-10-09,KLAC,Dynamic Uptrend,196.5,UPTREND 🟢,8.78,[TRIM 🟠] Insider selling and negative return despite low PCR.,2026-10-16,-11.22,,
-2026-10-09,MSFT,Dynamic Uptrend,536.43,UPTREND 🟢,8.23,[HOLD 🟡] Insider selling offsets positive return and uptrend.,2026-10-16,0.56,,
-2026-10-09,AFX.DE,Dynamic Uptrend,32.42,UPTREND 🟢,7.0,"[HOLD 🟡] Positive return, but decreasing volume raises caution.",2026-10-16,2.04,,
-2026-10-09,SPCX,Dynamic Uptrend,160.86,UPTREND 🟢,6.38,[HOLD 🟡] Insider selling offsets modest positive return.,2026-10-16,-7.61,,
-2026-10-09,TXN,Dynamic Uptrend,283.97,UPTREND 🟢,5.68,"[SELL 🔴] Insider selling, negative return, and weak volume.",2026-10-16,-1.71,,
-2026-10-09,MU,Dynamic Uptrend,1028.65,UPTREND 🟢,5.47,"[SELL 🔴] Insider selling, negative return, strong volume.",2026-10-16,-9.47,,
-2026-10-09,NVDA,Dynamic Uptrend,229.73,UPTREND 🟢,5.24,[TRIM 🟠] Insider selling despite uptrend and low PCR.,2026-10-16,-5.44,,
-2026-10-09,SREN.SW,Dynamic Uptrend,144.0,UPTREND 🟢,5.22,"[ACCUMULATE 🟢] Good return, analyst buy, but volume decreasing.",2026-10-16,3.75,,
-2026-10-09,AMSC,Dynamic Uptrend,30.99,UPTREND 🟢,4.94,"[HOLD 🟡] Strong return, low PCR, but insider selling detected.",2026-10-16,-13.23,,
-2026-10-09,PBE,Dynamic Uptrend,96.86,UPTREND 🟢,4.27,"[ACCUMULATE 🟢] Good return, uptrend, but volume decreasing.",2026-10-16,1.85,,
-2026-10-09,SMCI,Dynamic Uptrend,41.72,UPTREND 🟢,4.05,[TRIM 🟠] Significant negative return and insider selling.,2026-10-16,-15.89,,
-2026-10-09,CHKP,Dynamic Uptrend,136.62,UPTREND 🟢,3.78,"[HOLD 🟡] Excellent return, very low PCR, but insider selling.",2026-10-16,1.08,,
-2026-10-09,GOOG,Dynamic Uptrend,347.82,UPTREND 🟢,3.69,"[STRONG BUY 🚀] Strong performance, stable volume, bullish PCR, neutral insiders.",2026-10-16,-0.84,,
-2026-10-09,SBIO.AS,Dynamic Uptrend,64.4,UPTREND 🟢,3.3,"[HOLD 🟡] Low return, decreasing volume, but still uptrend.",2026-10-16,1.06,,
-2026-10-09,XSPS.MI,Dynamic Uptrend,4.92,UPTREND 🟢,2.56,"[HOLD 🟡] Stable volume, uptrend, but slightly negative return.",2026-10-16,0.16,,
-2026-10-09,INTC,Dynamic Uptrend,105.22,UPTREND 🟢,2.21,[TRIM 🟠] Very significant negative return despite positive AltData.,2026-10-16,-9.36,,
-2026-10-09,VOO,Dynamic Uptrend,716.02,UPTREND 🟢,2.18,"[ACCUMULATE 🟢] Solid return, stable volume for broad market ETF.",2026-10-16,-0.92,,
-2026-10-09,VDEA.MI,Dynamic Uptrend,55.29,UPTREND 🟢,1.75,"[STRONG BUY 🚀] Good return, strong increasing volume, positive for ETF.",2026-10-16,-0.05,,
-2026-10-09,BRK-A,Dynamic Uptrend,773524.12,UPTREND 🟢,0.98,"[HOLD 🟡] Strong return, analyst buy, but insider selling detected.",2026-10-16,2.06,,
-2026-10-09,IWME.AS,Dynamic Uptrend,8.12,UPTREND 🟢,0.59,"[HOLD 🟡] Flat return, stable volume, but still uptrend.",2026-10-16,-1.65,,
-2026-10-09,IFX.DE,Dynamic Uptrend,58.86,UPTREND 🟢,0.51,[TRIM 🟠] Significant negative return despite analyst buy.,2026-10-16,-10.11,,
-2026-10-09,ETH-USD,Dynamic Uptrend,2481.14,UPTREND 🟢,0.17,"[ACCUMULATE 🟢] Uptrend, but recent significant pullback.",2026-10-16,-0.51,,
-2026-10-09,XDGU.SW,Dynamic Uptrend,12.77,UPTREND 🟢,0.0,"[STRONG BUY 🚀] Clear uptrend, stable volume, no negative signals.",2026-10-16,-0.03,,
-2026-10-09,CVX,Dynamic Uptrend,211.78,UPTREND 🟢,-1.07,"[HOLD 🟡] Uptrend, but insider selling detected.",2026-10-16,3.56,,
-2026-10-09,CHYM,Downtrend / Reversal,29.94,DOWNTREND 🔴,-9.27,"[SELL 🔴] Downtrend, insider selling, weak volume.",2026-10-16,0.07,,
-2026-10-09,NFLX,Downtrend / Reversal,70.41,DOWNTREND 🔴,-9.03,"[SELL 🔴] Downtrend, insider selling, strong volume on bounce.",2026-10-16,3.12,,
-2026-10-09,NVO,Downtrend / Reversal,38.48,DOWNTREND 🔴,-10.66,"[TRIM 🟠] Downtrend, but positive return and bullish options sentiment.",2026-10-16,1.92,,
-2026-10-09,BLK,Downtrend / Reversal,1084.73,DOWNTREND 🔴,0.47,"[TRIM 🟠] Downtrend, but positive return and neutral insider activity.",2026-10-16,3.32,,
-2026-10-09,AVGO,Downtrend / Reversal,362.15,DOWNTREND 🔴,0.23,"[SELL 🔴] Downtrend, insider selling, weak volume on bounce.",2026-10-16,-4.92,,
-2026-10-09,UBSG.SW,Downtrend / Reversal,39.9,DOWNTREND 🔴,-10.46,"[TRIM 🟠] Downtrend, weak volume, but analyst buy rating.",2026-10-16,-0.75,,
-2026-10-09,PSPN.SW,Downtrend / Reversal,142.7,DOWNTREND 🔴,-2.73,"[TRIM 🟠] Downtrend, but positive return and analyst buy rating.",2026-10-16,1.68,,
-2026-10-09,CHDVD.SW,Downtrend / Reversal,185.42,DOWNTREND 🔴,0.16,"[TRIM 🟠] Downtrend, but strong volume on recent positive return.",2026-10-16,4.85,,
-2026-10-09,SPSN.SW,Downtrend / Reversal,120.1,DOWNTREND 🔴,-4.61,"[TRIM 🟠] Downtrend, strong volume on bounce, analyst buy rating.",2026-10-16,1.83,,
-2026-10-09,VDEA.L,Downtrend / Reversal,61.76,DOWNTREND 🔴,-1.95,"[SELL 🔴] Downtrend, weak volume on bounce.",2026-10-16,0.83,,
-2026-10-09,LMT,Downtrend / Reversal,507.24,DOWNTREND 🔴,-3.23,"[SELL 🔴] Downtrend, insider selling, temporary bounce.",2026-10-16,5.01,,
-2026-10-09,DKS,Downtrend / Reversal,136.19,DOWNTREND 🔴,0.86,"[HOLD 🟡] Downtrend, but strong insider buying detected.",2026-10-16,3.41,,
-2026-10-09,VAGX.SW,Downtrend / Reversal,20.05,DOWNTREND 🔴,-1.08,[TRIM 🟠] Downtrend with increasing volume suggests continued selling pressure.,2026-10-16,0.47,,
-2026-10-09,MSE.PA,Downtrend / Reversal,70.38,DOWNTREND 🔴,-2.29,"[TRIM 🟠] Downtrend with decreasing volume, no strong reversal signal.",2026-10-16,0.55,,
-2026-10-09,BA,Downtrend / Reversal,190.55,DOWNTREND 🔴,-9.46,[ACCUMULATE 🟢] Strong insider buying despite downtrend.,2026-10-16,-0.96,,
-2026-10-09,AAL,Downtrend / Reversal,12.72,DOWNTREND 🔴,-2.27,[SELL 🔴] Insider selling and high PCR confirm downtrend.,2026-10-16,-3.46,,
-2026-10-09,RHM.DE,Downtrend / Reversal,939.1,DOWNTREND 🔴,-5.2,[TRIM 🟠] Downtrend with no positive catalysts or altdata.,2026-10-16,15.6,,
-2026-10-09,TKA.DE,Downtrend / Reversal,13.69,DOWNTREND 🔴,-11.13,[TRIM 🟠] Downtrend with no positive catalysts or altdata.,2026-10-16,3.62,,
-2026-10-09,ABBN.SW,Downtrend / Reversal,79.64,DOWNTREND 🔴,1.25,[TRIM 🟠] Downtrend with no positive catalysts or altdata.,2026-10-16,-4.29,,
-2026-10-09,HON,Downtrend / Reversal,208.02,DOWNTREND 🔴,2.8,[SELL 🔴] Insider selling and high PCR confirm downtrend.,2026-10-16,1.19,,
-2026-10-09,SQN.SW,Downtrend / Reversal,34.84,DOWNTREND 🔴,-13.93,[SELL 🔴] Strong downtrend with no positive catalysts or altdata.,2026-10-16,1.09,,
-2026-10-09,ACLN.SW,Downtrend / Reversal,70.7,DOWNTREND 🔴,-5.29,[SELL 🔴] Strong downtrend with no positive catalysts or altdata.,2026-10-16,-1.56,,
-2026-10-09,SPCE,Downtrend / Reversal,2.84,DOWNTREND 🔴,-2.81,"[SELL 🔴] Strong downtrend, low PCR not enough to counter.",2026-10-16,-9.15,,
-2026-10-09,SMSN.IL,Downtrend / Reversal,4752.0,DOWNTREND 🔴,-3.77,[SELL 🔴] Very strong downtrend with increasing volume.,2026-10-16,-14.44,,
-2026-10-09,NXPI,Downtrend / Reversal,226.12,DOWNTREND 🔴,-4.01,"[SELL 🔴] Strong downtrend, insider selling confirms negative sentiment.",2026-10-16,2.2,,
-2026-10-09,RGTI,Downtrend / Reversal,14.01,DOWNTREND 🔴,-8.28,"[SELL 🔴] Strong downtrend, insider selling confirms negative sentiment.",2026-10-16,-9.85,,
-2026-10-09,CRWV,Downtrend / Reversal,82.28,DOWNTREND 🔴,-7.55,"[SELL 🔴] Strong downtrend, insider selling confirms negative sentiment.",2026-10-16,-15.3,,
-2026-10-09,IONQ,Downtrend / Reversal,39.91,DOWNTREND 🔴,8.6,"[SELL 🔴] Downtrend, insider selling detected.",2026-10-16,-13.93,,
-2026-10-09,DOGE-USD,Downtrend / Reversal,0.08,DOWNTREND 🔴,2.6,"[SELL 🔴] Strong downtrend, negative returns.",2026-10-16,2.54,,
+2026-10-09,AMAT,Dynamic Uptrend,507.59,UPTREND 🟢,11.19,[TRIM 🟠] Insider selling and negative return despite uptrend.,2026-10-16,-15.28,2026-11-06,-32.66
+2026-10-09,META,Dynamic Uptrend,718.96,UPTREND 🟢,11.03,[TRIM 🟠] Insider selling despite low PCR and slight negative return.,2026-10-16,2.47,2026-11-06,-14.67
+2026-10-09,AMGN,Dynamic Uptrend,416.54,UPTREND 🟢,10.39,[HOLD 🟡] Insider selling offsets positive return and uptrend.,2026-10-16,4.2,2026-11-06,8.13
+2026-10-09,SOL-USD,Dynamic Uptrend,109.37,UPTREND 🟢,10.2,"[SELL 🔴] Significant negative return, crypto greed, despite uptrend.",2026-10-16,-3.18,2026-11-06,-17.74
+2026-10-09,ICP-USD,Dynamic Uptrend,3.01,UPTREND 🟢,9.05,"[SELL 🔴] Very negative return, strong volume, crypto greed.",2026-10-16,1.89,2026-11-06,-18.74
+2026-10-09,VST,Dynamic Uptrend,161.34,UPTREND 🟢,8.91,"[ACCUMULATE 🟢] Strong return and volume, but insider selling detected.",2026-10-16,-4.44,2026-11-06,-25.46
+2026-10-09,KLAC,Dynamic Uptrend,196.5,UPTREND 🟢,8.78,[TRIM 🟠] Insider selling and negative return despite low PCR.,2026-10-16,-11.22,2026-11-06,-29.44
+2026-10-09,MSFT,Dynamic Uptrend,536.43,UPTREND 🟢,8.23,[HOLD 🟡] Insider selling offsets positive return and uptrend.,2026-10-16,0.56,2026-11-06,-1.06
+2026-10-09,AFX.DE,Dynamic Uptrend,32.42,UPTREND 🟢,7.0,"[HOLD 🟡] Positive return, but decreasing volume raises caution.",2026-10-16,2.04,2026-11-06,6.6
+2026-10-09,SPCX,Dynamic Uptrend,160.86,UPTREND 🟢,6.38,[HOLD 🟡] Insider selling offsets modest positive return.,2026-10-16,-7.61,2026-11-06,-18.71
+2026-10-09,TXN,Dynamic Uptrend,283.97,UPTREND 🟢,5.68,"[SELL 🔴] Insider selling, negative return, and weak volume.",2026-10-16,-1.71,2026-11-06,-1.17
+2026-10-09,MU,Dynamic Uptrend,1028.65,UPTREND 🟢,5.47,"[SELL 🔴] Insider selling, negative return, strong volume.",2026-10-16,-9.47,2026-11-06,-32.0
+2026-10-09,NVDA,Dynamic Uptrend,229.73,UPTREND 🟢,5.24,[TRIM 🟠] Insider selling despite uptrend and low PCR.,2026-10-16,-5.44,2026-11-06,-16.05
+2026-10-09,SREN.SW,Dynamic Uptrend,144.0,UPTREND 🟢,5.22,"[ACCUMULATE 🟢] Good return, analyst buy, but volume decreasing.",2026-10-16,3.75,2026-11-06,5.59
+2026-10-09,AMSC,Dynamic Uptrend,30.99,UPTREND 🟢,4.94,"[HOLD 🟡] Strong return, low PCR, but insider selling detected.",2026-10-16,-13.23,2026-11-06,-21.75
+2026-10-09,PBE,Dynamic Uptrend,96.86,UPTREND 🟢,4.27,"[ACCUMULATE 🟢] Good return, uptrend, but volume decreasing.",2026-10-16,1.85,2026-11-06,2.42
+2026-10-09,SMCI,Dynamic Uptrend,41.72,UPTREND 🟢,4.05,[TRIM 🟠] Significant negative return and insider selling.,2026-10-16,-15.89,2026-11-06,-31.22
+2026-10-09,CHKP,Dynamic Uptrend,136.62,UPTREND 🟢,3.78,"[HOLD 🟡] Excellent return, very low PCR, but insider selling.",2026-10-16,1.08,2026-11-06,7.8
+2026-10-09,GOOG,Dynamic Uptrend,347.82,UPTREND 🟢,3.69,"[STRONG BUY 🚀] Strong performance, stable volume, bullish PCR, neutral insiders.",2026-10-16,-0.84,2026-11-06,-17.81
+2026-10-09,SBIO.AS,Dynamic Uptrend,64.4,UPTREND 🟢,3.3,"[HOLD 🟡] Low return, decreasing volume, but still uptrend.",2026-10-16,1.06,2026-11-06,2.33
+2026-10-09,XSPS.MI,Dynamic Uptrend,4.92,UPTREND 🟢,2.56,"[HOLD 🟡] Stable volume, uptrend, but slightly negative return.",2026-10-16,0.16,2026-11-06,6.77
+2026-10-09,INTC,Dynamic Uptrend,105.22,UPTREND 🟢,2.21,[TRIM 🟠] Very significant negative return despite positive AltData.,2026-10-16,-9.36,2026-11-06,-47.5
+2026-10-09,VOO,Dynamic Uptrend,716.02,UPTREND 🟢,2.18,"[ACCUMULATE 🟢] Solid return, stable volume for broad market ETF.",2026-10-16,-0.92,2026-11-06,-5.56
+2026-10-09,VDEA.MI,Dynamic Uptrend,55.29,UPTREND 🟢,1.75,"[STRONG BUY 🚀] Good return, strong increasing volume, positive for ETF.",2026-10-16,-0.05,2026-11-06,1.52
+2026-10-09,BRK-A,Dynamic Uptrend,773524.12,UPTREND 🟢,0.98,"[HOLD 🟡] Strong return, analyst buy, but insider selling detected.",2026-10-16,2.06,2026-11-06,10.75
+2026-10-09,IWME.AS,Dynamic Uptrend,8.12,UPTREND 🟢,0.59,"[HOLD 🟡] Flat return, stable volume, but still uptrend.",2026-10-16,-1.65,2026-11-06,-9.45
+2026-10-09,IFX.DE,Dynamic Uptrend,58.86,UPTREND 🟢,0.51,[TRIM 🟠] Significant negative return despite analyst buy.,2026-10-16,-10.11,2026-11-06,-21.19
+2026-10-09,ETH-USD,Dynamic Uptrend,2481.14,UPTREND 🟢,0.17,"[ACCUMULATE 🟢] Uptrend, but recent significant pullback.",2026-10-16,-0.51,2026-11-06,-10.33
+2026-10-09,XDGU.SW,Dynamic Uptrend,12.77,UPTREND 🟢,0.0,"[STRONG BUY 🚀] Clear uptrend, stable volume, no negative signals.",2026-10-16,-0.03,2026-11-06,-0.03
+2026-10-09,CVX,Dynamic Uptrend,211.78,UPTREND 🟢,-1.07,"[HOLD 🟡] Uptrend, but insider selling detected.",2026-10-16,3.56,2026-11-06,-0.29
+2026-10-09,CHYM,Downtrend / Reversal,29.94,DOWNTREND 🔴,-9.27,"[SELL 🔴] Downtrend, insider selling, weak volume.",2026-10-16,0.07,2026-11-06,-0.7
+2026-10-09,NFLX,Downtrend / Reversal,70.41,DOWNTREND 🔴,-9.03,"[SELL 🔴] Downtrend, insider selling, strong volume on bounce.",2026-10-16,3.12,2026-11-06,-9.64
+2026-10-09,NVO,Downtrend / Reversal,38.48,DOWNTREND 🔴,-10.66,"[TRIM 🟠] Downtrend, but positive return and bullish options sentiment.",2026-10-16,1.92,2026-11-06,3.51
+2026-10-09,BLK,Downtrend / Reversal,1084.73,DOWNTREND 🔴,0.47,"[TRIM 🟠] Downtrend, but positive return and neutral insider activity.",2026-10-16,3.32,2026-11-06,7.51
+2026-10-09,AVGO,Downtrend / Reversal,362.15,DOWNTREND 🔴,0.23,"[SELL 🔴] Downtrend, insider selling, weak volume on bounce.",2026-10-16,-4.92,2026-11-06,-15.83
+2026-10-09,UBSG.SW,Downtrend / Reversal,39.9,DOWNTREND 🔴,-10.46,"[TRIM 🟠] Downtrend, weak volume, but analyst buy rating.",2026-10-16,-0.75,2026-11-06,-1.03
+2026-10-09,PSPN.SW,Downtrend / Reversal,142.7,DOWNTREND 🔴,-2.73,"[TRIM 🟠] Downtrend, but positive return and analyst buy rating.",2026-10-16,1.68,2026-11-06,8.41
+2026-10-09,CHDVD.SW,Downtrend / Reversal,185.42,DOWNTREND 🔴,0.16,"[TRIM 🟠] Downtrend, but strong volume on recent positive return.",2026-10-16,4.85,2026-11-06,9.27
+2026-10-09,SPSN.SW,Downtrend / Reversal,120.1,DOWNTREND 🔴,-4.61,"[TRIM 🟠] Downtrend, strong volume on bounce, analyst buy rating.",2026-10-16,1.83,2026-11-06,9.49
+2026-10-09,VDEA.L,Downtrend / Reversal,61.76,DOWNTREND 🔴,-1.95,"[SELL 🔴] Downtrend, weak volume on bounce.",2026-10-16,0.83,2026-11-06,1.38
+2026-10-09,LMT,Downtrend / Reversal,507.24,DOWNTREND 🔴,-3.23,"[SELL 🔴] Downtrend, insider selling, temporary bounce.",2026-10-16,5.01,2026-11-06,12.11
+2026-10-09,DKS,Downtrend / Reversal,136.19,DOWNTREND 🔴,0.86,"[HOLD 🟡] Downtrend, but strong insider buying detected.",2026-10-16,3.41,2026-11-06,1.88
+2026-10-09,VAGX.SW,Downtrend / Reversal,20.05,DOWNTREND 🔴,-1.08,[TRIM 🟠] Downtrend with increasing volume suggests continued selling pressure.,2026-10-16,0.47,2026-11-06,1.75
+2026-10-09,MSE.PA,Downtrend / Reversal,70.38,DOWNTREND 🔴,-2.29,"[TRIM 🟠] Downtrend with decreasing volume, no strong reversal signal.",2026-10-16,0.55,2026-11-06,-0.64
+2026-10-09,BA,Downtrend / Reversal,190.55,DOWNTREND 🔴,-9.46,[ACCUMULATE 🟢] Strong insider buying despite downtrend.,2026-10-16,-0.96,2026-11-06,-9.84
+2026-10-09,AAL,Downtrend / Reversal,12.72,DOWNTREND 🔴,-2.27,[SELL 🔴] Insider selling and high PCR confirm downtrend.,2026-10-16,-3.46,2026-11-06,2.52
+2026-10-09,RHM.DE,Downtrend / Reversal,939.1,DOWNTREND 🔴,-5.2,[TRIM 🟠] Downtrend with no positive catalysts or altdata.,2026-10-16,15.6,2026-11-06,-13.82
+2026-10-09,TKA.DE,Downtrend / Reversal,13.69,DOWNTREND 🔴,-11.13,[TRIM 🟠] Downtrend with no positive catalysts or altdata.,2026-10-16,3.62,2026-11-06,-13.29
+2026-10-09,ABBN.SW,Downtrend / Reversal,79.64,DOWNTREND 🔴,1.25,[TRIM 🟠] Downtrend with no positive catalysts or altdata.,2026-10-16,-4.29,2026-11-06,-15.67
+2026-10-09,HON,Downtrend / Reversal,208.02,DOWNTREND 🔴,2.8,[SELL 🔴] Insider selling and high PCR confirm downtrend.,2026-10-16,1.19,2026-11-06,2.33
+2026-10-09,SQN.SW,Downtrend / Reversal,34.84,DOWNTREND 🔴,-13.93,[SELL 🔴] Strong downtrend with no positive catalysts or altdata.,2026-10-16,1.09,2026-11-06,-2.7
+2026-10-09,ACLN.SW,Downtrend / Reversal,70.7,DOWNTREND 🔴,-5.29,[SELL 🔴] Strong downtrend with no positive catalysts or altdata.,2026-10-16,-1.56,2026-11-06,-9.97
+2026-10-09,SPCE,Downtrend / Reversal,2.84,DOWNTREND 🔴,-2.81,"[SELL 🔴] Strong downtrend, low PCR not enough to counter.",2026-10-16,-9.15,2026-11-06,-15.67
+2026-10-09,SMSN.IL,Downtrend / Reversal,4752.0,DOWNTREND 🔴,-3.77,[SELL 🔴] Very strong downtrend with increasing volume.,2026-10-16,-14.44,2026-11-06,-24.79
+2026-10-09,NXPI,Downtrend / Reversal,226.12,DOWNTREND 🔴,-4.01,"[SELL 🔴] Strong downtrend, insider selling confirms negative sentiment.",2026-10-16,2.2,2026-11-06,8.35
+2026-10-09,RGTI,Downtrend / Reversal,14.01,DOWNTREND 🔴,-8.28,"[SELL 🔴] Strong downtrend, insider selling confirms negative sentiment.",2026-10-16,-9.85,2026-11-06,-27.19
+2026-10-09,CRWV,Downtrend / Reversal,82.28,DOWNTREND 🔴,-7.55,"[SELL 🔴] Strong downtrend, insider selling confirms negative sentiment.",2026-10-16,-15.3,2026-11-06,-43.46
+2026-10-09,IONQ,Downtrend / Reversal,39.91,DOWNTREND 🔴,8.6,"[SELL 🔴] Downtrend, insider selling detected.",2026-10-16,-13.93,2026-11-06,-29.47
+2026-10-09,DOGE-USD,Downtrend / Reversal,0.08,DOWNTREND 🔴,2.6,"[SELL 🔴] Strong downtrend, negative returns.",2026-10-16,2.54,2026-11-06,-9.74
 2026-10-12,O,Core Foundation,54.63,DOWNTREND 🔴,-3.1,"[SELL 🔴] Downtrend, insider selling, despite positive return.",2026-10-19,1.87,,
 2026-10-12,BNDW,Core Foundation,65.95,DOWNTREND 🔴,-0.53,"[SELL 🔴] Clear downtrend, negative return.",2026-10-19,0.44,,
 2026-10-12,BTC-USD,Core Foundation,82437.48,UPTREND 🟢,1.6,"[HOLD 🟡] Strong uptrend, but negative daily return and greed.",2026-10-19,-0.35,,
@@ -4359,84 +4359,84 @@
 2026-10-26,NFLX,Downtrend / Reversal,63.9,DOWNTREND 🔴,-4.71,"[SELL 🔴] Strong downtrend, increasing volume, and insider selling.",2026-11-02,-2.0,,
 2026-10-26,CHYM,Downtrend / Reversal,28.55,DOWNTREND 🔴,4.77,"[TRIM 🟠] Downtrend, insider selling, but decreasing volume suggests less conviction.",2026-11-02,0.93,,
 2026-10-26,MSTR,Downtrend / Reversal,139.82,DOWNTREND 🔴,-12.62,"[SELL 🔴] Significant downtrend, stable volume, and strong insider selling.",2026-11-02,-4.33,,
-2026-10-30,O,Core Foundation,56.9,UPTREND 🟢,5.12,"[TRIM 🟠] High PCR, insider selling, weak volume despite uptrend.",,,,
-2026-10-30,BNDW,Core Foundation,66.88,UPTREND 🟢,1.71,"[ACCUMULATE 🟢] Stable uptrend, positive return, no negative flags.",,,,
-2026-10-30,BTC-USD,Core Foundation,76467.99,DOWNTREND 🔴,-11.58,"[SELL 🔴] Strong downtrend, negative return, weak volume, high fear.",,,,
-2026-10-30,ZGLD.SW,Core Foundation,950.2,DOWNTREND 🔴,-6.59,"[SELL 🔴] Downtrend, negative return, increasing volume indicates selling pressure.",,,,
-2026-10-30,SHEL,Core Foundation,108.46,UPTREND 🟢,12.7,"[HOLD 🟡] Uptrend, low return, weak volume, neutral insider.",,,,
-2026-10-30,ALL,Core Foundation,260.93,UPTREND 🟢,16.62,"[ACCUMULATE 🟢] Strong uptrend, good return, neutral AltData.",,,,
-2026-10-30,MU,Core Foundation,868.23,DOWNTREND 🔴,-19.21,"[SELL 🔴] Downtrend, negative return, insider selling.",,,,
-2026-10-30,KLAC,Core Foundation,157.48,DOWNTREND 🔴,-23.88,"[TRIM 🟠] Strong return, but insider selling and overall downtrend.",,,,
-2026-10-30,ZSIL.SW,Core Foundation,115.92,DOWNTREND 🔴,-18.52,"[SELL 🔴] Strong downtrend, significant negative return, increasing selling volume.",,,,
-2026-10-30,BCHE.SW,Core Foundation,163.96,DOWNTREND 🔴,-13.35,"[SELL 🔴] Downtrend, negative return, weak volume.",,,,
-2026-10-30,ACN,Dynamic Uptrend,258.68,UPTREND 🟢,31.1,"[STRONG BUY 🚀] Strong uptrend, excellent return, stable volume, neutral AltData.",,,,
-2026-10-30,LMT,Dynamic Uptrend,637.69,UPTREND 🟢,26.17,"[TRIM 🟠] Strong performance, but insider selling is a significant red flag.",,,,
-2026-10-30,AMGN,Dynamic Uptrend,466.52,UPTREND 🟢,15.75,"[TRIM 🟠] Strong performance, but insider selling is a significant red flag.",,,,
-2026-10-30,CHKP,Dynamic Uptrend,149.91,UPTREND 🟢,15.01,"[SELL 🔴] Negative return, high PCR, insider selling, strong selling volume.",,,,
-2026-10-30,CVX,Dynamic Uptrend,234.77,UPTREND 🟢,13.59,"[TRIM 🟠] Uptrend, but insider selling is a significant red flag.",,,,
-2026-10-30,AFX.DE,Dynamic Uptrend,34.98,UPTREND 🟢,11.76,"[ACCUMULATE 🟢] Uptrend, analyst buy, stable volume, minor dip.",,,,
-2026-10-30,CHDVD.SW,Dynamic Uptrend,203.65,UPTREND 🟢,10.84,"[HOLD 🟡] Uptrend, positive return, but decreasing volume is a concern.",,,,
-2026-10-30,ONON,Dynamic Uptrend,33.71,UPTREND 🟢,9.25,[TRIM 🟠] High PCR and insider selling trigger strong downgrade.,,,,
-2026-10-30,RHM.DE,Dynamic Uptrend,1037.6,UPTREND 🟢,8.43,"[ACCUMULATE 🟢] Uptrend, positive return, analyst buy, but weak volume.",,,,
-2026-10-30,SREN.SW,Dynamic Uptrend,153.35,UPTREND 🟢,8.41,"[ACCUMULATE 🟢] Uptrend, analyst buy, stable volume, minor dip.",,,,
-2026-10-30,BRK-A,Dynamic Uptrend,817300.0,UPTREND 🟢,8.28,"[HOLD 🟡] Downgrade due to insider selling, despite strong volume.",,,,
-2026-10-30,SPSN.SW,Dynamic Uptrend,128.6,UPTREND 🟢,7.98,"[ACCUMULATE 🟢] Uptrend, positive return, analyst buy, but weak volume.",,,,
-2026-10-30,BLK,Dynamic Uptrend,1144.02,UPTREND 🟢,7.96,"[STRONG BUY 🚀] Strong uptrend, positive return, increasing volume, no red flags.",,,,
-2026-10-30,PBE,Dynamic Uptrend,102.38,UPTREND 🟢,7.69,"[STRONG BUY 🚀] Strong uptrend, excellent return, increasing volume.",,,,
-2026-10-30,PSPN.SW,Dynamic Uptrend,151.9,UPTREND 🟢,7.43,"[ACCUMULATE 🟢] Uptrend, positive return, stable volume, analyst buy.",,,,
-2026-10-30,SBIO.AS,Dynamic Uptrend,68.33,UPTREND 🟢,6.32,"[ACCUMULATE 🟢] Strong return, uptrend, but decreasing volume.",,,,
-2026-10-30,NXPI,Dynamic Uptrend,255.84,UPTREND 🟢,5.0,[TRIM 🟠] High PCR and insider selling trigger strong downgrade.,,,,
-2026-10-30,DKS,Dynamic Uptrend,141.0,UPTREND 🟢,3.62,[ACCUMULATE 🟢] Insider buying outweighs high PCR and negative return.,,,,
-2026-10-30,XSPS.MI,Dynamic Uptrend,5.08,UPTREND 🟢,2.92,"[HOLD 🟡] Uptrend, positive return, stable volume, no strong catalysts.",,,,
-2026-10-30,VDEA.MI,Dynamic Uptrend,56.07,UPTREND 🟢,2.73,"[HOLD 🟡] Uptrend, positive return, but decreasing volume.",,,,
-2026-10-30,HON,Dynamic Uptrend,218.1,UPTREND 🟢,1.92,"[TRIM 🟠] Uptrend, but insider selling and negative return on strong volume.",,,,
-2026-10-30,VDEA.L,Dynamic Uptrend,62.55,UPTREND 🟢,1.74,"[HOLD 🟡] Uptrend, positive return, but decreasing volume suggests weakening momentum.",,,,
-2026-10-30,TXN,Dynamic Uptrend,297.15,UPTREND 🟢,1.14,"[ACCUMULATE 🟢] Strong uptrend, bullish PCR, but insider selling is a concern.",,,,
-2026-10-30,MSFT,Dynamic Uptrend,523.12,UPTREND 🟢,1.08,"[TRIM 🟠] Uptrend, but insider selling, weak volume, and slight negative return.",,,,
-2026-10-30,VAGX.SW,Dynamic Uptrend,20.29,UPTREND 🟢,1.04,"[ACCUMULATE 🟢] Solid uptrend, positive return, and strong confirming volume.",,,,
-2026-10-30,AMSC,Downtrend / Reversal,26.8,DOWNTREND 🔴,-10.7,"[SELL 🔴] Downtrend, insider selling, weak volume on bounce.",,,,
-2026-10-30,ABBN.SW,Downtrend / Reversal,70.68,DOWNTREND 🔴,-13.7,"[HOLD 🟡] Downtrend, but strong positive return and volume on analyst buy.",,,,
-2026-10-30,IFX.DE,Downtrend / Reversal,50.56,DOWNTREND 🔴,-21.78,"[HOLD 🟡] Downtrend, positive return, stable volume, but analyst buy.",,,,
+2026-10-30,O,Core Foundation,56.9,UPTREND 🟢,5.12,"[TRIM 🟠] High PCR, insider selling, weak volume despite uptrend.",2026-11-06,2.62,,
+2026-10-30,BNDW,Core Foundation,66.88,UPTREND 🟢,1.71,"[ACCUMULATE 🟢] Stable uptrend, positive return, no negative flags.",2026-11-06,0.27,,
+2026-10-30,BTC-USD,Core Foundation,76467.99,DOWNTREND 🔴,-11.58,"[SELL 🔴] Strong downtrend, negative return, weak volume, high fear.",2026-11-06,-1.38,,
+2026-10-30,ZGLD.SW,Core Foundation,950.2,DOWNTREND 🔴,-6.59,"[SELL 🔴] Downtrend, negative return, increasing volume indicates selling pressure.",2026-11-06,3.14,,
+2026-10-30,SHEL,Core Foundation,108.46,UPTREND 🟢,12.7,"[HOLD 🟡] Uptrend, low return, weak volume, neutral insider.",2026-11-06,-9.11,,
+2026-10-30,ALL,Core Foundation,260.93,UPTREND 🟢,16.62,"[ACCUMULATE 🟢] Strong uptrend, good return, neutral AltData.",2026-11-06,-0.01,,
+2026-10-30,MU,Core Foundation,868.23,DOWNTREND 🔴,-19.21,"[SELL 🔴] Downtrend, negative return, insider selling.",2026-11-06,-19.43,,
+2026-10-30,KLAC,Core Foundation,157.48,DOWNTREND 🔴,-23.88,"[TRIM 🟠] Strong return, but insider selling and overall downtrend.",2026-11-06,-11.96,,
+2026-10-30,ZSIL.SW,Core Foundation,115.92,DOWNTREND 🔴,-18.52,"[SELL 🔴] Strong downtrend, significant negative return, increasing selling volume.",2026-11-06,3.76,,
+2026-10-30,BCHE.SW,Core Foundation,163.96,DOWNTREND 🔴,-13.35,"[SELL 🔴] Downtrend, negative return, weak volume.",2026-11-06,-8.54,,
+2026-10-30,ACN,Dynamic Uptrend,258.68,UPTREND 🟢,31.1,"[STRONG BUY 🚀] Strong uptrend, excellent return, stable volume, neutral AltData.",2026-11-06,-0.14,,
+2026-10-30,LMT,Dynamic Uptrend,637.69,UPTREND 🟢,26.17,"[TRIM 🟠] Strong performance, but insider selling is a significant red flag.",2026-11-06,-10.82,,
+2026-10-30,AMGN,Dynamic Uptrend,466.52,UPTREND 🟢,15.75,"[TRIM 🟠] Strong performance, but insider selling is a significant red flag.",2026-11-06,-3.46,,
+2026-10-30,CHKP,Dynamic Uptrend,149.91,UPTREND 🟢,15.01,"[SELL 🔴] Negative return, high PCR, insider selling, strong selling volume.",2026-11-06,-1.76,,
+2026-10-30,CVX,Dynamic Uptrend,234.77,UPTREND 🟢,13.59,"[TRIM 🟠] Uptrend, but insider selling is a significant red flag.",2026-11-06,-10.05,,
+2026-10-30,AFX.DE,Dynamic Uptrend,34.98,UPTREND 🟢,11.76,"[ACCUMULATE 🟢] Uptrend, analyst buy, stable volume, minor dip.",2026-11-06,-1.2,,
+2026-10-30,CHDVD.SW,Dynamic Uptrend,203.65,UPTREND 🟢,10.84,"[HOLD 🟡] Uptrend, positive return, but decreasing volume is a concern.",2026-11-06,-0.52,,
+2026-10-30,ONON,Dynamic Uptrend,33.71,UPTREND 🟢,9.25,[TRIM 🟠] High PCR and insider selling trigger strong downgrade.,2026-11-06,8.96,,
+2026-10-30,RHM.DE,Dynamic Uptrend,1037.6,UPTREND 🟢,8.43,"[ACCUMULATE 🟢] Uptrend, positive return, analyst buy, but weak volume.",2026-11-06,-22.0,,
+2026-10-30,SREN.SW,Dynamic Uptrend,153.35,UPTREND 🟢,8.41,"[ACCUMULATE 🟢] Uptrend, analyst buy, stable volume, minor dip.",2026-11-06,-0.85,,
+2026-10-30,BRK-A,Dynamic Uptrend,817300.0,UPTREND 🟢,8.28,"[HOLD 🟡] Downgrade due to insider selling, despite strong volume.",2026-11-06,4.82,,
+2026-10-30,SPSN.SW,Dynamic Uptrend,128.6,UPTREND 🟢,7.98,"[ACCUMULATE 🟢] Uptrend, positive return, analyst buy, but weak volume.",2026-11-06,2.26,,
+2026-10-30,BLK,Dynamic Uptrend,1144.02,UPTREND 🟢,7.96,"[STRONG BUY 🚀] Strong uptrend, positive return, increasing volume, no red flags.",2026-11-06,1.94,,
+2026-10-30,PBE,Dynamic Uptrend,102.38,UPTREND 🟢,7.69,"[STRONG BUY 🚀] Strong uptrend, excellent return, increasing volume.",2026-11-06,-3.11,,
+2026-10-30,PSPN.SW,Dynamic Uptrend,151.9,UPTREND 🟢,7.43,"[ACCUMULATE 🟢] Uptrend, positive return, stable volume, analyst buy.",2026-11-06,1.84,,
+2026-10-30,SBIO.AS,Dynamic Uptrend,68.33,UPTREND 🟢,6.32,"[ACCUMULATE 🟢] Strong return, uptrend, but decreasing volume.",2026-11-06,-3.56,,
+2026-10-30,NXPI,Dynamic Uptrend,255.84,UPTREND 🟢,5.0,[TRIM 🟠] High PCR and insider selling trigger strong downgrade.,2026-11-06,-4.24,,
+2026-10-30,DKS,Dynamic Uptrend,141.0,UPTREND 🟢,3.62,[ACCUMULATE 🟢] Insider buying outweighs high PCR and negative return.,2026-11-06,-1.6,,
+2026-10-30,XSPS.MI,Dynamic Uptrend,5.08,UPTREND 🟢,2.92,"[HOLD 🟡] Uptrend, positive return, stable volume, no strong catalysts.",2026-11-06,3.41,,
+2026-10-30,VDEA.MI,Dynamic Uptrend,56.07,UPTREND 🟢,2.73,"[HOLD 🟡] Uptrend, positive return, but decreasing volume.",2026-11-06,0.11,,
+2026-10-30,HON,Dynamic Uptrend,218.1,UPTREND 🟢,1.92,"[TRIM 🟠] Uptrend, but insider selling and negative return on strong volume.",2026-11-06,-2.4,,
+2026-10-30,VDEA.L,Dynamic Uptrend,62.55,UPTREND 🟢,1.74,"[HOLD 🟡] Uptrend, positive return, but decreasing volume suggests weakening momentum.",2026-11-06,0.1,,
+2026-10-30,TXN,Dynamic Uptrend,297.15,UPTREND 🟢,1.14,"[ACCUMULATE 🟢] Strong uptrend, bullish PCR, but insider selling is a concern.",2026-11-06,-5.55,,
+2026-10-30,MSFT,Dynamic Uptrend,523.12,UPTREND 🟢,1.08,"[TRIM 🟠] Uptrend, but insider selling, weak volume, and slight negative return.",2026-11-06,1.46,,
+2026-10-30,VAGX.SW,Dynamic Uptrend,20.29,UPTREND 🟢,1.04,"[ACCUMULATE 🟢] Solid uptrend, positive return, and strong confirming volume.",2026-11-06,0.54,,
+2026-10-30,AMSC,Downtrend / Reversal,26.8,DOWNTREND 🔴,-10.7,"[SELL 🔴] Downtrend, insider selling, weak volume on bounce.",2026-11-06,-9.51,,
+2026-10-30,ABBN.SW,Downtrend / Reversal,70.68,DOWNTREND 🔴,-13.7,"[HOLD 🟡] Downtrend, but strong positive return and volume on analyst buy.",2026-11-06,-4.98,,
+2026-10-30,IFX.DE,Downtrend / Reversal,50.56,DOWNTREND 🔴,-21.78,"[HOLD 🟡] Downtrend, positive return, stable volume, but analyst buy.",2026-11-06,-8.25,,
 2026-10-30,FLOKI-USD,Downtrend / Reversal,0.0,DOWNTREND 🔴,-17.76,"[TRIM 🟠] Downtrend, weak volume on bounce, but fear index suggests contrarian opportunity.",,,,
-2026-10-30,AAL,Downtrend / Reversal,12.49,DOWNTREND 🔴,-3.48,"[SELL 🔴] Downtrend, high PCR, and insider selling are strong sell signals.",,,,
-2026-10-30,UBSG.SW,Downtrend / Reversal,39.24,DOWNTREND 🔴,-0.73,"[HOLD 🟡] Downtrend, positive return, stable volume, but analyst buy.",,,,
-2026-10-30,AMAT,Downtrend / Reversal,386.11,DOWNTREND 🔴,-28.5,"[TRIM 🟠] Downtrend, insider selling, despite positive bounce and bullish PCR.",,,,
-2026-10-30,NVO,Downtrend / Reversal,39.89,DOWNTREND 🔴,6.89,"[HOLD 🟡] Downtrend, but extremely bullish PCR and analyst buy.",,,,
-2026-10-30,SPCE,Downtrend / Reversal,2.51,DOWNTREND 🔴,-17.17,"[HOLD 🟡] Downtrend, but bullish PCR, neutral insider, and analyst buy.",,,,
-2026-10-30,ACLN.SW,Downtrend / Reversal,63.85,DOWNTREND 🔴,-15.21,"[HOLD 🟡] Downtrend, but positive return with strong volume and analyst buy.",,,,
-2026-10-30,MSE.PA,Downtrend / Reversal,69.91,DOWNTREND 🔴,-1.63,"[HOLD 🟡] Positive return in downtrend, stable volume, no strong signals.",,,,
-2026-10-30,SMSN.IL,Downtrend / Reversal,4098.0,DOWNTREND 🔴,-19.96,"[ACCUMULATE 🟢] Positive return, analyst buy, but weak volume in downtrend.",,,,
-2026-10-30,AVGO,Downtrend / Reversal,322.33,DOWNTREND 🔴,-9.24,"[SELL 🔴] High PCR, insider selling, despite analyst buy.",,,,
-2026-10-30,VOO,Downtrend / Reversal,692.62,DOWNTREND 🔴,-2.11,"[TRIM 🟠] Downtrend, negative return, weak volume for an ETF.",,,,
-2026-10-30,CRWV,Downtrend / Reversal,53.66,DOWNTREND 🔴,-40.12,"[SELL 🔴] High PCR, insider selling, strong volume on downtrend.",,,,
-2026-10-30,IWME.AS,Downtrend / Reversal,7.74,DOWNTREND 🔴,-4.61,"[TRIM 🟠] Downtrend, negative return, weak volume, no positive catalysts.",,,,
-2026-10-30,SQN.SW,Downtrend / Reversal,34.3,DOWNTREND 🔴,-5.14,"[HOLD 🟡] Analyst buy, but downtrend and negative return.",,,,
-2026-10-30,VST,Downtrend / Reversal,137.13,DOWNTREND 🔴,-2.06,"[TRIM 🟠] Insider selling, negative return, downtrend.",,,,
-2026-10-30,TKA.DE,Downtrend / Reversal,12.02,DOWNTREND 🔴,-14.21,"[HOLD 🟡] Analyst buy, but downtrend and negative return.",,,,
-2026-10-30,DOGE-USD,Downtrend / Reversal,0.07,DOWNTREND 🔴,-21.86,"[SELL 🔴] Downtrend, negative return, weak volume, fear index.",,,,
-2026-10-30,LTC-USD,Downtrend / Reversal,55.05,DOWNTREND 🔴,-22.14,"[SELL 🔴] Downtrend, negative return, weak volume, fear index.",,,,
-2026-10-30,RGTI,Downtrend / Reversal,11.14,DOWNTREND 🔴,-26.98,"[TRIM 🟠] Insider selling, negative return, downtrend.",,,,
-2026-10-30,TSM,Downtrend / Reversal,403.07,DOWNTREND 🔴,-14.74,"[ACCUMULATE 🟢] Insider buying, low PCR, analyst buy, despite downtrend.",,,,
-2026-10-30,NVDA,Downtrend / Reversal,202.89,DOWNTREND 🔴,-13.28,"[TRIM 🟠] Insider selling, negative return, downtrend.",,,,
-2026-10-30,PANW,Downtrend / Reversal,365.38,DOWNTREND 🔴,-9.39,"[TRIM 🟠] Insider selling, negative return, downtrend.",,,,
-2026-10-30,META,Downtrend / Reversal,615.09,DOWNTREND 🔴,-15.52,"[SELL 🔴] Downtrend, insider selling, negative return.",,,,
-2026-10-30,ETH-USD,Downtrend / Reversal,2222.0,DOWNTREND 🔴,-18.5,"[SELL 🔴] Downtrend, fear index, weak volume.",,,,
-2026-10-30,SMCI,Downtrend / Reversal,31.42,DOWNTREND 🔴,-28.07,"[SELL 🔴] Strong selling volume, insider selling, downtrend.",,,,
-2026-10-30,IONQ,Downtrend / Reversal,29.66,DOWNTREND 🔴,-32.24,"[SELL 🔴] Downtrend, insider selling, negative return.",,,,
-2026-10-30,PLTR,Downtrend / Reversal,185.61,DOWNTREND 🔴,-1.66,"[SELL 🔴] Downtrend, insider selling, negative return.",,,,
-2026-10-30,CHYM,Downtrend / Reversal,27.87,DOWNTREND 🔴,2.28,"[SELL 🔴] Downtrend, insider selling, negative return.",,,,
-2026-10-30,ICP-USD,Downtrend / Reversal,2.47,DOWNTREND 🔴,-26.59,"[SELL 🔴] Downtrend, fear index, weak volume.",,,,
-2026-10-30,NFLX,Downtrend / Reversal,61.8,DOWNTREND 🔴,-7.84,"[SELL 🔴] Strong selling volume, insider selling, downtrend.",,,,
-2026-10-30,FET-USD,Downtrend / Reversal,0.16,DOWNTREND 🔴,-35.38,"[SELL 🔴] Downtrend, fear index, negative return.",,,,
-2026-10-30,SOL-USD,Downtrend / Reversal,93.72,DOWNTREND 🔴,-22.88,"[SELL 🔴] Downtrend, fear index, weak volume.",,,,
-2026-10-30,SPCX,Downtrend / Reversal,135.32,DOWNTREND 🔴,-14.87,"[SELL 🔴] Strong selling volume, insider selling, downtrend.",,,,
-2026-10-30,AXNA.F,Downtrend / Reversal,11.76,DOWNTREND 🔴,2.75,"[SELL 🔴] Downtrend, negative return, no positive signals.",,,,
-2026-10-30,BA,Downtrend / Reversal,171.38,DOWNTREND 🔴,-11.46,"[ACCUMULATE 🟢] Insider buying, bullish PCR, potential bottom.",,,,
-2026-10-30,ENA-USD,Downtrend / Reversal,0.19,DOWNTREND 🔴,-23.14,"[SELL 🔴] Strong downtrend, fear index, high negative return.",,,,
-2026-10-30,MSTR,Downtrend / Reversal,130.3,DOWNTREND 🔴,-18.57,"[SELL 🔴] Strong downtrend, insider selling, high negative return.",,,,
-2026-10-30,GOOG,Downtrend / Reversal,276.34,DOWNTREND 🔴,-18.81,[ACCUMULATE 🟢] Low PCR and analyst buy counter downtrend.,,,,
-2026-10-30,XDGU.SW,Downtrend / Reversal,10.07,DOWNTREND 🔴,-21.12,"[SELL 🔴] Strong downtrend, significant loss, no positive catalysts.",,,,
-2026-10-30,INTC,Downtrend / Reversal,64.07,DOWNTREND 🔴,-46.3,[TRIM 🟠] Severe downtrend and loss; analyst buy offers limited support.,,,,
+2026-10-30,AAL,Downtrend / Reversal,12.49,DOWNTREND 🔴,-3.48,"[SELL 🔴] Downtrend, high PCR, and insider selling are strong sell signals.",2026-11-06,4.4,,
+2026-10-30,UBSG.SW,Downtrend / Reversal,39.24,DOWNTREND 🔴,-0.73,"[HOLD 🟡] Downtrend, positive return, stable volume, but analyst buy.",2026-11-06,0.64,,
+2026-10-30,AMAT,Downtrend / Reversal,386.11,DOWNTREND 🔴,-28.5,"[TRIM 🟠] Downtrend, insider selling, despite positive bounce and bullish PCR.",2026-11-06,-11.48,,
+2026-10-30,NVO,Downtrend / Reversal,39.89,DOWNTREND 🔴,6.89,"[HOLD 🟡] Downtrend, but extremely bullish PCR and analyst buy.",2026-11-06,-0.15,,
+2026-10-30,SPCE,Downtrend / Reversal,2.51,DOWNTREND 🔴,-17.17,"[HOLD 🟡] Downtrend, but bullish PCR, neutral insider, and analyst buy.",2026-11-06,-4.58,,
+2026-10-30,ACLN.SW,Downtrend / Reversal,63.85,DOWNTREND 🔴,-15.21,"[HOLD 🟡] Downtrend, but positive return with strong volume and analyst buy.",2026-11-06,-0.31,,
+2026-10-30,MSE.PA,Downtrend / Reversal,69.91,DOWNTREND 🔴,-1.63,"[HOLD 🟡] Positive return in downtrend, stable volume, no strong signals.",2026-11-06,0.03,,
+2026-10-30,SMSN.IL,Downtrend / Reversal,4098.0,DOWNTREND 🔴,-19.96,"[ACCUMULATE 🟢] Positive return, analyst buy, but weak volume in downtrend.",2026-11-06,-12.79,,
+2026-10-30,AVGO,Downtrend / Reversal,322.33,DOWNTREND 🔴,-9.24,"[SELL 🔴] High PCR, insider selling, despite analyst buy.",2026-11-06,-5.43,,
+2026-10-30,VOO,Downtrend / Reversal,692.62,DOWNTREND 🔴,-2.11,"[TRIM 🟠] Downtrend, negative return, weak volume for an ETF.",2026-11-06,-2.37,,
+2026-10-30,CRWV,Downtrend / Reversal,53.66,DOWNTREND 🔴,-40.12,"[SELL 🔴] High PCR, insider selling, strong volume on downtrend.",2026-11-06,-13.3,,
+2026-10-30,IWME.AS,Downtrend / Reversal,7.74,DOWNTREND 🔴,-4.61,"[TRIM 🟠] Downtrend, negative return, weak volume, no positive catalysts.",2026-11-06,-5.0,,
+2026-10-30,SQN.SW,Downtrend / Reversal,34.3,DOWNTREND 🔴,-5.14,"[HOLD 🟡] Analyst buy, but downtrend and negative return.",2026-11-06,-1.17,,
+2026-10-30,VST,Downtrend / Reversal,137.13,DOWNTREND 🔴,-2.06,"[TRIM 🟠] Insider selling, negative return, downtrend.",2026-11-06,-12.3,,
+2026-10-30,TKA.DE,Downtrend / Reversal,12.02,DOWNTREND 🔴,-14.21,"[HOLD 🟡] Analyst buy, but downtrend and negative return.",2026-11-06,-1.25,,
+2026-10-30,DOGE-USD,Downtrend / Reversal,0.07,DOWNTREND 🔴,-21.86,"[SELL 🔴] Downtrend, negative return, weak volume, fear index.",2026-11-06,3.16,,
+2026-10-30,LTC-USD,Downtrend / Reversal,55.05,DOWNTREND 🔴,-22.14,"[SELL 🔴] Downtrend, negative return, weak volume, fear index.",2026-11-06,-4.17,,
+2026-10-30,RGTI,Downtrend / Reversal,11.14,DOWNTREND 🔴,-26.98,"[TRIM 🟠] Insider selling, negative return, downtrend.",2026-11-06,-8.44,,
+2026-10-30,TSM,Downtrend / Reversal,403.07,DOWNTREND 🔴,-14.74,"[ACCUMULATE 🟢] Insider buying, low PCR, analyst buy, despite downtrend.",2026-11-06,-6.04,,
+2026-10-30,NVDA,Downtrend / Reversal,202.89,DOWNTREND 🔴,-13.28,"[TRIM 🟠] Insider selling, negative return, downtrend.",2026-11-06,-4.94,,
+2026-10-30,PANW,Downtrend / Reversal,365.38,DOWNTREND 🔴,-9.39,"[TRIM 🟠] Insider selling, negative return, downtrend.",2026-11-06,-11.31,,
+2026-10-30,META,Downtrend / Reversal,615.09,DOWNTREND 🔴,-15.52,"[SELL 🔴] Downtrend, insider selling, negative return.",2026-11-06,-0.26,,
+2026-10-30,ETH-USD,Downtrend / Reversal,2222.0,DOWNTREND 🔴,-18.5,"[SELL 🔴] Downtrend, fear index, weak volume.",2026-11-06,0.12,,
+2026-10-30,SMCI,Downtrend / Reversal,31.42,DOWNTREND 🔴,-28.07,"[SELL 🔴] Strong selling volume, insider selling, downtrend.",2026-11-06,-8.67,,
+2026-10-30,IONQ,Downtrend / Reversal,29.66,DOWNTREND 🔴,-32.24,"[SELL 🔴] Downtrend, insider selling, negative return.",2026-11-06,-5.09,,
+2026-10-30,PLTR,Downtrend / Reversal,185.61,DOWNTREND 🔴,-1.66,"[SELL 🔴] Downtrend, insider selling, negative return.",2026-11-06,-14.35,,
+2026-10-30,CHYM,Downtrend / Reversal,27.87,DOWNTREND 🔴,2.28,"[SELL 🔴] Downtrend, insider selling, negative return.",2026-11-06,6.67,,
+2026-10-30,ICP-USD,Downtrend / Reversal,2.47,DOWNTREND 🔴,-26.59,"[SELL 🔴] Downtrend, fear index, weak volume.",2026-11-06,-0.97,,
+2026-10-30,NFLX,Downtrend / Reversal,61.8,DOWNTREND 🔴,-7.84,"[SELL 🔴] Strong selling volume, insider selling, downtrend.",2026-11-06,2.95,,
+2026-10-30,FET-USD,Downtrend / Reversal,0.16,DOWNTREND 🔴,-35.38,"[SELL 🔴] Downtrend, fear index, negative return.",2026-11-06,-7.33,,
+2026-10-30,SOL-USD,Downtrend / Reversal,93.72,DOWNTREND 🔴,-22.88,"[SELL 🔴] Downtrend, fear index, weak volume.",2026-11-06,-4.0,,
+2026-10-30,SPCX,Downtrend / Reversal,135.32,DOWNTREND 🔴,-14.87,"[SELL 🔴] Strong selling volume, insider selling, downtrend.",2026-11-06,-3.36,,
+2026-10-30,AXNA.F,Downtrend / Reversal,11.76,DOWNTREND 🔴,2.75,"[SELL 🔴] Downtrend, negative return, no positive signals.",2026-11-06,-0.09,,
+2026-10-30,BA,Downtrend / Reversal,171.38,DOWNTREND 🔴,-11.46,"[ACCUMULATE 🟢] Insider buying, bullish PCR, potential bottom.",2026-11-06,0.24,,
+2026-10-30,ENA-USD,Downtrend / Reversal,0.19,DOWNTREND 🔴,-23.14,"[SELL 🔴] Strong downtrend, fear index, high negative return.",2026-11-06,-12.98,,
+2026-10-30,MSTR,Downtrend / Reversal,130.3,DOWNTREND 🔴,-18.57,"[SELL 🔴] Strong downtrend, insider selling, high negative return.",2026-11-06,-1.68,,
+2026-10-30,GOOG,Downtrend / Reversal,276.34,DOWNTREND 🔴,-18.81,[ACCUMULATE 🟢] Low PCR and analyst buy counter downtrend.,2026-11-06,3.45,,
+2026-10-30,XDGU.SW,Downtrend / Reversal,10.07,DOWNTREND 🔴,-21.12,"[SELL 🔴] Strong downtrend, significant loss, no positive catalysts.",2026-11-06,26.78,,
+2026-10-30,INTC,Downtrend / Reversal,64.07,DOWNTREND 🔴,-46.3,[TRIM 🟠] Severe downtrend and loss; analyst buy offers limited support.,2026-11-06,-13.77,,
 2026-11-02,O,Core Foundation,57.41,UPTREND 🟢,6.47,[TRIM 🟠] Strong insider selling and very high PCR despite uptrend.,,,,
 2026-11-02,BNDW,Core Foundation,66.86,UPTREND 🟢,1.36,"[HOLD 🟡] Uptrend, stable, but flat return; no strong signals.",,,,
 2026-11-02,BTC-USD,Core Foundation,77139.79,DOWNTREND 🔴,-7.82,"[SELL 🔴] Downtrend, negative return, and market fear.",,,,
@@ -4593,3 +4593,81 @@
 2026-11-02,SMCI,Downtrend / Reversal,30.44,DOWNTREND 🔴,-27.28,"[SELL 🔴] Downtrend, insider selling, weak volume.",,,,
 2026-11-02,CRWV,Downtrend / Reversal,50.15,DOWNTREND 🔴,-38.9,"[SELL 🔴] Downtrend, insider selling, stable volume.",,,,
 2026-11-02,INTC,Downtrend / Reversal,59.97,DOWNTREND 🔴,-42.72,"[SELL 🔴] Strong downtrend, increasing volume, no insider support.",,,,
+2026-11-06,O,Core Foundation,59.5,UPTREND 🟢,10.34,[TRIM 🟠] Insider selling and high PCR despite uptrend.,,,,
+2026-11-06,BNDW,Core Foundation,67.06,UPTREND 🟢,1.65,"[HOLD 🟡] Modest uptrend, stable, potential hedge against volatility.",,,,
+2026-11-06,BTC-USD,Core Foundation,75500.45,DOWNTREND 🔴,-9.77,"[SELL 🔴] Strong downtrend, negative return, fear sentiment.",,,,
+2026-11-06,ZGLD.SW,Core Foundation,980.0,DOWNTREND 🔴,-4.84,"[TRIM 🟠] Downtrend, weak volume, but positive return. Trim exposure.",,,,
+2026-11-06,SHEL,Core Foundation,100.12,DOWNTREND 🔴,-0.06,"[SELL 🔴] Downtrend, negative return, high PCR.",,,,
+2026-11-06,ALL,Core Foundation,266.72,UPTREND 🟢,16.25,"[TRIM 🟠] Strong uptrend, but extremely high PCR suggests caution.",,,,
+2026-11-06,MU,Core Foundation,656.39,DOWNTREND 🔴,-36.2,"[SELL 🔴] Strong downtrend, insider selling, high PCR.",,,,
+2026-11-06,KLAC,Core Foundation,129.8,DOWNTREND 🔴,-33.63,"[SELL 🔴] Strong downtrend, insider selling, high PCR, increasing volatility.",,,,
+2026-11-06,ZSIL.SW,Core Foundation,120.28,DOWNTREND 🔴,-16.54,"[TRIM 🟠] Downtrend, increasing volatility, but positive return. Trim.",,,,
+2026-11-06,BCHE.SW,Core Foundation,128.94,DOWNTREND 🔴,-29.1,"[SELL 🔴] Strong downtrend, negative return, increasing volatility.",,,,
+2026-11-06,ACN,Dynamic Uptrend,265.16,UPTREND 🟢,27.85,"[HOLD 🟡] Uptrend, but high PCR warrants caution.",,,,
+2026-11-06,LMT,Dynamic Uptrend,576.16,UPTREND 🟢,13.06,"[TRIM 🟠] Uptrend, but negative return and insider selling.",,,,
+2026-11-06,AMGN,Dynamic Uptrend,460.28,UPTREND 🟢,10.95,"[TRIM 🟠] Uptrend, but negative return and insider selling.",,,,
+2026-11-06,BRK-A,Dynamic Uptrend,856700.0,UPTREND 🟢,10.64,"[ACCUMULATE 🟢] Strong uptrend, good return, but insider selling.",,,,
+2026-11-06,SPSN.SW,Dynamic Uptrend,131.5,UPTREND 🟢,9.49,"[ACCUMULATE 🟢] Uptrend, positive return, stable, no negative AltData.",,,,
+2026-11-06,CHDVD.SW,Dynamic Uptrend,202.6,UPTREND 🟢,9.27,"[HOLD 🟡] Slight negative return, stable volume, no strong catalyst.",,,,
+2026-11-06,PSPN.SW,Dynamic Uptrend,154.6,UPTREND 🟢,8.34,"[ACCUMULATE 🟢] Strong positive return, increasing volume, analyst buy.",,,,
+2026-11-06,BLK,Dynamic Uptrend,1170.67,UPTREND 🟢,8.16,[TRIM 🟠] High PCR (2.03) triggers downgrade despite positive return.,,,,
+2026-11-06,CHKP,Dynamic Uptrend,148.18,UPTREND 🟢,8.02,[SELL 🔴] Insider selling and negative return despite uptrend.,,,,
+2026-11-06,NXPI,Dynamic Uptrend,244.43,UPTREND 🟢,7.43,"[SELL 🔴] Insider selling, very high PCR, significant negative return.",,,,
+2026-11-06,ONON,Dynamic Uptrend,37.54,UPTREND 🟢,6.98,"[HOLD 🟡] Exceptional return, but insider selling triggers downgrade.",,,,
+2026-11-06,AFX.DE,Dynamic Uptrend,34.56,UPTREND 🟢,6.6,"[HOLD 🟡] Slight negative return, stable volume, no strong catalyst.",,,,
+2026-11-06,XSPS.MI,Dynamic Uptrend,5.24,UPTREND 🟢,6.35,"[ACCUMULATE 🟢] Strong positive return, increasing volume, no negative alt-data.",,,,
+2026-11-06,SREN.SW,Dynamic Uptrend,152.15,UPTREND 🟢,5.66,[TRIM 🟠] Negative return with increasing volume suggests selling pressure.,,,,
+2026-11-06,NVO,Dynamic Uptrend,40.3,UPTREND 🟢,4.3,"[ACCUMULATE 🟢] Positive return, stable volume, good PCR, analyst buy.",,,,
+2026-11-06,HON,Dynamic Uptrend,215.78,UPTREND 🟢,3.88,"[SELL 🔴] Insider selling, high PCR, and negative return.",,,,
+2026-11-06,DKS,Dynamic Uptrend,141.07,UPTREND 🟢,3.23,"[ACCUMULATE 🟢] Insider buying despite negative return, good PCR.",,,,
+2026-11-06,PBE,Dynamic Uptrend,99.2,UPTREND 🟢,2.37,[TRIM 🟠] Significant negative return with increasing volume.,,,,
+2026-11-06,SBIO.AS,Dynamic Uptrend,65.9,UPTREND 🟢,2.33,"[HOLD 🟡] Significant negative return, but decreasing volume might signal bottoming.",,,,
+2026-11-06,VAGX.SW,Dynamic Uptrend,20.4,UPTREND 🟢,1.74,"[HOLD 🟡] Modest positive return, but decreasing volume lacks conviction.",,,,
+2026-11-06,VDEA.MI,Dynamic Uptrend,56.13,UPTREND 🟢,1.52,"[HOLD 🟡] Weak volume uptrend, macro uncertainty.",,,,
+2026-11-06,VDEA.L,Dynamic Uptrend,62.61,UPTREND 🟢,1.38,"[HOLD 🟡] Weak volume uptrend, macro uncertainty.",,,,
+2026-11-06,AAL,Dynamic Uptrend,12.93,UPTREND 🟢,1.33,"[HOLD 🟡] Uptrend, but insider selling is a concern.",,,,
+2026-11-06,CHYM,Dynamic Uptrend,30.18,UPTREND 🟢,0.33,"[HOLD 🟡] Strong return, but insider selling and weak volume.",,,,
+2026-11-06,MSFT,Dynamic Uptrend,535.93,UPTREND 🟢,0.16,"[TRIM 🟠] Strong trend, but insider selling and high PCR are concerning.",,,,
+2026-11-06,AXNA.F,Downtrend / Reversal,11.75,DOWNTREND 🔴,-7.55,"[SELL 🔴] Strong downtrend with increasing volume, despite daily return.",,,,
+2026-11-06,NFLX,Downtrend / Reversal,65.56,DOWNTREND 🔴,-6.74,"[SELL 🔴] Downtrend, insider selling, despite daily bounce.",,,,
+2026-11-06,GOOG,Downtrend / Reversal,281.74,DOWNTREND 🔴,-19.01,"[TRIM 🟠] Downtrend with increasing volume, neutral AltData.",,,,
+2026-11-06,UBSG.SW,Downtrend / Reversal,39.55,DOWNTREND 🔴,-0.88,[SELL 🔴] Strong downtrend with increasing volume.,,,,
+2026-11-06,BA,Downtrend / Reversal,172.5,DOWNTREND 🔴,-9.39,"[HOLD 🟡] Downtrend, but insider buying provides support.",,,,
+2026-11-06,MSE.PA,Downtrend / Reversal,69.86,DOWNTREND 🔴,-0.74,"[SELL 🔴] Downtrend, weak volume, no positive catalysts.",,,,
+2026-11-06,ACLN.SW,Downtrend / Reversal,63.55,DOWNTREND 🔴,-10.11,[SELL 🔴] Strong downtrend with increasing volume.,,,,
+2026-11-06,MSTR,Downtrend / Reversal,129.3,DOWNTREND 🔴,-16.22,"[SELL 🔴] Downtrend, insider selling, no positive catalysts.",,,,
+2026-11-06,TKA.DE,Downtrend / Reversal,11.88,DOWNTREND 🔴,-13.29,[SELL 🔴] Strong downtrend with increasing volume.,,,,
+2026-11-06,SQN.SW,Downtrend / Reversal,33.9,DOWNTREND 🔴,-2.7,"[SELL 🔴] Downtrend, no positive catalysts.",,,,
+2026-11-06,META,Downtrend / Reversal,605.08,DOWNTREND 🔴,-15.81,"[TRIM 🟠] Insider selling, high PCR, increasing volume in downtrend.",,,,
+2026-11-06,ETH-USD,Downtrend / Reversal,2229.14,DOWNTREND 🔴,-12.06,"[HOLD 🟡] Downtrend, fear, but relatively less negative return.",,,,
+2026-11-06,VOO,Downtrend / Reversal,673.97,DOWNTREND 🔴,-5.82,"[TRIM 🟠] Broad market sliding, no specific positive catalyst.",,,,
+2026-11-06,ICP-USD,Downtrend / Reversal,2.44,DOWNTREND 🔴,-29.51,"[SELL 🔴] Downtrend, fear, decreasing volume, no buying interest.",,,,
+2026-11-06,DOGE-USD,Downtrend / Reversal,0.07,DOWNTREND 🔴,-16.7,"[SELL 🔴] Speculative asset, downtrend, fear, decreasing volume.",,,,
+2026-11-06,SOL-USD,Downtrend / Reversal,90.13,DOWNTREND 🔴,-18.98,"[TRIM 🟠] Downtrend, fear, significant negative return.",,,,
+2026-11-06,IWME.AS,Downtrend / Reversal,7.35,DOWNTREND 🔴,-9.41,"[SELL 🔴] Downtrend, weak volume, significant negative return.",,,,
+2026-11-06,LTC-USD,Downtrend / Reversal,52.72,DOWNTREND 🔴,-18.38,"[SELL 🔴] Downtrend, fear, decreasing volume, significant negative return.",,,,
+2026-11-06,ABBN.SW,Downtrend / Reversal,67.06,DOWNTREND 🔴,-15.8,"[TRIM 🟠] Downtrend, significant loss, analyst buy not enough.",,,,
+2026-11-06,FLOKI-USD,Downtrend / Reversal,0.0,DOWNTREND 🔴,-22.29,"[SELL 🔴] Speculative asset, downtrend, fear, significant negative return.",,,,
+2026-11-06,TXN,Downtrend / Reversal,278.15,DOWNTREND 🔴,-1.49,"[SELL 🔴] Insider selling, strong negative return, increasing volume.",,,,
+2026-11-06,SPCE,Downtrend / Reversal,2.38,DOWNTREND 🔴,-16.2,"[ACCUMULATE 🟢] Very low PCR, analyst buy, potential dip-buying opportunity.",,,,
+2026-11-06,SPCX,Downtrend / Reversal,123.62,DOWNTREND 🔴,-23.96,"[SELL 🔴] Insider selling, very poor return, downtrend.",,,,
+2026-11-06,FET-USD,Downtrend / Reversal,0.15,DOWNTREND 🔴,-37.76,"[SELL 🔴] Downtrend, fear, very poor return.",,,,
+2026-11-06,IFX.DE,Downtrend / Reversal,46.24,DOWNTREND 🔴,-21.44,"[SELL 🔴] Extreme negative return, weak volume, downtrend.",,,,
+2026-11-06,ENA-USD,Downtrend / Reversal,0.17,DOWNTREND 🔴,-30.1,"[TRIM 🟠] Downtrend, increasing volume, crypto fear, macro uncertainty.",,,,
+2026-11-06,CVX,Downtrend / Reversal,212.93,DOWNTREND 🔴,0.45,"[TRIM 🟠] Downtrend, insider selling, macro uncertainty.",,,,
+2026-11-06,AVGO,Downtrend / Reversal,291.53,DOWNTREND 🔴,-19.36,"[SELL 🔴] Downtrend, high PCR, insider selling.",,,,
+2026-11-06,NVDA,Downtrend / Reversal,181.6,DOWNTREND 🔴,-20.8,"[SELL 🔴] Downtrend, very high PCR, insider selling.",,,,
+2026-11-06,AMSC,Downtrend / Reversal,23.98,DOWNTREND 🔴,-21.43,"[TRIM 🟠] Downtrend, insider selling, macro uncertainty.",,,,
+2026-11-06,IONQ,Downtrend / Reversal,26.43,DOWNTREND 🔴,-33.74,"[TRIM 🟠] Downtrend, insider selling, decreasing volume.",,,,
+2026-11-06,RGTI,Downtrend / Reversal,9.85,DOWNTREND 🔴,-29.79,"[TRIM 🟠] Downtrend, insider selling, macro uncertainty.",,,,
+2026-11-06,TSM,Downtrend / Reversal,353.1,DOWNTREND 🔴,-22.11,"[ACCUMULATE 🟢] Insider buying, potential dip-buy in selective tech.",,,,
+2026-11-06,SMSN.IL,Downtrend / Reversal,3562.0,DOWNTREND 🔴,-25.04,"[HOLD 🟡] Downtrend, no strong signals, decreasing volume.",,,,
+2026-11-06,PANW,Downtrend / Reversal,314.67,DOWNTREND 🔴,-24.86,"[SELL 🔴] Downtrend, high PCR, insider selling.",,,,
+2026-11-06,PLTR,Downtrend / Reversal,154.99,DOWNTREND 🔴,-25.86,"[SELL 🔴] Downtrend, very high PCR, insider selling.",,,,
+2026-11-06,SMCI,Downtrend / Reversal,27.08,DOWNTREND 🔴,-35.31,"[TRIM 🟠] Downtrend, insider selling, decreasing volume.",,,,
+2026-11-06,AMAT,Downtrend / Reversal,319.25,DOWNTREND 🔴,-37.04,"[TRIM 🟠] Downtrend, insider selling, macro uncertainty.",,,,
+2026-11-06,VST,Downtrend / Reversal,112.89,DOWNTREND 🔴,-30.09,"[TRIM 🟠] Downtrend, insider selling, decreasing volume.",,,,
+2026-11-06,CRWV,Downtrend / Reversal,43.66,DOWNTREND 🔴,-46.81,"[TRIM 🟠] Downtrend, insider selling, macro uncertainty.",,,,
+2026-11-06,INTC,Downtrend / Reversal,52.25,DOWNTREND 🔴,-50.1,[ACCUMULATE 🟢] Insider buying and tech dip-buying opportunity despite high PCR.,,,,
+2026-11-06,XDGU.SW,Downtrend / Reversal,10.1,DOWNTREND 🔴,-20.91,[SELL 🔴] Downtrending ETF with no positive catalysts amid macro uncertainty.,,,,
+2026-11-06,RHM.DE,Downtrend / Reversal,812.0,DOWNTREND 🔴,-13.53,"[TRIM 🟠] Downtrend, weak volume, analyst buy not enough to counter negatives.",,,,
