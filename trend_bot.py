@@ -41,7 +41,7 @@ CORE_ASSETS = ["O", "BNDW", "BTC-USD", "ZGLD.SW", "SHEL", "ALL", "MU", "KLAC", "
 ETF_LIST = [
     "ZSIL", "ZGLD", "CHDVD", "BCHE", "IWMO", "INFR", 
     "MVSH", "MSE", "VUSD", "XDPU", "SBIO", "XDGU", 
-    "VDEA", "VAGX", "BNDW", "VOO", "PBE"
+    "VDEA", "VAGX", "BNDW", "VOO", "PBE", "PLATC", "PALLC", "VSML"
 ]
 
 DATA_PERIOD = "2y"
