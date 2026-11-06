@@ -1,25 +1,14 @@
 name: Gunluk Trend Analizi
 
 on:
-  schedule:
-    # 1. AVRUPA AÇILIŞI (İsviçre 09:15 hedefli)
-    # Kuyruğa takılmamak için 08:12 UTC (İsviçre 09:12) tetiklenir.
-    # Rapor tam 09:15 sularında Telegram'a düşer.
-    - cron: '12 8 * * 1-5'
-    
-    # 2. ABD AÇILIŞI (İsviçre 15:45 hedefli - Pazartesi ve Cuma)
-    # Kuyruğa takılmamak için 14:42 UTC (İsviçre 15:42) tetiklenir.
-    # Rapor tam 15:45 sularında Telegram'a düşer.
-    - cron: '42 14 * * 1,5'
-
-  workflow_dispatch: # İstediğin zaman manuel çalıştırmak için
+  workflow_dispatch: # SADECE dışarıdan API emri geldiğinde veya sen butona bastığında çalışır!
 
 permissions:
   contents: write
 
 jobs:
   build:
-    runs-on: ubuntu-latest # Windows'a göre 5 kat daha hızlı başlar
+    runs-on: ubuntu-latest
 
     steps:
       - name: Kodlari Cek
