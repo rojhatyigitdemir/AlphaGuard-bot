@@ -10,13 +10,13 @@ Trend-following rules are transparent and easy to audit, but they only see price
 
 Because a short backtest on a hand-picked watchlist proves very little, the system logs its own signals every time it runs and scores them against realized returns later (Section 5). The log started on 3 August 2026.
 
-The working objective is an average return of 1% per week. It is used as a yardstick in the performance summary, not as a constraint: the system does not increase risk when it falls behind the target, because chasing a fixed reference point is exactly the kind of behaviour prospect theory predicts after losses (Kahneman & Tversky, 1979).
+The working objective is an average return of 1% per week. After the autumn 2026 sell-off the portfolio fell from about CHF 25,000 to about CHF 23,000; at 1% a week, recovering the 8.7% gap takes about nine weeks. It is used as a yardstick in the performance summary, not as a constraint: the system does not increase risk when it falls behind the target, because chasing a fixed reference point is exactly the kind of behaviour prospect theory predicts after losses (Kahneman & Tversky, 1979). Investors who are below a previous level tend to take larger risks to get back to it, the break-even effect described by Thaler & Johnson (1990). The trade plan is built to resist this: the number of trades is capped by cost, and the default is to do nothing.
 
 ## 2. Universe
 
 The portfolio has two parts.
 
-**Core.** Eight fixed instruments that are followed regardless of their trend state: `O`, `BNDW`, `BTC-USD`, `ZGLD.SW`, `ZSIL.SW`, `SHEL`, `TSM`, `BCHE.SW`. They are meant to spread exposure across several asset classes, so the trend filter is reported for them but does not remove them.
+**Core.** The eleven positions actually held, defined in `portfolio_layer.py`: a gold ETF (`ZGLD.SW`), an S&P 500 ETF (`XSPS.MI`), NXP (`NXPI`), TSMC (`TSM`), a global aggregate bond ETF (`VAGX.SW`), a blockchain equity ETF (`BCHE.SW`), Sandisk (`SNDK`), a European defence ETF (`XDEF.DE`), Broadcom (`AVGO`), a WTI crude oil tracker certificate and Dogecoin (`DOGE-USD`). The oil certificate is not quoted on Yahoo, so WTI futures (`CL=F`) stand in for it. Core positions are not ranked. They are checked for signs that they should be sold (Section 3.8).
 
 **Satellite.** About seventy instruments read from the `Symbol` column of `portfolio.csv` (an export from a market-data terminal). Satellites are not held permanently. At each rebalance they are split by trend state and ranked.
 
@@ -78,17 +78,27 @@ Global events such as a Fed decision, a sell-off in Nvidia, a move in Japanese r
 
 **Regime.** The regime is `Risk-off` when the VIX is at 25 or above or the S&P 500 is below its 8-week average, `Gergin` (tense) when the VIX is between 20 and 25, and `Risk-on` otherwise. The VIX levels follow common practice (Whaley, 2000) and were not fitted to the data.
 
+### 3.8 Portfolio monitoring and trade plan
+
+**Early warnings for held positions.** The 8-week trend filter reacts late, so held positions are also checked on daily data, every day. Four price conditions are tested: the close is below its 20-day average; the 20-day average is lower than a week ago; the 20-day change is positive but the 10-day change is negative (momentum is fading); and the close is more than 2.5 average true ranges below the 22-day high, a volatility-based exit rule in the spirit of LeBeau's chandelier exit. Macro pressure, expensive puts, insider selling and a `TRIM` or `SELL` label from the model count as further warnings. A position whose weekly trend is still up gets an early warning when at least one price condition and one other warning are present. A position whose trend has already turned down is marked for exit when the model also labels it `TRIM` or `SELL`, or when two warnings are present. No rule can call a top before it happens; these checks shorten the delay and will produce false alarms.
+
+**Number of trades.** Every order carries a fee, so the number of new positions is limited by cost. With a portfolio of about CHF 23,000, a satellite budget of 20%, a fee of CHF 10 per order and an assumed spread of 0.1%, a round trip costs about 0.6% of a single CHF 4,600 position. Splitting the budget into two positions would raise this above 1%, which is too much against a 1% weekly objective. The plan therefore opens at most one new position per rebalance and holds at most two at a time. All of these values are parameters in `portfolio_layer.py`.
+
+**Two independent confirmations.** A satellite is proposed only when it passes a rule-based screen and the model confirms it. The screen requires an uptrend, four-week momentum between 2% and 25% (very large recent gains tend to reverse at this horizon), a one-week gain below 8%, an expected macro impact above −0.5%, no expensive-put flag, no insider selling, and a regime other than risk-off. The model must label the asset `STRONG BUY` or `ACCUMULATE` with a conviction of at least 4 on a 1–5 scale. If nothing passes both, no trade is proposed. Not trading is the default.
+
+**Exits.** Proposed positions are tracked in `trade_plan.csv`. At each rebalance an open proposal is closed when its trend turns down, when the model labels it `TRIM` or `SELL`, when it comes under macro pressure, or after four weeks without a buy label. Closed proposals keep their entry and exit prices, so the trade plan can be evaluated on its own.
+
 ## 4. Schedule and infrastructure
 
 | Run | When | What happens |
 |---|---|---|
-| Daily | 09:40 Swiss time | Regime, factor panel and macro note; shock monitor; short Telegram message |
+| Daily | 09:40 Swiss time | Regime, early warnings for held positions, factor panel and macro note; shock monitor; short Telegram message |
 | Rebalance | Monday and Friday | Full ranking, model labels, signal log update, performance summary, report sent in parts |
 | Extra run | 15:40 Swiss time, Monday and Friday | Repeat at the US open |
 
 Fridays are included so that positions can be reviewed before the weekend close. The daily run stays on a daily schedule because news flow can change a trend within days. Report text is in Turkish.
 
-The rebalance report arrives as four Telegram messages, ordered from summary to detail: (1) the count of each label, the regime, a table of this week's factor moves next to the direction implied by the news, the macro note and any shock alerts; (2) the core assets; (3) the satellites grouped by label, with buy and sell groups listed first and `HOLD` reduced to a list of tickers; (4) a scorecard comparing the mean one-week return with the 1% objective and the hit rate with the share of positive returns across all signals. Each asset takes at most two lines: label, ticker, price, trend direction and four-week momentum, followed by the model's justification. Flags for expensive puts, insider selling and macro pressure or support are shown only when they apply.
+The rebalance report arrives as four Telegram messages, ordered from summary to detail: (1) the regime, the held positions grouped into exit candidates, early warnings, weak and sound, and the trade plan with the path back to the recovery target; (2) the count of each label, a table of this week's factor moves next to the direction implied by the news, the macro note and any shock alerts; (3) the satellites grouped by label, with buy and sell groups listed first and `HOLD` reduced to a list of tickers; (4) a scorecard comparing the mean one-week return with the 1% objective and the hit rate with the share of positive returns across all signals. Each asset takes at most two lines: label, ticker, price, trend direction and four-week momentum, followed by the model's justification. Flags for expensive puts, insider selling and macro pressure or support are shown only when they apply.
 
 The system needs no server. GitHub Actions runs the script and then commits `signals_history.csv` back to the repository, so the log is versioned and can be inspected in the commit history.
 
@@ -96,6 +106,8 @@ The system needs no server. GitHub Actions runs the script and then commits `sig
 |---|---|
 | `trend_bot.py` | Main pipeline: data, signals, model calls, logging, Telegram |
 | `macro_layer.py` | News reader, factor panel, sensitivities, macro shock scores, regime |
+| `portfolio_layer.py` | Held positions, early warnings, trade capacity, trade plan |
+| `trade_plan.csv` | Proposed trades with entry and exit |
 | `altdata_verifier.py` | Stand-alone test of the equity alternative-data checks |
 | `portfolio.csv` | Satellite watchlist |
 | `signals_history.csv` | Append-only signal log with realized returns |
@@ -155,6 +167,8 @@ Lopez-Lira, A., & Tang, Y. (2023). Can ChatGPT forecast stock price movements? R
 Pan, J., & Poteshman, A. M. (2006). The information in option volume for future stock prices. *Review of Financial Studies, 19*(3), 871–908.
 
 Tetlock, P. C. (2007). Giving content to investor sentiment: The role of media in the stock market. *Journal of Finance, 62*(3), 1139–1168.
+
+Thaler, R. H., & Johnson, E. J. (1990). Gambling with the house money and trying to break even: The effects of prior outcomes on risky choice. *Management Science, 36*(6), 643–660.
 
 Whaley, R. E. (2000). The investor fear gauge. *Journal of Portfolio Management, 26*(3), 12–17.
 

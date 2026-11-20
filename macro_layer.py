@@ -43,6 +43,8 @@ ETF_NEWS_PROXY = {
     "IWMO": "URTH",        # MSCI World momentum
     "SBIO": "XBI",         # biyoteknoloji
     "PBE": "XBI",          # biyoteknoloji
+    "BCHE": "BTC-USD",     # blokzincir şirketleri -> Bitcoin
+    "XDEF": "RHM.DE",      # Avrupa savunma -> en büyük pozisyonlardan Rheinmetall
 }
 INVERSE_ETFS = {"XSPS"}  # yalnızca modele bilgi olarak verilir; duyarlılık fiyattan ölçüldüğü için yön zaten içinde
 
