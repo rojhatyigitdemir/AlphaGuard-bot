@@ -166,10 +166,12 @@ def defcon_shock_monitor(symbols, macro_note):
             gap_up = today_high - prev_close
             gap_down = prev_close - today_low
             
+            up_pct = f"{(gap_up / prev_close) * 100:.1f}".replace(".", ",")
+            down_pct = f"{(gap_down / prev_close) * 100:.1f}".replace(".", ",")
             if gap_up > (2.5 * yesterday_atr):
-                alerts.append(f"📈 {sym} +{(gap_up/prev_close)*100:.1f}% · fiyat sıçraması (2,5× ATR)")
+                alerts.append(f"📈 {sym} +{up_pct}% · fiyat sıçraması (2,5× ATR)")
             elif gap_down > (2.5 * yesterday_atr):
-                alerts.append(f"📉 {sym} −{(gap_down/prev_close)*100:.1f}% · sert düşüş (2,5× ATR)")
+                alerts.append(f"📉 {sym} −{down_pct}% · sert düşüş (2,5× ATR)")
 
             news = yf.Ticker(sym).news
             titles = [h.get('title') for h in news[:2]] if news else []
