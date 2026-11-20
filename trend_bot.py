@@ -70,6 +70,13 @@ HISTORY_COLUMNS = [
 OPT_MIN_DAYS, OPT_MAX_DAYS = 7, 60
 OPT_FLAG_QUANTILE = 0.20
 OPT_MIN_VALID = 10
+
+# Analist konsensüsü eşikleri (oy payı)
+ANALYST_BUY_SHARE = 0.60
+ANALYST_SELL_SHARE = 0.25
+
+# Haftalık getiri hedefi (%). Değerlendirme için referans; risk kısıtı değildir.
+WEEKLY_TARGET_PCT = 1.0
 EVAL_DAYS_1W = 7
 EVAL_DAYS_4W = 28
 
@@ -276,6 +283,32 @@ def assign_option_flags(df):
         df.at[idx, "AltData (Smart Money)"] = str(df.at[idx, "AltData (Smart Money)"]).rstrip("]") + f" | {flag}]"
     return df
 
+def parse_analyst_consensus(rec):
+    """
+    yfinance 'recommendations' tablosunu (period, strongBuy, buy, hold, sell, strongSell) okur.
+    Eski sürüm kolon adlarına bakıyordu; bu kolonlar her zaman var olduğundan sonuç hep 'Ana:AL' çıkıyordu.
+    Analist tavsiyeleri sistematik olarak iyimser olduğu için SAT eşiği AL eşiğinden düşük tutulur.
+    """
+    if rec is None or rec.empty:
+        return "N/A"
+    needed = ["strongBuy", "buy", "hold", "sell", "strongSell"]
+    if not all(c in rec.columns for c in needed):
+        return "N/A"
+    row = rec[rec["period"] == "0m"].iloc[0] if "period" in rec.columns and (rec["period"] == "0m").any() else rec.iloc[0]
+    counts = row[needed].astype(float).fillna(0)
+    total = counts.sum()
+    if total < 3:
+        return "N/A"
+    buy_share = (counts["strongBuy"] + counts["buy"]) / total
+    sell_share = (counts["sell"] + counts["strongSell"]) / total
+    if sell_share >= ANALYST_SELL_SHARE:
+        label = "SAT"
+    elif buy_share >= ANALYST_BUY_SHARE:
+        label = "AL"
+    else:
+        label = "TUT"
+    return f"Ana:{label}({buy_share * 100:.0f}% al, n={int(total)})"
+
 def get_smart_money_data(symbol, spot=None):
     """(AltData metni, opsiyon sayısal değerleri) döndürür."""
     symbol_upper = symbol.upper()
@@ -332,11 +365,7 @@ def get_smart_money_data(symbol, spot=None):
             
             # Analist Tavsiyeleri
             try:
-                rec = t_obj.recommendations
-                if rec is not None and not rec.empty:
-                    cols = [c.lower() for c in rec.columns]
-                    if any('strongbuy' in c or 'buy' in c for c in cols): ana_str = "Ana:AL"
-                    elif any('sell' in c for c in cols): ana_str = "Ana:SAT"
+                ana_str = parse_analyst_consensus(t_obj.recommendations)
             except Exception:
                 pass
             
@@ -506,7 +535,7 @@ def dual_momentum_and_risk_analysis(symbols, macro_note):
         INSTRUCTIONS:
         1. Evaluate EVERY asset. Use ONE tag: [STRONG BUY 🚀], [ACCUMULATE 🟢], [HOLD 🟡], [TRIM 🟠], or [SELL 🔴].
         2. Max 10-word justification.
-        3. CRITICAL: Downgrade one level if AltData shows 'Ins:Satış' (Insider Selling) or 'OptRisk:High' (puts priced expensively vs calls = informed hedging). Upgrade if 'Ins:Alış'. 'OptRisk:Low' is mildly positive. Treat PCR as context only.
+        3. CRITICAL: Downgrade one level if AltData shows 'Ins:Satış' (Insider Selling) or 'OptRisk:High' (puts priced expensively vs calls = informed hedging). Upgrade if 'Ins:Alış'. 'Ana:SAT' is a meaningful negative (analysts rarely say sell); 'Ana:AL' alone is weak evidence. 'OptRisk:Low' is mildly positive. Treat PCR as context only.
         
         FORMAT (MUST FOLLOW THIS EXACTLY, ONE LINE PER ASSET):
         SEMBOL | [TAG] | Justification
@@ -623,6 +652,8 @@ def generate_accuracy_summary(history_df):
 
     evaluated_1w["hit"] = evaluated_1w.apply(lambda r: is_hit(r, "realized_return_1w"), axis=1)
     summary = f"[1 Hafta] Sinyal: {len(evaluated_1w)} | Ort. Getiri: {evaluated_1w['realized_return_1w'].mean():.2f}% | Isabet: {evaluated_1w['hit'].mean() * 100:.1f}%"
+    mean_1w = evaluated_1w['realized_return_1w'].mean()
+    summary += f"\n[Hedef] Haftalik %{WEEKLY_TARGET_PCT:.1f} | Fark: {mean_1w - WEEKLY_TARGET_PCT:+.2f} puan"
 
     if "realized_return_4w" in history_df.columns:
         evaluated_4w = history_df.dropna(subset=["realized_return_4w"]).copy()
