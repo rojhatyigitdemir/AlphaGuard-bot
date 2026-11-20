@@ -59,7 +59,17 @@ HISTORY_COLUMNS = [
     f"momentum_{MOMENTUM_WEEKS}w", "ai_signal",
     "eval_date_1w", "realized_return_1w",
     "eval_date_4w", "realized_return_4w",
+    "opt_pcr", "opt_iv_spread", "opt_put_skew", "opt_flag",
 ]
+
+# --- OPSİYON (PUT) SİNYALİ ---
+# Cremers & Weinbaum (2010): ATM call IV - put IV farkı (IV spread) haftalık getiriyi öngörür;
+#   put'ların göreli pahalı olması (negatif spread) bilgili satış/korunma baskısına işaret eder.
+# Xing, Zhang & Zhao (2010): OTM put IV - ATM call IV (put skew) yüksekse sonraki getiriler zayıftır.
+# Her iki sinyal de kesitsel (cross-sectional) sıralama ile kullanılır, mutlak eşik ile değil.
+OPT_MIN_DAYS, OPT_MAX_DAYS = 7, 60
+OPT_FLAG_QUANTILE = 0.20
+OPT_MIN_VALID = 10
 EVAL_DAYS_1W = 7
 EVAL_DAYS_4W = 28
 
@@ -184,42 +194,126 @@ SEMBOL | 🚨 DÜŞÜŞ ŞOKU | Gerekçe
 def is_rebalance_day():
     return get_swiss_now().weekday() in REBALANCE_WEEKDAYS
 
-def get_smart_money_data(symbol):
+def _pick_option_expiry(expiries):
+    """İlk vadeyi (çoğu zaman 0-2 günlük, spekülatif) değil, 7-60 gün aralığındaki en yakın vadeyi seçer."""
+    today = get_swiss_now().date()
+    fallback = None
+    for e in expiries:
+        try:
+            days = (dt.date.fromisoformat(e) - today).days
+        except Exception:
+            continue
+        if OPT_MIN_DAYS <= days <= OPT_MAX_DAYS:
+            return e
+        if days > OPT_MAX_DAYS and fallback is None:
+            fallback = e
+    return fallback
+
+def _clean_option_leg(df):
+    """Bozuk IV ve açık pozisyonu olmayan kontratları ayıklar; kotasyonu olanları tercih eder."""
+    iv = df['impliedVolatility']
+    valid = iv.between(0.01, 3.0) & (df['openInterest'].fillna(0) > 0)
+    quoted = valid & (df['bid'].fillna(0) > 0) & (df['ask'].fillna(0) > 0)
+    return df[quoted] if quoted.sum() >= 3 else df[valid]
+
+def get_option_put_signals(t_obj, spot):
+    """PCR (bağlam), IV spread (Cremers-Weinbaum) ve put skew (Xing-Zhang-Zhao) hesaplar. Değerler % puan."""
+    out = {"pcr": np.nan, "iv_spread": np.nan, "put_skew": np.nan}
+    expiries = t_obj.options
+    if not expiries:
+        return out
+    exp = _pick_option_expiry(expiries)
+    if exp is None:
+        return out
+    chain = t_obj.option_chain(exp)
+    calls, puts = chain.calls, chain.puts
+
+    c_vol, p_vol = calls['volume'].sum(), puts['volume'].sum()
+    if c_vol > 0:
+        out["pcr"] = p_vol / c_vol
+
+    if not spot or spot <= 0:
+        return out
+    c, p = _clean_option_leg(calls), _clean_option_leg(puts)
+
+    # IV spread: aynı strike'ta call IV - put IV, ATM bölgesi (K/S 0.9-1.1), açık pozisyon ağırlıklı
+    m = c[['strike', 'impliedVolatility', 'openInterest']].merge(
+        p[['strike', 'impliedVolatility', 'openInterest']], on='strike', suffixes=('_c', '_p'))
+    m = m[(m['strike'] / spot).between(0.9, 1.1)]
+    if len(m) >= 2:
+        w = m['openInterest_c'].fillna(0) + m['openInterest_p'].fillna(0)
+        if w.sum() > 0:
+            out["iv_spread"] = float(np.average(m['impliedVolatility_c'] - m['impliedVolatility_p'], weights=w)) * 100
+
+    # Put skew: K/S 0.95'e en yakın OTM put IV - K/S 1.0'a en yakın ATM call IV
+    otm_put = p[(p['strike'] / spot).between(0.80, 0.95)]
+    atm_call = c[(c['strike'] / spot).between(0.95, 1.05)]
+    if not otm_put.empty and not atm_call.empty:
+        put_iv = otm_put.loc[((otm_put['strike'] / spot) - 0.95).abs().idxmin(), 'impliedVolatility']
+        call_iv = atm_call.loc[((atm_call['strike'] / spot) - 1.0).abs().idxmin(), 'impliedVolatility']
+        out["put_skew"] = float(put_iv - call_iv) * 100
+    return out
+
+def assign_option_flags(df):
+    """Evren içinde kesitsel sıralama: en pahalı put'lu %20 -> OptRisk:High, en ucuz -> OptRisk:Low."""
+    df["Opt_Flag"] = ""
+    ivs, skew = df.get("Opt_IVSpread"), df.get("Opt_PutSkew")
+    if ivs is None or ivs.notna().sum() < OPT_MIN_VALID:
+        return df
+    ivs_lo, ivs_hi = ivs.quantile(OPT_FLAG_QUANTILE), ivs.quantile(1 - OPT_FLAG_QUANTILE)
+    skew_hi = skew.quantile(1 - OPT_FLAG_QUANTILE) if skew.notna().sum() >= OPT_MIN_VALID else np.inf
+    for idx in df.index:
+        v, s = ivs.at[idx], skew.at[idx]
+        if pd.isna(v):
+            continue
+        if v <= ivs_lo or (pd.notna(s) and s >= skew_hi):
+            flag = "OptRisk:High"
+        elif v >= ivs_hi:
+            flag = "OptRisk:Low"
+        else:
+            flag = "OptRisk:Neutral"
+        df.at[idx, "Opt_Flag"] = flag
+        df.at[idx, "AltData (Smart Money)"] = str(df.at[idx, "AltData (Smart Money)"]).rstrip("]") + f" | {flag}]"
+    return df
+
+def get_smart_money_data(symbol, spot=None):
+    """(AltData metni, opsiyon sayısal değerleri) döndürür."""
     symbol_upper = symbol.upper()
-    
+    empty_opt = {"pcr": np.nan, "iv_spread": np.nan, "put_skew": np.nan}
+
     # Kural 1: Kripto Paralar
     if "-USD" in symbol_upper:
         try:
             req = requests.get("https://api.alternative.me/fng/?limit=1", timeout=3)
             if req.status_code == 200:
                 data = req.json()['data'][0]
-                return f"[Kripto F&G: {data['value']} ({data['value_classification']})]"
+                return f"[Kripto F&G: {data['value']} ({data['value_classification']})]", empty_opt
         except Exception:
             pass
-        return "[Kripto AltData Yok]"
+        return "[Kripto AltData Yok]", empty_opt
 
     # --- ZEKİ UZANTI TEMİZLEYİCİ ---
     base_symbol = symbol_upper.split('.')[0]
 
     # Kural 2: Manuel ETF Beyaz Listesi (Whitelist)
     if base_symbol in ETF_LIST:
-        return "[ETF / Fon - İçsel Veri Yok]"
+        return "[ETF / Fon - İçsel Veri Yok]", empty_opt
 
     # Kural 3: Geriye Kalan Her Şey Gerçek Hisse Senedidir (ABD + Avrupa Şirketleri)
     else:
         opt_str, ins_str, ana_str = "N/A", "N/A", "N/A"
+        opt = dict(empty_opt)
         try:
             t_obj = yf.Ticker(symbol)
-            
-            # Opsiyon Zinciri (Put/Call Ratio)
+
+            # Opsiyon Zinciri: PCR + IV spread + put skew
             try:
-                exp = t_obj.options
-                if exp:
-                    chain = t_obj.option_chain(exp[0])
-                    p_vol = chain.puts['volume'].sum()
-                    c_vol = chain.calls['volume'].sum()
-                    if c_vol > 0:
-                        opt_str = f"PCR:{p_vol/c_vol:.2f}"
+                opt = get_option_put_signals(t_obj, spot)
+                parts = []
+                if pd.notna(opt["pcr"]): parts.append(f"PCR:{opt['pcr']:.2f}")
+                if pd.notna(opt["iv_spread"]): parts.append(f"IVS:{opt['iv_spread']:+.1f}")
+                if pd.notna(opt["put_skew"]): parts.append(f"Skew:{opt['put_skew']:.1f}")
+                if parts: opt_str = " ".join(parts)
             except Exception:
                 pass
             
@@ -246,9 +340,9 @@ def get_smart_money_data(symbol):
             except Exception:
                 pass
             
-            return f"[{opt_str} | {ins_str} | {ana_str}]"
+            return f"[{opt_str} | {ins_str} | {ana_str}]", opt
         except Exception:
-            return "[AltData Hatası]"
+            return "[AltData Hatası]", opt
 
 def batch_download_data(symbols, period=DATA_PERIOD, interval=DATA_INTERVAL):
     try:
@@ -316,9 +410,12 @@ def analyze_asset_data(symbol, batch_data=None):
         except Exception:
             volume_comment = "No Data"
 
-        alt_data_str = get_smart_money_data(symbol)
+        alt_data_str, opt = get_smart_money_data(symbol, spot=current_price)
 
         return {
+            "Opt_PCR": opt["pcr"],
+            "Opt_IVSpread": opt["iv_spread"],
+            "Opt_PutSkew": opt["put_skew"],
             "Asset": symbol,
             "Price ($)": round(current_price, 2),
             "Absolute Trend": trend,
@@ -374,6 +471,7 @@ def dual_momentum_and_risk_analysis(symbols, macro_note):
             })
 
     final_analysis_list = pd.concat([pd.DataFrame(core_results), all_portfolio_assets], ignore_index=True)
+    final_analysis_list = assign_option_flags(final_analysis_list)
 
     print(f"\nStage 2: AI Analysis (Bulletproof Plain Text Parser, Batch: 15)...\n")
     analysis_dict = {}
@@ -408,7 +506,7 @@ def dual_momentum_and_risk_analysis(symbols, macro_note):
         INSTRUCTIONS:
         1. Evaluate EVERY asset. Use ONE tag: [STRONG BUY 🚀], [ACCUMULATE 🟢], [HOLD 🟡], [TRIM 🟠], or [SELL 🔴].
         2. Max 10-word justification.
-        3. CRITICAL: Downgrade if AltData shows 'Ins:Satış' (Insider Selling) or high PCR (>1.2). Upgrade if 'Ins:Alış'.
+        3. CRITICAL: Downgrade one level if AltData shows 'Ins:Satış' (Insider Selling) or 'OptRisk:High' (puts priced expensively vs calls = informed hedging). Upgrade if 'Ins:Alış'. 'OptRisk:Low' is mildly positive. Treat PCR as context only.
         
         FORMAT (MUST FOLLOW THIS EXACTLY, ONE LINE PER ASSET):
         SEMBOL | [TAG] | Justification
@@ -490,6 +588,12 @@ def update_realized_returns(history_df):
             history_df.at[idx, "eval_date_4w"] = today
     return history_df
 
+def _round_or_na(value, digits):
+    try:
+        return pd.NA if value is None or pd.isna(value) else round(float(value), digits)
+    except Exception:
+        return pd.NA
+
 def append_new_signals(history_df, final_analysis_list):
     today = pd.Timestamp(dt.date.today())
     new_rows = []
@@ -499,6 +603,10 @@ def append_new_signals(history_df, final_analysis_list):
             "price": row["Price ($)"], "trend": row["Absolute Trend"], f"momentum_{MOMENTUM_WEEKS}w": row[MOMENTUM_COL],
             "ai_signal": row["AI Action & Risk Warning"], "eval_date_1w": pd.NaT,
             "realized_return_1w": pd.NA, "eval_date_4w": pd.NaT, "realized_return_4w": pd.NA,
+            "opt_pcr": _round_or_na(row.get("Opt_PCR"), 3),
+            "opt_iv_spread": _round_or_na(row.get("Opt_IVSpread"), 2),
+            "opt_put_skew": _round_or_na(row.get("Opt_PutSkew"), 2),
+            "opt_flag": row.get("Opt_Flag") or pd.NA,
         })
     return pd.concat([history_df, pd.DataFrame(new_rows)], ignore_index=True)
 
@@ -553,6 +661,7 @@ def build_full_report_messages(macro_note, final_report_df, accuracy_summary, sh
         msg1 += "✅ DEFCON: Fiyat ve Haber Şoku Tespit Edilmedi.\n"
     messages.append(msg1.strip())
     
+    final_report_df = final_report_df.drop(columns=["Opt_PCR", "Opt_IVSpread", "Opt_PutSkew", "Opt_Flag"], errors="ignore")
     chunk_size = 15
     for i in range(0, len(final_report_df), chunk_size):
         df_chunk = final_report_df.iloc[i:i+chunk_size]

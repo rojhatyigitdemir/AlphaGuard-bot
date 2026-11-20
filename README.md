@@ -42,7 +42,15 @@ Once a day, every monitored symbol is checked for a price gap. A shock is flagge
 
 Where the instrument type allows it, three market-based signals are attached to each asset:
 
-* **Equities:** the put/call volume ratio for the nearest expiry (see Pan & Poteshman, 2006), the direction of the latest eight insider transactions (see Lakonishok & Lee, 2001), and a coarse analyst-recommendation flag.
+* **Equities:** option-implied measures, the direction of the latest eight insider transactions (see Lakonishok & Lee, 2001), and a coarse analyst-recommendation flag.
+
+The option measures come from the nearest expiry that is 7 to 60 days away. Very short-dated contracts are skipped because their volume is dominated by short-horizon speculation. Contracts without open interest or with implausible implied volatility are dropped. Three values are computed:
+
+1. the put/call volume ratio, kept only as context, since total public volume mixes opening and closing trades and is a weak proxy for the opening-buy volume studied by Pan & Poteshman (2006);
+2. the implied-volatility spread, the open-interest-weighted difference between call and put implied volatility at the same strikes, for strikes within ±10% of spot (Cremers & Weinbaum, 2010);
+3. the put skew, the implied volatility of the out-of-the-money put closest to K/S = 0.95 minus that of the at-the-money call (Xing, Zhang & Zhao, 2010).
+
+Both papers work with cross-sectional sorts, so no absolute threshold is used. At each rebalance, assets in the lowest quintile of the spread or the highest quintile of the skew are flagged `OptRisk:High` (puts relatively expensive), the highest quintile of the spread is flagged `OptRisk:Low`, and the rest `OptRisk:Neutral`. No flag is set when fewer than ten assets have option data. The raw values and the flag are written to the signal log so that their predictive value can be tested separately from the model labels.
 * **Crypto:** the Crypto Fear & Greed Index from alternative.me.
 * **ETFs:** skipped, because equity-style insider and option data do not describe them well. A manual whitelist in `trend_bot.py` decides what counts as an ETF.
 
@@ -50,7 +58,7 @@ Where the instrument type allows it, three market-based signals are attached to 
 
 ### 3.6 Language-model layer
 
-Assets are sent to Gemini 2.5 Flash (temperature 0.1) in batches of 15. For each asset the prompt contains the trend label, the one-week return, the volume status, the alternative-data string and up to two recent headlines. The model must return one label from `STRONG BUY`, `ACCUMULATE`, `HOLD`, `TRIM` or `SELL`, followed by a justification of at most ten words. The prompt tells it to downgrade an asset when insiders are selling or the put/call ratio is above 1.2, and to upgrade it when insiders are buying.
+Assets are sent to Gemini 2.5 Flash (temperature 0.1) in batches of 15. For each asset the prompt contains the trend label, the one-week return, the volume status, the alternative-data string and up to two recent headlines. The model must return one label from `STRONG BUY`, `ACCUMULATE`, `HOLD`, `TRIM` or `SELL`, followed by a justification of at most ten words. The prompt tells it to downgrade an asset by one level when insiders are selling or the option flag is `OptRisk:High`, and to upgrade it when insiders are buying.
 
 The answer is requested as pipe-delimited plain text and split with ordinary string operations. An earlier JSON-based format failed often enough to leave gaps in the log, and the plain-text format is the simpler fix. If a call fails after three attempts, the affected assets receive a default "hold and monitor" label. News-based sentiment scoring by language models is a growing research area (Tetlock, 2007, for the older dictionary-based approach; Lopez-Lira & Tang, 2023, for language models), but nothing here claims that the labels add predictive value. Testing that is what the log is for.
 
@@ -108,6 +116,8 @@ On GitHub the same three values are stored as repository secrets. Without a Gemi
 
 Antonacci, G. (2014). *Dual Momentum Investing: An Innovative Strategy for Higher Returns with Lower Risk.* McGraw-Hill.
 
+Cremers, M., & Weinbaum, D. (2010). Deviations from put-call parity and stock return predictability. *Journal of Financial and Quantitative Analysis, 45*(2), 335–367.
+
 Faber, M. T. (2007). A quantitative approach to tactical asset allocation. *Journal of Wealth Management, 9*(4), 69–79.
 
 Jegadeesh, N., & Titman, S. (1993). Returns to buying winners and selling losers: Implications for stock market efficiency. *Journal of Finance, 48*(1), 65–91.
@@ -119,6 +129,8 @@ Lopez-Lira, A., & Tang, Y. (2023). Can ChatGPT forecast stock price movements? R
 Pan, J., & Poteshman, A. M. (2006). The information in option volume for future stock prices. *Review of Financial Studies, 19*(3), 871–908.
 
 Tetlock, P. C. (2007). Giving content to investor sentiment: The role of media in the stock market. *Journal of Finance, 62*(3), 1139–1168.
+
+Xing, Y., Zhang, X., & Zhao, R. (2010). What does the individual option volatility smirk tell us about future equity returns? *Journal of Financial and Quantitative Analysis, 45*(3), 641–662.
 
 ---
 
