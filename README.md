@@ -10,6 +10,8 @@ Trend-following rules are transparent and easy to audit, but they only see price
 
 Because a short backtest on a hand-picked watchlist proves very little, the system logs its own signals every time it runs and scores them against realized returns later (Section 5). The log started on 3 August 2026.
 
+The working objective is an average return of 1% per week. It is used as a yardstick in the performance summary, not as a constraint: the system does not increase risk when it falls behind the target, because chasing a fixed reference point is exactly the kind of behaviour prospect theory predicts after losses (Kahneman & Tversky, 1979).
+
 ## 2. Universe
 
 The portfolio has two parts.
@@ -42,7 +44,7 @@ Once a day, every monitored symbol is checked for a price gap. A shock is flagge
 
 Where the instrument type allows it, three market-based signals are attached to each asset:
 
-* **Equities:** option-implied measures, the direction of the latest eight insider transactions (see Lakonishok & Lee, 2001), and a coarse analyst-recommendation flag.
+* **Equities:** option-implied measures, the direction of the latest eight insider transactions (see Lakonishok & Lee, 2001), and an analyst-consensus flag.
 
 The option measures come from the nearest expiry that is 7 to 60 days away. Very short-dated contracts are skipped because their volume is dominated by short-horizon speculation. Contracts without open interest or with implausible implied volatility are dropped. Three values are computed:
 
@@ -87,7 +89,7 @@ The system needs no server. GitHub Actions runs the script and then commits `sig
 
 At each rebalance one row per asset is appended to the log: date, price, trend label, four-week momentum and the model's label. On later runs, once 7 and 28 calendar days have passed, the current price is used to fill in the one-week and four-week realized returns. The evaluation happens at the first run after the horizon has elapsed, so the actual holding period can be somewhat longer than nominal.
 
-A signal counts as a hit when the realized return is negative for `SELL` and `TRIM` labels and positive for every other label. The bot reports the number of evaluated signals, the mean return and the hit rate.
+A signal counts as a hit when the realized return is negative for `SELL` and `TRIM` labels and positive for every other label. The bot reports the number of evaluated signals, the mean return and the hit rate, and compares the mean one-week return with the 1% weekly objective.
 
 ## 6. Limitations
 
@@ -96,7 +98,7 @@ A signal counts as a hit when the realized return is negative for `SELL` and `TR
 * **Duplicate log entries.** Because the schedule includes two runs on Monday and Friday, and manual runs are possible, the same asset can appear more than once on a given date. Any analysis of the log should first deduplicate on `(run_date, symbol)`.
 * **Incomplete model coverage.** When the model call fails, the fallback label is neutral, which mixes real signals with missing ones in the log.
 * **Selection bias.** The watchlist was assembled by hand and is not a neutral universe.
-* **Heuristic alternative data.** Insider activity is read by counting keywords in Yahoo's transaction table, and the analyst flag is coarse. Coverage through `yfinance`, an unofficial interface, varies by exchange and can change without notice.
+* **Heuristic alternative data.** Insider activity is read by counting keywords in Yahoo's transaction table, and the analyst flag uses the current month's recommendation counts from Yahoo: `AL` when at least 60% of analysts rate the stock a buy, `SAT` when at least 25% rate it a sell (a lower bar, since sell ratings are rare; see Womack, 1996), and `TUT` otherwise. Coverage through `yfinance`, an unofficial interface, varies by exchange and can change without notice.
 * **Model dependence.** Labels come from a non-deterministic model that sees only two headlines per asset. Results may change with a different model version or prompt.
 * **Parameters.** The windows and thresholds have not been tuned or validated out of sample.
 
@@ -122,6 +124,8 @@ Faber, M. T. (2007). A quantitative approach to tactical asset allocation. *Jour
 
 Jegadeesh, N., & Titman, S. (1993). Returns to buying winners and selling losers: Implications for stock market efficiency. *Journal of Finance, 48*(1), 65–91.
 
+Kahneman, D., & Tversky, A. (1979). Prospect theory: An analysis of decision under risk. *Econometrica, 47*(2), 263–291.
+
 Lakonishok, J., & Lee, I. (2001). Are insider trades informative? *Review of Financial Studies, 14*(1), 79–111.
 
 Lopez-Lira, A., & Tang, Y. (2023). Can ChatGPT forecast stock price movements? Return predictability and large language models. Working paper, SSRN.
@@ -129,6 +133,8 @@ Lopez-Lira, A., & Tang, Y. (2023). Can ChatGPT forecast stock price movements? R
 Pan, J., & Poteshman, A. M. (2006). The information in option volume for future stock prices. *Review of Financial Studies, 19*(3), 871–908.
 
 Tetlock, P. C. (2007). Giving content to investor sentiment: The role of media in the stock market. *Journal of Finance, 62*(3), 1139–1168.
+
+Womack, K. L. (1996). Do brokerage analysts' recommendations have investment value? *Journal of Finance, 51*(1), 137–167.
 
 Xing, Y., Zhang, X., & Zhao, R. (2010). What does the individual option volatility smirk tell us about future equity returns? *Journal of Financial and Quantitative Analysis, 45*(3), 641–662.
 
