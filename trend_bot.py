@@ -47,7 +47,7 @@ CORE_ASSETS = pl.PORTFOLIO_SYMBOLS
 ETF_LIST = [
     "ZSIL", "ZGLD", "CHDVD", "BCHE", "IWMO", "INFR", 
     "MVSH", "MSE", "VUSD", "XDPU", "SBIO", "XDGU", 
-    "VDEA", "VAGX", "BNDW", "VOO", "PBE", "PLATC", "PALLC", "VSML", "XSPS", "XDEF"
+    "VDEA", "VAGX", "BNDW", "VOO", "PBE", "PLATC", "PALLC", "VSML", "XSPS", "XDEF", "XSPX"
 ]
 
 DATA_PERIOD = "2y"
@@ -484,6 +484,10 @@ def dual_momentum_and_risk_analysis(symbols, macro, news_reader):
     core_results = []
     for symbol in CORE_ASSETS:
         asset_data = analyze_asset_data(symbol, batch_data=batch_data)
+        if not asset_data and symbol in pl.SYMBOL_FALLBACKS:  # aynı ürünün başka borsadaki kotasyonu
+            asset_data = analyze_asset_data(pl.SYMBOL_FALLBACKS[symbol])
+            if asset_data:
+                asset_data["Asset"] = symbol
         if asset_data:
             asset_data['Category'] = 'Core Foundation'
             core_results.append(asset_data)
@@ -852,10 +856,12 @@ def _trade_plan_block(plan):
             "açık öneri sınırı dolu" if plan["slots"] == 0 else "iki onayı birden alan varlık yok")
         lines.append(f"⏸️ Yeni alım yok — {why}.")
     lines.append(f"<i>Kural filtresini geçen {plan['gate_passed']}, model de onaylayan {plan['model_confirmed']} varlık. "
-                 f"Rebalance başına en fazla {cap['n']} alım; gidiş-dönüş maliyeti ≈ %{_num(cap['cost_pct'], 1)}.</i>")
+                 f"Rebalance başına en fazla {cap['n']} alım · gidiş-dönüş maliyeti ≈ %{_num(cap['cost_pct'], 1)} · "
+                 f"en az {cap['min_hold_weeks']} hafta tutma. Core'dan bir satış ≈ %{_num(pl.FEE_PCT_PER_SIDE + pl.SPREAD_PCT, 2)}.</i>")
     rp = pl.recovery_path()
     lines.append(f"💰 {_num(rp['current'], 0)} → {_num(rp['target'], 0)} CHF · gereken {_num(rp['need_pct'], 1, sign=True)}% · "
-                 f"%1/hafta ile ≈ {rp['weeks']} hafta")
+                 f"%1/hafta ile ≈ {rp['weeks']} hafta\n"
+                 f"<i>Yatırımda {_num(pl.INVESTED_CHF, 0)} · nakit {_num(pl.CASH_CHF, 0)} CHF</i>")
     return "\n".join(lines)
 
 def build_daily_message(macro, shock_alerts, health=None):

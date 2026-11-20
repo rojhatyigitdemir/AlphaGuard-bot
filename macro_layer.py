@@ -36,6 +36,7 @@ ETF_NEWS_PROXY = {
     "VAGX": "^TNX",        # küresel tahvil (agregat)
     "VOO": "^GSPC",        # S&P 500
     "VUSD": "^GSPC",       # S&P 500
+    "XSPX": "^GSPC",       # S&P 500 (swap)
     "XSPS": "^GSPC",       # S&P 500 (ters ETF; yön modele ayrıca bildirilir)
     "VDEA": "^STOXX50E",   # gelişmiş Avrupa
     "MSE": "^STOXX50E",    # Euro Stoxx 50

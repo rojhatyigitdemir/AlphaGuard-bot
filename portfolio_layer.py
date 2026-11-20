@@ -24,7 +24,7 @@ import yfinance as yf
 # Sıra Telegram'daki sırayı belirler. Yahoo'da işlem görmeyen ürünler için vekil sembol kullanılır.
 PORTFOLIO = [
     ("ZGLD.SW", "Swisscanto Gold ETF AA"),
-    ("XSPS.MI", "Xtrackers S&P 500"),
+    ("XSPX.SW", "Xtrackers S&P 500 Swap"),
     ("NXPI", "NXP Semiconductors"),
     ("TSM", "TSMC"),
     ("VAGX.SW", "Vanguard Global Agg. Bond"),
@@ -32,41 +32,44 @@ PORTFOLIO = [
     ("SNDK", "Sandisk"),
     ("XDEF.DE", "Xtrackers Europe Defence"),
     ("AVGO", "Broadcom"),
-    ("CL=F", "Leonteq WTI (vekil: WTI vadeli)"),
+    ("CL=F", "WTI ham petrol vadeli"),
     ("DOGE-USD", "Dogecoin"),
 ]
 PORTFOLIO_SYMBOLS = [p[0] for p in PORTFOLIO]
+# Yahoo bir kotasyonu döndürmezse aynı ürünün başka borsadaki kotasyonu kullanılır
+SYMBOL_FALLBACKS = {"XSPX.SW": "D5BM.DE", "XDEF.DE": "XDEF.MI", "VAGX.SW": "VAGX.L"}
 PORTFOLIO_NAMES = dict(PORTFOLIO)
 
 # --------------------------------------------------------------------
 # 2. SERMAYE, MALİYET VE İŞLEM SAYISI
 # --------------------------------------------------------------------
-PORTFOLIO_VALUE_CHF = 23_000      # son bildirilen değer
-RECOVERY_TARGET_CHF = 25_000      # geri dönülmek istenen seviye
-TRADE_FEE_CHF = 10.0              # emir başına ücret (alış ve satış ayrı)
-SPREAD_PCT = 0.10                 # tek yönlü alış-satış makası tahmini (%)
-SATELLITE_BUDGET_PCT = 20.0       # uydu işlemlerine ayrılan pay (%); kalan kısım core'da kalır
-MAX_ROUND_TRIP_COST_PCT = 1.0     # gidiş-dönüş maliyeti pozisyonun bu yüzdesini aşmamalı
-MAX_NEW_POSITIONS_CAP = 2         # hesap ne derse desin, rebalance başına üst sınır
-MAX_OPEN_POSITIONS = 2            # aynı anda açık uydu önerisi
-MAX_HOLD_WEEKS = 4                # bu süreden sonra öneri yeniden değerlendirilir
+INVESTED_CHF = 14_500            # piyasadaki pozisyonlar (son bildirilen)
+CASH_CHF = 8_300                 # nakit
+PORTFOLIO_VALUE_CHF = INVESTED_CHF + CASH_CHF
+RECOVERY_TARGET_CHF = 25_000     # geri dönülmek istenen seviye
+FEE_PCT_PER_SIDE = 0.65          # komisyon: 1.000 CHF başına 6,5 CHF, alışta ve satışta ayrı ayrı
+SPREAD_PCT = 0.10                # tek yönlü alış-satış makası tahmini (%)
+MAX_OPEN_POSITIONS = 2           # aynı anda açık uydu önerisi
+MAX_NEW_POSITIONS = 1            # rebalance başına yeni alım
+MIN_HOLD_WEEKS = 3               # maliyet bu süreye yayılır; erken çıkış yalnızca sert sinyalde
+MAX_HOLD_WEEKS = 6               # bu süreden sonra güç yoksa öneri kapanır
 
 
-def trade_capacity(portfolio_value=PORTFOLIO_VALUE_CHF):
+def round_trip_cost_pct():
+    return 2 * FEE_PCT_PER_SIDE + 2 * SPREAD_PCT
+
+
+def trade_capacity(cash=CASH_CHF):
     """
-    Rebalance başına en fazla kaç yeni pozisyon açılmalı?
-    Gidiş-dönüş maliyeti = 2 x ücret + 2 x makas. Maliyetin pozisyonun %1'ini aşmaması için
-    gereken en küçük pozisyon tutarı hesaplanır; uydu bütçesi buna bölünür.
+    Komisyon tutara orantılı olduğu için pozisyonu büyütmek maliyet oranını düşürmez; sınır işlem
+    sıklığıdır. Gidiş-dönüş yaklaşık %1,5 tutar, yani haftalık %1 hedefin üstünde. Bu yüzden
+    rebalance başına en fazla bir alım yapılır, pozisyon en az üç hafta tutulur ve nakit iki eşit
+    dilime bölünür.
     """
-    budget = portfolio_value * SATELLITE_BUDGET_PCT / 100
-    variable = 2 * SPREAD_PCT / 100
-    room = MAX_ROUND_TRIP_COST_PCT / 100 - variable
-    min_position = (2 * TRADE_FEE_CHF) / room if room > 0 else math.inf
-    n = int(budget // min_position) if math.isfinite(min_position) else 0
-    n = max(0, min(n, MAX_NEW_POSITIONS_CAP))
-    size = budget / n if n else 0.0
-    cost_pct = ((2 * TRADE_FEE_CHF) / size * 100 + 2 * SPREAD_PCT) if size else np.nan
-    return {"budget": budget, "min_position": min_position, "n": n, "size": size, "cost_pct": cost_pct}
+    cost = round_trip_cost_pct()
+    size = cash / MAX_OPEN_POSITIONS if MAX_OPEN_POSITIONS else 0.0
+    return {"budget": cash, "n": MAX_NEW_POSITIONS, "size": size, "cost_pct": cost,
+            "cost_per_week_pct": cost / MIN_HOLD_WEEKS, "min_hold_weeks": MIN_HOLD_WEEKS}
 
 
 def recovery_path(current=PORTFOLIO_VALUE_CHF, target=RECOVERY_TARGET_CHF, weekly_pct=1.0):
@@ -135,6 +138,10 @@ def assess_core(symbols, macro_impact=None, report_rows=None):
     report_rows (rebalance günü) model etiketi, opsiyon, insider ve haftalık trend bilgisini ekler.
     """
     frames = _daily_close_frame(symbols)
+    for sym in symbols:
+        alt = SYMBOL_FALLBACKS.get(sym)
+        if sym not in frames and alt and alt != sym:
+            frames.update({sym: f for s, f in _daily_close_frame([alt]).items()})
     results = []
     for sym in symbols:
         row = report_rows.get(sym, {}) if report_rows else {}
@@ -245,19 +252,24 @@ def build_trade_plan(sat_df, regime, mom_col, ret_col, plan_df=None):
         label = str(r.get("AI Action & Risk Warning", "")).upper()
         weeks = (today - pd.Timestamp(p["open_date"])).days / 7
         why = []
-        if "DOWN" in str(r.get("Absolute Trend", "")):
-            why.append("trend kırıldı")
-        if ("SELL" in label or "TRIM" in label) and "NO SIGNAL" not in label:
-            why.append("model azalt/sat")
-        if r.get("Macro_Flag") == "Baskı":
-            why.append("makro baskı")
-        if weeks >= MAX_HOLD_WEEKS and not ("STRONG BUY" in label or "ACCUMULATE" in label):
-            why.append(f"{MAX_HOLD_WEEKS} hafta doldu, güç kalmadı")
+        trend_broken = "DOWN" in str(r.get("Absolute Trend", ""))
+        model_sell = "SELL" in label and "NO SIGNAL" not in label
+        if trend_broken and model_sell:  # sert sinyal: tutma süresini beklemez
+            why.append("trend kırıldı ve model sat diyor")
+        elif weeks >= MIN_HOLD_WEEKS:
+            if trend_broken:
+                why.append("trend kırıldı")
+            if ("SELL" in label or "TRIM" in label) and "NO SIGNAL" not in label:
+                why.append("model azalt/sat")
+            if r.get("Macro_Flag") == "Baskı":
+                why.append("makro baskı")
+            if weeks >= MAX_HOLD_WEEKS and not ("STRONG BUY" in label or "ACCUMULATE" in label):
+                why.append(f"{MAX_HOLD_WEEKS} hafta doldu, güç kalmadı")
         if why:
             plan.loc[idx, ["status", "close_date", "exit_price", "return_pct"]] = ["closed", today.date(), price, round(ret, 2)]
             exits.append({"symbol": sym, "ret": ret, "why": why})
         else:
-            holds.append({"symbol": sym, "ret": ret, "note": "tut"})
+            holds.append({"symbol": sym, "ret": ret, "note": f"{weeks:.0f}. hafta"})
 
     open_after = int((plan["status"] == "open").sum())
     slots = max(0, min(cap["n"], MAX_OPEN_POSITIONS - open_after))
