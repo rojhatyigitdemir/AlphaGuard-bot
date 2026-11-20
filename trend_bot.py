@@ -25,6 +25,8 @@ import re
 from google import genai
 from google.genai import types
 
+import macro_layer as ml
+
 warnings.filterwarnings('ignore')
 
 # ====================================================================
@@ -43,7 +45,7 @@ CORE_ASSETS = ["O", "BNDW", "BTC-USD", "ZGLD.SW", "SHEL", "ALL", "MU", "KLAC", "
 ETF_LIST = [
     "ZSIL", "ZGLD", "CHDVD", "BCHE", "IWMO", "INFR", 
     "MVSH", "MSE", "VUSD", "XDPU", "SBIO", "XDGU", 
-    "VDEA", "VAGX", "BNDW", "VOO", "PBE", "PLATC", "PALLC", "VSML"
+    "VDEA", "VAGX", "BNDW", "VOO", "PBE", "PLATC", "PALLC", "VSML", "XSPS"
 ]
 
 DATA_PERIOD = "2y"
@@ -62,6 +64,7 @@ HISTORY_COLUMNS = [
     "eval_date_1w", "realized_return_1w",
     "eval_date_4w", "realized_return_4w",
     "opt_pcr", "opt_iv_spread", "opt_put_skew", "opt_flag",
+    "regime", "macro_impact", "macro_driver",
 ]
 
 # --- OPSİYON (PUT) SİNYALİ ---
@@ -127,28 +130,7 @@ def secure_ai_query(prompt, max_retries=4):
             
     return "AI Sunucu Hatası / Kota Aşımı"
 
-def global_macro_intelligence():
-    macro_symbols = ["^GSPC", "CL=F", "^TNX", "BTC-USD"]
-    macro_text = ""
-    for ms in macro_symbols:
-        try:
-            ticker = yf.Ticker(ms)
-            news = ticker.news
-            if news:
-                for h in news[:2]:
-                    title = h.get('title') or (h.get('content', {}).get('title') if isinstance(h.get('content'), dict) else None)
-                    if title:
-                        macro_text += f"- {title}\n"
-        except Exception:
-            pass
-
-    if not macro_text:
-        return "Calm trend in global markets."
-    
-    prompt = f"You are a chief economist. Read these headlines:\n{macro_text}\nWrite a sharp, 60-word GLOBAL STRATEGIC TACTICAL NOTE in Turkish. Plain prose, no headings, no markdown."
-    return secure_ai_query(prompt).replace('\n', ' ')
-
-def defcon_shock_monitor(symbols, macro_note):
+def defcon_shock_monitor(symbols, macro_note, news_reader):
     print("\n🔍 DEFCON Protokolü Başlatıldı...")
     alerts = []
     news_dataset = ""
@@ -173,8 +155,7 @@ def defcon_shock_monitor(symbols, macro_note):
             elif gap_down > (2.5 * yesterday_atr):
                 alerts.append(f"📉 {sym} −{down_pct}% · sert düşüş (2,5× ATR)")
 
-            news = yf.Ticker(sym).news
-            titles = [h.get('title') for h in news[:2]] if news else []
+            titles = news_reader.titles(sym, max_items=3)
             if titles:
                 news_dataset += f"- {sym}: {' | '.join(titles)}\n"
         except Exception:
@@ -464,7 +445,9 @@ def analyze_asset_data(symbol, batch_data=None):
     except Exception:
         return None
 
-def dual_momentum_and_risk_analysis(symbols, macro_note):
+def dual_momentum_and_risk_analysis(symbols, macro, news_reader):
+    macro_note = macro["note"]
+    regime = macro["regime"]["label"]
     results = []
     sys.stdout = sys.__stdout__
     print(f"AlphaGuard AI Initiating Rebalance...\nStage 1: Calculating Data & AltData...\n")
@@ -508,6 +491,14 @@ def dual_momentum_and_risk_analysis(symbols, macro_note):
     final_analysis_list = pd.concat([pd.DataFrame(core_results), all_portfolio_assets], ignore_index=True)
     final_analysis_list = assign_option_flags(final_analysis_list)
 
+    # Makro duyarlılık: varlık betaları x haber tabanlı faktör şok puanları
+    betas = ml.estimate_betas(batch_data, final_analysis_list["Asset"].tolist(), macro["factor_changes"])
+    impact = ml.macro_impact(betas, macro["scores"], ml.INVERSE_ETFS)
+    final_analysis_list["Macro_Impact"] = final_analysis_list["Asset"].map(impact["impact"]) if not impact.empty else np.nan
+    final_analysis_list["Macro_Driver"] = final_analysis_list["Asset"].map(impact["driver"]) if not impact.empty else ""
+    final_analysis_list["Macro_Flag"] = final_analysis_list["Asset"].map(impact["flag"]) if not impact.empty else ""
+    final_analysis_list["Regime"] = regime
+
     print(f"\nStage 2: AI Analysis (Bulletproof Plain Text Parser, Batch: 15)...\n")
     analysis_dict = {}
     BATCH_SIZE = 15
@@ -519,22 +510,20 @@ def dual_momentum_and_risk_analysis(symbols, macro_note):
         batch_serialized_data = ""
         for index, row in chunk.iterrows():
             symbol = row["Asset"]
-            try:
-                sys.stdout = f
-                ticker = yf.Ticker(symbol)
-                news = ticker.news
-                sys.stdout = sys.__stdout__
-                
-                news_titles = [h.get('title') or "" for h in news[:2]] if news else []
-                news_text = " | ".join([t for t in news_titles if t]) if news_titles else "No news."
-            except Exception: 
-                sys.stdout = sys.__stdout__
+            titles, source = news_reader.asset_news(symbol, ETF_LIST)
+            if titles:
+                via = f" (via {source})" if source and source != symbol else ""
+                news_text = f"{via} " + " | ".join(titles)
+            else:
                 news_text = "No news."
-            
-            batch_serialized_data += f"- Asset: {symbol}, Trend: {row['Absolute Trend']}, Ret: {row[RETURN_1W_COL]}%, Vol: {row['Volume Status']}, AltData: {row['AltData (Smart Money)']}, News: {news_text}\n"
+            macro_val = row.get("Macro_Impact")
+            macro_text = f"{macro_val:+.1f}% ({row.get('Macro_Driver') or '-'})" if pd.notna(macro_val) else "n/a"
+            inverse = " (INVERSE ETF)" if symbol.upper().split('.')[0] in ml.INVERSE_ETFS else ""
+            batch_serialized_data += f"- Asset: {symbol}{inverse}, MacroImpact: {macro_text}, Trend: {row['Absolute Trend']}, Ret: {row[RETURN_1W_COL]}%, Vol: {row['Volume Status']}, AltData: {row['AltData (Smart Money)']}, News: {news_text}\n"
 
         batch_prompt = f"""
-        You are a hedge fund manager. Macro: {macro_note}
+        You are a hedge fund manager. Market regime: {regime}. Macro: {macro_note}
+        MacroImpact = expected weekly return effect (%) of this week's global shocks, given the asset's measured sensitivity to rates, USD, yen, oil, chips/AI, VIX, equities and crypto. The driver factor is in brackets.
         Analyze these assets:
         {batch_serialized_data}
 
@@ -542,6 +531,7 @@ def dual_momentum_and_risk_analysis(symbols, macro_note):
         1. Evaluate EVERY asset. Use ONE tag: [STRONG BUY 🚀], [ACCUMULATE 🟢], [HOLD 🟡], [TRIM 🟠], or [SELL 🔴].
         2. Max 10-word justification, written in Turkish, plain text (no markdown).
         3. CRITICAL: Downgrade one level if AltData shows 'Ins:Satış' (Insider Selling) or 'OptRisk:High' (puts priced expensively vs calls = informed hedging). Upgrade if 'Ins:Alış'. 'Ana:SAT' is a meaningful negative (analysts rarely say sell); 'Ana:AL' alone is weak evidence. 'OptRisk:Low' is mildly positive. Treat PCR as context only.
+        4. MACRO: Downgrade one level if MacroImpact <= -1%; it supports an upgrade only if the asset's own data agree. In a Risk-off regime do not use STRONG BUY. News marked 'via' comes from the ETF's underlying, not the fund itself.
         
         FORMAT (MUST FOLLOW THIS EXACTLY, ONE LINE PER ASSET):
         SEMBOL | [TAG] | Justification
@@ -642,6 +632,9 @@ def append_new_signals(history_df, final_analysis_list):
             "opt_iv_spread": _round_or_na(row.get("Opt_IVSpread"), 2),
             "opt_put_skew": _round_or_na(row.get("Opt_PutSkew"), 2),
             "opt_flag": row.get("Opt_Flag") or pd.NA,
+            "regime": row.get("Regime") or pd.NA,
+            "macro_impact": _round_or_na(row.get("Macro_Impact"), 2),
+            "macro_driver": row.get("Macro_Driver") or pd.NA,
         })
     return pd.concat([history_df, pd.DataFrame(new_rows)], ignore_index=True)
 
@@ -727,6 +720,11 @@ def _asset_lines(row):
         badges.append("⚠️ put pahalı")
     if "Ins:Satış" in str(row.get("AltData (Smart Money)", "")):
         badges.append("👤 insider satış")
+    macro_flag, driver = row.get("Macro_Flag"), str(row.get("Macro_Driver") or "").lower()
+    if macro_flag == "Baskı":
+        badges.append(f"🌪 {driver} {_num(row.get('Macro_Impact'), 1, sign=True)}%")
+    elif macro_flag == "Destek":
+        badges.append(f"🌤 {driver} {_num(row.get('Macro_Impact'), 1, sign=True)}%")
     line1 = f"{sig[1]} <b>{_esc(row['Asset'])}</b>  {_num(row.get('Price ($)'), 2)}  {arrow} {_num(mom, 1, sign=True)}%"
     if badges:
         line1 += "  " + " · ".join(badges)
@@ -749,12 +747,43 @@ def _shock_block(shock_alerts):
         lines.append(f"<i>+{len(shock_alerts) - 12} uyarı daha</i>")
     return "\n".join(lines)
 
-def build_daily_message(macro_note, shock_alerts):
-    return "\n\n".join([
-        _header("Günlük izleme"),
-        f"🌍 <b>Piyasa notu</b>\n{_esc(macro_note)}",
-        _shock_block(shock_alerts),
-    ])
+SCORE_ARROWS = {-2: "▼▼", -1: "▼", 0: "·", 1: "▲", 2: "▲▲"}
+
+def _regime_line(macro):
+    reg = macro["regime"]
+    vix = f" · VIX {_num(reg['vix'])}" if pd.notna(reg.get("vix")) else ""
+    spx = ""
+    if reg.get("spx_trend") is not None:
+        spx = " · S&P trend " + ("üstünde" if reg["spx_trend"] else "altında")
+    return f"{reg['icon']} <b>Rejim: {reg['label']}</b>{vix}{spx}"
+
+def _factor_panel_block(macro):
+    """Faktör, bu haftaki gerçekleşen hareket ve haberlerden çıkan beklenen yön."""
+    panel = macro.get("panel")
+    if panel is None or panel.empty:
+        return ""
+    rows = []
+    for _, p in panel.iterrows():
+        move = f"{_num(p['week_move'], 0, sign=True)} bp" if p["kind"] == "bp" else f"{_num(p['week_move'], 1, sign=True)}%"
+        rows.append((p["factor"], move, SCORE_ARROWS.get(macro["scores"].get(p["factor"], 0), "·")))
+    w1 = max(len(r[0]) for r in rows)
+    w2 = max(len(r[1]) for r in rows)
+    table = f"{'Faktör'.ljust(w1)}  {'Hafta'.rjust(w2)}  Haber\n" + "\n".join(
+        f"{a.ljust(w1)}  {b.rjust(w2)}  {c}" for a, b, c in rows)
+    movers = [f"{k}: {v}" for k, v in macro.get("reasons", {}).items() if macro["scores"].get(k) and v]
+    extra = ("\n" + "\n".join(f"<i>• {_esc(m)}</i>" for m in movers[:4])) if movers else ""
+    return f"📡 <b>Küresel faktörler</b>\n<pre>{_esc(table)}</pre>{extra}"
+
+def _macro_blocks(macro):
+    blocks = [_regime_line(macro)]
+    panel = _factor_panel_block(macro)
+    if panel:
+        blocks.append(panel)
+    blocks.append(f"🌍 <b>Piyasa notu</b>\n{_esc(macro['note'])}")
+    return blocks
+
+def build_daily_message(macro, shock_alerts):
+    return "\n\n".join([_header("Günlük izleme")] + _macro_blocks(macro) + [_shock_block(shock_alerts)])
 
 def compute_scorecard(history_df):
     """Tekrarlı kayıtları ayıklayıp 1 haftalık sinyal karnesini çıkarır."""
@@ -827,19 +856,17 @@ def _chunk_lines(lines, header):
     messages.append(current)
     return messages
 
-def build_full_report_messages(macro_note, final_report_df, history_df, shock_alerts):
+def build_full_report_messages(macro, final_report_df, history_df, shock_alerts):
     df = final_report_df.copy()
     df["_sig"] = df["AI Action & Risk Warning"].map(lambda t: parse_signal(t)[0][0])
     core = df[df["Category"] == "Core Foundation"]
     sats = df[df["Category"] != "Core Foundation"]
 
     # 1) Özet: piyasa notu, şoklar, sinyal dağılımı
-    summary = "\n\n".join([
-        _header("Rebalance raporu"),
-        f"🧭 <b>Bugünün sinyalleri</b>\n{_signal_counts_line(df)}\n<i>Fiyat · ▲▼ trend · 4 haftalık momentum</i>",
-        f"🌍 <b>Piyasa notu</b>\n{_esc(macro_note)}",
-        _shock_block(shock_alerts),
-    ])
+    summary = "\n\n".join(
+        [_header("Rebalance raporu"),
+         f"🧭 <b>Bugünün sinyalleri</b>\n{_signal_counts_line(df)}\n<i>Fiyat · ▲▼ trend · 4 haftalık momentum · 🌪/🌤 makro etki</i>"]
+        + _macro_blocks(macro) + [_shock_block(shock_alerts)])
     messages = [summary]
 
     # 2) Çekirdek portföy
@@ -898,12 +925,15 @@ if __name__ == "__main__":
         all_monitored_symbols = list(set(CORE_ASSETS + watchlist))
 
         # 1. MAKRO & DEFCON ŞOK İZLEMESİ
-        macro_note = global_macro_intelligence()
-        shock_alerts = defcon_shock_monitor(all_monitored_symbols, macro_note)
+        news_reader = ml.NewsReader()
+        macro = ml.build_macro_context(news_reader, secure_ai_query)
+        macro_note = macro["note"]
+        print(f"Rejim: {macro['regime']['label']} | Makro skorlar: {macro['scores']}")
+        shock_alerts = defcon_shock_monitor(all_monitored_symbols, macro_note, news_reader)
 
         # 2. REBALANCE
         if is_rebalance_day():
-            final_report = dual_momentum_and_risk_analysis(watchlist, macro_note)
+            final_report = dual_momentum_and_risk_analysis(watchlist, macro, news_reader)
             pd.set_option('display.max_colwidth', None)
             
             history_df = update_realized_returns(load_signal_history())
@@ -912,11 +942,11 @@ if __name__ == "__main__":
             history_df[cols].to_csv(HISTORY_FILE, index=False, encoding="utf-8-sig")
             
             print(generate_accuracy_summary(history_df))
-            report_messages = build_full_report_messages(macro_note, final_report, history_df, shock_alerts)
+            report_messages = build_full_report_messages(macro, final_report, history_df, shock_alerts)
             print("\n\n".join(report_messages))
             send_telegram_message(report_messages)
         else:
-            report_text = build_daily_message(macro_note, shock_alerts)
+            report_text = build_daily_message(macro, shock_alerts)
             print(report_text)
             send_telegram_message(report_text)
             
