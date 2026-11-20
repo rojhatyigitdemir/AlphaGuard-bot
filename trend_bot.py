@@ -20,6 +20,8 @@ import time
 import datetime as dt
 from zoneinfo import ZoneInfo
 import requests
+import html
+import re
 from google import genai
 from google.genai import types
 
@@ -143,7 +145,7 @@ def global_macro_intelligence():
     if not macro_text:
         return "Calm trend in global markets."
     
-    prompt = f"You are a chief economist. Read these headlines:\n{macro_text}\nWrite a sharp, 60-word GLOBAL STRATEGIC TACTICAL NOTE."
+    prompt = f"You are a chief economist. Read these headlines:\n{macro_text}\nWrite a sharp, 60-word GLOBAL STRATEGIC TACTICAL NOTE in Turkish. Plain prose, no headings, no markdown."
     return secure_ai_query(prompt).replace('\n', ' ')
 
 def defcon_shock_monitor(symbols, macro_note):
@@ -165,9 +167,9 @@ def defcon_shock_monitor(symbols, macro_note):
             gap_down = prev_close - today_low
             
             if gap_up > (2.5 * yesterday_atr):
-                alerts.append(f"📈 [MATEMATİK ŞOK] {sym}: +{(gap_up/prev_close)*100:.1f}% (2.5x ATR) - Yukarı Yönlü Sıçrama!")
+                alerts.append(f"📈 {sym} +{(gap_up/prev_close)*100:.1f}% · fiyat sıçraması (2,5× ATR)")
             elif gap_down > (2.5 * yesterday_atr):
-                alerts.append(f"📉 [MATEMATİK ŞOK] {sym}: -{(gap_down/prev_close)*100:.1f}% (2.5x ATR) - Panik Satışı!")
+                alerts.append(f"📉 {sym} −{(gap_down/prev_close)*100:.1f}% · sert düşüş (2,5× ATR)")
 
             news = yf.Ticker(sym).news
             titles = [h.get('title') for h in news[:2]] if news else []
@@ -193,9 +195,11 @@ SEMBOL | 🚨 DÜŞÜŞ ŞOKU | Gerekçe
                 parts = line.split('|')
                 if len(parts) >= 3:
                     sym = parts[0].strip().replace('*', '')
-                    analysis = f"{parts[1].strip()} - {parts[2].strip()}"
-                    if "YÜKSELİŞ ŞOKU" in analysis or "DÜŞÜŞ ŞOKU" in analysis:
-                        alerts.append(f"🧠 [AI İSTİHBARATI] {sym}: {analysis}")
+                    kind, reason = parts[1].strip(), parts[2].strip()
+                    if "YÜKSELİŞ ŞOKU" in kind:
+                        alerts.append(f"🧠 {sym} · yükseliş haberi — {reason}")
+                    elif "DÜŞÜŞ ŞOKU" in kind:
+                        alerts.append(f"🧠 {sym} · düşüş haberi — {reason}")
     return alerts
 
 def is_rebalance_day():
@@ -534,7 +538,7 @@ def dual_momentum_and_risk_analysis(symbols, macro_note):
 
         INSTRUCTIONS:
         1. Evaluate EVERY asset. Use ONE tag: [STRONG BUY 🚀], [ACCUMULATE 🟢], [HOLD 🟡], [TRIM 🟠], or [SELL 🔴].
-        2. Max 10-word justification.
+        2. Max 10-word justification, written in Turkish, plain text (no markdown).
         3. CRITICAL: Downgrade one level if AltData shows 'Ins:Satış' (Insider Selling) or 'OptRisk:High' (puts priced expensively vs calls = informed hedging). Upgrade if 'Ins:Alış'. 'Ana:SAT' is a meaningful negative (analysts rarely say sell); 'Ana:AL' alone is weak evidence. 'OptRisk:Low' is mildly positive. Treat PCR as context only.
         
         FORMAT (MUST FOLLOW THIS EXACTLY, ONE LINE PER ASSET):
@@ -662,48 +666,226 @@ def generate_accuracy_summary(history_df):
             summary += f"\n[4 Hafta] Sinyal: {len(evaluated_4w)} | Ort. Getiri: {evaluated_4w['realized_return_4w'].mean():.2f}% | Isabet: {evaluated_4w['hit'].mean() * 100:.1f}%"
     return summary
 
+# ====================================================================
+# --- TELEGRAM ARAYÜZÜ ---
+# Tasarım ilkesi: basit ama etkili. Önce özet, sonra detay; her varlık en fazla iki satır.
+# ====================================================================
+TG_LIMIT = 3800
+TG_GROUP_DETAIL_MAX = 8
+TG_REASON_MAX = 80
+DAYS_TR = ["Pzt", "Sal", "Çar", "Per", "Cum", "Cmt", "Paz"]
+MONTHS_TR = ["Oca", "Şub", "Mar", "Nis", "May", "Haz", "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara"]
+SIGNALS = [  # (model etiketi, simge, Türkçe ad)
+    ("STRONG BUY", "🚀", "Güçlü al"),
+    ("ACCUMULATE", "🟢", "Biriktir"),
+    ("HOLD", "🟡", "Tut"),
+    ("TRIM", "🟠", "Azalt"),
+    ("SELL", "🔴", "Sat"),
+]
+NO_SIGNAL = (None, "⚪", "Sinyal yok")
+DIVIDER = "━━━━━━━━━━━━━━━"
+
+def _esc(text):
+    return html.escape(str(text), quote=False)
+
+def _num(x, digits=1, sign=False):
+    """Türkçe ondalık biçimi: 8,2 / +8,2 / −3,1"""
+    if x is None or pd.isna(x):
+        return "–"
+    txt = f"{abs(float(x)):,.{digits}f}".replace(",", "X").replace(".", ",").replace("X", ".")
+    if sign:
+        return ("+" if float(x) >= 0 else "−") + txt
+    return ("−" if float(x) < 0 else "") + txt
+
+def _header(title):
+    now = get_swiss_now()
+    stamp = f"{DAYS_TR[now.weekday()]} {now.day} {MONTHS_TR[now.month - 1]} · {now.strftime('%H:%M')}"
+    return f"🛡️ <b>AlphaGuard</b> · {title}\n<i>{stamp} CH</i>"
+
+def parse_signal(text):
+    """'[STRONG BUY 🚀] gerekçe' -> ((etiket, simge, ad), gerekçe)"""
+    text = str(text or "")
+    upper = text.upper()
+    for sig in SIGNALS:
+        if sig[0] in upper:
+            reason = text.split("]", 1)[1] if "]" in text else re.sub(sig[0], "", text, flags=re.I)
+            reason = reason.strip(" -–|:")
+            if len(reason) > TG_REASON_MAX:
+                reason = reason[:TG_REASON_MAX - 1].rstrip() + "…"
+            return sig, reason
+    return NO_SIGNAL, ""
+
+def _asset_lines(row):
+    sig, reason = parse_signal(row.get("AI Action & Risk Warning"))
+    trend = str(row.get("Absolute Trend", ""))
+    arrow = "▲" if "UP" in trend else ("▼" if "DOWN" in trend else "•")
+    mom = row.get(MOMENTUM_COL)
+    badges = []
+    if row.get("Opt_Flag") == "OptRisk:High":
+        badges.append("⚠️ put pahalı")
+    if "Ins:Satış" in str(row.get("AltData (Smart Money)", "")):
+        badges.append("👤 insider satış")
+    line1 = f"{sig[1]} <b>{_esc(row['Asset'])}</b>  {_num(row.get('Price ($)'), 2)}  {arrow} {_num(mom, 1, sign=True)}%"
+    if badges:
+        line1 += "  " + " · ".join(badges)
+    line2 = f"      <i>{_esc(reason)}</i>" if reason else ""
+    return [line1] + ([line2] if line2 else [])
+
+def _signal_counts_line(df):
+    counts = {sig[0]: 0 for sig in SIGNALS}
+    for txt in df["AI Action & Risk Warning"]:
+        sig, _ = parse_signal(txt)
+        if sig[0]:
+            counts[sig[0]] += 1
+    return "  ".join(f"{sig[1]} {counts[sig[0]]}" for sig in SIGNALS)
+
+def _shock_block(shock_alerts):
+    if not shock_alerts:
+        return "⚡ <b>Şok izleme</b>\n✅ Fiyat kırılımı veya kritik haber yok."
+    lines = ["⚡ <b>Şok izleme</b>"] + [f"• {_esc(a)}" for a in shock_alerts[:12]]
+    if len(shock_alerts) > 12:
+        lines.append(f"<i>+{len(shock_alerts) - 12} uyarı daha</i>")
+    return "\n".join(lines)
+
+def build_daily_message(macro_note, shock_alerts):
+    return "\n\n".join([
+        _header("Günlük izleme"),
+        f"🌍 <b>Piyasa notu</b>\n{_esc(macro_note)}",
+        _shock_block(shock_alerts),
+    ])
+
+def compute_scorecard(history_df):
+    """Tekrarlı kayıtları ayıklayıp 1 haftalık sinyal karnesini çıkarır."""
+    if history_df is None or history_df.empty or "realized_return_1w" not in history_df.columns:
+        return None
+    df = history_df.dropna(subset=["realized_return_1w"]).copy()
+    if df.empty:
+        return None
+    df = df.drop_duplicates(subset=["run_date", "symbol"], keep="last")
+    df["ret"] = pd.to_numeric(df["realized_return_1w"], errors="coerce")
+    df = df.dropna(subset=["ret"])
+    if df.empty:
+        return None
+    df["sig"] = df["ai_signal"].map(lambda t: parse_signal(t)[0][0])
+    bearish = df["sig"].isin(["SELL", "TRIM"])
+    bullish = df["sig"].isin(["STRONG BUY", "ACCUMULATE"])
+    hit = np.where(bearish, df["ret"] < 0, df["ret"] > 0)
+    spread = df.loc[bullish, "ret"].mean() - df.loc[bearish, "ret"].mean() if bullish.any() and bearish.any() else np.nan
+    return {
+        "n": len(df),
+        "mean": df["ret"].mean(),
+        "hit": hit.mean() * 100,
+        "base": (df["ret"] > 0).mean() * 100,
+        "spread": spread,
+    }
+
+def build_scorecard_message(history_df):
+    sc = compute_scorecard(history_df)
+    title = "📊 <b>Sinyal karnesi</b> · 1 haftalık"
+    if sc is None:
+        return f"{title}\nHenüz değerlendirilecek sinyal yok."
+    gap = sc["mean"] - WEEKLY_TARGET_PCT
+    rows = [
+        ("Ortalama getiri", f"{_num(sc['mean'], 2, sign=True)}%"),
+        ("Haftalık hedef", f"{_num(WEEKLY_TARGET_PCT, 2, sign=True)}%"),
+        ("Hedeften fark", f"{_num(gap, 2, sign=True)} puan"),
+        ("İsabet oranı", f"%{_num(sc['hit'])}"),
+        ("Piyasa tabanı", f"%{_num(sc['base'])}"),
+        ("Al − Sat farkı", f"{_num(sc['spread'], 2, sign=True)} puan"),
+        ("Örneklem", f"{sc['n']:,}".replace(",", ".") + " sinyal"),
+    ]
+    width = max(len(k) for k, _ in rows)
+    table = "\n".join(f"{k.ljust(width)}  {v}" for k, v in rows)
+    status = "✅ Hedefin üzerinde" if gap >= 0 else "⏳ Hedefin altında"
+    note = "<i>Piyasa tabanı: tüm sinyallerde pozitif getiri payı. İsabet bunu geçmiyorsa sinyal katkısı yok.</i>"
+    return f"{title}\n<pre>{_esc(table)}</pre>\n{status}\n{note}"
+
+def _section(title, rows_df, sort_col=None, ascending=False, detail_max=None):
+    if rows_df.empty:
+        return []
+    if sort_col and sort_col in rows_df.columns:
+        rows_df = rows_df.sort_values(sort_col, ascending=ascending)
+    lines = [title]
+    shown = rows_df if detail_max is None else rows_df.head(detail_max)
+    for _, row in shown.iterrows():
+        lines += _asset_lines(row)
+    rest = rows_df.iloc[len(shown):]
+    if not rest.empty:
+        lines.append(f"<i>+{len(rest)} diğer: {_esc(', '.join(rest['Asset'].astype(str)))}</i>")
+    return lines
+
+def _chunk_lines(lines, header):
+    """Satırları bölmeden Telegram sınırına göre mesajlara ayırır."""
+    messages, current = [], header
+    for line in lines:
+        if len(current) + len(line) + 1 > TG_LIMIT:
+            messages.append(current)
+            current = header + " <i>(devam)</i>"
+        current += "\n" + line
+    messages.append(current)
+    return messages
+
+def build_full_report_messages(macro_note, final_report_df, history_df, shock_alerts):
+    df = final_report_df.copy()
+    df["_sig"] = df["AI Action & Risk Warning"].map(lambda t: parse_signal(t)[0][0])
+    core = df[df["Category"] == "Core Foundation"]
+    sats = df[df["Category"] != "Core Foundation"]
+
+    # 1) Özet: piyasa notu, şoklar, sinyal dağılımı
+    summary = "\n\n".join([
+        _header("Rebalance raporu"),
+        f"🧭 <b>Bugünün sinyalleri</b>\n{_signal_counts_line(df)}\n<i>Fiyat · ▲▼ trend · 4 haftalık momentum</i>",
+        f"🌍 <b>Piyasa notu</b>\n{_esc(macro_note)}",
+        _shock_block(shock_alerts),
+    ])
+    messages = [summary]
+
+    # 2) Çekirdek portföy
+    core_lines = _section("", core, sort_col=MOMENTUM_COL)[1:]
+    messages += _chunk_lines(core_lines, f"🏛️ <b>Çekirdek portföy</b> · {len(core)} varlık\n{DIVIDER}")
+
+    # 3) Uydu varlıklar: önce aksiyon gerektirenler, "Tut" en sonda kısa liste
+    sat_lines = []
+    for code, icon, name in SIGNALS:
+        group = sats[sats["_sig"] == code]
+        if group.empty:
+            continue
+        title = f"\n{icon} <b>{name}</b> ({len(group)})"
+        if code == "HOLD":
+            sat_lines += [title, f"<i>{_esc(', '.join(group['Asset'].astype(str)))}</i>"]
+        else:
+            bearish = code in ("TRIM", "SELL")
+            sat_lines += _section(title, group, sort_col=MOMENTUM_COL, ascending=bearish, detail_max=TG_GROUP_DETAIL_MAX)
+    missing = sats[sats["_sig"].isna()]
+    if not missing.empty:
+        sat_lines += [f"\n⚪ <b>Sinyal yok</b> ({len(missing)})", f"<i>{_esc(', '.join(missing['Asset'].astype(str)))}</i>"]
+    messages += _chunk_lines(sat_lines, f"🛰️ <b>Uydu varlıklar</b> · {len(sats)} varlık\n{DIVIDER}")
+
+    # 4) Karne
+    messages.append(build_scorecard_message(history_df))
+    return messages
+
+def _strip_html(text):
+    return html.unescape(re.sub(r"<[^>]+>", "", text))
+
 def send_telegram_message(messages):
     if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID: 
         print("❌ HATA: Token veya Chat ID boş!")
         return
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-    
     if isinstance(messages, str):
-        messages = [messages[i:i+3900] for i in range(0, len(messages), 3900)]
-        
-    for i, msg in enumerate(messages):
-        try: 
-            resp = requests.post(url, json={"chat_id": TELEGRAM_CHAT_ID, "text": msg}, timeout=15)
+        messages = [messages]
+    for msg in messages:
+        payload = {"chat_id": TELEGRAM_CHAT_ID, "text": msg, "parse_mode": "HTML", "disable_web_page_preview": True}
+        try:
+            resp = requests.post(url, json=payload, timeout=15)
             if resp.status_code != 200:
+                # HTML ayrıştırılamazsa mesaj kaybolmasın: düz metin olarak tekrar dene
                 print(f"Telegram API Hatası: {resp.status_code} - {resp.text}")
+                requests.post(url, json={"chat_id": TELEGRAM_CHAT_ID, "text": _strip_html(msg)}, timeout=15)
         except Exception as e:
             print(f"Telegram Gönderim Hatası: {e}")
         time.sleep(1)
-
-def build_full_report_messages(macro_note, final_report_df, accuracy_summary, shock_alerts):
-    messages = []
-    current_time = get_swiss_now().strftime("%H:%M")
-    rebalance_label = f"Rebalance ({current_time} CH)"
-    
-    msg1 = "=" * 50 + f"\n🌍 GLOBAL STRATEJIK NOT\n" + "=" * 50 + f"\n{macro_note}\n\n"
-    if shock_alerts: 
-        msg1 += "=" * 50 + "\n🚨 DEFCON ŞOK UYARILARI 🚨\n" + "=" * 50 + "\n" + "\n".join(shock_alerts)
-    else:
-        msg1 += "✅ DEFCON: Fiyat ve Haber Şoku Tespit Edilmedi.\n"
-    messages.append(msg1.strip())
-    
-    final_report_df = final_report_df.drop(columns=["Opt_PCR", "Opt_IVSpread", "Opt_PutSkew", "Opt_Flag"], errors="ignore")
-    chunk_size = 15
-    for i in range(0, len(final_report_df), chunk_size):
-        df_chunk = final_report_df.iloc[i:i+chunk_size]
-        msg_df = "=" * 50 + f"\n🏛️ PORTFOY RAPORU {rebalance_label} - Parça {i//chunk_size + 1}\n" + "=" * 50 + "\n"
-        msg_df += df_chunk.to_string(index=False)
-        messages.append(msg_df)
-        
-    msg_perf = "=" * 50 + "\n📊 GECMIS PERFORMANS\n" + "=" * 50 + "\n" + accuracy_summary
-    messages.append(msg_perf)
-    
-    return messages
 
 if __name__ == "__main__":
     try:
@@ -727,16 +909,12 @@ if __name__ == "__main__":
             cols = [c for c in history_df.columns if c in HISTORY_COLUMNS or "1m" in c or "3m" in c]
             history_df[cols].to_csv(HISTORY_FILE, index=False, encoding="utf-8-sig")
             
-            report_messages = build_full_report_messages(macro_note, final_report, generate_accuracy_summary(history_df), shock_alerts)
+            print(generate_accuracy_summary(history_df))
+            report_messages = build_full_report_messages(macro_note, final_report, history_df, shock_alerts)
             print("\n\n".join(report_messages))
             send_telegram_message(report_messages)
         else:
-            report_text = f"🌍 GÜNLÜK İZLEME & DEFCON ({get_swiss_now().strftime('%H:%M')} CH)\n{macro_note}\n\n" 
-            if shock_alerts:
-                report_text += "🚨 ŞOK TESPİT EDİLDİ 🚨\n" + "\n".join(shock_alerts)
-            else:
-                report_text += "✅ DEFCON: Fiyat kırılımı veya oyun değiştirici haber tespit edilmedi."
-            
+            report_text = build_daily_message(macro_note, shock_alerts)
             print(report_text)
             send_telegram_message(report_text)
             

@@ -74,6 +74,8 @@ The answer is requested as pipe-delimited plain text and split with ordinary str
 
 Fridays are included so that positions can be reviewed before the weekend close. The daily run stays on a daily schedule because news flow can change a trend within days. Report text is in Turkish.
 
+The rebalance report arrives as four Telegram messages, ordered from summary to detail: (1) the count of each label, the macro note and any shock alerts; (2) the core assets; (3) the satellites grouped by label, with buy and sell groups listed first and `HOLD` reduced to a list of tickers; (4) a scorecard comparing the mean one-week return with the 1% objective and the hit rate with the share of positive returns across all signals. Each asset takes at most two lines: label, ticker, price, trend direction and four-week momentum, followed by the model's justification. Flags for expensive puts and insider selling are shown only when they apply.
+
 The system needs no server. GitHub Actions runs the script and then commits `signals_history.csv` back to the repository, so the log is versioned and can be inspected in the commit history.
 
 | File | Role |
