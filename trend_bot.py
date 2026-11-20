@@ -56,6 +56,7 @@ MOMENTUM_COL = f"{MOMENTUM_WEEKS}W Mom (%)"
 RETURN_1W_COL = "1W Ret (%)"
 
 REBALANCE_WEEKDAYS = {0, 4} # Pazartesi (0) ve Cuma (4)
+AI_FALLBACK_LABEL = "NO SIGNAL (AI yanıtı alınamadı)"
 
 HISTORY_FILE = "signals_history.csv"
 HISTORY_COLUMNS = [
@@ -537,24 +538,29 @@ def dual_momentum_and_risk_analysis(symbols, macro, news_reader):
         SEMBOL | [TAG] | Justification
         """
 
-        raw_response = secure_ai_query(batch_prompt)
-        
-        try:
-            for line in raw_response.split('\n'):
-                if '|' in line:
-                    parts = line.split('|')
-                    if len(parts) >= 3:
-                        sym = parts[0].strip().replace('*', '') 
-                        tag = parts[1].strip()
-                        justification = parts[2].strip()
-                        analysis_dict[sym] = f"{tag} {justification}"
-        except Exception as e:
-            print(f"Batch {i//BATCH_SIZE + 1} Parse Error: {e}")
-        
+        expected = set(chunk["Asset"])
+        for attempt in range(2):  # kota hatasında grup bir kez daha, daha uzun beklemeyle denenir
+            raw_response = secure_ai_query(batch_prompt)
+            try:
+                for line in raw_response.split('\n'):
+                    if '|' in line:
+                        parts = line.split('|')
+                        if len(parts) >= 3:
+                            sym = parts[0].strip().replace('*', '')
+                            tag = parts[1].strip()
+                            justification = parts[2].strip()
+                            analysis_dict[sym] = f"{tag} {justification}"
+            except Exception as e:
+                print(f"Batch {i//BATCH_SIZE + 1} Parse Error: {e}")
+            if expected.issubset(analysis_dict) or attempt == 1:
+                break
+            print(f"   Batch {i//BATCH_SIZE + 1}: {len(expected - set(analysis_dict))} varlık yanıtsız, 60s sonra tekrar denenecek.")
+            time.sleep(60)
+
         time.sleep(10)
 
     for index, row in final_analysis_list.iterrows():
-        final_analysis_list.at[index, "AI Action & Risk Warning"] = analysis_dict.get(row["Asset"], "Hold and monitor (Rate Limit/AI Issue).")
+        final_analysis_list.at[index, "AI Action & Risk Warning"] = analysis_dict.get(row["Asset"], AI_FALLBACK_LABEL)
 
     df_display = final_analysis_list.drop(columns=["Volume_Num", "Volume Status"])
     return df_display
@@ -701,6 +707,9 @@ def parse_signal(text):
     """'[STRONG BUY 🚀] gerekçe' -> ((etiket, simge, ad), gerekçe)"""
     text = str(text or "")
     upper = text.upper()
+    # Model yanıtı yoksa "Tut" sayılmasın; eski kayıtlardaki yedek etiket de dahil
+    if upper.startswith("NO SIGNAL") or "AI ISSUE" in upper or upper.startswith("DATA ERROR"):
+        return NO_SIGNAL, ""
     for sig in SIGNALS:
         if sig[0] in upper:
             reason = text.split("]", 1)[1] if "]" in text else re.sub(sig[0], "", text, flags=re.I)
@@ -798,6 +807,9 @@ def compute_scorecard(history_df):
     if df.empty:
         return None
     df["sig"] = df["ai_signal"].map(lambda t: parse_signal(t)[0][0])
+    df = df[df["sig"].notna()]  # model yanıtı olmayan kayıtlar karneye girmez
+    if df.empty:
+        return None
     bearish = df["sig"].isin(["SELL", "TRIM"])
     bullish = df["sig"].isin(["STRONG BUY", "ACCUMULATE"])
     hit = np.where(bearish, df["ret"] < 0, df["ret"] > 0)
