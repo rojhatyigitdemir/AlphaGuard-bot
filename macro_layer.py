@@ -44,7 +44,7 @@ ETF_NEWS_PROXY = {
     "SBIO": "XBI",         # biyoteknoloji
     "PBE": "XBI",          # biyoteknoloji
 }
-INVERSE_ETFS = {"XSPS"}
+INVERSE_ETFS = {"XSPS"}  # yalnızca modele bilgi olarak verilir; duyarlılık fiyattan ölçüldüğü için yön zaten içinde
 
 
 def _article_title(item):
@@ -159,6 +159,8 @@ REGIME_VIX_STRESS = 20.0
 REGIME_VIX_RISK_OFF = 25.0
 REGIME_SMA_WEEKS = 8
 MACRO_FLAG_PCT = 1.0  # beklenen haftalık makro etki eşiği (haftalık %1 hedefle aynı ölçek)
+RIDGE_LAMBDA = 0.10   # korelasyon ölçeğinde ridge cezası; ilişkili faktörlerin etkisini paylaştırır
+SCORE_TO_SIGMA = 0.5  # model puanı +-1 -> faktörde 0,5 standart sapma, +-2 -> 1 standart sapma
 
 
 def _closed_weekly_close(df_or_series):
@@ -207,11 +209,21 @@ def build_factor_panel(period="2y"):
     changes, rows = {}, []
     for name, sym, kind in FACTORS:
         closed = _closed_weekly_close(_extract_close(weekly, sym))
+        if len(closed) < BETA_MIN_OBS:  # toplu indirmede eksik kalırsa tek başına dene
+            try:
+                closed = _closed_weekly_close(yf.Ticker(sym).history(period=period, interval="1wk")["Close"])
+            except Exception:
+                pass
         if len(closed) < BETA_MIN_OBS:
             continue
         chg = _factor_change(closed, kind).dropna()
         changes[name] = chg
         last = _extract_close(daily, sym).dropna()
+        if last.empty:
+            try:
+                last = yf.Ticker(sym).history(period="5d", interval="1d")["Close"].dropna()
+            except Exception:
+                pass
         current = float(last.iloc[-1]) if not last.empty else float(closed.iloc[-1])
         ref = float(closed.iloc[-1])
         move = (current - ref) * 100 if kind == "bp" else (current / ref - 1) * 100
@@ -242,9 +254,10 @@ def classify_regime(panel):
 
 def estimate_betas(batch, symbols, factor_changes):
     """
-    Her varlık için tek faktörlü duyarlılık: faktör 1 standart sapma hareket ettiğinde
-    varlığın beklenen haftalık getirisi (%). beta_sd = corr(r, f) * sd(r).
-    Faktörler birbiriyle ilişkili olduğundan çoklu regresyon yerine tek tek tahmin edilir.
+    Ridge regresyonu ile çok faktörlü duyarlılık. Faktörler standartlaştırılır, böylece katsayı
+    "faktör 1 standart sapma hareket ettiğinde, diğerleri sabitken, varlığın beklenen haftalık getirisi (%)"
+    olarak okunur. Hisse, çip, kripto ve VIX birbiriyle yüksek ilişkili olduğundan tek tek tahmin edilip
+    toplanan betalar aynı etkiyi birkaç kez sayar; ridge cezası bu etkiyi faktörler arasında paylaştırır.
     """
     if factor_changes is None or factor_changes.empty:
         return pd.DataFrame()
@@ -252,12 +265,17 @@ def estimate_betas(batch, symbols, factor_changes):
     fac = factor_changes.tail(BETA_WINDOW * 2)
     for sym in symbols:
         r = _closed_weekly_close(_extract_close(batch, sym)).pct_change() * 100
-        joined = pd.concat([r.rename("r"), fac], axis=1, join="inner").dropna(subset=["r"]).tail(BETA_WINDOW)
+        joined = pd.concat([r.rename("r"), fac], axis=1, join="inner").dropna().tail(BETA_WINDOW)
         if len(joined) < BETA_MIN_OBS:
             continue
-        sd_r = joined["r"].std()
-        out[sym] = {name: joined["r"].corr(joined[name]) * sd_r
-                    for name in fac.columns if joined[name].notna().sum() >= BETA_MIN_OBS}
+        X = joined[fac.columns]
+        sd = X.std().replace(0, np.nan)
+        cols = sd.dropna().index
+        Z = ((X[cols] - X[cols].mean()) / sd[cols]).values
+        y = (joined["r"] - joined["r"].mean()).values
+        n, k = Z.shape
+        beta = np.linalg.solve(Z.T @ Z + RIDGE_LAMBDA * n * np.eye(k), Z.T @ y)
+        out[sym] = dict(zip(cols, beta))
     return pd.DataFrame(out).T
 
 
@@ -323,18 +341,16 @@ NOT | note text
     return scores, reasons, note or "Makro not üretilemedi."
 
 
-def macro_impact(betas, scores, inverse_symbols=()):
+def macro_impact(betas, scores):
     """Varlık başına beklenen makro etki (%), en büyük katkıyı yapan faktör ve rüzgar bayrağı."""
     rows = {}
     if betas is None or betas.empty:
         return pd.DataFrame(columns=["impact", "driver", "flag"])
-    s = pd.Series(scores, dtype=float)
+    s = pd.Series(scores, dtype=float) * SCORE_TO_SIGMA
     for sym, b in betas.iterrows():
         common = [c for c in b.index if c in s.index and pd.notna(b[c])]
         contrib = b[common] * s[common]
         impact = float(contrib.sum()) if common else np.nan
-        if sym.upper().split(".")[0] in inverse_symbols:
-            impact, contrib = -impact, -contrib
         driver = contrib.abs().idxmax() if common and contrib.abs().max() > 0 else ""
         flag = ""
         if pd.notna(impact) and impact <= -MACRO_FLAG_PCT:

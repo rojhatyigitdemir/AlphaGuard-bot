@@ -493,7 +493,7 @@ def dual_momentum_and_risk_analysis(symbols, macro, news_reader):
 
     # Makro duyarlılık: varlık betaları x haber tabanlı faktör şok puanları
     betas = ml.estimate_betas(batch_data, final_analysis_list["Asset"].tolist(), macro["factor_changes"])
-    impact = ml.macro_impact(betas, macro["scores"], ml.INVERSE_ETFS)
+    impact = ml.macro_impact(betas, macro["scores"])
     final_analysis_list["Macro_Impact"] = final_analysis_list["Asset"].map(impact["impact"]) if not impact.empty else np.nan
     final_analysis_list["Macro_Driver"] = final_analysis_list["Asset"].map(impact["driver"]) if not impact.empty else ""
     final_analysis_list["Macro_Flag"] = final_analysis_list["Asset"].map(impact["flag"]) if not impact.empty else ""
