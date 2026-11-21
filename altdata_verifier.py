@@ -83,24 +83,32 @@ class InstitutionalAltDataValidator:
 
     def get_analyst_consensus(self, ticker_obj):
         """
-        Kurumsal analistlerin hedef fiyat ve tavsiye eğilimlerini inceler.
+        Son ayın analist tavsiye sayılarını (strongBuy, buy, hold, sell, strongSell) okur.
+        Kolon adlarına değil değerlere bakar; analist iyimserliği nedeniyle SAT eşiği daha düşüktür.
         """
         try:
             rec = ticker_obj.recommendations
             if rec is None or rec.empty:
                 return "Analist Verisi Yok"
-            
-            # Son satırlardaki tavsiyelere bak
-            latest = rec.iloc[-1]
-            # yfinance sürümüne göre sütunlar değişebilir, güvenli okuma yapalım
-            cols = [c.lower() for c in rec.columns]
-            
-            if any('strongbuy' in c or 'buy' in c for c in cols):
-                return "🟢 Kurumsal Tavsiye: AL / GÜÇLÜ AL"
-            elif any('sell' in c for c in cols):
-                return "🔴 Kurumsal Tavsiye: SAT Baskısı"
+            needed = ["strongBuy", "buy", "hold", "sell", "strongSell"]
+            if not all(c in rec.columns for c in needed):
+                return "Analist Verisi Okunamadı"
+            if "period" in rec.columns and (rec["period"] == "0m").any():
+                row = rec[rec["period"] == "0m"].iloc[0]
             else:
-                return "🟡 Kurumsal Tavsiye: Tut / Nötr"
+                row = rec.iloc[0]
+            counts = row[needed].astype(float).fillna(0)
+            total = counts.sum()
+            if total < 3:
+                return "Yetersiz Analist Kapsamı"
+            buy_share = (counts["strongBuy"] + counts["buy"]) / total
+            sell_share = (counts["sell"] + counts["strongSell"]) / total
+            detail = f"(Al %{buy_share * 100:.0f}, Sat %{sell_share * 100:.0f}, n={int(total)})"
+            if sell_share >= 0.25:
+                return f"🔴 Kurumsal Tavsiye: SAT Baskısı {detail}"
+            if buy_share >= 0.60:
+                return f"🟢 Kurumsal Tavsiye: AL {detail}"
+            return f"🟡 Kurumsal Tavsiye: Tut / Nötr {detail}"
         except Exception:
             return "Analist Bilgisi Alınamadı"
 

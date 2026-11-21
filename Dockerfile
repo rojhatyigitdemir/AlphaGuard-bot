@@ -6,5 +6,5 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY trend_bot.py altdata_verifier.py portfolio.csv ./
+COPY trend_bot.py macro_layer.py portfolio_layer.py altdata_verifier.py portfolio.csv ./
 CMD ["python", "-u", "trend_bot.py"]
