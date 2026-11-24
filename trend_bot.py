@@ -37,7 +37,8 @@ API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "").strip()
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
 
-client = genai.Client(api_key=API_KEY) if API_KEY else None
+# thinking ayarı v1beta'da destekleniyor; desteklenmezse secure_ai_query ayarı kendisi kaldırır
+client = genai.Client(api_key=API_KEY, http_options=types.HttpOptions(api_version='v1beta')) if API_KEY else None
 MODEL_ID = 'gemini-2.5-flash'
 BATCH_SIZE = 12
 
@@ -113,21 +114,28 @@ def read_portfolio(file_name="portfolio.csv"):
 # kullanılır, günlük kota biterse yedek modele geçilir. Bu görev akıl yürütme
 # gerektirmediği için "thinking" kapalıdır: düşünme token'ları çıktı limitini
 # yiyip yanıtı kesiyordu, bu da varlıkların yanıtsız kalmasına yol açıyordu.
-FALLBACK_MODEL_ID = 'gemini-2.5-flash-lite'
+# Yedek modeller sırayla denenir; mevcut olmayan (404) model listeden çıkarılır.
+FALLBACK_MODELS = ['gemini-flash-lite-latest', 'gemini-flash-latest']
 MIN_CALL_INTERVAL = 7.0
 AI_STATS = {"calls": 0, "quota_errors": 0, "fallback_switches": 0, "failed": 0}
-_ai_state = {"last_call": 0.0, "model": MODEL_ID}
+_ai_state = {"last_call": 0.0, "model": MODEL_ID, "fallbacks": list(FALLBACK_MODELS), "thinking_off": True}
 
 def _ai_config():
-    return types.GenerateContentConfig(
-        temperature=0.1,
-        max_output_tokens=8192,
-        thinking_config=types.ThinkingConfig(thinking_budget=0),
-    )
+    kwargs = dict(temperature=0.1, max_output_tokens=8192)
+    if _ai_state["thinking_off"]:
+        kwargs["thinking_config"] = types.ThinkingConfig(thinking_budget=0)
+    return types.GenerateContentConfig(**kwargs)
+
+def _err_code(err):
+    code = getattr(err, "code", None)
+    if code is None:
+        m = re.match(r"\s*(\d{3})\b", str(err))
+        code = int(m.group(1)) if m else None
+    return code
 
 def _is_quota_error(err):
     text = str(err)
-    return getattr(err, "code", None) == 429 or "RESOURCE_EXHAUSTED" in text or "quota" in text.lower()
+    return _err_code(err) == 429 or "RESOURCE_EXHAUSTED" in text
 
 def _is_daily_quota(err):
     text = str(err)
@@ -137,13 +145,27 @@ def _suggested_delay(err):
     m = re.search(r"retryDelay['\"]?\s*[:=]\s*['\"]?(\d+(?:\.\d+)?)s", str(err))
     return min(float(m.group(1)) + 2, 90) if m else None
 
+def _switch_model(reason):
+    if _ai_state["fallbacks"]:
+        old, new = _ai_state["model"], _ai_state["fallbacks"].pop(0)
+        _ai_state["model"] = new
+        AI_STATS["fallback_switches"] += 1
+        print(f"   [Gemini] {old}: {reason}. {new} modeline geçiliyor.")
+        return True
+    if _ai_state["model"] != MODEL_ID:
+        print(f"   [Gemini] {_ai_state['model']}: {reason}. Yedek kalmadı, {MODEL_ID} modeline dönülüyor.")
+        _ai_state["model"] = MODEL_ID
+        return True
+    return False
+
 def secure_ai_query(prompt, max_retries=4):
     if not client:
         return "API Key Eksik."
 
     backoff = [5, 15, 30, 45]
     quota_backoff = [20, 40, 60, 60]
-    for attempt in range(max_retries):
+    attempt, fixes = 0, 0
+    while attempt < max_retries and fixes < 6:
         wait = MIN_CALL_INTERVAL - (time.time() - _ai_state["last_call"])
         if wait > 0:
             time.sleep(wait)
@@ -157,20 +179,32 @@ def secure_ai_query(prompt, max_retries=4):
                 return text
             print(f"   [Gemini] Boş yanıt ({model}), deneme {attempt+1}/{max_retries}.")
             time.sleep(backoff[min(attempt, len(backoff) - 1)])
+            attempt += 1
+            continue
         except Exception as e:
+            code, text = _err_code(e), str(e)
+            # Yapılandırma ya da model sorunu: beklemeden düzeltip yeniden dene
+            if code == 400 and "thinking" in text.lower() and _ai_state["thinking_off"]:
+                _ai_state["thinking_off"] = False
+                print("   [Gemini] Bu API sürümü thinking ayarını kabul etmiyor; ayar kaldırıldı.")
+                fixes += 1
+                continue
+            if code == 404 and model != MODEL_ID:
+                fixes += 1
+                if _switch_model("model bulunamadı"):
+                    continue
             if _is_quota_error(e):
                 AI_STATS["quota_errors"] += 1
-                if model != FALLBACK_MODEL_ID and (_is_daily_quota(e) or attempt >= 1):
-                    _ai_state["model"] = FALLBACK_MODEL_ID
-                    AI_STATS["fallback_switches"] += 1
-                    print(f"   [Gemini] {model} kotası doldu, {FALLBACK_MODEL_ID} modeline geçiliyor.")
+                if (_is_daily_quota(e) or attempt >= 1) and _switch_model("kota doldu"):
+                    fixes += 1
                     continue
                 wait_time = _suggested_delay(e) or quota_backoff[min(attempt, len(quota_backoff) - 1)]
                 print(f"   [Gemini] Kota sınırı ({model}). {wait_time:.0f}s bekleniyor, deneme {attempt+1}/{max_retries}.")
             else:
                 wait_time = backoff[min(attempt, len(backoff) - 1)]
-                print(f"   [Gemini] Hata ({type(e).__name__}): {str(e)[:120]}. {wait_time}s bekleniyor, deneme {attempt+1}/{max_retries}.")
+                print(f"   [Gemini] Hata ({type(e).__name__}): {text[:120]}. {wait_time}s bekleniyor, deneme {attempt+1}/{max_retries}.")
             time.sleep(wait_time)
+            attempt += 1
 
     AI_STATS["failed"] += 1
     return "AI Sunucu Hatası / Kota Aşımı"
