@@ -118,11 +118,11 @@ def read_portfolio(file_name="portfolio.csv"):
 FALLBACK_MODELS = ['gemini-flash-lite-latest', 'gemini-flash-latest']
 MIN_CALL_INTERVAL = 7.0
 AI_STATS = {"calls": 0, "quota_errors": 0, "fallback_switches": 0, "failed": 0}
-_ai_state = {"last_call": 0.0, "model": MODEL_ID, "fallbacks": list(FALLBACK_MODELS), "thinking_off": True}
+_ai_state = {"last_call": 0.0, "model": MODEL_ID, "fallbacks": list(FALLBACK_MODELS), "plain_config": set()}
 
-def _ai_config():
+def _ai_config(model):
     kwargs = dict(temperature=0.1, max_output_tokens=8192)
-    if _ai_state["thinking_off"]:
+    if model not in _ai_state["plain_config"]:
         kwargs["thinking_config"] = types.ThinkingConfig(thinking_budget=0)
     return types.GenerateContentConfig(**kwargs)
 
@@ -173,7 +173,7 @@ def secure_ai_query(prompt, max_retries=4):
         AI_STATS["calls"] += 1
         model = _ai_state["model"]
         try:
-            response = client.models.generate_content(model=model, contents=prompt, config=_ai_config())
+            response = client.models.generate_content(model=model, contents=prompt, config=_ai_config(model))
             text = (response.text or "").strip() if response else ""
             if text:
                 return text
@@ -184,9 +184,9 @@ def secure_ai_query(prompt, max_retries=4):
         except Exception as e:
             code, text = _err_code(e), str(e)
             # Yapılandırma ya da model sorunu: beklemeden düzeltip yeniden dene
-            if code == 400 and "thinking" in text.lower() and _ai_state["thinking_off"]:
-                _ai_state["thinking_off"] = False
-                print("   [Gemini] Bu API sürümü thinking ayarını kabul etmiyor; ayar kaldırıldı.")
+            if code == 400 and model not in _ai_state["plain_config"]:
+                _ai_state["plain_config"].add(model)
+                print(f"   [Gemini] {model} thinking ayarını kabul etmedi; ayar bu model için kaldırıldı.")
                 fixes += 1
                 continue
             if code == 404 and model != MODEL_ID:
@@ -195,6 +195,8 @@ def secure_ai_query(prompt, max_retries=4):
                     continue
             if _is_quota_error(e):
                 AI_STATS["quota_errors"] += 1
+                quota_id = re.search(r"quotaId['\"]?\s*[:=]\s*['\"]?([A-Za-z\-]+)", text)
+                print(f"   [Gemini] 429 {model}: {quota_id.group(1) if quota_id else 'kota'}")
                 if (_is_daily_quota(e) or attempt >= 1) and _switch_model("kota doldu"):
                     fixes += 1
                     continue
