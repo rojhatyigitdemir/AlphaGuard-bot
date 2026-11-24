@@ -39,6 +39,7 @@ TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
 
 client = genai.Client(api_key=API_KEY) if API_KEY else None
 MODEL_ID = 'gemini-2.5-flash'
+BATCH_SIZE = 12
 
 # Gerçekte tutulan portföy (portfolio_layer.PORTFOLIO). Eski core varlıkları uydu listesine taşındı.
 CORE_ASSETS = pl.PORTFOLIO_SYMBOLS
@@ -107,30 +108,71 @@ def read_portfolio(file_name="portfolio.csv"):
         print(f"Error reading {file_name}: {e}")
         return []
 
+# Ücretsiz Gemini kotası dakikada ~10 istekle sınırlı. Çağrılar arasında en az
+# MIN_CALL_INTERVAL saniye bırakılır; 429 hatasında API'nin önerdiği bekleme süresi
+# kullanılır, günlük kota biterse yedek modele geçilir. Bu görev akıl yürütme
+# gerektirmediği için "thinking" kapalıdır: düşünme token'ları çıktı limitini
+# yiyip yanıtı kesiyordu, bu da varlıkların yanıtsız kalmasına yol açıyordu.
+FALLBACK_MODEL_ID = 'gemini-2.5-flash-lite'
+MIN_CALL_INTERVAL = 7.0
+AI_STATS = {"calls": 0, "quota_errors": 0, "fallback_switches": 0, "failed": 0}
+_ai_state = {"last_call": 0.0, "model": MODEL_ID}
+
+def _ai_config():
+    return types.GenerateContentConfig(
+        temperature=0.1,
+        max_output_tokens=8192,
+        thinking_config=types.ThinkingConfig(thinking_budget=0),
+    )
+
+def _is_quota_error(err):
+    text = str(err)
+    return getattr(err, "code", None) == 429 or "RESOURCE_EXHAUSTED" in text or "quota" in text.lower()
+
+def _is_daily_quota(err):
+    text = str(err)
+    return "PerDay" in text or "per day" in text.lower()
+
+def _suggested_delay(err):
+    m = re.search(r"retryDelay['\"]?\s*[:=]\s*['\"]?(\d+(?:\.\d+)?)s", str(err))
+    return min(float(m.group(1)) + 2, 90) if m else None
+
 def secure_ai_query(prompt, max_retries=4):
     if not client:
         return "API Key Eksik."
-    
-    delays = [5, 15, 30, 45]
+
+    backoff = [5, 15, 30, 45]
+    quota_backoff = [20, 40, 60, 60]
     for attempt in range(max_retries):
+        wait = MIN_CALL_INTERVAL - (time.time() - _ai_state["last_call"])
+        if wait > 0:
+            time.sleep(wait)
+        _ai_state["last_call"] = time.time()
+        AI_STATS["calls"] += 1
+        model = _ai_state["model"]
         try:
-            config = types.GenerateContentConfig(
-                temperature=0.1,
-                max_output_tokens=8192
-            )
-            response = client.models.generate_content(
-                model=MODEL_ID,
-                contents=prompt,
-                config=config
-            )
-            if response and response.text:
-                return response.text.strip()
-            return "Boş yanıt"
+            response = client.models.generate_content(model=model, contents=prompt, config=_ai_config())
+            text = (response.text or "").strip() if response else ""
+            if text:
+                return text
+            print(f"   [Gemini] Boş yanıt ({model}), deneme {attempt+1}/{max_retries}.")
+            time.sleep(backoff[min(attempt, len(backoff) - 1)])
         except Exception as e:
-            wait_time = delays[attempt] if attempt < len(delays) else 30
-            print(f"   [Gemini API Uyarısı] Deneme {attempt+1}/{max_retries} başarısız. {wait_time}s bekleniyor...")
+            if _is_quota_error(e):
+                AI_STATS["quota_errors"] += 1
+                if model != FALLBACK_MODEL_ID and (_is_daily_quota(e) or attempt >= 1):
+                    _ai_state["model"] = FALLBACK_MODEL_ID
+                    AI_STATS["fallback_switches"] += 1
+                    print(f"   [Gemini] {model} kotası doldu, {FALLBACK_MODEL_ID} modeline geçiliyor.")
+                    continue
+                wait_time = _suggested_delay(e) or quota_backoff[min(attempt, len(quota_backoff) - 1)]
+                print(f"   [Gemini] Kota sınırı ({model}). {wait_time:.0f}s bekleniyor, deneme {attempt+1}/{max_retries}.")
+            else:
+                wait_time = backoff[min(attempt, len(backoff) - 1)]
+                print(f"   [Gemini] Hata ({type(e).__name__}): {str(e)[:120]}. {wait_time}s bekleniyor, deneme {attempt+1}/{max_retries}.")
             time.sleep(wait_time)
-            
+
+    AI_STATS["failed"] += 1
     return "AI Sunucu Hatası / Kota Aşımı"
 
 def defcon_shock_monitor(symbols, macro_note, news_reader):
@@ -509,29 +551,24 @@ def dual_momentum_and_risk_analysis(symbols, macro, news_reader):
     final_analysis_list["Macro_Flag"] = final_analysis_list["Asset"].map(impact["flag"]) if not impact.empty else ""
     final_analysis_list["Regime"] = regime
 
-    print(f"\nStage 2: AI Analysis (Bulletproof Plain Text Parser, Batch: 15)...\n")
+    print(f"\nStage 2: AI Analysis (Bulletproof Plain Text Parser, Batch: {BATCH_SIZE})...\n")
     analysis_dict, conviction_dict = {}, {}
-    BATCH_SIZE = 15
-    
-    time.sleep(5)
-    
-    for i in range(0, len(final_analysis_list), BATCH_SIZE):
-        chunk = final_analysis_list.iloc[i:i+BATCH_SIZE]
-        batch_serialized_data = ""
-        for index, row in chunk.iterrows():
-            symbol = row["Asset"]
-            titles, source = news_reader.asset_news(symbol, ETF_LIST)
-            if titles:
-                via = f" (via {source})" if source and source != symbol else ""
-                news_text = f"{via} " + " | ".join(titles)
-            else:
-                news_text = "No news."
-            macro_val = row.get("Macro_Impact")
-            macro_text = f"{macro_val:+.1f}% ({row.get('Macro_Driver') or '-'})" if pd.notna(macro_val) else "n/a"
-            inverse = " (INVERSE ETF)" if symbol.upper().split('.')[0] in ml.INVERSE_ETFS else ""
-            batch_serialized_data += f"- Asset: {symbol}{inverse}, MacroImpact: {macro_text}, Trend: {row['Absolute Trend']}, Ret: {row[RETURN_1W_COL]}%, Vol: {row['Volume Status']}, AltData: {row['AltData (Smart Money)']}, News: {news_text}\n"
 
-        batch_prompt = f"""
+    def asset_line(row):
+        symbol = row["Asset"]
+        titles, source = news_reader.asset_news(symbol, ETF_LIST)
+        if titles:
+            via = f" (via {source})" if source and source != symbol else ""
+            news_text = f"{via} " + " | ".join(titles)
+        else:
+            news_text = "No news."
+        macro_val = row.get("Macro_Impact")
+        macro_text = f"{macro_val:+.1f}% ({row.get('Macro_Driver') or '-'})" if pd.notna(macro_val) else "n/a"
+        inverse = " (INVERSE ETF)" if symbol.upper().split('.')[0] in ml.INVERSE_ETFS else ""
+        return f"- Asset: {symbol}{inverse}, MacroImpact: {macro_text}, Trend: {row['Absolute Trend']}, Ret: {row[RETURN_1W_COL]}%, Vol: {row['Volume Status']}, AltData: {row['AltData (Smart Money)']}, News: {news_text}\n"
+
+    def build_prompt(batch_serialized_data):
+        return f"""
         You are a hedge fund manager. Market regime: {regime}. Macro: {macro_note}
         MacroImpact = expected weekly return effect (%) of this week's global shocks, given the asset's measured sensitivity to rates, USD, yen, oil, chips/AI, VIX, equities and crypto. The driver factor is in brackets.
         Analyze these assets:
@@ -550,34 +587,41 @@ def dual_momentum_and_risk_analysis(symbols, macro, news_reader):
         SEMBOL | [TAG] | Justification | CONVICTION
         """
 
-        expected = set(chunk["Asset"])
-        for attempt in range(2):  # kota hatasında grup bir kez daha, daha uzun beklemeyle denenir
-            raw_response = secure_ai_query(batch_prompt)
+    def parse_response(raw_response):
+        for line in raw_response.split('\n'):
+            if '|' not in line:
+                continue
+            parts = line.split('|')
+            if len(parts) < 3:
+                continue
+            sym = parts[0].strip().replace('*', '').strip('-• ').upper()
+            analysis_dict[sym] = f"{parts[1].strip()} {parts[2].strip()}"
+            if len(parts) >= 4:
+                m = re.search(r"[1-5]", parts[3])
+                if m:
+                    conviction_dict[sym] = int(m.group(0))
+
+    lines = {row["Asset"]: asset_line(row) for _, row in final_analysis_list.iterrows()}
+    symbols = list(lines)
+    for i in range(0, len(symbols), BATCH_SIZE):
+        pending = symbols[i:i + BATCH_SIZE]
+        for attempt in range(3):  # yanıtsız kalanlar daha küçük bir istekle tekrar sorulur
             try:
-                for line in raw_response.split('\n'):
-                    if '|' in line:
-                        parts = line.split('|')
-                        if len(parts) >= 3:
-                            sym = parts[0].strip().replace('*', '')
-                            tag = parts[1].strip()
-                            justification = parts[2].strip()
-                            analysis_dict[sym] = f"{tag} {justification}"
-                            if len(parts) >= 4:
-                                m = re.search(r"[1-5]", parts[3])
-                                if m:
-                                    conviction_dict[sym] = int(m.group(0))
+                parse_response(secure_ai_query(build_prompt("".join(lines[s] for s in pending))))
             except Exception as e:
                 print(f"Batch {i//BATCH_SIZE + 1} Parse Error: {e}")
-            if expected.issubset(analysis_dict) or attempt == 1:
+            pending = [s for s in pending if s.upper() not in analysis_dict]
+            if not pending:
                 break
-            print(f"   Batch {i//BATCH_SIZE + 1}: {len(expected - set(analysis_dict))} varlık yanıtsız, 60s sonra tekrar denenecek.")
-            time.sleep(60)
+            print(f"   Batch {i//BATCH_SIZE + 1}: {len(pending)} varlık yanıtsız, yalnızca bunlar tekrar sorulacak.")
 
-        time.sleep(10)
+    missing = [s for s in symbols if s.upper() not in analysis_dict]
+    print(f"   Gemini: {AI_STATS['calls']} istek, {AI_STATS['quota_errors']} kota hatası, "
+          f"{AI_STATS['fallback_switches']} yedek model geçişi, {len(missing)} yanıtsız varlık.")
 
     for index, row in final_analysis_list.iterrows():
-        final_analysis_list.at[index, "AI Action & Risk Warning"] = analysis_dict.get(row["Asset"], AI_FALLBACK_LABEL)
-        final_analysis_list.at[index, "AI_Conviction"] = conviction_dict.get(row["Asset"], np.nan)
+        final_analysis_list.at[index, "AI Action & Risk Warning"] = analysis_dict.get(str(row["Asset"]).upper(), AI_FALLBACK_LABEL)
+        final_analysis_list.at[index, "AI_Conviction"] = conviction_dict.get(str(row["Asset"]).upper(), np.nan)
 
     df_display = final_analysis_list.drop(columns=["Volume_Num", "Volume Status"])
     return df_display
