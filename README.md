@@ -16,7 +16,7 @@ The working objective is an average return of 1% per week. After the autumn 2026
 
 The portfolio has two parts.
 
-**Core.** The eleven positions actually held, defined in `portfolio_layer.py`: a gold ETF (`ZGLD.SW`), an S&P 500 ETF (`XSPX.SW`), NXP (`NXPI`), TSMC (`TSM`), a global aggregate bond ETF (`VAGX.SW`), a blockchain equity ETF (`BCHE.SW`), Sandisk (`SNDK`), a European defence ETF (`XDEF.DE`), Broadcom (`AVGO`), WTI crude oil futures (`CL=F`) and Dogecoin (`DOGE-USD`). When Yahoo returns no data for a listing, the same product on another exchange is used. Core positions are not ranked. They are checked for signs that they should be sold (Section 3.8).
+**Core.** The twelve positions actually held, defined in `portfolio_layer.py`: a gold ETF (`ZGLD.SW`), an S&P 500 ETF (`XSPX.SW`), NXP (`NXPI`), TSMC (`TSM`), a global aggregate bond ETF (`VAGX.SW`), a blockchain equity ETF (`BCHE.SW`), Sandisk (`SNDK`), a European defence ETF (`XDEF.DE`), Broadcom (`AVGO`), WTI crude oil futures (`CL=F`), Dogecoin (`DOGE-USD`) and Samsung Electronics (`SMSN.IL`). When Yahoo returns no data for a listing, the same product on another exchange is used. Core positions are not ranked. They are checked for signs that they should be sold (Section 3.8).
 
 **Satellite.** About seventy instruments read from the `Symbol` column of `portfolio.csv` (an export from a market-data terminal). Satellites are not held permanently. At each rebalance they are split by trend state and ranked.
 

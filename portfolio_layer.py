@@ -34,10 +34,11 @@ PORTFOLIO = [
     ("AVGO", "Broadcom"),
     ("CL=F", "WTI ham petrol vadeli"),
     ("DOGE-USD", "Dogecoin"),
+    ("SMSN.IL", "Samsung Electronics (GDR)"),
 ]
 PORTFOLIO_SYMBOLS = [p[0] for p in PORTFOLIO]
 # Yahoo bir kotasyonu döndürmezse aynı ürünün başka borsadaki kotasyonu kullanılır
-SYMBOL_FALLBACKS = {"XSPX.SW": "D5BM.DE", "XDEF.DE": "XDEF.MI", "VAGX.SW": "VAGX.L"}
+SYMBOL_FALLBACKS = {"XSPX.SW": "D5BM.DE", "XDEF.DE": "XDEF.MI", "VAGX.SW": "VAGX.L", "SMSN.IL": "005930.KS"}
 PORTFOLIO_NAMES = dict(PORTFOLIO)
 
 # --------------------------------------------------------------------
