@@ -93,10 +93,10 @@ Global events such as a Fed decision, a sell-off in Nvidia, a move in Japanese r
 | Run | When | What happens |
 |---|---|---|
 | Daily | 09:40 Swiss time | Regime, early warnings for held positions, factor panel and macro note; shock monitor; short Telegram message |
-| Rebalance | Monday and Friday | Full ranking, model labels, signal log update, performance summary, report sent in parts |
-| Extra run | 15:40 Swiss time, Monday and Friday | Repeat at the US open |
+| Rebalance | Tuesday and Thursday | Full ranking, model labels, signal log update, performance summary, report sent in parts |
+| Extra run | 15:40 Swiss time, Tuesday and Thursday | Repeat at the US open |
 
-Fridays are included so that positions can be reviewed before the weekend close. The daily run stays on a daily schedule because news flow can change a trend within days. Report text is in Turkish.
+Rebalancing moved from Monday/Friday to Tuesday/Thursday in November 2026. Tuesday avoids trading on weekend gaps and on Monday moves, which tend to reverse later in the week; Thursday still leaves a full day before the weekend and falls after Wednesday Fed decisions and before Friday payroll releases. The daily run stays on a daily schedule because news flow can change a trend within days. Report text is in Turkish.
 
 The rebalance report arrives as four Telegram messages, ordered from summary to detail: (1) the regime, the held positions grouped into exit candidates, early warnings, weak and sound, and the trade plan with the path back to the recovery target; (2) the count of each label, a table of this week's factor moves next to the direction implied by the news, the macro note and any shock alerts; (3) the satellites grouped by label, with buy and sell groups listed first and `HOLD` reduced to a list of tickers; (4) a scorecard comparing the mean one-week return with the 1% objective and the hit rate with the share of positive returns across all signals. Each asset takes at most two lines: label, ticker, price, trend direction and four-week momentum, followed by the model's justification. Flags for expensive puts, insider selling and macro pressure or support are shown only when they apply.
 
@@ -126,7 +126,7 @@ The regime, the expected macro impact and its main factor are also logged. Once 
 
 * **Sample size and dependence.** The log covers a few weeks. Overlapping windows and strongly correlated assets mean the observations are far from independent. No significance tests are run.
 * **Hit rate has no baseline.** In a rising market, a hit rate above 50% for non-sell labels is expected by chance. Returns are not benchmark-adjusted and ignore transaction costs.
-* **Duplicate log entries.** Because the schedule includes two runs on Monday and Friday, and manual runs are possible, the same asset can appear more than once on a given date. Any analysis of the log should first deduplicate on `(run_date, symbol)`.
+* **Duplicate log entries.** Because the schedule includes two runs on each rebalance day, and manual runs are possible, the same asset can appear more than once on a given date. Any analysis of the log should first deduplicate on `(run_date, symbol)`.
 * **Incomplete model coverage.** Rate limits still leave some assets without a label on busy days. Log entries before 20 November 2026 used a neutral fallback text for these cases; the scorecard recognises and excludes it.
 * **Selection bias.** The watchlist was assembled by hand and is not a neutral universe.
 * **Heuristic alternative data.** Insider activity is read by counting keywords in Yahoo's transaction table, and the analyst flag uses the current month's recommendation counts from Yahoo: `AL` when at least 60% of analysts rate the stock a buy, `SAT` when at least 25% rate it a sell (a lower bar, since sell ratings are rare; see Womack, 1996), and `TUT` otherwise. Coverage through `yfinance`, an unofficial interface, varies by exchange and can change without notice.
@@ -144,7 +144,7 @@ export TELEGRAM_CHAT_ID=...
 python trend_bot.py
 ```
 
-On GitHub the same three values are stored as repository secrets. Without a Gemini key the script still runs but returns placeholder labels. Without Telegram credentials it prints the report to the console. The report is only built on Monday and Friday; on other days the script sends the daily monitoring message.
+On GitHub the same three values are stored as repository secrets. Without a Gemini key the script still runs but returns placeholder labels. Without Telegram credentials it prints the report to the console. The report is only built on Tuesday and Thursday; on other days the script sends the daily monitoring message.
 
 ## References
 

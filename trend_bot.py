@@ -59,7 +59,7 @@ MOMENTUM_WEEKS = 4
 MOMENTUM_COL = f"{MOMENTUM_WEEKS}W Mom (%)"
 RETURN_1W_COL = "1W Ret (%)"
 
-REBALANCE_WEEKDAYS = {0, 4} # Pazartesi (0) ve Cuma (4)
+REBALANCE_WEEKDAYS = {1, 3} # Salı (1) ve Perşembe (3)
 AI_FALLBACK_LABEL = "NO SIGNAL (AI yanıtı alınamadı)"
 
 HISTORY_FILE = "signals_history.csv"
