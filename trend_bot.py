@@ -49,7 +49,7 @@ CORE_ASSETS = pl.PORTFOLIO_SYMBOLS
 ETF_LIST = [
     "ZSIL", "ZGLD", "CHDVD", "BCHE", "IWMO", "INFR", 
     "MVSH", "MSE", "VUSD", "XDPU", "SBIO", "XDGU", 
-    "VDEA", "VAGX", "BNDW", "VOO", "PBE", "PLATC", "PALLC", "VSML", "XSPS", "XDEF", "XSPX"
+    "VDEA", "VAGX", "BNDW", "VOO", "PBE", "PLATC", "PALLC", "VSML", "XSPS", "XDEF", "XSPX", "CSSMI", "TUR"
 ]
 
 DATA_PERIOD = "2y"

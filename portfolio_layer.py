@@ -35,6 +35,8 @@ PORTFOLIO = [
     ("CL=F", "WTI ham petrol vadeli"),
     ("DOGE-USD", "Dogecoin"),
     ("SMSN.IL", "Samsung Electronics (GDR)"),
+    ("CSSMI.SW", "iShares SMI (CH)"),
+    ("TUR", "iShares MSCI Turkey ETF"),
 ]
 PORTFOLIO_SYMBOLS = [p[0] for p in PORTFOLIO]
 # Yahoo bir kotasyonu döndürmezse aynı ürünün başka borsadaki kotasyonu kullanılır

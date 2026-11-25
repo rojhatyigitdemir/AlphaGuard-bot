@@ -41,6 +41,7 @@ ETF_NEWS_PROXY = {
     "VDEA": "^STOXX50E",   # gelişmiş Avrupa
     "MSE": "^STOXX50E",    # Euro Stoxx 50
     "CHDVD": "^SSMI",      # İsviçre temettü
+    "CSSMI": "^SSMI",      # SMI endeksi
     "IWMO": "URTH",        # MSCI World momentum
     "SBIO": "XBI",         # biyoteknoloji
     "PBE": "XBI",          # biyoteknoloji
