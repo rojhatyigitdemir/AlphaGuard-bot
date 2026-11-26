@@ -89,6 +89,21 @@ ATR_DAYS = 14
 CHANDELIER_ATR = 2.5   # 22 günlük zirveden 2,5 ATR geri çekilme (LeBeau'nun "chandelier" çıkışı)
 
 
+STALE_DAYS = 4          # en yeni veriden bu kadar gün geride kalan seri bayat sayılır (hafta sonu + tatil payı)
+
+
+def _last_day(df):
+    ts = pd.Timestamp(df.index[-1])
+    if ts.tzinfo is not None:
+        ts = ts.tz_localize(None)
+    return ts.normalize()
+
+
+def _history(sym):
+    df = yf.Ticker(sym).history(period="6mo", interval="1d")
+    return df.dropna(subset=["Close"]) if "Close" in df else df
+
+
 def _daily_close_frame(symbols):
     try:
         data = yf.download(symbols, period="6mo", interval="1d", group_by="ticker", threads=True, progress=False)
@@ -98,18 +113,35 @@ def _daily_close_frame(symbols):
     for sym in symbols:
         try:
             df = data[sym] if isinstance(data.columns, pd.MultiIndex) else data
-            df = df.dropna(how="all")
+            df = df.dropna(subset=["Close"])
             if len(df) < 40:
-                df = yf.Ticker(sym).history(period="6mo", interval="1d")
+                df = _history(sym)
             if len(df) >= 40:
                 out[sym] = df
         except Exception:
             try:
-                df = yf.Ticker(sym).history(period="6mo", interval="1d")
+                df = _history(sym)
                 if len(df) >= 40:
                     out[sym] = df
             except Exception:
                 pass
+    # Toplu indirmede bazı seriler (ör. hisse bölünmesinden sonra) eski bir tarihte kalabiliyor;
+    # bu durumda son fiyat yanlış görünür. Bayat seriyi tekil sorguyla yenile, olmazsa kullanma.
+    equity_days = [_last_day(f) for s, f in out.items() if not (s.endswith("-USD") or s.endswith("=F"))]
+    if equity_days:
+        newest = max(equity_days)
+        for sym in list(out):
+            if (newest - _last_day(out[sym])).days <= STALE_DAYS:
+                continue
+            try:
+                df = _history(sym)
+            except Exception:
+                df = pd.DataFrame()
+            if len(df) >= 40 and (newest - _last_day(df)).days <= STALE_DAYS:
+                out[sym] = df
+            else:
+                print(f"   [Veri] {sym} günlük serisi {_last_day(out[sym]).date()} tarihinde kalmış; erken uyarıdan çıkarıldı.")
+                del out[sym]
     return out
 
 
