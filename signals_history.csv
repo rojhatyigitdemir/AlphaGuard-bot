@@ -6548,3 +6548,122 @@
 2026-11-24,ENA-USD,Downtrend / Reversal,0.1,DOWNTREND 🔴,-46.85,"[TRIM 🟠] Aşırı korku, düşüş trendi ve yüksek makro etki riskli.",,,,,,,,,Risk-off,9.85,Kripto
 2026-11-24,IFX.DE,Downtrend / Reversal,43.74,DOWNTREND 🔴,-13.5,"[HOLD 🟡] Düşüş trendi, karışık haberler ve nötr makro etki.",,,,,,,,,Risk-off,2.56,Çip/YZ
 2026-11-24,XDGU.SW,Downtrend / Reversal,10.12,DOWNTREND 🔴,-19.94,"[SELL 🔴] Haber yok, düşüş trendi ve yüksek negatif getiri.",,,,,,,,,Risk-off,0.03,Kripto
+2026-11-26,ZGLD.SW,Core Foundation,849.9,DOWNTREND 🔴,-10.56,"[HOLD 🟡] Makro pozitif, düşüş trendi ve artan volatilite karışık sinyaller.",,,,,,,,,Risk-off,1.19,Hisse
+2026-11-26,XSPX.SW,Core Foundation,118.16,DOWNTREND 🔴,-7.15,"[HOLD 🟡] Makro pozitif, düşüş trendi ve azalan volatilite.",,,,,,,,,Risk-off,0.78,Hisse
+2026-11-26,NXPI,Core Foundation,242.96,UPTREND 🟢,-6.41,"[ACCUMULATE 🟢] Makro pozitif, yükseliş trendi, ancak yüksek risk.",,,,,0.961,-4.1,6.61,OptRisk:High,Risk-off,1.93,Çip/YZ
+2026-11-26,TSM,Core Foundation,342.34,DOWNTREND 🔴,-15.71,"[ACCUMULATE 🟢] Makro pozitif, düşüş trendi, ancak içeriden alım.",,,,,0.595,2.04,4.22,OptRisk:Neutral,Risk-off,1.76,Çip/YZ
+2026-11-26,VAGX.SW,Core Foundation,20.4,UPTREND 🟢,0.55,"[HOLD 🟡] Makro pozitif, yükseliş trendi, ancak volatilite artıyor.",,,,,,,,,Risk-off,0.15,Faiz
+2026-11-26,BCHE.SW,Core Foundation,106.94,DOWNTREND 🔴,-32.08,"[SELL 🔴] Makro pozitif, düşüş trendi, yüksek volatilite, büyük düşüş.",,,,,,,,,Risk-off,1.67,Çip/YZ
+2026-11-26,SNDK,Core Foundation,73.61,DOWNTREND 🔴,-48.83,"[SELL 🔴] Makro çok pozitif, düşüş trendi, içeriden satış, yüksek risk.",,,,,0.61,-3.95,4.64,OptRisk:High,Risk-off,7.74,Çip/YZ
+2026-11-26,XDEF.DE,Core Foundation,28.09,DOWNTREND 🔴,-6.85,"[HOLD 🟡] Makro pozitif, düşüş trendi, volatilite azalıyor.",,,,,,,,,Risk-off,1.46,Hisse
+2026-11-26,AVGO,Core Foundation,300.86,DOWNTREND 🔴,-7.73,"[TRIM 🟠] Makro pozitif, düşüş trendi, içeriden satış.",,,,,0.463,0.62,0.84,OptRisk:Neutral,Risk-off,2.81,Hisse
+2026-11-26,CL=F,Core Foundation,83.93,DOWNTREND 🔴,-19.39,"[HOLD 🟡] Makro çok pozitif, düşüş trendi, volatilite azalıyor.",,,,,,,,,Risk-off,3.36,Petrol
+2026-11-26,DOGE-USD,Core Foundation,0.06,DOWNTREND 🔴,-25.25,"[SELL 🔴] Makro negatif, düşüş trendi, aşırı korku.",,,,,,,,,Risk-off,-0.97,Hisse
+2026-11-26,SMSN.IL,Core Foundation,3012.0,DOWNTREND 🔴,-26.5,"[HOLD 🟡] Makro pozitif, düşüş trendi, volatilite stabil.",,,,,,,,,Risk-off,2.37,Çip/YZ
+2026-11-26,CSSMI.SW,Core Foundation,152.04,UPTREND 🟢,-1.05,[ACCUMULATE 🟢] Faiz etkisi ve yükseliş trendi destekliyor.,,,,,,,,,Risk-off,0.74,Faiz
+2026-11-26,TUR,Core Foundation,29.08,DOWNTREND 🔴,-1.54,[SELL 🔴] Düşüş trendi ve zayıf volatilite olumsuz.,,,,,,,,,Risk-off,0.31,Çip/YZ
+2026-11-26,CHYM,Dynamic Uptrend,33.03,UPTREND 🟢,18.18,[ACCUMULATE 🟢] Güçlü yükseliş trendi ve pozitif makro etkisi.,,,,,0.176,1.41,1.81,OptRisk:Neutral,Risk-off,1.44,Hisse
+2026-11-26,XMTR,Dynamic Uptrend,107.25,UPTREND 🟢,14.52,[ACCUMULATE 🟢] Yükseliş trendi ve pozitif makro etkisi.,,,,,0.98,4.69,-2.82,OptRisk:Low,Risk-off,1.19,Hisse
+2026-11-26,DKS,Dynamic Uptrend,158.59,UPTREND 🟢,10.25,[ACCUMULATE 🟢] Güçlü getiri ve yükseliş trendi.,,,,,0.808,6.27,0.27,OptRisk:Low,Risk-off,1.1,Çip/YZ
+2026-11-26,XSPS.MI,Dynamic Uptrend,5.6,UPTREND 🟢,10.2,"[TRIM 🟠] Ters ETF, makro etkisi ve artan volatilite.",,,,,,,,,Risk-off,-0.91,Hisse
+2026-11-26,CHKP,Dynamic Uptrend,163.77,UPTREND 🟢,7.67,[HOLD 🟡] Yükseliş trendi ancak içeriden satışlar var.,,,,,1.758,2.47,-1.57,OptRisk:Neutral,Risk-off,0.64,Hisse
+2026-11-26,BRK-A,Dynamic Uptrend,870150.0,UPTREND 🟢,6.69,[HOLD 🟡] Yükseliş trendi ancak içeriden satışlar var.,,,,,,,,,Risk-off,-0.02,Hisse
+2026-11-26,O,Dynamic Uptrend,60.25,UPTREND 🟢,5.83,"[HOLD 🟡] Faiz etkisi pozitif, ancak içeriden satışlar.",,,,,0.892,1.7,7.91,OptRisk:High,Risk-off,0.48,Faiz
+2026-11-26,ALL,Dynamic Uptrend,271.39,UPTREND 🟢,4.43,[HOLD 🟡] Yükseliş trendi ancak içeriden satışlar.,,,,,7.079,0.41,3.61,OptRisk:Neutral,Risk-off,0.67,Çip/YZ
+2026-11-26,HON,Dynamic Uptrend,225.1,UPTREND 🟢,3.42,[HOLD 🟡] Yükseliş trendi ancak yüksek risk ve içeriden satış.,,,,,0.745,3.19,21.24,OptRisk:High,Risk-off,1.28,Volatilite
+2026-11-26,HLT,Dynamic Uptrend,366.2,UPTREND 🟢,2.6,[HOLD 🟡] Yükseliş trendi ancak yüksek risk ve içeriden satış.,,,,,0.618,3.41,37.58,OptRisk:High,Risk-off,0.73,Hisse
+2026-11-26,NVO,Dynamic Uptrend,40.97,UPTREND 🟢,2.43,"[ACCUMULATE 🟢] Güçlü trend, pozitif makro, analist desteği.",,,,,0.715,0.57,2.64,OptRisk:Neutral,Risk-off,0.62,Hisse
+2026-11-26,SPSN.SW,Dynamic Uptrend,131.6,UPTREND 🟢,2.33,"[ACCUMULATE 🟢] Pozitif makro, istikrarlı trend, analist desteği.",,,,,,,,,Risk-off,1.08,Faiz
+2026-11-26,BX,Dynamic Uptrend,118.95,UPTREND 🟢,1.33,"[HOLD 🟡] Güçlü trend, pozitif makro, ancak içeriden satış.",,,,,0.825,1.33,-3.37,OptRisk:Neutral,Risk-off,0.89,Hisse
+2026-11-26,AMGN,Dynamic Uptrend,469.24,UPTREND 🟢,1.27,"[HOLD 🟡] Güçlü trend, pozitif makro, ancak içeriden satış.",,,,,1.09,4.24,-1.3,OptRisk:Low,Risk-off,0.74,Yen
+2026-11-26,SBIO.AS,Dynamic Uptrend,68.94,UPTREND 🟢,0.89,"[ACCUMULATE 🟢] Güçlü trend, pozitif makro, artan volatilite.",,,,,,,,,Risk-off,0.61,Çip/YZ
+2026-11-26,VDEA.MI,Dynamic Uptrend,56.43,UPTREND 🟢,0.64,"[ACCUMULATE 🟢] Pozitif makro, istikrarlı trend.",,,,,,,,,Risk-off,0.36,Faiz
+2026-11-26,CHDVD.SW,Dynamic Uptrend,204.85,UPTREND 🟢,0.59,"[ACCUMULATE 🟢] Pozitif makro, güçlü trend, artan volatilite.",,,,,,,,,Risk-off,0.68,Volatilite
+2026-11-26,BNDW,Dynamic Uptrend,67.04,UPTREND 🟢,0.56,"[ACCUMULATE 🟢] Pozitif makro, istikrarlı trend.",,,,,,,,,Risk-off,0.21,Faiz
+2026-11-26,SREN.SW,Dynamic Uptrend,153.7,UPTREND 🟢,0.23,"[HOLD 🟡] Pozitif makro, istikrarlı trend, ancak analist satışı.",,,,,,,,,Risk-off,0.61,Faiz
+2026-11-26,AAL,Dynamic Uptrend,12.57,UPTREND 🟢,-0.24,"[ACCUMULATE 🟢] Pozitif makro, istikrarlı trend, analist desteği.",,,,,0.427,0.04,4.3,OptRisk:Neutral,Risk-off,0.39,Petrol
+2026-11-26,BLK,Dynamic Uptrend,1141.86,UPTREND 🟢,-0.49,"[ACCUMULATE 🟢] Güçlü trend, pozitif makro, analist alımı.",,,,,5.185,2.14,6.26,OptRisk:Neutral,Risk-off,0.68,Hisse
+2026-11-26,PBE,Dynamic Uptrend,99.02,UPTREND 🟢,-3.4,"[ACCUMULATE 🟢] Güçlü trend, pozitif makro, düşen volatilite.",,,,,,,,,Risk-off,0.99,Hisse
+2026-11-26,NOVN.SW,Dynamic Uptrend,128.1,UPTREND 🟢,-4.25,"[ACCUMULATE 🟢] Güçlü makro, yükseliş trendi, olumlu haberler.",,,,,,,,,Risk-off,0.83,Volatilite
+2026-11-26,TSLA,Dynamic Uptrend,380.14,UPTREND 🟢,-4.92,"[ACCUMULATE 🟢] Güçlü makro, yükseliş trendi, azalan volatilite.",,,,,0.772,1.92,2.46,OptRisk:Neutral,Risk-off,1.19,Hisse
+2026-11-26,LMT,Dynamic Uptrend,599.24,UPTREND 🟢,-5.92,"[ACCUMULATE 🟢] Güçlü makro, yükseliş trendi, olumlu haberler.",,,,,0.738,-5.41,10.17,OptRisk:High,Risk-off,1.49,Volatilite
+2026-11-26,ACN,Dynamic Uptrend,240.49,UPTREND 🟢,-6.87,"[HOLD 🟡] Makro negatif, yükseliş trendi, stabil volatilite.",,,,,1.146,3.3,-2.56,OptRisk:Low,Risk-off,-0.33,Çip/YZ
+2026-11-26,NVDA,Downtrend / Reversal,149.3,DOWNTREND 🔴,-27.04,"[TRIM 🟠] Güçlü makroya rağmen düşüş trendi, artan volatilite.",,,,,0.619,-0.67,3.61,OptRisk:Neutral,Risk-off,2.63,Hisse
+2026-11-26,PLTR,Downtrend / Reversal,163.59,DOWNTREND 🔴,-11.15,"[TRIM 🟠] Güçlü makroya rağmen düşüş trendi, içeriden satış.",,,,,0.904,2.62,3.34,OptRisk:Neutral,Risk-off,2.96,Hisse
+2026-11-26,IONQ,Downtrend / Reversal,23.54,DOWNTREND 🔴,-21.64,"[TRIM 🟠] Güçlü makroya rağmen düşüş trendi, içeriden satış.",,,,,0.578,2.47,1.66,OptRisk:Neutral,Risk-off,1.41,Hisse
+2026-11-26,AMSC,Downtrend / Reversal,21.23,DOWNTREND 🔴,-21.52,"[TRIM 🟠] Güçlü makroya rağmen düşüş trendi, içeriden satış.",,,,,0.369,5.29,-2.34,OptRisk:Low,Risk-off,1.96,Çip/YZ
+2026-11-26,RGTI,Downtrend / Reversal,7.85,DOWNTREND 🔴,-30.22,"[TRIM 🟠] Güçlü makroya rağmen düşüş trendi, içeriden satış.",,,,,0.226,0.67,8.2,OptRisk:High,Risk-off,1.88,Hisse
+2026-11-26,META,Downtrend / Reversal,609.89,DOWNTREND 🔴,-0.83,"[TRIM 🟠] Güçlü makroya rağmen düşüş trendi, içeriden satış.",,,,,0.844,-0.25,2.55,OptRisk:Neutral,Risk-off,1.62,Hisse
+2026-11-26,CBRS,Downtrend / Reversal,89.68,DOWNTREND 🔴,-17.86,"[TRIM 🟠] Güçlü makroya rağmen düşüş trendi, içeriden satış.",,,,,0.845,-12.29,10.64,OptRisk:High,Risk-off,2.93,Çip/YZ
+2026-11-26,LTC-USD,Downtrend / Reversal,43.34,DOWNTREND 🔴,-21.98,"[SELL 🔴] Negatif makro, düşüş trendi, aşırı korku.",,,,,,,,,Risk-off,-0.23,Çip/YZ
+2026-11-26,CRWV,Downtrend / Reversal,42.57,DOWNTREND 🔴,-22.42,[ACCUMULATE 🟢] Çip/YZ makro etkisi ve olumlu haber akışı destekliyor,,,,,1.077,3.74,2.93,OptRisk:Low,Risk-off,2.54,Çip/YZ
+2026-11-26,SMCI,Downtrend / Reversal,23.31,DOWNTREND 🔴,-29.26,[TRIM 🟠] Yüksek risk ve analist notu düşüş trendini pekiştiriyor,,,,,0.075,-0.21,8.2,OptRisk:High,Risk-off,3.52,Çip/YZ
+2026-11-26,BE,Downtrend / Reversal,152.89,DOWNTREND 🔴,-24.75,"[TRIM 🟠] Insider satışları ve yüksek risk, düşüş trendini güçlendiriyor",,,,,0.703,5.31,-1.9,OptRisk:Low,Risk-off,2.55,Çip/YZ
+2026-11-26,ISRG,Downtrend / Reversal,427.18,DOWNTREND 🔴,-1.12,[HOLD 🟡] Insider satışları ve düşüş trendine rağmen makro etki pozitif,,,,,1.396,5.32,-13.46,OptRisk:Low,Risk-off,0.67,Hisse
+2026-11-26,ROK,Downtrend / Reversal,384.91,DOWNTREND 🔴,-11.44,"[TRIM 🟠] Insider satışları ve düşüş trendi, makro etkiyi gölgeliyor",,,,,0.409,4.74,0.7,OptRisk:Low,Risk-off,0.85,Çip/YZ
+2026-11-26,ENPH,Downtrend / Reversal,20.86,DOWNTREND 🔴,-18.67,[TRIM 🟠] Insider satışları ve zayıf volatilite düşüş trendini destekliyor,,,,,0.614,2.47,-5.27,OptRisk:Neutral,Risk-off,1.75,Hisse
+2026-11-26,INTC,Downtrend / Reversal,54.47,DOWNTREND 🔴,-17.17,[ACCUMULATE 🟢] Güçlü makro etki ve insider alışları düşüşü sınırlıyor,,,,,0.467,-0.02,3.91,OptRisk:Neutral,Risk-off,3.87,Çip/YZ
+2026-11-26,CCJ,Downtrend / Reversal,61.55,DOWNTREND 🔴,-19.97,"[TRIM 🟠] Yüksek risk ve düşüş trendi, makro etkiyi zayıflatıyor",,,,,0.578,-4.64,4.49,OptRisk:High,Risk-off,3.05,Çip/YZ
+2026-11-26,RHM.DE,Downtrend / Reversal,735.8,DOWNTREND 🔴,-29.09,[HOLD 🟡] Makro volatilite etkisi ve analist notu düşüşü dengeliyor,,,,,,,,,Risk-off,2.86,Volatilite
+2026-11-26,IVZ,Downtrend / Reversal,28.1,DOWNTREND 🔴,2.0,[TRIM 🟠] Insider satışları ve artan volatilite düşüş trendini pekiştiriyor,,,,,16.243,1.81,-0.29,OptRisk:Neutral,Risk-off,1.22,Hisse
+2026-11-26,KLAC,Downtrend / Reversal,134.2,DOWNTREND 🔴,-14.89,"[TRIM 🟠] Insider satışları ve yüksek risk, düşüş trendini güçlendiriyor",,,,,0.369,-9.12,13.87,OptRisk:High,Risk-off,3.39,Çip/YZ
+2026-11-26,ALAB,Downtrend / Reversal,190.34,DOWNTREND 🔴,-26.42,"[TRIM 🟠] Insider satışları ve yüksek risk, düşüş trendini pekiştiriyor",,,,,0.978,-3.05,4.42,OptRisk:High,Risk-off,2.12,Çip/YZ
+2026-11-26,BA,Downtrend / Reversal,164.53,DOWNTREND 🔴,-4.09,"[ACCUMULATE 🟢] Makro ve haberler olumlu, içeriden alım var.",,,,,1.055,2.24,-1.59,OptRisk:Neutral,Risk-off,1.33,Hisse
+2026-11-26,WT,Downtrend / Reversal,19.51,DOWNTREND 🔴,-5.52,[TRIM 🟠] İçeriden satış ve düşüş trendi var.,,,,,0.103,,,,Risk-off,1.06,Hisse
+2026-11-26,VST,Downtrend / Reversal,121.32,DOWNTREND 🔴,-12.32,[TRIM 🟠] İçeriden satış ve düşüş trendi var.,,,,,0.85,0.94,-2.34,OptRisk:Neutral,Risk-off,2.03,Volatilite
+2026-11-26,ONON,Downtrend / Reversal,31.5,DOWNTREND 🔴,-6.75,[TRIM 🟠] İçeriden satış ve düşüş trendi var.,,,,,0.354,-2.3,3.22,OptRisk:Neutral,Risk-off,0.41,Hisse
+2026-11-26,MCHP,Downtrend / Reversal,57.65,DOWNTREND 🔴,-24.84,"[ACCUMULATE 🟢] Makro ve haberler olumlu, risk yüksek.",,,,,9.739,-8.3,10.5,OptRisk:High,Risk-off,2.91,Çip/YZ
+2026-11-26,SPCE,Downtrend / Reversal,1.09,DOWNTREND 🔴,-57.75,"[ACCUMULATE 🟢] Yüksek makro etki, ancak düşüş trendi.",,,,,0.232,,,,Risk-off,6.82,Faiz
+2026-11-26,NFLX,Downtrend / Reversal,59.41,DOWNTREND 🔴,-4.3,[TRIM 🟠] İçeriden satış ve yüksek opsiyon riski.,,,,,0.444,-2.61,1.56,OptRisk:High,Risk-off,1.57,Hisse
+2026-11-26,MPWR,Downtrend / Reversal,1194.63,DOWNTREND 🔴,-1.4,[TRIM 🟠] İçeriden satış ve düşüş trendi var.,,,,,1.137,-2.38,4.03,OptRisk:Neutral,Risk-off,1.24,Çip/YZ
+2026-11-26,SSYS,Downtrend / Reversal,5.29,DOWNTREND 🔴,-21.28,"[HOLD 🟡] Makro olumlu, ancak trend düşüşte.",,,,,1.496,,,,Risk-off,2.05,Çip/YZ
+2026-11-26,NBIS,Downtrend / Reversal,84.99,DOWNTREND 🔴,-44.86,[ACCUMULATE 🟢] Makro ve içeriden alım olumlu.,,,,,0.821,2.8,0.37,OptRisk:Neutral,Risk-off,4.35,Çip/YZ
+2026-11-26,VRT,Downtrend / Reversal,173.37,DOWNTREND 🔴,-25.39,[TRIM 🟠] İçeriden satış ve düşüş trendi var.,,,,,0.474,1.8,3.03,OptRisk:Neutral,Risk-off,4.82,Çip/YZ
+2026-11-26,FLOKI-USD,Downtrend / Reversal,0.0,DOWNTREND 🔴,-27.61,"[SELL 🔴] Makro olumsuz, aşırı korku ve düşüş trendi.",,,,,,,,,Risk-off,-1.43,Çip/YZ
+2026-11-26,FET-USD,Downtrend / Reversal,0.11,DOWNTREND 🔴,-30.65,"[SELL 🔴] Aşırı korku, düşüş trendi ve negatif makro etkisi.",,,,,,,,,Risk-off,-2.3,Hisse
+2026-11-26,PANW,Downtrend / Reversal,356.14,DOWNTREND 🔴,-2.66,"[TRIM 🟠] Dolandırıcılık iddiaları, içeriden satış ve yüksek risk.",,,,,3.358,3.93,1.34,OptRisk:Low,Risk-off,1.09,Hisse
+2026-11-26,VOO,Downtrend / Reversal,658.87,DOWNTREND 🔴,-5.17,"[HOLD 🟡] Makro pozitif, ancak düşüş trendi ve AI endişeleri.",,,,,,,,,Risk-off,1.03,Hisse
+2026-11-26,TER,Downtrend / Reversal,212.15,DOWNTREND 🔴,-22.63,"[TRIM 🟠] Yüksek risk, içeriden satış ve düşüş trendi.",,,,,2.338,-5.98,23.1,OptRisk:High,Risk-off,2.9,Çip/YZ
+2026-11-26,RKLB,Downtrend / Reversal,47.02,DOWNTREND 🔴,-14.09,"[TRIM 🟠] İçeriden satış, düşüş trendi ve zayıf hacim.",,,,,0.989,2.96,-5.81,OptRisk:Neutral,Risk-off,0.97,Hisse
+2026-11-26,LITE,Downtrend / Reversal,476.58,DOWNTREND 🔴,-43.31,"[TRIM 🟠] Yüksek volatilite, içeriden satış ve düşüş trendi.",,,,,0.486,3.12,20.5,OptRisk:High,Risk-off,7.04,Volatilite
+2026-11-26,GOOGL,Downtrend / Reversal,273.1,DOWNTREND 🔴,-2.41,"[TRIM 🟠] İçeriden satış, yüksek risk ve düşüş trendi.",,,,,0.275,-4.05,-1.79,OptRisk:High,Risk-off,0.36,Hisse
+2026-11-26,AMAT,Downtrend / Reversal,311.18,DOWNTREND 🔴,-20.11,"[TRIM 🟠] İçeriden satış, yüksek risk ve düşüş trendi.",,,,,0.79,-8.3,12.93,OptRisk:High,Risk-off,2.16,Çip/YZ
+2026-11-26,MSTR,Downtrend / Reversal,79.96,DOWNTREND 🔴,-38.73,"[HOLD 🟡] Bitcoin düşüşü endişeleri, ancak makro nötr.",,,,,0.828,2.48,1.88,OptRisk:Neutral,Risk-off,0.1,Hisse
+2026-11-26,GOOG,Downtrend / Reversal,270.98,DOWNTREND 🔴,-2.6,"[TRIM 🟠] İçeriden satış, yüksek risk ve düşüş trendi.",,,,,0.44,-3.32,2.72,OptRisk:High,Risk-off,0.27,Hisse
+2026-11-26,ICP-USD,Downtrend / Reversal,2.01,DOWNTREND 🔴,-20.49,"[SELL 🔴] Aşırı korku, düşüş trendi ve zayıf makro.",,,,,,,,,Risk-off,0.14,Çip/YZ
+2026-11-26,TXN,Downtrend / Reversal,270.19,DOWNTREND 🔴,-10.19,"[TRIM 🟠] İçeriden satış, yüksek risk ve düşüş trendi.",,,,,0.376,-1.94,11.34,OptRisk:High,Risk-off,1.98,Çip/YZ
+2026-11-26,GEV,Downtrend / Reversal,715.0,DOWNTREND 🔴,-16.65,"[ACCUMULATE 🟢] Makro ve AltData pozitif, trende rağmen potansiyel var",,,,,0.55,4.55,0.41,OptRisk:Low,Risk-off,2.18,Çip/YZ
+2026-11-26,ENA-USD,Downtrend / Reversal,0.1,DOWNTREND 🔴,-43.8,"[SELL 🔴] Makro ve AltData olumsuz, trend zayıf",,,,,,,,,Risk-off,-3.13,Petrol
+2026-11-26,TEM,Downtrend / Reversal,54.74,DOWNTREND 🔴,-24.2,"[HOLD 🟡] Makro pozitif, ancak AltData ve trend zayıf",,,,,2.593,1.96,-0.1,OptRisk:Neutral,Risk-off,1.15,Hisse
+2026-11-26,CVX,Downtrend / Reversal,210.95,DOWNTREND 🔴,-9.69,"[HOLD 🟡] Makro pozitif, ancak AltData ve trend zayıf",,,,,0.09,3.04,-2.23,OptRisk:Neutral,Risk-off,0.5,Petrol
+2026-11-26,AXNA.F,Downtrend / Reversal,11.18,DOWNTREND 🔴,2.01,"[SELL 🔴] Makro ve trend olumsuz, veri eksikliği",,,,,,,,,Risk-off,-0.65,Hisse
+2026-11-26,MU,Downtrend / Reversal,601.25,DOWNTREND 🔴,-32.04,"[ACCUMULATE 🟢] Makro ve AltData pozitif, trende rağmen potansiyel var",,,,,0.705,4.77,-2.2,OptRisk:Low,Risk-off,5.2,Çip/YZ
+2026-11-26,MSFT,Downtrend / Reversal,489.93,DOWNTREND 🔴,-5.95,"[TRIM 🟠] Makro ve AltData olumsuz, trend zayıf",,,,,0.721,-0.08,3.51,OptRisk:Neutral,Risk-off,-0.5,Hisse
+2026-11-26,LRCX,Downtrend / Reversal,185.01,DOWNTREND 🔴,-22.63,"[ACCUMULATE 🟢] Makro ve AltData pozitif, trende rağmen potansiyel var",,,,,0.318,-2.53,6.16,OptRisk:Neutral,Risk-off,2.87,Çip/YZ
+2026-11-26,SHEL,Downtrend / Reversal,94.13,DOWNTREND 🔴,-12.7,"[HOLD 🟡] Makro pozitif, ancak AltData ve trend zayıf",,,,,0.023,0.71,3.22,OptRisk:Neutral,Risk-off,0.48,Petrol
+2026-11-26,SOL-USD,Downtrend / Reversal,70.87,DOWNTREND 🔴,-24.97,"[SELL 🔴] Makro ve AltData olumsuz, trend zayıf",,,,,,,,,Risk-off,-0.64,Petrol
+2026-11-26,SQN.SW,Downtrend / Reversal,32.24,DOWNTREND 🔴,-6.01,"[HOLD 🟡] Makro pozitif, ancak trend zayıf",,,,,,,,,Risk-off,0.24,Hisse
+2026-11-26,PSPN.SW,Downtrend / Reversal,148.5,DOWNTREND 🔴,-2.24,"[HOLD 🟡] Makro pozitif, ancak trend zayıf",,,,,,,,,Risk-off,1.17,Faiz
+2026-11-26,IWME.AS,Downtrend / Reversal,7.02,DOWNTREND 🔴,-9.4,"[ACCUMULATE 🟢] Çip/YZ pozitif makro, güçlü volatilite, düşüş trendi.",,,,,,,,,Risk-off,1.15,Çip/YZ
+2026-11-26,VDEA.L,Downtrend / Reversal,61.67,DOWNTREND 🔴,-1.41,"[TRIM 🟠] Makro pozitif, ancak güçlü düşüş trendi ve haberler olumsuz.",,,,,,,,,Risk-off,0.34,Faiz
+2026-11-26,SPCX,Downtrend / Reversal,127.44,DOWNTREND 🔴,-5.4,"[HOLD 🟡] Haberler karışık, düşüş trendi, volatilite stabil.",,,,,0.944,-1.13,6.05,OptRisk:Neutral,Risk-off,,
+2026-11-26,AMP.MI,Downtrend / Reversal,11.19,DOWNTREND 🔴,0.18,"[SELL 🔴] Negatif makro, düşüş trendi, zayıf volatilite.",,,,,,,,,Risk-off,-1.47,Hisse
+2026-11-26,AFX.DE,Downtrend / Reversal,31.76,DOWNTREND 🔴,-9.21,"[SELL 🔴] Negatif makro, düşüş trendi, analist satış tavsiyesi.",,,,,,,,,Risk-off,-0.57,Hisse
+2026-11-26,UBSG.SW,Downtrend / Reversal,36.8,DOWNTREND 🔴,-6.22,"[HOLD 🟡] Makro pozitif, ancak düşüş trendi ve haberler karışık.",,,,,,,,,Risk-off,0.87,Hisse
+2026-11-26,TKA.DE,Downtrend / Reversal,10.26,DOWNTREND 🔴,-14.61,"[HOLD 🟡] Makro pozitif, ancak düşüş trendi ve haberler karışık.",,,,,,,,,Risk-off,1.39,Hisse
+2026-11-26,SAF.PA,Downtrend / Reversal,290.9,DOWNTREND 🔴,5.51,"[SELL 🔴] Negatif makro, düşüş trendi, zayıf volatilite.",,,,,,,,,Risk-off,-0.31,Petrol
+2026-11-26,MSE.PA,Downtrend / Reversal,67.42,DOWNTREND 🔴,-3.56,"[HOLD 🟡] Makro pozitif, ancak düşüş trendi ve haberler karışık.",,,,,,,,,Risk-off,0.6,Hisse
+2026-11-26,CEG,Downtrend / Reversal,235.28,DOWNTREND 🔴,-10.19,"[HOLD 🟡] Makro pozitif, ancak düşüş trendi ve haberler karışık.",,,,,1.187,-2.18,1.32,OptRisk:Neutral,Risk-off,2.03,Volatilite
+2026-11-26,AMZN,Downtrend / Reversal,244.43,DOWNTREND 🔴,1.7,"[HOLD 🟡] Makro pozitif, ancak düşüş trendi ve içeriden satış.",,,,,0.6,0.73,4.58,OptRisk:Neutral,Risk-off,0.25,Hisse
+2026-11-26,BTC-USD,Downtrend / Reversal,60524.54,DOWNTREND 🔴,-22.65,"[TRIM 🟠] Makro pozitif, ancak düşüş trendi ve aşırı korku.",,,,,,,,,Risk-off,0.23,Volatilite
+2026-11-26,ETH-USD,Downtrend / Reversal,1687.61,DOWNTREND 🔴,-25.76,"[TRIM 🟠] Aşırı korku, düşüş trendi, artan volatilite.",,,,,,,,,Risk-off,0.0,Volatilite
+2026-11-26,ACLN.SW,Downtrend / Reversal,63.0,DOWNTREND 🔴,-1.33,"[HOLD 🟡] Düşüş trendi, zayıf volatilite, pozitif makro.",,,,,,,,,Risk-off,0.7,Çip/YZ
+2026-11-26,ABBN.SW,Downtrend / Reversal,63.36,DOWNTREND 🔴,-10.36,"[HOLD 🟡] Düşüş trendi, zayıf volatilite, pozitif makro.",,,,,,,,,Risk-off,1.26,Çip/YZ
+2026-11-26,SIE.DE,Downtrend / Reversal,245.5,DOWNTREND 🔴,-7.59,"[HOLD 🟡] Düşüş trendi, stabil volatilite, pozitif makro.",,,,,,,,,Risk-off,0.19,Hisse
+2026-11-26,SU.PA,Downtrend / Reversal,216.65,DOWNTREND 🔴,-8.78,"[HOLD 🟡] Düşüş trendi, zayıf volatilite, pozitif makro.",,,,,,,,,Risk-off,0.35,Çip/YZ
+2026-11-26,ENR.DE,Downtrend / Reversal,112.46,DOWNTREND 🔴,-11.39,"[ACCUMULATE 🟢] Düşüş trendi, pozitif makro, analist al tavsiyesi.",,,,,,,,,Risk-off,1.95,Çip/YZ
+2026-11-26,XE,Downtrend / Reversal,8.22,DOWNTREND 🔴,-24.79,"[TRIM 🟠] Düşüş trendi, yüksek opsiyon riski, negatif haberler.",,,,,0.388,-23.77,,OptRisk:High,Risk-off,3.73,Hisse
+2026-11-26,PLATC.SW,Downtrend / Reversal,14.29,DOWNTREND 🔴,-15.63,"[SELL 🔴] Düşüş trendi, zayıf volatilite, makro belirsiz.",,,,,,,,,Risk-off,,
+2026-11-26,ZSIL.SW,Downtrend / Reversal,91.77,DOWNTREND 🔴,-20.83,"[SELL 🔴] Düşüş trendi, artan volatilite, makro belirsiz.",,,,,,,,,Risk-off,1.65,Hisse
+2026-11-26,IFX.DE,Downtrend / Reversal,40.9,DOWNTREND 🔴,-19.12,"[HOLD 🟡] Düşüş trendi, stabil volatilite, pozitif makro.",,,,,,,,,Risk-off,1.98,Çip/YZ
+2026-11-26,XDGU.SW,Downtrend / Reversal,10.09,DOWNTREND 🔴,-20.16,"[SELL 🔴] Düşüş trendi, yüksek negatif getiri, makro nötr.",,,,,,,,,Risk-off,-0.05,Hisse
