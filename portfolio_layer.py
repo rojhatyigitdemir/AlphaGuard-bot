@@ -31,10 +31,7 @@ PORTFOLIO = [
     ("BCHE.SW", "Invesco Global Blockchain"),
     ("SNDK", "Sandisk"),
     ("XDEF.DE", "Xtrackers Europe Defence"),
-    ("AVGO", "Broadcom"),
-    ("CL=F", "WTI ham petrol vadeli"),
     ("DOGE-USD", "Dogecoin"),
-    ("SMSN.IL", "Samsung Electronics (GDR)"),
     ("CSSMI.SW", "iShares SMI (CH)"),
     ("TUR", "iShares MSCI Turkey ETF"),
 ]
